@@ -36,6 +36,20 @@ def ipca_focus():
     return ipca_focus
 
 
+def ipca_nucleo(): 
+    ipca_nucleo = sgs.get(codes = {
+    'IPCA-EX0' : 11427,
+    'IPCA-EX1' : 16121,
+    'IPCA-EX2' : 27838,
+    'IPCA-EX3' : 27839,
+    'IPCA-MA' : 4466,
+    'IPCA-MS' : 11426,
+    'IPCA-DP' : 16122,
+    'IPCA-P55' : 28750	
+    }
+    , start = '2000-01-01')
+    return ipca_nucleo
+
 
 
 

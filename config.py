@@ -16,3 +16,8 @@ ipca_focus = {
 }
 
 
+ipca_nucleo = {
+    'path' : '/Users/izadoraramos/code/dados/ipca_nucleo.csv',
+    'start_date' : '2000-01-01'
+               }
+
