@@ -30,3 +30,8 @@ srd.ipca_focus(
     )
 
 
+ipca_rm = grd.ipca_rm()
+
+srd.ipca_rm(ipca_rm=ipca_rm, 
+            path=config.ipca_rm['path'])
+
