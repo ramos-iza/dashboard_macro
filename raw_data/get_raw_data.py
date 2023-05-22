@@ -36,6 +36,20 @@ def ipca_focus():
     return ipca_focus
 
 
+def ipca_rm(): 
+    variable= ['69']
+    ipca_rm = pd.DataFrame()
+    for var in variable:
+        df = sidra.get_table(
+            table_code= '7060', 
+            territorial_level= '7', 
+            ibge_territorial_code= 'all', 
+            period= 'last 120',
+            variable= var, 
+            classification= '315/7169')
+        ipca_rm = pd.concat([df, ipca_rm], axis=0)
+    return ipca_rm
+
 
 
 

@@ -13,4 +13,7 @@ def ipca_focus(ipca_focus, path):
    ipca_focus.to_csv(path)
    
    
+def ipca_rm (ipca_rm, path):
+   ipca_rm.to_csv(path)   
+   
    
