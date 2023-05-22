@@ -4,6 +4,7 @@ import raw_data.get_raw_data as grd
 import raw_data.save_raw_data as srd
 #modulo1.soma(1, config.soma_params['numero2'])
 
+
 ipca_mensal = grd.ipca_mensal(
     start_date=config.ipca_mensal['start_date']
     )
@@ -20,3 +21,12 @@ srd.dados_brutos_ipca_sidra(
     dados_brutos_ipca_sidra=dados_brutos_ipca_sidra,
     path=config.dados_brutos_ipca_sidra['path']
     )
+
+ipca_focus = grd.ipca_focus()
+
+srd.ipca_focus(
+    ipca_focus=ipca_focus, 
+    path=config.ipca_focus['path']
+    )
+
+

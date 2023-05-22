@@ -11,3 +11,8 @@ dados_brutos_ipca_sidra = {
     'path': '/Users/izadoraramos/code/dados/dados_brutos_ipca_sidra.csv'
 }
 
+ipca_focus = {
+    'path' : '/Users/izadoraramos/code/dados/ipca_focus.csv'
+}
+
+
