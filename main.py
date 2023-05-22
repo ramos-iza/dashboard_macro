@@ -1,7 +1,22 @@
 import config
-import modulo1
-import sidrapy as sidra
+#import modulo1
+import raw_data.get_raw_data as grd
+import raw_data.save_raw_data as srd
+#modulo1.soma(1, config.soma_params['numero2'])
 
-modulo1.soma(1,config.soma_params['numero2'])
+ipca_mensal = grd.ipca_mensal(
+    start_date=config.ipca_mensal['start_date']
+    )
+
+srd.ipca_mensal(
+    ipca_mensal=ipca_mensal, 
+    path=config.ipca_mensal['path']
+    )
 
 
+dados_brutos_ipca_sidra = grd.dados_brutos_ipca_sidra()
+
+srd.dados_brutos_ipca_sidra(
+    dados_brutos_ipca_sidra=dados_brutos_ipca_sidra,
+    path=config.dados_brutos_ipca_sidra['path']
+    )

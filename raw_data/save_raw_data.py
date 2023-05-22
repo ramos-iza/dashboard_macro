@@ -7,4 +7,10 @@ def ipca_mensal(ipca_mensal, path):
    
 def dados_brutos_ipca_sidra(dados_brutos_ipca_sidra, path):
     dados_brutos_ipca_sidra.to_csv(path)
+
     
+def ipca_focus(ipca_focus, path):
+   ipca_focus.to_csv(path)
+   
+   
+   
