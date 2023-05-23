@@ -41,3 +41,5 @@ ipca_nucleo = grd.ipca_nucleo()
 srd.ipca_nucleo(ipca_nucleo=ipca_nucleo,
                 path=config.ipca_nucleo['path'])
 
+
+
