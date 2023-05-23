@@ -36,7 +36,34 @@ def ipca_focus():
     return ipca_focus
 
 
+def ipca_rm(): 
+    variable= ['69']
+    ipca_rm = pd.DataFrame()
+    for var in variable:
+        df = sidra.get_table(
+            table_code= '7060', 
+            territorial_level= '7', 
+            ibge_territorial_code= 'all', 
+            period= 'last 120',
+            variable= var, 
+            classification= '315/7169')
+        ipca_rm = pd.concat([df, ipca_rm], axis=0)
+    return ipca_rm
 
+
+def ipca_nucelo(): 
+    ipca_nucleo = sgs.get(codes = {
+    'IPCA-EX0' : 11427,
+    'IPCA-EX1' : 16121,
+    'IPCA-EX2' : 27838,
+    'IPCA-EX3' : 27839,
+    'IPCA-MA' : 4466,
+    'IPCA-MS' : 11426,
+    'IPCA-DP' : 16122,
+    'IPCA-P55' : 28750	
+    }
+    , start = '2000-01-01')
+    
 
 
 

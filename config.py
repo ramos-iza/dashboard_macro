@@ -16,3 +16,10 @@ ipca_focus = {
 }
 
 
+ipca_rm = {
+    'path' : '/Users/izadoraramos/code/dados/ipca_rm.csv'
+}
+
+ipca_nucleo = { 'path' : '/Users/izadoraramos/code/dados/ipca_nucelo.csv'
+    
+}
