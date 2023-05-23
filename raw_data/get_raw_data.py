@@ -51,7 +51,7 @@ def ipca_rm():
     return ipca_rm
 
 
-def ipca_nucelo(): 
+def ipca_nucleo(): 
     ipca_nucleo = sgs.get(codes = {
     'IPCA-EX0' : 11427,
     'IPCA-EX1' : 16121,
@@ -63,6 +63,8 @@ def ipca_nucelo():
     'IPCA-P55' : 28750	
     }
     , start = '2000-01-01')
+    return ipca_nucleo
+
 
 
 
