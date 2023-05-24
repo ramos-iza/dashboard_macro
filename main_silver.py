@@ -106,4 +106,111 @@ fig.add_trace(go.Scatter(x = merge_2023.index, y = merge_2023['Mediana'], name =
 fig.add_trace(go.Scatter(x = merge_2023.index, y = merge_2023[2023], name = 'IPCA 2023 até agora'))
 fig.show()
 
+#Silver gurpos do IPCA
+
+dados_brutos_ipca_sidra = rd.ler_csv(config.dados_brutos_ipca_sidra['path'])
+
+ipca_analise = (dados_brutos_ipca_sidra.rename(columns= dados_brutos_ipca_sidra.iloc[0]).query('Valor not in "Valor"').rename(columns = {
+    'Mês (Código)' : 'data', 
+    'Valor' : 'valor',
+    'Variável' : 'variavel',
+    'Geral, grupo, subgrupo, item e subitem' : 'grupo'}).query('valor not in ["valor", "..."]').filter(items= [
+        'data', 'variavel', 'grupo', 'valor'], axis='columns').replace(to_replace = {
+            'variavel' : {
+            'IPCA - Peso mensal' : 'Variação % mensal',
+            'IPCA - Variação acumulada em 12 meses' : 'IPCA % acum. 12 meses', 
+            'IPCA - Variação acumulada no ano' : 'IPCA % acum. ano', 
+            'IPCA - Variação mensal' : 'IPCA peso mensal'
+            }
+            }, 
+            regex = True).assign(data = lambda x: pd.to_datetime(x.data, format = '%Y%m'),
+                                 valor = lambda x: x.valor.astype(float)))
+
+ipca_analise = ipca_analise.query('variavel == "IPCA peso mensal"')            
+
+todas_listas = []
+for numero in range(1, 10):
+  if numero == 1:
+    numero_str = str(numero) + '.'
+    linhas_com_1 = ipca_analise.loc[ipca_analise['grupo'].str.startswith(numero_str)]
+    lista = linhas_com_1.values.tolist()
+    todas_listas.append(lista)
+    alimentacao_bebidas = pd.concat([pd.DataFrame(lista) for lista in todas_listas], ignore_index=True).rename(columns = {0: 'data', 1:'variavel', 2:'alimentacao e bebida', 3:'valor'})
+    alimentacao_bebidas = alimentacao_bebidas.groupby(alimentacao_bebidas['data'].dt.strftime('%Y-%m')).mean()['valor'].to_frame().rename(columns={'valor':'alimentacao_bebidas'})
+  if numero == 2:
+    numero_str = str(numero) + '.'
+    linhas_com_2 = ipca_analise.loc[ipca_analise['grupo'].str.startswith(numero_str)]
+    lista = linhas_com_2.values.tolist()
+    todas_listas.append(lista)
+    habitacao = pd.concat([pd.DataFrame(lista) for lista in todas_listas], ignore_index=True).rename(columns = {0: 'data', 1:'variavel', 2:'habitacao', 3:'valor'})
+    habitacao = habitacao.groupby(habitacao['data'].dt.strftime('%Y-%m')).mean()['valor'].to_frame().rename(columns={'valor':'habitacao'})
+  if numero == 3:
+    numero_str = str(numero) + '.'
+    linhas_com_3 = ipca_analise.loc[ipca_analise['grupo'].str.startswith(numero_str)]
+    lista = linhas_com_3.values.tolist()
+    todas_listas.append(lista)
+    artigos_residencia = pd.concat([pd.DataFrame(lista) for lista in todas_listas], ignore_index=True).rename(columns = {0: 'data', 1:'variavel', 2:'artigos de residencia', 3:'valor'})
+    artigos_residencia = artigos_residencia.groupby(artigos_residencia['data'].dt.strftime('%Y-%m')).mean()['valor'].to_frame().rename(columns={'valor':'artigos_residencia'})
+  if numero == 4:
+    numero_str = str(numero) + '.'
+    linhas_com_4 = ipca_analise.loc[ipca_analise['grupo'].str.startswith(numero_str)]
+    lista = linhas_com_4.values.tolist()
+    todas_listas.append(lista)
+    vestuario = pd.concat([pd.DataFrame(lista) for lista in todas_listas], ignore_index=True).rename(columns = {0: 'data', 1:'variavel', 2:'vestuario', 3:'valor'})
+    vestuario = vestuario.groupby(vestuario['data'].dt.strftime('%Y-%m')).mean()['valor'].to_frame().rename(columns={'valor':'vestuario'})
+  if numero == 5:
+    numero_str = str(numero) + '.'
+    linhas_com_5 = ipca_analise.loc[ipca_analise['grupo'].str.startswith(numero_str)]
+    lista = linhas_com_5.values.tolist()
+    todas_listas.append(lista)
+    transportes = pd.concat([pd.DataFrame(lista) for lista in todas_listas], ignore_index=True).rename(columns = {0: 'data', 1:'variavel', 2:'trasportes', 3:'valor'})
+    transportes = transportes.groupby(transportes['data'].dt.strftime('%Y-%m')).mean()['valor'].to_frame().rename(columns={'valor':'transportes'})
+  if numero == 6:
+    numero_str = str(numero) + '.'
+    linhas_com_6 = ipca_analise.loc[ipca_analise['grupo'].str.startswith(numero_str)]
+    lista = linhas_com_6.values.tolist()
+    todas_listas.append(lista)
+    saude = pd.concat([pd.DataFrame(lista) for lista in todas_listas], ignore_index=True).rename(columns = {0: 'data', 1:'variavel', 2:'saude e cuidados pessoais', 3:'valor'})
+    saude = saude.groupby(saude['data'].dt.strftime('%Y-%m')).mean()['valor'].to_frame().rename(columns={'valor':'saude'})
+  if numero == 7:
+    numero_str = str(numero) + '.'
+    linhas_com_7 = ipca_analise.loc[ipca_analise['grupo'].str.startswith(numero_str)]
+    lista = linhas_com_7.values.tolist()
+    todas_listas.append(lista)
+    despesas_pessoais = pd.concat([pd.DataFrame(lista) for lista in todas_listas], ignore_index=True).rename(columns = {0: 'data', 1:'variavel', 2:'despesas pessoais', 3:'valor'})
+    despesas_pessoais = despesas_pessoais.groupby(despesas_pessoais['data'].dt.strftime('%Y-%m')).mean()['valor'].to_frame().rename(columns={'valor':'despesas_pessoais'})
+  if numero == 8:
+    numero_str = str(numero) + '.'
+    linhas_com_8 = ipca_analise.loc[ipca_analise['grupo'].str.startswith(numero_str)]
+    lista = linhas_com_8.values.tolist()
+    todas_listas.append(lista)
+    educacao = pd.concat([pd.DataFrame(lista) for lista in todas_listas], ignore_index=True).rename(columns = {0: 'data', 1:'variavel', 2:'educacao', 3:'valor'})
+    educacao = educacao.groupby(educacao['data'].dt.strftime('%Y-%m')).mean()['valor'].to_frame().rename(columns={'valor':'educacao'})        
+  if numero == 9:
+    numero_str = str(numero) + '.'
+    linhas_com_9 = ipca_analise.loc[ipca_analise['grupo'].str.startswith(numero_str)]
+    lista = linhas_com_9.values.tolist()
+    todas_listas.append(lista)
+    comunicacao = pd.concat([pd.DataFrame(lista) for lista in todas_listas], ignore_index=True).rename(columns = {0: 'data', 1:'variavel', 2:'comunicacao', 3:'valor'})
+    comunicacao = comunicacao.groupby(comunicacao['data'].dt.strftime('%Y-%m')).mean()['valor'].to_frame().rename(columns={'valor':'comunicacao'})
+
+df_geral_ipca = pd.concat([alimentacao_bebidas, habitacao, artigos_residencia, vestuario, transportes, saude, despesas_pessoais, educacao, comunicacao], axis =1)
+
+indice_geral = ipca_analise.query('grupo == "Índice geral"')
+indice_geral = indice_geral.groupby(indice_geral['data'].dt.strftime('%Y-%m')).mean()['valor'].to_frame()
+
+#Gráfico é no Gold 
+fig = go.Figure()
+fig.add_trace(go.Scatter(x = indice_geral.index, y = indice_geral['valor'], name= 'Índice Geral', line=dict(color='black')))
+fig.add_trace(go.Scatter(x = df_geral_ipca.index, y = df_geral_ipca['alimentacao_bebidas'], name= 'Alimentação/bebidas'))
+fig.add_trace(go.Scatter(x = df_geral_ipca.index, y = df_geral_ipca['habitacao'], name= 'Habitação'))
+fig.add_trace(go.Scatter(x = df_geral_ipca.index, y = df_geral_ipca['artigos_residencia'], name= 'Artigos de residência'))
+fig.add_trace(go.Scatter(x = df_geral_ipca.index, y = df_geral_ipca['vestuario'], name= 'Vestuário'))
+fig.add_trace(go.Scatter(x = df_geral_ipca.index, y = df_geral_ipca['transportes'], name= 'Transportes'))
+fig.add_trace(go.Scatter(x = df_geral_ipca.index, y = df_geral_ipca['saude'], name= 'Saúde'))
+fig.add_trace(go.Scatter(x = df_geral_ipca.index, y = df_geral_ipca['despesas_pessoais'], name= 'Despesas Pessoais'))
+fig.add_trace(go.Scatter(x = df_geral_ipca.index, y = df_geral_ipca['educacao'], name= 'Educação'))
+fig.add_trace(go.Scatter(x = df_geral_ipca.index, y = df_geral_ipca['comunicacao'], name= 'Comunicação'))
+fig.update_layout(title_text = 'Grupos do IPCA mensal')
+fig.show()
 
