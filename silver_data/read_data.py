@@ -16,3 +16,8 @@ def ler_csv(caminho):
     ipca_focus = pd.read_csv(caminho)
     return ipca_focus
 
+
+def ler_csv(caminho): 
+    dados_brutos_ipca_sidra = pd.read_csv(caminho)
+    return dados_brutos_ipca_sidra
+
