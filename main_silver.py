@@ -39,10 +39,7 @@ for h in range(6, 11):
         ipca_ano_2022 = ipca_anual.iloc[h].to_frame()
     if h == 10:
         ipca_ano_2023 = ipca_anual.iloc[h].to_frame()
-                
 
-
-#ipca_ano_2019 = ipca_anual.iloc[6].to_frame()
 
 ano = [2019, 2020, 2021, 2022, 2023]
 dataframes_por_ano = {}
@@ -79,14 +76,34 @@ df_2022_ano = df_2022.groupby(df_2022['Data'].dt.strftime('%Y-%m')).mean()['Medi
 df_2023_ano = df_2023.groupby(df_2023['Data'].dt.strftime('%Y-%m')).mean()['Mediana'].to_frame()
 
 merge_2019 = df_2019_ano.join(ipca_ano_2019, how = 'outer')
-merge_2019 = merge_2019.fillna(merge_2019.iloc[-1], inplace= True)
-#merge_2019 = merge_2019.iloc[:-1]
-#merge_2019['Mediana'] = merge_2019['Mediana']/100
+merge_2019 = merge_2019.fillna(merge_2019.iloc[-1])
+merge_2019 = merge_2019.iloc[:-1]
+merge_2019['Mediana'] = merge_2019['Mediana']/100
 
+merge_2020 = df_2020_ano.join(ipca_ano_2020, how = 'outer')
+merge_2020 = merge_2020.fillna(merge_2020.iloc[-1])
+merge_2020 = merge_2020.iloc[:-1]
+merge_2020['Mediana'] = merge_2020['Mediana']/100
 
+merge_2021 = df_2021_ano.join(ipca_ano_2021, how = 'outer')
+merge_2021 = merge_2021.fillna(merge_2021.iloc[-1])
+merge_2021 = merge_2021.iloc[:-1]
+merge_2021['Mediana'] = merge_2021['Mediana']/100
 
-'''
+merge_2022 = df_2022_ano.join(ipca_ano_2022, how = 'outer')
+merge_2022 = merge_2022.fillna(merge_2022.iloc[-1])
+merge_2022 = merge_2022.iloc[:-1]
+merge_2022['Mediana'] = merge_2022['Mediana']/100
+
+merge_2023 = df_2023_ano.join(ipca_ano_2023, how = 'outer')
+merge_2023 = merge_2023.fillna(merge_2023.iloc[-1])
+merge_2023 = merge_2023.iloc[:-1]
+merge_2023['Mediana'] = merge_2023['Mediana']/100
+
+#Gráfico é no gold 
 fig = go.Figure()
-fig.add_trace(go.Scatter(x= df_2019_ano.index, y= merge_2019[2019], name='IPCA 2019'))
-fig.add_trace(go.Scatter(x= df_2019_ano.index, y= merge_2019['Mediana'], name='Previsão IPCA p/2019'))
-fig.show()'''
+fig.add_trace(go.Scatter(x = merge_2023.index, y = merge_2023['Mediana'], name = 'exp IPCA 2023'))
+fig.add_trace(go.Scatter(x = merge_2023.index, y = merge_2023[2023], name = 'IPCA 2023 até agora'))
+fig.show()
+
+
