@@ -214,3 +214,17 @@ fig.add_trace(go.Scatter(x = df_geral_ipca.index, y = df_geral_ipca['comunicacao
 fig.update_layout(title_text = 'Grupos do IPCA mensal')
 fig.show()
 
+# Proporção 
+
+proporcao = df_geral_ipca.iloc[-2,:].to_frame()
+proporcao['total'] = proporcao.values.sum().T
+proporcao['proporcao'] = proporcao['2023-03']/proporcao['total']
+
+labels = ['Alimentação e bebidas',	'Habitação', 'Artigos de residência', 'Vestuario','Transportes',	'Saúde', 'Despesas pessoais', 'Educação',	'Comunicação']
+values = [0.014803,	0.091779,	0.034541,	0.048850,	0.164018,	0.177144,	0.167909,	0.150622,	0.150334]
+
+fig = go.Figure(data=[go.Pie(labels=labels, values=values)])
+fig.update_layout(title_text='Coparação das variações dos grupos do IPCA - 03/2023')
+fig.show()
+
+#Silver IPCA ao ano da região metropolitana
