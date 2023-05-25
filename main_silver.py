@@ -228,3 +228,56 @@ fig.update_layout(title_text='Coparação das variações dos grupos do IPCA - 0
 fig.show()
 
 #Silver IPCA ao ano da região metropolitana
+ipca_rm = rd.ler_csv(config.ipca_rm['path'])
+
+ipca_rm = ipca_rm.filter(items= ['V', 'D1N', 'D2C', 'D3N']).rename(columns = {
+    'V': 'valor', 'D1N' : 'Região Metropolitana', 'D2C' : 'data', 'D3N' : 'Variável'}).iloc[1:].assign(
+        data = lambda x: pd.to_datetime(x.data, format = '%Y%m')).assign(valor = lambda y: y.valor.astype(float))
+ipca_rm['mes'] = ipca_rm['data'].dt.month 
+ipca_rm = ipca_rm.query('mes == 12')   
+ipca_rm['ano'] = ipca_rm['data'].dt.year
+
+# Gold
+import plotly.express as px
+
+fig = px.bar(ipca_rm, x='ano', y='valor', color='Região Metropolitana', barmode='group')
+fig.update_layout(title_text = 'IPCA - Variação acumulada no ano', xaxis={'type':'category'})
+fig.show()
+
+#Silver IPCA núcleo 
+
+ipca_nucleo = rd.ler_csv(config.ipca_nucleo['path'])
+
+#Gold
+import matplotlib
+(
+    ipca_nucleo
+    .rolling(window = 12)
+    .apply(lambda x: ((x / 100 + 1).prod() - 1) * 100, raw = False)
+    .plot(
+        subplots = True,
+        figsize = (25,10),
+        layout = (2,4),
+        title = 'Núcleos IPCA',
+        xlabel = ''
+        )
+)
+
+#Silver
+nucleos_analise = ipca_nucleo#.reset_index()
+nucleos_analise['Date'] = pd.to_datetime(nucleos_analise['Date'])
+nucleos_analise['ano'] = nucleos_analise.Date.dt.year
+nucleos_maior_21 = nucleos_analise.query('ano >= 2019').set_index('Date')
+nucleos_maior_21 = nucleos_maior_21.apply(lambda x: (x / 100 + 1)).reset_index()
+nucleos_maior_21 = nucleos_maior_21.groupby(nucleos_maior_21['Date'].dt.year).prod()
+nucleos_maior_21 = nucleos_maior_21.apply(lambda x: (x - 1) * 100).iloc[:,:8]
+
+nucleo_long  = nucleos_maior_21.reset_index()
+nucleo_long = pd.melt(nucleo_long, id_vars = ['Date'], value_vars = ['IPCA-EX0', 'IPCA-EX1', 'IPCA-EX2', 'IPCA-EX3', 'IPCA-MA', 'IPCA-MS', 'IPCA-DP', 'IPCA-P55'], var_name = 'Núcleos', value_name = 'valor')
+
+#Gold
+fig = px.bar(nucleo_long, x='Date', y= 'valor', color='Núcleos', barmode='group')
+fig.update_layout(title_text = 'Núcleos do IPCA', xaxis={'type' : 'category'})
+fig.show()
+
+

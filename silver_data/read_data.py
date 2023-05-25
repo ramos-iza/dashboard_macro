@@ -21,3 +21,12 @@ def ler_csv(caminho):
     dados_brutos_ipca_sidra = pd.read_csv(caminho)
     return dados_brutos_ipca_sidra
 
+def ler_csv(caminho):
+    ipca_rm = pd.read_csv(caminho)
+    return ipca_rm
+
+
+def ler_csv(caminho):
+    ipca_nucleo = pd.read_csv(caminho)
+    return ipca_nucleo
+

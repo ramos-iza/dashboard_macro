@@ -66,6 +66,9 @@ def ipca_nucleo():
     return ipca_nucleo
 
 
+    
+
+
 
 
 
