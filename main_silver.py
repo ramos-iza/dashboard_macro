@@ -280,4 +280,85 @@ fig = px.bar(nucleo_long, x='Date', y= 'valor', color='Núcleos', barmode='group
 fig.update_layout(title_text = 'Núcleos do IPCA', xaxis={'type' : 'category'})
 fig.show()
 
+#Comparar a médias dos núcleos com o IPCA histórico 
+
+ipca_nucleo_ano = ipca_nucleo.set_index('Date').apply(lambda x: (x / 100 + 1)).reset_index().dropna()
+ipca_nucleo_ano = ipca_nucleo_ano.groupby(ipca_nucleo_ano['Date'].dt.year).prod()
+ipca_nucleo_ano = ipca_nucleo_ano.drop('ano', axis=1)
+ipca_nucleo_ano['media'] = ipca_nucleo_ano.mean(axis=1)
+ipca_nucleo_ano = ipca_nucleo_ano.query('Date >= 2013 and Date < 2023')
+ipca_nucleo_ano = ipca_nucleo_ano.apply(lambda x: ipca_nucleo_ano['media'] - 1)
+ 
+nucleo_ipca_merge = pd.concat([ipca_nucleo_ano, ipca_anual], axis=1).dropna()
+
+#Gold
+
+fig = go.Figure()
+fig.add_trace(go.Scatter(x= nucleo_ipca_merge.index, y= nucleo_ipca_merge['media'], name='Média dos núcleos'))
+fig.add_trace(go.Scatter(x= nucleo_ipca_merge.index, y= nucleo_ipca_merge['ipca_anual'], name='IPCA Anual'))
+fig.update_layout(title_text='Média dos núcleos x IPCA')
+fig.show() 
+
+# 
+ipca_analise_novo = (dados_brutos_ipca_sidra.rename(columns= dados_brutos_ipca_sidra.iloc[0]).query('Valor not in "Valor"').rename(columns = {
+    'Mês (Código)' : 'data', 
+    'Valor' : 'valor',
+    'Variável' : 'variavel',
+    'Geral, grupo, subgrupo, item e subitem' : 'grupo'}).query('valor not in ["valor", "..."]').filter(items= [
+        'data', 'variavel', 'grupo', 'valor'], axis='columns').replace(to_replace = {
+            'variavel' : {
+            'IPCA - Peso mensal' : 'Variação % mensal',
+            'IPCA - Variação acumulada em 12 meses' : 'IPCA % acum. 12 meses', 
+            'IPCA - Variação acumulada no ano' : 'IPCA % acum. ano', 
+            'IPCA - Variação mensal' : 'IPCA peso mensal'
+            }
+            }, 
+            regex = True).assign(data = lambda x: pd.to_datetime(x.data, format = '%Y%m'),
+                                 valor = lambda x: x.valor.astype(float)))
+
+vm_grupos = ipca_analise_novo.query('variavel == "IPCA peso mensal"')
+
+ipca_acum_ano = ipca_analise_novo.query('variavel	== "IPCA % acum. ano"')
+
+#grupos = pd.DataFrame()
+
+todas_listas = []
+for numero in range(1, 10):
+    numero_str = str(numero) + '.'
+    linhas_com_n = vm_grupos.loc[vm_grupos['grupo'].str.startswith(numero_str)]
+    lista = linhas_com_n.values.tolist()
+    todas_listas.append(lista)
+    tabela = pd.concat([pd.DataFrame(lista) for lista in todas_listas], ignore_index=True).rename(columns = {0: 'data', 1:'variavel', 2:'grupo', 3:'valor'})
+
+geral_ipca = pd.concat([alimentacao_bebidas, habitacao, artigos_residencia, vestuario, transportes, saude, despesas_pessoais, educacao, comunicacao], axis =1)
+
+todas_listas = []
+for numero in range(1, 10):
+    numero_str = str(numero) + '.'
+    linhas_com_n = ipca_acum_ano.loc[ipca_acum_ano['grupo'].str.startswith(numero_str)]
+    lista = linhas_com_n.values.tolist()
+    todas_listas.append(lista)
+    tabela_acum = pd.concat([pd.DataFrame(lista) for lista in todas_listas], ignore_index=True).rename(columns = {0: 'data', 1:'variavel', 2:'grupo', 3:'valor'})
+ 
+tabela_acum = tabela_acum.query('data == "2023-04-01"')
+
+acum_ano_abr = pd.DataFrame(geral_ipca.iloc[-1])
+acum_ano_abr['grupo'] = ['1.Alimentação e bebidas', '2.Habitação', '3.Artigos de residência', '4.Vestuário', '5.Transportes', '	6.Saúde e cuidados pessoais', '7.Despesas pessoais', '8.Educação', '9.Comunicação']
+
+resultado_abr = tabela.query('data == "2023-04-01"')        
+
+
+juntos = tabela_acum.merge(acum_ano_abr, on='grupo')
+
+#Gold
+fig = go.Figure()
+fig.add_trace(go.Bar(x = juntos['2023-04'], y = juntos['grupo'], name = 'Variação acumulada ao ano', orientation='h'))
+fig.add_trace(go.Bar(x = juntos['valor'], y = juntos['grupo'], name = 'Variação mensal', orientation='h'))
+fig.update_layout(title_text = 'IPCA - Variação mensal e acumulada no ano (%) - Índice geral e grupos de produtos e serviços - Brasil - abril 2023')
+fig.update_yaxes(categoryorder='category descending')
+fig.show()
+
+
+
+
 
