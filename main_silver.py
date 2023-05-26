@@ -7,15 +7,17 @@ import plotly.graph_objects as go
 
 
 # Mensal
-ipca_mensal = rd.ler_csv(config.ipca_mensal['path'])
-ipca_mensal_copia = ipca_mensal
-ipca_mensal_copia['Date'] = pd.to_datetime(ipca_mensal_copia['Date'])
-ipca_mensal_copia['ipca_anual'] = (ipca_mensal_copia['ipca_mensal']/100)+1
-ipca_mensal_copia = ipca_mensal_copia.groupby(ipca_mensal_copia['Date'].dt.year).prod()['ipca_anual'] -1
-ipca_anual = ipca_mensal_copia.to_frame()
+def ipca_mensal_copia():
+  ipca_mensal = rd.ler_csv(config.ipca_mensal['path'])
+  ipca_mensal_copia = ipca_mensal
+  ipca_mensal_copia['Date'] = pd.to_datetime(ipca_mensal_copia['Date'])
+  ipca_mensal_copia['ipca_anual'] = (ipca_mensal_copia['ipca_mensal']/100)+1
+  ipca_mensal_copia = ipca_mensal_copia.groupby(ipca_mensal_copia['Date'].dt.year).prod()['ipca_anual'] -1
+  return ipca_mensal_copia
 
+ipca_anual = ipca_mensal_copia().to_frame()
+  
 #Focus
-
 def transformar_data_em_datetime(df, nome_coluna, format):
     df[nome_coluna] = pd.to_datetime(df[nome_coluna])
 
@@ -90,10 +92,13 @@ merge_2021 = merge_2021.fillna(merge_2021.iloc[-1])
 merge_2021 = merge_2021.iloc[:-1]
 merge_2021['Mediana'] = merge_2021['Mediana']/100
 
-merge_2022 = df_2022_ano.join(ipca_ano_2022, how = 'outer')
-merge_2022 = merge_2022.fillna(merge_2022.iloc[-1])
-merge_2022 = merge_2022.iloc[:-1]
-merge_2022['Mediana'] = merge_2022['Mediana']/100
+def merge_2022():
+  merge_2022 = df_2022_ano.join(ipca_ano_2022, how = 'outer')
+  merge_2022 = merge_2022.fillna(merge_2022.iloc[-1])
+  merge_2022 = merge_2022.iloc[:-1]
+  merge_2022['Mediana'] = merge_2022['Mediana']/100
+  return merge_2022
+
 
 merge_2023 = df_2023_ano.join(ipca_ano_2023, how = 'outer')
 merge_2023 = merge_2023.fillna(merge_2023.iloc[-1])
@@ -101,10 +106,11 @@ merge_2023 = merge_2023.iloc[:-1]
 merge_2023['Mediana'] = merge_2023['Mediana']/100
 
 #Gráfico é no gold 
+'''
 fig = go.Figure()
-fig.add_trace(go.Scatter(x = merge_2023.index, y = merge_2023['Mediana'], name = 'exp IPCA 2023'))
-fig.add_trace(go.Scatter(x = merge_2023.index, y = merge_2023[2023], name = 'IPCA 2023 até agora'))
-fig.show()
+fig.add_trace(go.Scatter(x = merge_2022.index, y = merge_2022['Mediana'], name = 'exp IPCA 2022'))
+fig.add_trace(go.Scatter(x = merge_2022.index, y = merge_2022[2022], name = 'IPCA 2022'))
+fig.show()'''
 
 #Silver gurpos do IPCA
 
@@ -194,14 +200,26 @@ for numero in range(1, 10):
     comunicacao = pd.concat([pd.DataFrame(lista) for lista in todas_listas], ignore_index=True).rename(columns = {0: 'data', 1:'variavel', 2:'comunicacao', 3:'valor'})
     comunicacao = comunicacao.groupby(comunicacao['data'].dt.strftime('%Y-%m')).mean()['valor'].to_frame().rename(columns={'valor':'comunicacao'})
 
-df_geral_ipca = pd.concat([alimentacao_bebidas, habitacao, artigos_residencia, vestuario, transportes, saude, despesas_pessoais, educacao, comunicacao], axis =1)
+def df_geral_ipca():
+  df_geral_ipca = pd.concat([alimentacao_bebidas, habitacao, artigos_residencia, vestuario, transportes, saude, despesas_pessoais, educacao, comunicacao], axis =1)
+  return df_geral_ipca
 
-indice_geral = ipca_analise.query('grupo == "Índice geral"')
-indice_geral = indice_geral.groupby(indice_geral['data'].dt.strftime('%Y-%m')).mean()['valor'].to_frame()
+#caso 
+#indice_geral = ipca_analise.query('grupo == "Índice geral"')
+#indice_geral = indice_geral.groupby(indice_geral['data'].dt.strftime('%Y-%m')).mean()['valor'].to_frame()
 
-#Gráfico é no Gold 
+#Com função definida 
+def indice_geral():
+  indice_geral = ipca_analise.query('grupo == "Índice geral"')
+  indice_geral = indice_geral.groupby(indice_geral['data'].dt.strftime('%Y-%m')).mean()['valor'].to_frame()
+  return indice_geral
+
+#Gráfico é no Gold
+''' 
 fig = go.Figure()
-fig.add_trace(go.Scatter(x = indice_geral.index, y = indice_geral['valor'], name= 'Índice Geral', line=dict(color='black')))
+indice_geral_data = indice_geral().reset_index() 
+fig.add_trace(go.Scatter(x = indice_geral_data['data'], y = indice_geral_data['valor'], name= 'Índice Geral', line=dict(color='black')))
+#fig.add_trace(go.Scatter(x = indice_geral.index, y = indice_geral['valor'], name= 'Índice Geral', line=dict(color='black')))
 fig.add_trace(go.Scatter(x = df_geral_ipca.index, y = df_geral_ipca['alimentacao_bebidas'], name= 'Alimentação/bebidas'))
 fig.add_trace(go.Scatter(x = df_geral_ipca.index, y = df_geral_ipca['habitacao'], name= 'Habitação'))
 fig.add_trace(go.Scatter(x = df_geral_ipca.index, y = df_geral_ipca['artigos_residencia'], name= 'Artigos de residência'))
@@ -212,20 +230,21 @@ fig.add_trace(go.Scatter(x = df_geral_ipca.index, y = df_geral_ipca['despesas_pe
 fig.add_trace(go.Scatter(x = df_geral_ipca.index, y = df_geral_ipca['educacao'], name= 'Educação'))
 fig.add_trace(go.Scatter(x = df_geral_ipca.index, y = df_geral_ipca['comunicacao'], name= 'Comunicação'))
 fig.update_layout(title_text = 'Grupos do IPCA mensal')
-fig.show()
+fig.show()'''
 
 # Proporção 
-
-proporcao = df_geral_ipca.iloc[-2,:].to_frame()
+df_geral_ipca_data = df_geral_ipca()
+proporcao = df_geral_ipca_data.iloc[-2,:].to_frame()
 proporcao['total'] = proporcao.values.sum().T
 proporcao['proporcao'] = proporcao['2023-03']/proporcao['total']
 
 labels = ['Alimentação e bebidas',	'Habitação', 'Artigos de residência', 'Vestuario','Transportes',	'Saúde', 'Despesas pessoais', 'Educação',	'Comunicação']
 values = [0.014803,	0.091779,	0.034541,	0.048850,	0.164018,	0.177144,	0.167909,	0.150622,	0.150334]
 
+'''
 fig = go.Figure(data=[go.Pie(labels=labels, values=values)])
 fig.update_layout(title_text='Coparação das variações dos grupos do IPCA - 03/2023')
-fig.show()
+fig.show()'''
 
 #Silver IPCA ao ano da região metropolitana
 ipca_rm = rd.ler_csv(config.ipca_rm['path'])
@@ -240,9 +259,10 @@ ipca_rm['ano'] = ipca_rm['data'].dt.year
 # Gold
 import plotly.express as px
 
+'''
 fig = px.bar(ipca_rm, x='ano', y='valor', color='Região Metropolitana', barmode='group')
 fig.update_layout(title_text = 'IPCA - Variação acumulada no ano', xaxis={'type':'category'})
-fig.show()
+fig.show()'''
 
 #Silver IPCA núcleo 
 
@@ -276,9 +296,10 @@ nucleo_long  = nucleos_maior_21.reset_index()
 nucleo_long = pd.melt(nucleo_long, id_vars = ['Date'], value_vars = ['IPCA-EX0', 'IPCA-EX1', 'IPCA-EX2', 'IPCA-EX3', 'IPCA-MA', 'IPCA-MS', 'IPCA-DP', 'IPCA-P55'], var_name = 'Núcleos', value_name = 'valor')
 
 #Gold
+'''
 fig = px.bar(nucleo_long, x='Date', y= 'valor', color='Núcleos', barmode='group')
 fig.update_layout(title_text = 'Núcleos do IPCA', xaxis={'type' : 'category'})
-fig.show()
+fig.show()'''
 
 #Comparar a médias dos núcleos com o IPCA histórico 
 
@@ -292,12 +313,12 @@ ipca_nucleo_ano = ipca_nucleo_ano.apply(lambda x: ipca_nucleo_ano['media'] - 1)
 nucleo_ipca_merge = pd.concat([ipca_nucleo_ano, ipca_anual], axis=1).dropna()
 
 #Gold
-
+'''
 fig = go.Figure()
 fig.add_trace(go.Scatter(x= nucleo_ipca_merge.index, y= nucleo_ipca_merge['media'], name='Média dos núcleos'))
 fig.add_trace(go.Scatter(x= nucleo_ipca_merge.index, y= nucleo_ipca_merge['ipca_anual'], name='IPCA Anual'))
 fig.update_layout(title_text='Média dos núcleos x IPCA')
-fig.show() 
+fig.show() '''
 
 # 
 ipca_analise_novo = (dados_brutos_ipca_sidra.rename(columns= dados_brutos_ipca_sidra.iloc[0]).query('Valor not in "Valor"').rename(columns = {
@@ -351,12 +372,13 @@ resultado_abr = tabela.query('data == "2023-04-01"')
 juntos = tabela_acum.merge(acum_ano_abr, on='grupo')
 
 #Gold
+'''
 fig = go.Figure()
 fig.add_trace(go.Bar(x = juntos['2023-04'], y = juntos['grupo'], name = 'Variação acumulada ao ano', orientation='h'))
 fig.add_trace(go.Bar(x = juntos['valor'], y = juntos['grupo'], name = 'Variação mensal', orientation='h'))
 fig.update_layout(title_text = 'IPCA - Variação mensal e acumulada no ano (%) - Índice geral e grupos de produtos e serviços - Brasil - abril 2023')
 fig.update_yaxes(categoryorder='category descending')
-fig.show()
+fig.show()'''
 
 
 
