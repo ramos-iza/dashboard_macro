@@ -1,7 +1,3 @@
-soma_params = {
-    'numero2': 4
-}
-
 raw= {
     'ipca_mensal': {
         'start_date': '2013-05-04', 
@@ -19,8 +15,13 @@ raw= {
     'ipca_nucleo': {
         'path': '/Users/izadoraramos/code/dados/ipca/raw/ipca_nucelo.csv'
     }
-}
+} 
+
+silver= { 
+    'ipca_anual': {
+        'read_path': '/Users/izadoraramos/code/dados/ipca/raw/ipca_mensal.csv',
+        'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/ipca_anual.csv',
+    }
+} 
 
 
-#ipca_anual_silver = { 'path' : '/Users/izadoraramos/code/dados/ipca/raw/ipca_anual_silver.to_csv'
-#}

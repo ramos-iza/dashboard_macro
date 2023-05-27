@@ -1,21 +1,32 @@
 import config 
 import pandas as pd 
-import silver_data.read_data as rd
+import silver_data.read_silver_data as rd
+import silver_data.transform_silver as ts
+import silver_data.save_silver_data as ssd
 import datetime
 from ast import Assign
 import plotly.graph_objects as go 
 
+#Calc IPCA Anual
+# Read
+ipca_mensal = rd.read_csv(config.silver['ipca_anual']['read_path'])
+# Transform
+ipca_anual = ts.calc_ipca_anual(ipca_mensal)
+# Save
+ssd.save_csv(
+  df=ipca_anual, 
+  path=config.silver['ipca_anual']['save_path']
+)
 
-# Mensal
-def ipca_mensal_copia():
-  ipca_mensal = rd.ler_csv(config.ipca_mensal['path'])
-  ipca_mensal_copia = ipca_mensal
-  ipca_mensal_copia['Date'] = pd.to_datetime(ipca_mensal_copia['Date'])
-  ipca_mensal_copia['ipca_anual'] = (ipca_mensal_copia['ipca_mensal']/100)+1
-  ipca_mensal_copia = ipca_mensal_copia.groupby(ipca_mensal_copia['Date'].dt.year).prod()['ipca_anual'] -1
-  return ipca_mensal_copia
 
-ipca_anual = ipca_mensal_copia().to_frame()
+
+
+
+def ipca_anual():
+  ipca_anual = ipca_mensal_copia().to_frame()
+  return ipca_anual
+
+
   
 #Focus
 def transformar_data_em_datetime(df, nome_coluna, format):

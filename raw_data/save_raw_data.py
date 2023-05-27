@@ -19,5 +19,6 @@ def ipca_rm (ipca_rm, path):
 
 def ipca_nucleo(ipca_nucleo, path): 
    ipca_nucleo.to_csv(path)       
+
    
    

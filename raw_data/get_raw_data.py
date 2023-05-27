@@ -1,6 +1,3 @@
-def soma(numero1, numero2):
-    return numero1+numero2
-
 import pandas as pd 
 from bcb import sgs 
 import sidrapy as sidra

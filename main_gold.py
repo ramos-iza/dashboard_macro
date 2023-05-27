@@ -1,15 +1,18 @@
 import plotly.graph_objects as go 
 import config 
-import silver_data.save_silver as ss 
+import gold_data.read_data as rd
+import silver_data.save_silver_data as ssd
 import plotly.graph_objects as go 
+from config import silver as config
 
-ipca_mensal_silver = ss.ipca_anual_silver()
-
-ss.ipca_anual_silver(
-    ipca_anual_silver = ipca_anual_silver, 
-    path=config.ipca_anual_silver['path']
+ipca_anual = rd.ipca_anual(
+    start_date=config['ipca_mensal']['start_date']
     )
 
+ssd.ipca_mensal(
+    ipca_mensal=ipca_mensal, 
+    path=config['ipca_mensal']['path']
+    )
 
 
 
