@@ -1,0 +1,8 @@
+import plotly.graph_objects as go  
+import plotly.graph_objects as go 
+import pandas as pd 
+
+def ler_csv(caminho): 
+    ipca_anual_silver = pd.read_csv(caminho)
+    return
+
