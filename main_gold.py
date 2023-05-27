@@ -1,7 +1,20 @@
-import main_silver
+import plotly.graph_objects as go 
+import config 
+import silver_data.save_silver as ss 
 import plotly.graph_objects as go 
 
+ipca_mensal_silver = ss.ipca_anual_silver()
 
+ss.ipca_anual_silver(
+    ipca_anual_silver = ipca_anual_silver, 
+    path=config.ipca_anual_silver['path']
+    )
+
+
+
+
+
+'''
 merge_2022 = main_silver.merge_2022()
 merge_2022 = merge_2022
 
@@ -28,4 +41,5 @@ fig.add_trace(go.Scatter(x = df_geral_ipca.index, y = df_geral_ipca['despesas_pe
 fig.add_trace(go.Scatter(x = df_geral_ipca.index, y = df_geral_ipca['educacao'], name= 'Educação'))
 fig.add_trace(go.Scatter(x = df_geral_ipca.index, y = df_geral_ipca['comunicacao'], name= 'Comunicação'))
 fig.update_layout(title_text = 'Grupos do IPCA mensal')
-fig.show()
+fig.show()'''
+
