@@ -24,20 +24,20 @@ def criar_dfs_anos_focus(ipca_anual, ipca_focus):
     transformar_data_em_datetime(ipca_focus, 'Data', format='%Y-%m-%d')
     ipca_focus = ipca_focus[['Indicador', 'Data', 'DataReferencia', 'Mediana']]
 
-    
+    ipca_ano_2019 = None    
     for h in range(6, 11):
         if h == 6:
             ipca_ano_2019 = pd.DataFrame(ipca_anual.iloc[h]).transpose()
-            ipca_ano_2019 = transformar_data_em_datetime(ipca_ano_2019, 'Date', format='%Y')
+            #ipca_ano_2019 = transformar_data_em_datetime(ipca_ano_2019, 'Date', format='%Y')
         if h == 7:    
-            ipca_ano_2020 = ipca_anual.iloc[h]
+            ipca_ano_2020 = pd.DataFrame(ipca_anual.iloc[h]).transpose()
         if h == 8:
-            ipca_ano_2021 = ipca_anual.iloc[h]
+            ipca_ano_2021 = pd.DataFrame(ipca_anual.iloc[h]).transpose()
         if h == 9:
-            ipca_ano_2022 = ipca_anual.iloc[h]
+            ipca_ano_2022 = pd.DataFrame(ipca_anual.iloc[h]).transpose()
         if h == 10:
-            ipca_ano_2023 = ipca_anual.iloc[h]
-
+            ipca_ano_2023 = pd.DataFrame(ipca_anual.iloc[h]).transpose()
+      
 
     ano = [2019, 2020, 2021, 2022, 2023]
     dataframes_por_ano = {}
@@ -52,7 +52,7 @@ def criar_dfs_anos_focus(ipca_anual, ipca_focus):
     
     lista = [2019, 2020, 2021, 2022, 2023]     
     varios_anos_focus = []        
-    focus_anos = [focus_2019, focus_2020, focus_2022, focus_2022, focus_2023]
+    focus_anos = [focus_2019, focus_2020, focus_2021, focus_2022, focus_2023]
     for n in focus_anos: 
         for i in range(0, 5):
             if n.equals(focus_anos[i]): 
@@ -105,8 +105,8 @@ def criar_dfs_anos_focus(ipca_anual, ipca_focus):
         }
     return dict_focus
 
-
 def criar_dfs_merge(dict_focus):
     dataframes = dict_focus.iloc[:-1]
     return dataframes
+
 

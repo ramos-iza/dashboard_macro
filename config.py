@@ -24,6 +24,7 @@ silver= {
     },
     'ipca_focus': {
         'read_path': '/Users/izadoraramos/code/dados/ipca/raw/ipca_focus.csv',
+        'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/ipca_focus.csv',
     }, 
     'dataframe_2019': {
         'read_path': '/Users/izadoraramos/code/dados/ipca/raw/dataframe_2019.csv',

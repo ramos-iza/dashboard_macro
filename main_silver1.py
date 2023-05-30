@@ -25,12 +25,13 @@ ipca_anual = rd.read_csv(config.silver['ipca_anual']['save_path'])
 ipca_focus = rd.read_csv(config.silver['ipca_focus']['read_path'])
 #transform 
 dict_focus = ts.criar_dfs_anos_focus(ipca_anual=ipca_anual, ipca_focus=ipca_focus)
+#criar_dfs_merge = ts.criar_dfs_merge(dict_focus=dict_focus)
+
 dataframe_2019 = ts.criar_dfs_merge(dict_focus=dict_focus['merge_2019'])
 dataframe_2020 = ts.criar_dfs_merge(dict_focus=dict_focus['merge_2020'])
 dataframe_2021 = ts.criar_dfs_merge(dict_focus=dict_focus['merge_2021'])
 dataframe_2022 = ts.criar_dfs_merge(dict_focus=dict_focus['merge_2022'])
 dataframe_2023 = ts.criar_dfs_merge(dict_focus=dict_focus['merge_2023'])
-
 # Save 
 ssd.save_csv(
     df=ipca_focus, 
@@ -61,11 +62,10 @@ ssd.save_csv(
 )
 
 
-
-
-
-
-
+fig = go.Figure()
+fig.add_trace(go.Scatter(name= 'ipca 2020', x = dataframe_2021.index, y = dataframe_2021['ipca_anual']))
+fig.add_trace(go.Scatter(name= 'exp ipca 2020', x = dataframe_2021.index, y = dataframe_2021['Mediana']))
+fig.show()
 
 
 
