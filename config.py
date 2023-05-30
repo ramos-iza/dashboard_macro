@@ -46,4 +46,13 @@ silver= {
         'read_path': '/Users/izadoraramos/code/dados/ipca/raw/dataframe_2019.csv',
         'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/dataframe_2023.csv',
     },
+    'ipca_analise' : {
+        'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/ipca_analise.csv',  
+    },
+    'df_geral_ipca' : {
+        'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/df_geral_ipca.csv',
+    },
+    'indice_geral' : {
+        'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/indice_geral.csv',
+    }
 }                  

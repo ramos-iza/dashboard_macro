@@ -62,11 +62,36 @@ ssd.save_csv(
 )
 
 
-fig = go.Figure()
-fig.add_trace(go.Scatter(name= 'ipca 2020', x = dataframe_2021.index, y = dataframe_2021['ipca_anual']))
-fig.add_trace(go.Scatter(name= 'exp ipca 2020', x = dataframe_2021.index, y = dataframe_2021['Mediana']))
-fig.show()
+#Grupos IPCA 
+#read
+dados_brutos_ipca_sidra = rd.ler_csv(config.raw['dados_brutos_ipca_sidra']['path'])
+#Transform
+ipca_analise = ts.trat_grupo_ipca(dados_brutos_ipca_sidra=dados_brutos_ipca_sidra)
+df_geral_ipca = ts.cal_df_geral_ipca(ipca_analise=ipca_analise)
+indice_geral = ts.indice_geral(ipca_analise=ipca_analise)
+#save
+
+ssd.save_csv(
+    df=ipca_analise,
+    path=config.silver['ipca_analise']['save_path']
+)
+
+ssd.save_csv(
+    df=df_geral_ipca, 
+    path=config.silver['df_geral_ipca']['save_path']
+)
+
+ssd.save_csv(
+    df=indice_geral, 
+    path=config.silver['indice_geral']['save_path']
+)
 
 
+#Proporcão
+#Transform 
+proporcao = ts.calc_proporcao(df_geral_ipca=df_geral_ipca)
 
-
+'''  
+fig = go.Figure(data=[go.Pie(labels=proporcao[0], values=proporcao[1])])
+fig.update_layout(title_text='Coparação das variações dos grupos do IPCA - 03/2023')
+fig.show()'''
