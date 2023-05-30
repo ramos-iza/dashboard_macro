@@ -21,7 +21,28 @@ silver= {
     'ipca_anual': {
         'read_path': '/Users/izadoraramos/code/dados/ipca/raw/ipca_mensal.csv',
         'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/ipca_anual.csv',
-    }
-} 
-
-
+    },
+    'ipca_focus': {
+        'read_path': '/Users/izadoraramos/code/dados/ipca/raw/ipca_focus.csv',
+    }, 
+    'dataframe_2019': {
+        'read_path': '/Users/izadoraramos/code/dados/ipca/raw/dataframe_2019.csv',
+        'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/dataframe_2019.csv',    
+    }, 
+    'dataframe_2020': {
+        'read_path': '/Users/izadoraramos/code/dados/ipca/raw/dataframe_2019.csv',
+        'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/dataframe_2020.csv',
+    },
+    'dataframe_2021': {
+        'read_path': '/Users/izadoraramos/code/dados/ipca/raw/dataframe_2019.csv',
+        'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/dataframe_2021.csv',    
+    },
+    'dataframe_2022': {
+        'read_path': '/Users/izadoraramos/code/dados/ipca/raw/dataframe_2019.csv',
+        'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/dataframe_2022.csv',  
+    },
+    'dataframe_2023': {
+        'read_path': '/Users/izadoraramos/code/dados/ipca/raw/dataframe_2019.csv',
+        'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/dataframe_2023.csv',
+    },
+}                  

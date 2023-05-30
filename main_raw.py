@@ -13,7 +13,6 @@ srd.ipca_mensal(
     path=config['ipca_mensal']['path']
 )
 
-
 dados_brutos_ipca_sidra = grd.dados_brutos_ipca_sidra()
 
 srd.dados_brutos_ipca_sidra(

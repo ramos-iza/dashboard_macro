@@ -17,22 +17,12 @@ ssd.save_csv(
   df=ipca_anual, 
   path=config.silver['ipca_anual']['save_path']
 )
-
-
-
-
-
-def ipca_anual():
-  ipca_anual = ipca_mensal_copia().to_frame()
-  return ipca_anual
-
-
   
 #Focus
 def transformar_data_em_datetime(df, nome_coluna, format):
     df[nome_coluna] = pd.to_datetime(df[nome_coluna])
 
-ipca_focus = rd.ler_csv(config.ipca_focus['path'])
+ipca_focus = rd.ler_csv('/Users/izadoraramos/code/dados/ipca/raw/ipca_focus.csv')
 
 ipca_focus = ipca_focus.query('baseCalculo == 0')
 transformar_data_em_datetime(ipca_focus, 'Data', format='%Y-%m-%d')
