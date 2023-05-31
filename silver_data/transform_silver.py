@@ -211,14 +211,112 @@ def calc_proporcao(df_geral_ipca):
     proporcao = df_geral_ipca_data.iloc[-2,:].to_frame()
     proporcao['total'] = proporcao.values.sum().T
     proporcao['proporcao'] = proporcao['2023-03']/proporcao['total']
+    return proporcao
 
-    labels = ['Alimentação e bebidas',	'Habitação', 'Artigos de residência', 'Vestuario','Transportes',	'Saúde', 'Despesas pessoais', 'Educação',	'Comunicação']
-    values = [0.014803,	0.091779,	0.034541,	0.048850,	0.164018,	0.177144,	0.167909,	0.150622,	0.150334]
-    return labels, values
+'''Gold
+    labels = pd.to_datetime(['Alimentação e bebidas',	'Habitação', 'Artigos de residência', 'Vestuario','Transportes',	'Saúde', 'Despesas pessoais', 'Educação',	'Comunicação'])
+    values = pd.to_datetime([0.014803,	0.091779,	0.034541,	0.048850,	0.164018,	0.177144,	0.167909,	0.150622,	0.150334])
+    return labels, values'''
     
-       
+#IPCA ao ano por região metropolitana
+def trasform_ipca_rm(ipca_rm):
+    ipca_rm = ipca_rm.filter(items= ['V', 'D1N', 'D2C', 'D3N']).rename(columns = {
+        'V': 'valor', 'D1N' : 'Região Metropolitana', 'D2C' : 'data', 'D3N' : 'Variável'}).iloc[1:].assign(
+            data = lambda x: pd.to_datetime(x.data, format = '%Y%m')).assign(valor = lambda y: y.valor.astype(float))
+    ipca_rm['mes'] = ipca_rm['data'].dt.month 
+    ipca_rm = ipca_rm.query('mes == 12')   
+    ipca_rm['ano'] = ipca_rm['data'].dt.year
+    return ipca_rm       
 
 
+#Silver IPCA núcleo
+def calc_nucleos_ipca(ipca_nucleo):
+    nucleos_analise = ipca_nucleo#.reset_index()
+    nucleos_analise['Date'] = pd.to_datetime(nucleos_analise['Date'])
+    nucleos_analise['ano'] = nucleos_analise.Date.dt.year
+    nucleos_maior_21 = nucleos_analise.query('ano >= 2019').set_index('Date')
+    nucleos_maior_21 = nucleos_maior_21.apply(lambda x: (x / 100 + 1)).reset_index()
+    nucleos_maior_21 = nucleos_maior_21.groupby(nucleos_maior_21['Date'].dt.year).prod()
+    nucleos_maior_21 = nucleos_maior_21.apply(lambda x: (x - 1) * 100).iloc[:,:8]
 
+    nucleo_long  = nucleos_maior_21.reset_index()
+    nucleo_long = pd.melt(nucleo_long, id_vars = ['Date'], value_vars = ['IPCA-EX0', 'IPCA-EX1', 'IPCA-EX2', 'IPCA-EX3', 'IPCA-MA', 'IPCA-MS', 'IPCA-DP', 'IPCA-P55'], var_name = 'Núcleos', value_name = 'valor')
+    return nucleo_long
+
+#Comparar a médias dos núcleos com o IPCA histórico
+def calc_comp_media_nucleos(ipca_nucleo, ipca_anual):
+    ipca_nucleo_ano = ipca_nucleo.set_index('Date').apply(lambda x: (x / 100 + 1)).reset_index().dropna()
+    ipca_nucleo_ano = ipca_nucleo_ano.groupby(ipca_nucleo_ano['Date'].dt.year).prod()
+    ipca_nucleo_ano = ipca_nucleo_ano.drop('ano', axis=1)
+    ipca_nucleo_ano['media'] = ipca_nucleo_ano.mean(axis=1)
+    ipca_nucleo_ano = ipca_nucleo_ano.query('Date >= 2013 and Date < 2023')
+    ipca_nucleo_ano = ipca_nucleo_ano.apply(lambda x: ipca_nucleo_ano['media'] - 1)
+    ipca_anual1 = ipca_anual.query('Date >= 2013 and Date < 2023').set_index('Date')
+    nucleo_ipca_merge = pd.concat([ipca_nucleo_ano, ipca_anual1], axis=1)
+    return nucleo_ipca_merge
+
+
+#IPCA acum ano x IPCA mês
+def calc_p_nova_analise(dados_brutos_ipca_sidra): 
+    ipca_analise_novo = (dados_brutos_ipca_sidra.rename(columns= dados_brutos_ipca_sidra.iloc[0]).query('Valor not in "Valor"').rename(columns = {
+    'Mês (Código)' : 'data', 
+    'Valor' : 'valor',
+    'Variável' : 'variavel',
+    'Geral, grupo, subgrupo, item e subitem' : 'grupo'}).query('valor not in ["valor", "..."]').filter(items= [
+        'data', 'variavel', 'grupo', 'valor'], axis='columns').replace(to_replace = {
+            'variavel' : {
+            'IPCA - Peso mensal' : 'Variação % mensal',
+            'IPCA - Variação acumulada em 12 meses' : 'IPCA % acum. 12 meses', 
+            'IPCA - Variação acumulada no ano' : 'IPCA % acum. ano', 
+            'IPCA - Variação mensal' : 'IPCA peso mensal'
+            }
+            }, 
+            regex = True).assign(data = lambda x: pd.to_datetime(x.data, format = '%Y%m'),
+                                 valor = lambda x: x.valor.astype(float)))
+    return ipca_analise_novo
+
+
+def calc_valor_mensal(ipca_analise_novo):
+    vm_grupos = ipca_analise_novo.query('variavel == "IPCA peso mensal"').set_index('data').rename(columns={'valor':'vm_grupos'})
+    return vm_grupos
+
+
+def calc_ipca_acum_ano(ipca_analise_novo):
+    ipca_acum_ano = ipca_analise_novo.query('variavel	== "IPCA % acum. ano"').set_index('data').rename(columns={'valor':'ipca_acum_ano'})
+    return ipca_acum_ano
+ 
+def juntando_tab(vm_grupos):
+    todas_listas = []
+    for numero in range(1, 10):
+        numero_str = str(numero) + '.'
+        linhas_com_n = vm_grupos.loc[vm_grupos['grupo'].str.startswith(numero_str)]
+        lista = linhas_com_n.values.tolist()
+        #todas_listas.append(lista)
+        #tabela = pd.concat([pd.DataFrame(lista) for lista in todas_listas], ignore_index=True).rename(columns = {0: 'data', 1:'variavel', 2:'grupo', 3:'valor'})
+        return todas_listas # parei tentando fazer essa parte funcionar 
+
+'''
+    geral_ipca = pd.concat([alimentacao_bebidas, habitacao, artigos_residencia, vestuario, transportes, saude, despesas_pessoais, educacao, comunicacao], axis =1)
+
+    todas_listas = []
+    for numero in range(1, 10):
+        numero_str = str(numero) + '.'
+        linhas_com_n = ipca_acum_ano.loc[ipca_acum_ano['grupo'].str.startswith(numero_str)]
+        lista = linhas_com_n.values.tolist()
+        todas_listas.append(lista)
+        tabela_acum = pd.concat([pd.DataFrame(lista) for lista in todas_listas], ignore_index=True).rename(columns = {0: 'data', 1:'variavel', 2:'grupo', 3:'valor'})
+    
+    tabela_acum = tabela_acum.query('data == "2023-04-01"')
+
+    acum_ano_abr = pd.DataFrame(geral_ipca.iloc[-1])
+    acum_ano_abr['grupo'] = ['1.Alimentação e bebidas', '2.Habitação', '3.Artigos de residência', '4.Vestuário', '5.Transportes', '	6.Saúde e cuidados pessoais', '7.Despesas pessoais', '8.Educação', '9.Comunicação']
+
+    resultado_abr = tabela.query('data == "2023-04-01"')        
+
+
+    juntos = tabela_acum.merge(acum_ano_abr, on='grupo')'''
+    
+    
+    
 
 

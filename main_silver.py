@@ -321,7 +321,7 @@ fig.add_trace(go.Scatter(x= nucleo_ipca_merge.index, y= nucleo_ipca_merge['ipca_
 fig.update_layout(title_text='Média dos núcleos x IPCA')
 fig.show() '''
 
-# 
+#IPCA acum ano x IPCA mes
 ipca_analise_novo = (dados_brutos_ipca_sidra.rename(columns= dados_brutos_ipca_sidra.iloc[0]).query('Valor not in "Valor"').rename(columns = {
     'Mês (Código)' : 'data', 
     'Valor' : 'valor',

@@ -54,5 +54,17 @@ silver= {
     },
     'indice_geral' : {
         'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/indice_geral.csv',
-    }
+    }, 
+    'proporcao' : {
+        'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/proporcao.csv',    
+    },
+    'ipca_rm' : {
+        'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/ipca_rm.csv',
+    }, 
+    'nucleo_long' : {
+        'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/nucleo_long.csv',
+    },
+    'nucleo_ipca_merge' : {
+        'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/nucleo_ipca_merge.csv',
+    },
 }                  
