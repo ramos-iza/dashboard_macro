@@ -1,0 +1,9 @@
+pandas
+datetime
+plotly.graph_objects
+plotly
+matplotlib
+bcb
+sidrapy
+plotly.express
+streamlit
