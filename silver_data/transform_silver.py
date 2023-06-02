@@ -256,7 +256,7 @@ def calc_comp_media_nucleos(ipca_nucleo, ipca_anual):
     return nucleo_ipca_merge
 
 
-#IPCA acum ano x IPCA mês
+#IPCA mensal x IPCA acum 12m
 def calc_p_nova_analise(dados_brutos_ipca_sidra): 
     ipca_analise_novo = (dados_brutos_ipca_sidra.rename(columns= dados_brutos_ipca_sidra.iloc[0]).query('Valor not in "Valor"').rename(columns = {
     'Mês (Código)' : 'data', 
@@ -287,17 +287,22 @@ def calc_ipca_acum_ano(ipca_analise_novo):
  
 def juntando_tab(vm_grupos):
     todas_listas = []
+    vm_grupos = vm_grupos.reset_index()
     for numero in range(1, 10):
         numero_str = str(numero) + '.'
         linhas_com_n = vm_grupos.loc[vm_grupos['grupo'].str.startswith(numero_str)]
         lista = linhas_com_n.values.tolist()
-        #todas_listas.append(lista)
-        #tabela = pd.concat([pd.DataFrame(lista) for lista in todas_listas], ignore_index=True).rename(columns = {0: 'data', 1:'variavel', 2:'grupo', 3:'valor'})
-        return todas_listas # parei tentando fazer essa parte funcionar 
+        todas_listas.append(lista)
+        tabela = pd.concat([pd.DataFrame(lista) for lista in todas_listas], ignore_index=True).rename(columns = {0: 'data', 1:'variavel', 2:'grupo', 3:'valor'})
+    return tabela
 
 '''
-    geral_ipca = pd.concat([alimentacao_bebidas, habitacao, artigos_residencia, vestuario, transportes, saude, despesas_pessoais, educacao, comunicacao], axis =1)
+def geral_ipca():
+    geral_ipca = pd.concat([alimentacao_bebidas, habitacao, artigos_residencia, vestuario, transportes, saude, despesas_pessoais, educacao, comunicacao], axis =1)'''
 
+
+def calc_acum_abriu(ipca_acum_ano):
+    ipca_acum_ano = ipca_acum_ano.reset_index()
     todas_listas = []
     for numero in range(1, 10):
         numero_str = str(numero) + '.'
@@ -305,9 +310,19 @@ def juntando_tab(vm_grupos):
         lista = linhas_com_n.values.tolist()
         todas_listas.append(lista)
         tabela_acum = pd.concat([pd.DataFrame(lista) for lista in todas_listas], ignore_index=True).rename(columns = {0: 'data', 1:'variavel', 2:'grupo', 3:'valor'})
-    
-    tabela_acum = tabela_acum.query('data == "2023-04-01"')
+    tabela_acum_abriu = tabela_acum.query('data == "2023-04-01"')
+    return tabela_acum_abriu
 
+def trat_peso_mensal_abriu(tabela):
+    peso_mensal_abriu = tabela.query('data == "2023-04-01"')
+    return peso_mensal_abriu
+
+def juntando_ipca_abriu(peso_mensal_abriu, tabela_acum_abriu):
+    juntos = peso_mensal_abriu.merge(tabela_acum_abriu, on = ['grupo', 'data'])[['data', 'grupo', 'variavel_x', 'valor_x', 'variavel_y', 'valor_y']] 
+    return juntos 
+    
+
+'''
     acum_ano_abr = pd.DataFrame(geral_ipca.iloc[-1])
     acum_ano_abr['grupo'] = ['1.Alimentação e bebidas', '2.Habitação', '3.Artigos de residência', '4.Vestuário', '5.Transportes', '	6.Saúde e cuidados pessoais', '7.Despesas pessoais', '8.Educação', '9.Comunicação']
 
@@ -315,8 +330,3 @@ def juntando_tab(vm_grupos):
 
 
     juntos = tabela_acum.merge(acum_ano_abr, on='grupo')'''
-    
-    
-    
-
-

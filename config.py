@@ -67,4 +67,25 @@ silver= {
     'nucleo_ipca_merge' : {
         'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/nucleo_ipca_merge.csv',
     },
+    'ipca_analise_novo' : {
+        'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/ipca_analise_novo.csv',
+    },
+    'vm_grupos' : {
+        'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/vm_grupos.csv',
+    },
+    'ipca_acum_ano' : {
+        'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/ipca_acum_ano.csv',
+    },
+    'tabela' : {
+        'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/tabela.csv' 
+    }, 
+    'tabela_acum_abriu' : {
+        'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/tabela_acum_abriu.csv' 
+    },
+    'peso_mensal_abriu' : {
+        'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/peso_mensal_abriu.csv' 
+    },     
+    'juntos' : {
+        'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/juntos.csv' 
+    },              
 }                  

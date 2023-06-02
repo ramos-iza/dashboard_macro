@@ -150,9 +150,6 @@ import matplotlib
         )
 )'''
 
-
-
-
 #Comparar a médias dos núcleos com o IPCA histórico
 #transform
 nucleo_ipca_merge = ts.calc_comp_media_nucleos(ipca_nucleo=ipca_nucleo, ipca_anual=ipca_anual)
@@ -170,7 +167,7 @@ fig.add_trace(go.Scatter(x= nucleo_ipca_merge.index, y= nucleo_ipca_merge['ipca_
 fig.update_layout(title_text='Média dos núcleos x IPCA')
 fig.show()'''
 
-#Comparar a médias dos núcleos com o IPCA histórico
+#IPCA mensal x IPCA acum 12m
 #read
 dados_brutos_ipca_sidra = rd.ler_csv(config.raw['dados_brutos_ipca_sidra']['path'])
 #transform
@@ -178,7 +175,52 @@ ipca_analise_novo = ts.calc_p_nova_analise(dados_brutos_ipca_sidra=dados_brutos_
 vm_grupos = ts.calc_valor_mensal(ipca_analise_novo=ipca_analise_novo)
 ipca_acum_ano = ts.calc_ipca_acum_ano(ipca_analise_novo=ipca_analise_novo)
 tabela = ts.juntando_tab(vm_grupos=vm_grupos)
+tabela_acum_abriu = ts.calc_acum_abriu(ipca_acum_ano=ipca_acum_ano)
+peso_mensal_abriu = ts.trat_peso_mensal_abriu(tabela)
+juntos = ts.juntando_ipca_abriu(tabela_acum_abriu=tabela_acum_abriu, peso_mensal_abriu=peso_mensal_abriu)
+#save
+ssd.save_csv(
+    df= ipca_analise_novo,
+    path= config.silver['ipca_analise_novo']['save_path']
+)
+
+ssd.save_csv(
+    df= vm_grupos,
+    path= config.silver['vm_grupos']['save_path']
+)
+
+ssd.save_csv(
+    df= ipca_acum_ano,
+    path= config.silver['ipca_acum_ano']['save_path']
+)
+
+ssd.save_csv(
+    df= tabela,
+    path= config.silver['tabela']['save_path']
+)
+
+ssd.save_csv(
+    df= tabela_acum_abriu,
+    path= config.silver['tabela_acum_abriu']['save_path']
+)
+
+ssd.save_csv(
+    df= peso_mensal_abriu,
+    path= config.silver['peso_mensal_abriu']['save_path']
+)
+
+ssd.save_csv(
+    df= juntos,
+    path= config.silver['juntos']['save_path']
+)
 
 
 
+''' Gold
+fig = go.Figure()
+fig.add_trace(go.Bar(x = juntos['valor_y'], y = juntos['grupo'], name = 'Variação acumulada ao ano', orientation='h'))
+fig.add_trace(go.Bar(x = juntos['valor_x'], y = juntos['grupo'], name = 'Variação mensal', orientation='h'))
+fig.update_layout(title_text = 'IPCA - Variação mensal e acumulada no ano (%) - Índice geral e grupos de produtos e serviços - Brasil - abril 2023')
+fig.update_yaxes(categoryorder='category descending')
+fig.show()'''
 
