@@ -1,7 +1,3 @@
-soma_params = {
-    'numero2': 4
-}
-
 raw= {
     'ipca_mensal': {
         'start_date': '2013-05-04', 
@@ -19,8 +15,56 @@ raw= {
     'ipca_nucleo': {
         'path': '/Users/izadoraramos/code/dados/ipca/raw/ipca_nucelo.csv'
     }
-}
+} 
 
-
-#ipca_anual_silver = { 'path' : '/Users/izadoraramos/code/dados/ipca/raw/ipca_anual_silver.to_csv'
-#}
+silver= { 
+    'ipca_anual': {
+        'read_path': '/Users/izadoraramos/code/dados/ipca/raw/ipca_mensal.csv',
+        'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/ipca_anual.csv',
+    },
+    'ipca_focus': {
+        'read_path': '/Users/izadoraramos/code/dados/ipca/raw/ipca_focus.csv',
+        'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/ipca_focus.csv',
+    }, 
+    'dataframe_2019': {
+        'read_path': '/Users/izadoraramos/code/dados/ipca/raw/dataframe_2019.csv',
+        'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/dataframe_2019.csv',    
+    }, 
+    'dataframe_2020': {
+        'read_path': '/Users/izadoraramos/code/dados/ipca/raw/dataframe_2019.csv',
+        'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/dataframe_2020.csv',
+    },
+    'dataframe_2021': {
+        'read_path': '/Users/izadoraramos/code/dados/ipca/raw/dataframe_2019.csv',
+        'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/dataframe_2021.csv',    
+    },
+    'dataframe_2022': {
+        'read_path': '/Users/izadoraramos/code/dados/ipca/raw/dataframe_2019.csv',
+        'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/dataframe_2022.csv',  
+    },
+    'dataframe_2023': {
+        'read_path': '/Users/izadoraramos/code/dados/ipca/raw/dataframe_2019.csv',
+        'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/dataframe_2023.csv',
+    },
+    'ipca_analise' : {
+        'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/ipca_analise.csv',  
+    },
+    'df_geral_ipca' : {
+        'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/df_geral_ipca.csv',
+    },
+    'indice_geral' : {
+        'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/indice_geral.csv',
+    }, 
+    'proporcao' : {
+        'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/proporcao.csv',    
+    },
+    'ipca_rm' : {
+        'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/ipca_rm.csv',
+    }, 
+    'nucleo_long' : {
+        'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/nucleo_long.csv',
+    },
+    'nucleo_ipca_merge' : {
+        'save_path' : '/Users/izadoraramos/code/dados/ipca/silver/nucleo_ipca_merge.csv',
+    },
+}                  

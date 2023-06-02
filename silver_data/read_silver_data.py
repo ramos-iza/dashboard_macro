@@ -7,9 +7,9 @@ ipca_mensal = {
     }
     
     
-def ler_csv(caminho):
-    ipca_mensal = pd.read_csv(caminho)
-    return ipca_mensal
+def read_csv(path):
+    df = pd.read_csv(path)
+    return df
   
 
 def ler_csv(caminho): 
