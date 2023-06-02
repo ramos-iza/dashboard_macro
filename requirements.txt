@@ -2,6 +2,6 @@ pandas
 datetime
 plotly
 matplotlib
-bcb
+python-bcb
 sidrapy
 streamlit
