@@ -45,11 +45,12 @@ st.set_page_config(layout="wide")
 st.markdown(container_cs, unsafe_allow_html=True)
 
 
-st.sidebar.title('Dash macro')
+with st.sidebar.expander("Dash macro", expanded=False):
+    pass
 
-aba = st.sidebar.radio('Escolha a aba', ['Dash PIB', 'Dash SELIC', 'Dash IPCA'])
+aba = st.sidebar.radio('Escolha a aba', ['IPCA'])
 
-if aba == 'Dash IPCA': 
+if aba == 'IPCA': 
     
     def ipca():
         
