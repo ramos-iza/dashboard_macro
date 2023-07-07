@@ -80,11 +80,11 @@ silver= {
     'tabela' : {
         'save_path' : 'dados/ipca/silver/tabela.csv' 
     }, 
-    'tabela_acum_abriu' : {
-        'save_path' : 'dados/ipca/silver/tabela_acum_abriu.csv' 
+    'tabela_acum_corrente' : {
+        'save_path' : 'dados/ipca/silver/tabela_acum_corrente.csv' 
     },
-    'peso_mensal_abriu' : {
-        'save_path' : 'dados/ipca/silver/peso_mensal_abriu.csv' 
+    'peso_mensal_corrente' : {
+        'save_path' : 'dados/ipca/silver/peso_mensal_corrente.csv' 
     },     
     'juntos' : {
         'save_path' : 'dados/ipca/silver/juntos.csv' 
