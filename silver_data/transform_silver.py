@@ -196,8 +196,9 @@ def cal_df_geral_ipca(ipca_analise):
             lista = linhas_com_9.values.tolist()
             todas_listas.append(lista)
             comunicacao = pd.concat([pd.DataFrame(lista) for lista in todas_listas], ignore_index=True).rename(columns = {0: 'data', 1:'variavel', 2:'comunicacao', 3:'valor'})
-            comunicacao = comunicacao.groupby(comunicacao['data'].dt.strftime('%Y-%m')).mean()['valor'].to_frame().rename(columns={'valor':'comunicacao'})
+            comunicacao = comunicacao.groupby(comunicacao['data'].dt.strftime('%Y-%m')).mean()['valor'].to_frame().rename(columns={'valor':'Comunicação'})
     df_geral_ipca = pd.concat([alimentacao_bebidas, habitacao, artigos_residencia, vestuario, transportes, saude, despesas_pessoais, educacao, comunicacao], axis =1)
+    df_geral_ipca.columns = ['Alimentação e bebidas', 'Habitação', 'Artigos de residência', 'Vestuário', 'Transportes', 'Saúde', 'Despesas Pessoais', 'Educação', 'Comunicação']    
     return df_geral_ipca
 
 
@@ -206,12 +207,12 @@ def indice_geral(ipca_analise):
     indice_geral = indice_geral.groupby(indice_geral['data'].dt.strftime('%Y-%m')).mean()['valor'].to_frame()
     return indice_geral
 
-def calc_proporcao(df_geral_ipca): 
+'''def calc_proporcao(df_geral_ipca): 
     df_geral_ipca_data = df_geral_ipca
     proporcao = df_geral_ipca_data.iloc[-2,:].to_frame()
     proporcao['total'] = proporcao.values.sum().T
     proporcao['proporcao'] = proporcao['2023-03']/proporcao['total']
-    return proporcao
+    return proporcao'''
 
 '''Gold
     labels = pd.to_datetime(['Alimentação e bebidas',	'Habitação', 'Artigos de residência', 'Vestuario','Transportes',	'Saúde', 'Despesas pessoais', 'Educação',	'Comunicação'])
@@ -301,7 +302,7 @@ def geral_ipca():
     geral_ipca = pd.concat([alimentacao_bebidas, habitacao, artigos_residencia, vestuario, transportes, saude, despesas_pessoais, educacao, comunicacao], axis =1)'''
 
 
-def calc_acum_abriu(ipca_acum_ano):
+def calc_acum_corrente(ipca_acum_ano):
     ipca_acum_ano = ipca_acum_ano.reset_index()
     todas_listas = []
     for numero in range(1, 10):
@@ -310,15 +311,15 @@ def calc_acum_abriu(ipca_acum_ano):
         lista = linhas_com_n.values.tolist()
         todas_listas.append(lista)
         tabela_acum = pd.concat([pd.DataFrame(lista) for lista in todas_listas], ignore_index=True).rename(columns = {0: 'data', 1:'variavel', 2:'grupo', 3:'valor'})
-    tabela_acum_abriu = tabela_acum.query('data == "2023-04-01"')
-    return tabela_acum_abriu
+    tabela_acum_mes_corrente = tabela_acum.query('data == "2023-05-01"')
+    return tabela_acum_mes_corrente
 
-def trat_peso_mensal_abriu(tabela):
-    peso_mensal_abriu = tabela.query('data == "2023-04-01"')
-    return peso_mensal_abriu
+def trat_peso_mensal_corrente(tabela):
+    peso_mensal_corrente = tabela.query('data == "2023-05-01"')
+    return peso_mensal_corrente
 
-def juntando_ipca_abriu(peso_mensal_abriu, tabela_acum_abriu):
-    juntos = peso_mensal_abriu.merge(tabela_acum_abriu, on = ['grupo', 'data'])[['data', 'grupo', 'variavel_x', 'valor_x', 'variavel_y', 'valor_y']] 
+def juntando_ipca_corrente(peso_mensal_corrente, tabela_acum_mes_corrente):
+    juntos = peso_mensal_corrente.merge(tabela_acum_mes_corrente, on = ['grupo', 'data'])[['data', 'grupo', 'variavel_x', 'valor_x', 'variavel_y', 'valor_y']] 
     return juntos 
     
 
