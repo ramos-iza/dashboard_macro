@@ -107,7 +107,7 @@ if aba == 'IPCA':
             fig = go.Figure()
             fig.add_trace(go.Bar(x = juntos['valor_y'], y = juntos['grupo'], name = 'Variação acumulada ao ano', orientation='h'))
             fig.add_trace(go.Bar(x = juntos['valor_x'], y = juntos['grupo'], name = 'Variação mensal',  orientation='h', marker=dict(color='#f34a00')))
-            fig.update_layout(title={'text': 'IPCA - Variação mensal e acumulada no ano (%) - Índice geral e grupos de produtos e serviços - Brasil - abril 2023', 'font': {'size': 12}})
+            fig.update_layout(title={'text': 'IPCA - Variação mensal e acumulada no ano (%) - Índice geral e grupos de produtos e serviços - Brasil - maio 2023', 'font': {'size': 12}})
             fig.update_layout(width=610, height=500)
             fig.update_yaxes(categoryorder='category descending')
             st.plotly_chart(fig)

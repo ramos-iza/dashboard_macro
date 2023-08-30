@@ -89,12 +89,12 @@ ssd.save_csv(
 
 #Proporcão
 #Transform 
-proporcao = ts.calc_proporcao(df_geral_ipca=df_geral_ipca)
+'''proporcao = ts.calc_proporcao(df_geral_ipca=df_geral_ipca)
 #save
 ssd.save_csv(
     df=proporcao, 
     path=config.silver['proporcao']['save_path']
-)
+)'''
 
 '''  
 fig = go.Figure(data=[go.Pie(labels=proporcao[0], values=proporcao[1])])
@@ -175,9 +175,9 @@ ipca_analise_novo = ts.calc_p_nova_analise(dados_brutos_ipca_sidra=dados_brutos_
 vm_grupos = ts.calc_valor_mensal(ipca_analise_novo=ipca_analise_novo)
 ipca_acum_ano = ts.calc_ipca_acum_ano(ipca_analise_novo=ipca_analise_novo)
 tabela = ts.juntando_tab(vm_grupos=vm_grupos)
-tabela_acum_abriu = ts.calc_acum_abriu(ipca_acum_ano=ipca_acum_ano)
-peso_mensal_abriu = ts.trat_peso_mensal_abriu(tabela)
-juntos = ts.juntando_ipca_abriu(tabela_acum_abriu=tabela_acum_abriu, peso_mensal_abriu=peso_mensal_abriu)
+tabela_acum_mes_corrente = ts.calc_acum_corrente(ipca_acum_ano=ipca_acum_ano)
+peso_mensal_corrente = ts.trat_peso_mensal_corrente(tabela)
+juntos = ts.juntando_ipca_corrente(tabela_acum_mes_corrente=tabela_acum_mes_corrente, peso_mensal_corrente=peso_mensal_corrente)
 #save
 ssd.save_csv(
     df= ipca_analise_novo,
@@ -200,13 +200,13 @@ ssd.save_csv(
 )
 
 ssd.save_csv(
-    df= tabela_acum_abriu,
-    path= config.silver['tabela_acum_abriu']['save_path']
+    df= tabela_acum_mes_corrente,
+    path= config.silver['tabela_acum_corrente']['save_path']
 )
 
 ssd.save_csv(
-    df= peso_mensal_abriu,
-    path= config.silver['peso_mensal_abriu']['save_path']
+    df= peso_mensal_corrente,
+    path= config.silver['peso_mensal_corrente']['save_path']
 )
 
 ssd.save_csv(

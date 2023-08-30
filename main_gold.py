@@ -117,7 +117,7 @@ juntos = rd.read_csv(config.silver['juntos']['save_path'])
 fig = go.Figure()
 fig.add_trace(go.Bar(x = juntos['valor_y'], y = juntos['grupo'], name = 'Variação acumulada ao ano', orientation='h'))
 fig.add_trace(go.Bar(x = juntos['valor_x'], y = juntos['grupo'], name = 'Variação mensal', orientation='h'))
-fig.update_layout(title_text = 'IPCA - Variação mensal e acumulada no ano (%) - Índice geral e grupos de produtos e serviços - Brasil - abril 2023')
+fig.update_layout(title_text = 'IPCA - Variação mensal e acumulada no ano (%) - Índice geral e grupos de produtos e serviços - Brasil - maio 2023')
 fig.update_yaxes(categoryorder='category descending')
 fig.show()
 
