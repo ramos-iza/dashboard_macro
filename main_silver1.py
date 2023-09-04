@@ -6,6 +6,7 @@ import silver_data.save_silver_data as ssd
 import datetime
 from ast import Assign
 import plotly.graph_objects as go 
+import plotly.express as px
 
 
 #Calc IPCA Anual
@@ -175,9 +176,12 @@ ipca_analise_novo = ts.calc_p_nova_analise(dados_brutos_ipca_sidra=dados_brutos_
 vm_grupos = ts.calc_valor_mensal(ipca_analise_novo=ipca_analise_novo)
 ipca_acum_ano = ts.calc_ipca_acum_ano(ipca_analise_novo=ipca_analise_novo)
 tabela = ts.juntando_tab(vm_grupos=vm_grupos)
-tabela_acum_mes_corrente = ts.calc_acum_corrente(ipca_acum_ano=ipca_acum_ano)
+tabela_acum_mes_corrente = ts.calc_acum_corrente(ipca_acum_ano=ipca_acum_ano, tabela=tabela)
 peso_mensal_corrente = ts.trat_peso_mensal_corrente(tabela)
 juntos = ts.juntando_ipca_corrente(tabela_acum_mes_corrente=tabela_acum_mes_corrente, peso_mensal_corrente=peso_mensal_corrente)
+
+ultima_data = ts.last_date(dados_brutos_ipca_sidra=dados_brutos_ipca_sidra)
+
 #save
 ssd.save_csv(
     df= ipca_analise_novo,
@@ -215,7 +219,6 @@ ssd.save_csv(
 )
 
 
-
 ''' Gold
 fig = go.Figure()
 fig.add_trace(go.Bar(x = juntos['valor_y'], y = juntos['grupo'], name = 'Variação acumulada ao ano', orientation='h'))
@@ -224,3 +227,87 @@ fig.update_layout(title_text = 'IPCA - Variação mensal e acumulada no ano (%) 
 fig.update_yaxes(categoryorder='category descending')
 fig.show()'''
 
+# Pib 
+
+# Read
+pib_volume_trimestral = rd.read_csv(config.raw['pib_volume_trimestral']['path'])
+
+# Transform
+dados_margem = ts.calc_dados_margem(pib_volume_trimestral=pib_volume_trimestral)
+
+dados_margem = ts.col_trimestre(dados_margem = dados_margem)
+
+taxas = ts.calc_taxa_var(dados_margem = dados_margem)
+
+taxas = ts.calc_variacao_interanual(taxas=taxas)
+
+data = ts.filtrando_pib(taxas=taxas)
+
+# save
+ssd.save_csv(
+    df= data,
+    path= config.silver['data']['save_path']
+)
+
+fig = px.bar(
+    data,
+    x="trimestre",
+    y='Var. % interanual',
+    labels={"value": "Variação (%)"},
+    title="PIB: Taxas de Variação Interanual",
+    template="plotly",
+)
+fig.show()
+
+fig = px.bar(
+    data,
+    x="trimestre",
+    y='Var. % anual',
+    labels={"value": "Variação (%)"},
+    title="PIB: Taxas de Variação Anual",
+    template="plotly",
+)
+fig.show()
+
+#Trimestre / mesmo trimestre do ano anterior
+fig = px.bar(
+    data,
+    x="trimestre",
+    y='Var. % acumulada no ano',
+    labels={"value": "Var. % acumulada no ano"}, 
+    title="PIB: Var. % acumulada no ano", 
+    template="plotly",
+)
+
+fig.show()
+
+#Pib sazional 
+
+# Read
+db_trimestre_sazional = rd.read_csv(config.raw['db_trimestre_sazional']['path'])
+
+db_trimestre_sazional = ts.calc_pib_tri_sazional(db_trimestre_sazional=db_trimestre_sazional)
+
+taxas1 = ts.calc_taxa_var_sazional(db_trimestre_sazional=db_trimestre_sazional)
+
+data1 = ts.colum_taxa_var(taxas1=taxas1)
+
+data1 = ts.formatando_data(taxas1=taxas1)
+
+data1 = ts.col_trimestre1(data1=data1)
+
+# Save 
+ssd.save_csv(
+    df= data1,
+    path= config.silver['data1']['save_path'])
+
+fig = px.bar(
+    data1,
+    x="trimestre",
+    y="Var. % margem",
+    labels={"value": "Variação (%)"},
+    title="PIB: Série encadeada do índice de volume trimestral com ajuste sazonal",
+    template="plotly",
+)
+
+fig.show()

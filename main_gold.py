@@ -53,17 +53,18 @@ grupos_ipca = (df_geral_ipca.set_index('data')).columns
 fig = go.Figure()
 indice_geral_data = indice_geral.reset_index()
 fig.add_trace(go.Scatter(x = indice_geral['data'], y = indice_geral['valor'], name= 'Índice Geral', line=dict(color='black')))
-fig.add_trace(go.Scatter(x = df_geral_ipca.data, y = df_geral_ipca['alimentacao_bebidas'], name= 'Alimentação/bebidas'))
-fig.add_trace(go.Scatter(x = df_geral_ipca.data, y = df_geral_ipca['habitacao'], name= 'Habitação'))
-fig.add_trace(go.Scatter(x = df_geral_ipca.data, y = df_geral_ipca['artigos_residencia'], name= 'Artigos de residência'))
-fig.add_trace(go.Scatter(x = df_geral_ipca.data, y = df_geral_ipca['vestuario'], name= 'Vestuário'))
-fig.add_trace(go.Scatter(x = df_geral_ipca.data, y = df_geral_ipca['transportes'], name= 'Transportes'))
-fig.add_trace(go.Scatter(x = df_geral_ipca.data, y = df_geral_ipca['saude'], name= 'Saúde'))
-fig.add_trace(go.Scatter(x = df_geral_ipca.data, y = df_geral_ipca['despesas_pessoais'], name= 'Despesas Pessoais'))
-fig.add_trace(go.Scatter(x = df_geral_ipca.data, y = df_geral_ipca['educacao'], name= 'Educação'))
-fig.add_trace(go.Scatter(x = df_geral_ipca.data, y = df_geral_ipca['comunicacao'], name= 'Comunicação'))
+fig.add_trace(go.Scatter(x = df_geral_ipca.data, y = df_geral_ipca['Alimentação e bebidas'], name= 'Alimentação/bebidas'))
+fig.add_trace(go.Scatter(x = df_geral_ipca.data, y = df_geral_ipca['Habitação'], name= 'Habitação'))
+fig.add_trace(go.Scatter(x = df_geral_ipca.data, y = df_geral_ipca['Artigos de residência'], name= 'Artigos de residência'))
+fig.add_trace(go.Scatter(x = df_geral_ipca.data, y = df_geral_ipca['Vestuário'], name= 'Vestuário'))
+fig.add_trace(go.Scatter(x = df_geral_ipca.data, y = df_geral_ipca['Transportes'], name= 'Transportes'))
+fig.add_trace(go.Scatter(x = df_geral_ipca.data, y = df_geral_ipca['Saúde'], name= 'Saúde'))
+fig.add_trace(go.Scatter(x = df_geral_ipca.data, y = df_geral_ipca['Despesas Pessoais'], name= 'Despesas Pessoais'))
+fig.add_trace(go.Scatter(x = df_geral_ipca.data, y = df_geral_ipca['Educação'], name= 'Educação'))
+fig.add_trace(go.Scatter(x = df_geral_ipca.data, y = df_geral_ipca['Comunicação'], name= 'Comunicação'))
 fig.update_layout(title_text = 'Grupos do IPCA mensal')
 fig.show()
+
 
 #Proporcão
 proporcao = rd.read_csv(config.silver['proporcao']['save_path'])
@@ -122,5 +123,53 @@ fig.update_yaxes(categoryorder='category descending')
 fig.show()
 
 
+# PIB 
+data = rd.read_csv(config.silver['data']['save_path'])
+
+fig = px.bar(
+    data,
+    x="trimestre",
+    y='Var. % interanual',
+    labels={"value": "Variação (%)"},
+    title="PIB: Taxas de Variação Interanual",
+    template="plotly",
+)
+fig.show()
+
+fig = px.bar(
+    data,
+    x="trimestre",
+    y='Var. % anual',
+    labels={"value": "Variação (%)"},
+    title="PIB: Taxas de Variação Anual",
+    template="plotly",
+)
+fig.show()
+
+#Trimestre / mesmo trimestre do ano anterior
+fig = px.bar(
+    data,
+    x="trimestre",
+    y='Var. % acumulada no ano',
+    labels={"value": "Var. % acumulada no ano"}, 
+    title="PIB: Var. % acumulada no ano", 
+    template="plotly",
+)
+
+fig.show()
+
+# Pib ajuste sazional 
+data1 = rd.read_csv(config.silver['data1']['save_path'])
+
+fig = px.bar(
+    data1,
+    x="trimestre",
+    y="Var. % margem",
+    labels={"value": "Variação (%)"},
+    title="PIB: Série encadeada do índice de volume trimestral com ajuste sazonal",
+    template="plotly",
+)
+
+fig.show()
 
 

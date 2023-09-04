@@ -40,4 +40,15 @@ srd.ipca_nucleo(ipca_nucleo=ipca_nucleo,
                 path=config['ipca_nucleo']['path'])
 
 
+# Pib 
 
+pib_volume_trimestral = grd.pib_volume_trimestral()
+
+srd.pib_volume_trimestral(pib_volume_trimestral=pib_volume_trimestral,
+                path=config['pib_volume_trimestral']['path'])
+
+
+db_trimestre_sazional = grd.db_trimestre_sazional()
+
+srd.db_trimestre_sazional(db_trimestre_sazional=db_trimestre_sazional,
+                path=config['db_trimestre_sazional']['path'])

@@ -301,8 +301,7 @@ def juntando_tab(vm_grupos):
 def geral_ipca():
     geral_ipca = pd.concat([alimentacao_bebidas, habitacao, artigos_residencia, vestuario, transportes, saude, despesas_pessoais, educacao, comunicacao], axis =1)'''
 
-
-def calc_acum_corrente(ipca_acum_ano):
+def calc_acum_corrente(ipca_acum_ano, tabela):
     ipca_acum_ano = ipca_acum_ano.reset_index()
     todas_listas = []
     for numero in range(1, 10):
@@ -311,23 +310,208 @@ def calc_acum_corrente(ipca_acum_ano):
         lista = linhas_com_n.values.tolist()
         todas_listas.append(lista)
         tabela_acum = pd.concat([pd.DataFrame(lista) for lista in todas_listas], ignore_index=True).rename(columns = {0: 'data', 1:'variavel', 2:'grupo', 3:'valor'})
-    tabela_acum_mes_corrente = tabela_acum.query('data == "2023-05-01"')
+    ultima_data = (tabela.data.iloc[-1]).date()
+    data_formatada = ultima_data.strftime('%Y-%m-%d')   
+    tabela_acum_mes_corrente = tabela_acum[tabela_acum['data'] == data_formatada]
     return tabela_acum_mes_corrente
 
 def trat_peso_mensal_corrente(tabela):
-    peso_mensal_corrente = tabela.query('data == "2023-05-01"')
+    ultima_data = (tabela.data.iloc[-1]).date()
+    data_formatada = ultima_data.strftime('%Y-%m-%d')
+    peso_mensal_corrente = tabela[tabela['data'] == data_formatada]
     return peso_mensal_corrente
 
 def juntando_ipca_corrente(peso_mensal_corrente, tabela_acum_mes_corrente):
     juntos = peso_mensal_corrente.merge(tabela_acum_mes_corrente, on = ['grupo', 'data'])[['data', 'grupo', 'variavel_x', 'valor_x', 'variavel_y', 'valor_y']] 
     return juntos 
     
+def last_date(dados_brutos_ipca_sidra):
+    ultima_data = dados_brutos_ipca_sidra.D2N.iloc[-1]
+    return ultima_data
+    
+# PIB
 
-'''
-    acum_ano_abr = pd.DataFrame(geral_ipca.iloc[-1])
-    acum_ano_abr['grupo'] = ['1.Alimentação e bebidas', '2.Habitação', '3.Artigos de residência', '4.Vestuário', '5.Transportes', '	6.Saúde e cuidados pessoais', '7.Despesas pessoais', '8.Educação', '9.Comunicação']
+def calc_dados_margem(pib_volume_trimestral):
+    db_trimestre = pib_volume_trimestral
+    dados_margem = db_trimestre.rename(columns = db_trimestre.iloc[0]).query("Trimestre not in 'Trimestre'").rename(columns={
+                "Trimestre (Código)": "data",
+                "Setores e subsetores": "rubrica",
+                "Valor": "valor",
+                "Unidade de Medida" : "tabela"
+                }).filter(items = ["tabela", "data", "rubrica", "valor"], axis = "columns").replace(to_replace = {
+                "rubrica": {
+                    "Agropecuária - total": "Agropecuária",
+                    "Indústria - total": "Indústria",
+                    "Serviços - total": "Serviços",
+                    "PIB a preços de mercado": "PIB",
+                    "Despesa de consumo das famílias": "Consumo das Famílias",
+                    "Despesa de consumo da administração pública": "Despesa do Governo",
+                    "Formação bruta de capital fixo": "FBFC",
+                    "Exportação de bens e serviços": "Exportação",
+                    "Importação de bens e serviços (-)": "Importação"
+                    }
+                    }
+                ).replace(to_replace = {
+                "tabela": {
+                    "Número-índice": "num_indice"}})
+                
+    dados_margem = dados_margem.assign(  # substitui o 5º caracter da coluna data por "-Q" e converte em YYYY-MM-DD
+    data = lambda x: pd.to_datetime(
+        x.data.str.slice_replace(start = 4, stop = 5, repl = "-Q")
+        ),
+    valor = lambda x: x.valor.astype(float) # converte de texto para numérico
+        )
+    
+    dados_margem['mes'] = dados_margem['data'].dt.month
+    dados_margem['ano'] =  dados_margem['data'].dt.year
+    
+    return dados_margem
 
-    resultado_abr = tabela.query('data == "2023-04-01"')        
 
 
-    juntos = tabela_acum.merge(acum_ano_abr, on='grupo')'''
+def define_trimestre(row): 
+    if row['mes'] in range(1,4):
+        return str(row['ano']) + '.I'
+    elif row['mes'] in range(4,7):
+        return str(row['ano']) + '.II'
+    elif row['mes'] in range(7,10):
+        return str(row['ano']) + '.III'
+    elif row['mes'] in range(10,13):
+        return str(row['ano']) + '.IV'
+    else:
+        return ''
+    
+def col_trimestre(dados_margem):
+    dados_margem['trimestre'] = dados_margem.apply(define_trimestre, axis=1)
+
+    return dados_margem
+
+
+def calc_taxa_var(dados_margem):
+    taxas = (
+    dados_margem.query("tabela in ['num_indice', 'num_indice_sa']")
+    .pivot(index = ["data", "rubrica"], columns = "tabela", values = "valor")
+    .reset_index()
+    .sort_values("data")
+    )
+    
+    taxas["trimestre"] = dados_margem["trimestre"]
+     
+    return taxas
+
+def calc_variacao_interanual(taxas):
+    taxas["ano"] = taxas["data"].dt.year
+    # variação interanual
+    taxas["var_interanual"] = (
+    taxas.groupby("rubrica")["num_indice"]
+    .apply(lambda x: x.pct_change(4) * 100))
+    
+    # variação anual 
+    taxas["var_anual"] = (
+    taxas.groupby("rubrica")["num_indice"] # soma móvel de 4 períodos
+    .apply(lambda x: (x.rolling(4).sum() / x.rolling(4).sum().shift(4) - 1) * 100))
+    
+    #indice acumulado 
+    taxas["num_indice_acum"] = (
+    taxas.groupby(["rubrica", "ano"])["num_indice"]
+    .apply(lambda x: x.cumsum()) # acumula o número índice por ano/rubrica
+    )
+    taxas["var_acum_ano"] = (
+    taxas.groupby("rubrica")["num_indice_acum"]
+    .apply(lambda x: x.pct_change(4) * 100))
+
+    return taxas
+
+def filtrando_pib(taxas):
+    data = (
+    taxas.query("rubrica == 'PIB'")
+    .rename(
+        columns={
+            "var_interanual": "Var. % interanual",
+            "var_anual": "Var. % anual",
+            "var_acum_ano": "Var. % acumulada no ano"
+            }))
+    return data
+
+# Pib sazional 
+def calc_pib_tri_sazional(db_trimestre_sazional):
+    db_trimestre_sazional = db_trimestre_sazional.rename(columns = db_trimestre_sazional.iloc[0]).query("Trimestre not in 'Trimestre'").rename(columns={
+                "Trimestre (Código)": "data",
+                "Setores e subsetores": "rubrica",
+                "Valor": "valor",
+                "Unidade de Medida" : "tabela"
+                }).filter(items = ["tabela", "data", "rubrica", "valor"], axis = "columns").replace(to_replace = {
+                "rubrica": {
+                    "Agropecuária - total": "Agropecuária",
+                    "Indústria - total": "Indústria",
+                    "Serviços - total": "Serviços",
+                    "PIB a preços de mercado": "PIB",
+                    "Despesa de consumo das famílias": "Consumo das Famílias",
+                    "Despesa de consumo da administração pública": "Despesa do Governo",
+                    "Formação bruta de capital fixo": "FBFC",
+                    "Exportação de bens e serviços": "Exportação",
+                    "Importação de bens e serviços (-)": "Importação"
+                    }
+                    }
+                ).replace(to_replace = {
+                "tabela": {
+                    "Número-índice": "num_indice_sa"}})
+
+    db_trimestre_sazional = db_trimestre_sazional.assign(  # substitui o 5º caracter da coluna data por "-Q" e converte em YYYY-MM-DD
+    data = lambda x: pd.to_datetime(
+        x.data.str.slice_replace(start = 4, stop = 5, repl = "-Q")
+        ),
+    valor = lambda x: x.valor.astype(float) # converte de texto para numérico
+        )
+    
+    db_trimestre_sazional['mes'] = db_trimestre_sazional['data'].dt.month
+    db_trimestre_sazional['ano'] =  db_trimestre_sazional['data'].dt.year
+    
+    return db_trimestre_sazional
+
+
+def calc_taxa_var_sazional(db_trimestre_sazional):
+    taxas1 = (
+    db_trimestre_sazional.query("tabela in ['num_indice_sa']")
+    .pivot(index = ["data", "rubrica"], columns = "tabela", values = "valor")
+    .reset_index()
+    .sort_values("data")
+    )
+    return taxas1
+
+def colum_taxa_var(taxas1):
+    taxas1["var_margem"] = (
+    taxas1.groupby("rubrica")["num_indice_sa"] # agrupa os dados e aponta a coluna
+    .apply(lambda x: x.pct_change(1) * 100))   # calcula a variação na coluna
+    
+    taxas1["ano"] = taxas1["data"].dt.year
+    taxas1['mes'] = taxas1['data'].dt.month
+    return taxas1
+    
+    
+def formatando_data(taxas1):    
+    data1 = (
+    taxas1.query("rubrica == 'PIB'")
+    .rename(
+        columns={"var_margem": "Var. % margem",
+            }))
+    return data1
+
+
+def define_trimestre(row): 
+    if row['mes'] in range(1,4):
+        return str(row['ano']) + '.I'
+    elif row['mes'] in range(4,7):
+        return str(row['ano']) + '.II'
+    elif row['mes'] in range(7,10):
+        return str(row['ano']) + '.III'
+    elif row['mes'] in range(10,13):
+        return str(row['ano']) + '.IV'
+    else:
+        return ''
+    
+def col_trimestre1(data1):
+    data1['trimestre'] = data1.apply(define_trimestre, axis=1)
+    return data1
+
+
