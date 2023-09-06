@@ -14,7 +14,13 @@ raw= {
     },
     'ipca_nucleo': {
         'path': 'dados/ipca/raw/ipca_nucelo.csv'
-    }
+    },
+    'pib_volume_trimestral' : {
+        'path' : 'dados/pib/raw/pib_volume_trimestral.csv'
+    },
+    'db_trimestre_sazional' : {
+        'path' : 'dados/pib/raw/db_trimestre_sazional.csv'
+    },
 } 
 
 
@@ -88,5 +94,11 @@ silver= {
     },     
     'juntos' : {
         'save_path' : 'dados/ipca/silver/juntos.csv' 
-    },              
+    }, 
+    'data' : {
+        'save_path' : 'dados/pib/silver/data.csv' 
+    }, 
+    'data1' : {
+        'save_path' : 'dados/pib/silver/data1.csv' 
+    }, 
 }                  

@@ -62,6 +62,34 @@ def ipca_nucleo():
     , start = '2000-01-01')
     return ipca_nucleo
 
+# PIB 
+def pib_volume_trimestral():
+    pib_volume_trimestral = sidra.get_table(
+                table_code = 1620,
+                territorial_level = "1",
+                ibge_territorial_code = "all",
+                variable = 583,
+                classifications = {
+                    "11255": "90687,90691,90696,90707,93404,93405,93406,93407,93408"
+                    },
+                period = "all"
+                )
+    return pib_volume_trimestral
+
+def db_trimestre_sazional():
+    db_trimestre_sazional = sidra.get_table(
+                table_code = 1621,
+                territorial_level = "1",
+                ibge_territorial_code = "all",
+                variable = 584,
+                classifications = {
+                    "11255": "90687,90691,90696,90707,93404,93405,93406,93407,93408"
+                    },
+                period = "all"
+                )
+    return db_trimestre_sazional
+    
+
 
     
 

@@ -30,3 +30,11 @@ def ler_csv(caminho):
     ipca_nucleo = pd.read_csv(caminho)
     return ipca_nucleo
 
+def ler_csv(caminho):
+    pib_volume_trimestral = pd.read_csv(caminho)
+    return pib_volume_trimestral
+
+def ler_csv(caminho):
+    db_trimestre_sazional = pd.read_csv(caminho)
+    return db_trimestre_sazional
+

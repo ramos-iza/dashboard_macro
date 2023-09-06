@@ -18,7 +18,15 @@ def ipca_rm (ipca_rm, path):
    
 
 def ipca_nucleo(ipca_nucleo, path): 
-   ipca_nucleo.to_csv(path)       
+   ipca_nucleo.to_csv(path)   
+   
+# Pib 
+def pib_volume_trimestral(pib_volume_trimestral, path):
+   pib_volume_trimestral.to_csv(path)  
+   
+
+def db_trimestre_sazional(db_trimestre_sazional, path):
+   db_trimestre_sazional.to_csv(path)
 
    
    
