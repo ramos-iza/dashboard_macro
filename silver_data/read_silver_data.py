@@ -38,3 +38,21 @@ def ler_csv(caminho):
     db_trimestre_sazional = pd.read_csv(caminho)
     return db_trimestre_sazional
 
+def ler_csv(caminho):
+    db_taxa_desemprego = pd.read_csv(caminho)
+    return db_taxa_desemprego
+
+
+def ler_csv(caminho):
+    db_taxa_desemprego = pd.read_csv(caminho)
+    return db_taxa_desemprego
+
+def ler_csv(caminho):
+    db_tipos_emprego = pd.read_csv(caminho)
+    return db_tipos_emprego
+
+
+def ler_csv(caminho):
+    db_desempre_sexo = pd.read_csv(caminho)
+    return db_desempre_sexo
+

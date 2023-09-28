@@ -21,6 +21,36 @@ raw= {
     'db_trimestre_sazional' : {
         'path' : 'dados/pib/raw/db_trimestre_sazional.csv'
     },
+    'db_taxa_desemprego' : {
+        'path' : 'dados/emprego/raw/db_taxa_desemprego.csv'
+    }, 
+    'db_tipos_emprego' : {
+        'path' : 'dados/emprego/raw/db_tipos_emprego.csv'
+    }, 
+    'db_grandes_regioes' : {
+        'path' : 'dados/emprego/raw/db_grandes_regioes.csv'
+    }, 
+    'db_desempre_sexo' : {
+        'path' : 'dados/emprego/raw/db_desempre_sexo.csv'
+    }, 
+    'db_pop_idade' : {
+        'path' : 'dados/emprego/raw/db_pop_idade.csv'
+    }, 
+    'rendimento_regiao' : {
+        'path' : 'dados/emprego/raw/rendimento_regiao.csv'
+    },
+    'rendimento_regiao_br' : {
+        'path' : 'dados/emprego/raw/rendimento_regiao_br.csv'
+    },
+    'dados_admissoes' : {
+        'path' : 'dados/emprego/raw/dados_admissoes.csv'
+    },
+    'dados_demissoes' : {
+        'path' : 'dados/emprego/raw/dados_demissoes.csv'
+    },
+    'dados_saldo' : {
+        'path' : 'dados/emprego/raw/dados_saldo.csv'
+    },
 } 
 
 
@@ -95,10 +125,50 @@ silver= {
     'juntos' : {
         'save_path' : 'dados/ipca/silver/juntos.csv' 
     }, 
+    'ipca_mes' : {
+        'save_path' : 'dados/ipca/silver/ipca_mes.csv' 
+    }, 
+    'ipca_acum_12m' : {
+        'save_path' : 'dados/ipca/silver/ipca_acum_12m.csv' 
+    }, 
     'data' : {
         'save_path' : 'dados/pib/silver/data.csv' 
     }, 
     'data1' : {
         'save_path' : 'dados/pib/silver/data1.csv' 
     }, 
+    'db_taxa_desemprego' : {
+        'save_path' : 'dados/emprego/silver/db_taxa_desemprego.csv' 
+    }, 
+    'var_percent_tipo_emprego' : {
+        'save_path' : 'dados/emprego/silver/var_percent_tipo_emprego.csv' 
+    }, 
+    'pivot_var_percent_tipo_empreg' : {
+        'save_path' : 'dados/emprego/silver/pivot_var_percent_tipo_empreg.csv' 
+    }, 
+    'db_grandes_regioes' : {
+        'save_path' : 'dados/emprego/silver/db_grandes_regioes.csv' 
+    }, 
+    'db_desempre_sexo' : {
+        'save_path' : 'dados/emprego/silver/db_desempre_sexo.csv' 
+    }, 
+    'merge_homem_mulher' : {
+        'save_path' : 'dados/emprego/silver/merge_homem_mulher.csv' 
+    }, 
+    'db_pop_idade' : {
+        'save_path' : 'dados/emprego/silver/db_pop_idade.csv' 
+    }, 
+    'rendimento_regiao_1' : {
+        'save_path' : 'dados/emprego/silver/rendimento_regiao_1.csv' 
+    }, 
+    'rendimento_regiao_br' : {
+        'save_path' : 'dados/emprego/silver/rendimento_regiao_br.csv' 
+    }, 
+    'rendimento_idade' : {
+        'save_path' : 'dados/emprego/silver/rendimento_idade.csv' 
+    }, 
+    'dados_caged' : {
+        'save_path' : 'dados/emprego/silver/dados_caged.csv' 
+    }, 
+
 }                  

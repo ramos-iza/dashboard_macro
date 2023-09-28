@@ -42,347 +42,356 @@
 40,2023-05-01,IPCA peso mensal,1.Alimentação e bebidas,0.16
 41,2023-06-01,IPCA peso mensal,1.Alimentação e bebidas,-0.66
 42,2023-07-01,IPCA peso mensal,1.Alimentação e bebidas,-0.46
-43,2020-01-01,IPCA peso mensal,2.Habitação,0.55
-44,2020-02-01,IPCA peso mensal,2.Habitação,-0.39
-45,2020-03-01,IPCA peso mensal,2.Habitação,0.13
-46,2020-04-01,IPCA peso mensal,2.Habitação,-0.1
-47,2020-05-01,IPCA peso mensal,2.Habitação,-0.25
-48,2020-06-01,IPCA peso mensal,2.Habitação,0.04
-49,2020-07-01,IPCA peso mensal,2.Habitação,0.8
-50,2020-08-01,IPCA peso mensal,2.Habitação,0.36
-51,2020-09-01,IPCA peso mensal,2.Habitação,0.37
-52,2020-10-01,IPCA peso mensal,2.Habitação,0.36
-53,2020-11-01,IPCA peso mensal,2.Habitação,0.44
-54,2020-12-01,IPCA peso mensal,2.Habitação,2.88
-55,2021-01-01,IPCA peso mensal,2.Habitação,-1.07
-56,2021-02-01,IPCA peso mensal,2.Habitação,0.4
-57,2021-03-01,IPCA peso mensal,2.Habitação,0.81
-58,2021-04-01,IPCA peso mensal,2.Habitação,0.22
-59,2021-05-01,IPCA peso mensal,2.Habitação,1.78
-60,2021-06-01,IPCA peso mensal,2.Habitação,1.1
-61,2021-07-01,IPCA peso mensal,2.Habitação,3.1
-62,2021-08-01,IPCA peso mensal,2.Habitação,0.68
-63,2021-09-01,IPCA peso mensal,2.Habitação,2.56
-64,2021-10-01,IPCA peso mensal,2.Habitação,1.04
-65,2021-11-01,IPCA peso mensal,2.Habitação,1.03
-66,2021-12-01,IPCA peso mensal,2.Habitação,0.74
-67,2022-01-01,IPCA peso mensal,2.Habitação,0.16
-68,2022-02-01,IPCA peso mensal,2.Habitação,0.54
-69,2022-03-01,IPCA peso mensal,2.Habitação,1.15
-70,2022-04-01,IPCA peso mensal,2.Habitação,-1.14
-71,2022-05-01,IPCA peso mensal,2.Habitação,-1.7
-72,2022-06-01,IPCA peso mensal,2.Habitação,0.41
-73,2022-07-01,IPCA peso mensal,2.Habitação,-1.05
-74,2022-08-01,IPCA peso mensal,2.Habitação,0.1
-75,2022-09-01,IPCA peso mensal,2.Habitação,0.6
-76,2022-10-01,IPCA peso mensal,2.Habitação,0.34
-77,2022-11-01,IPCA peso mensal,2.Habitação,0.51
-78,2022-12-01,IPCA peso mensal,2.Habitação,0.2
-79,2023-01-01,IPCA peso mensal,2.Habitação,0.33
-80,2023-02-01,IPCA peso mensal,2.Habitação,0.82
-81,2023-03-01,IPCA peso mensal,2.Habitação,0.57
-82,2023-04-01,IPCA peso mensal,2.Habitação,0.48
-83,2023-05-01,IPCA peso mensal,2.Habitação,0.67
-84,2023-06-01,IPCA peso mensal,2.Habitação,0.69
-85,2023-07-01,IPCA peso mensal,2.Habitação,-1.01
-86,2020-01-01,IPCA peso mensal,3.Artigos de residência,-0.07
-87,2020-02-01,IPCA peso mensal,3.Artigos de residência,-0.08
-88,2020-03-01,IPCA peso mensal,3.Artigos de residência,-1.08
-89,2020-04-01,IPCA peso mensal,3.Artigos de residência,-1.37
-90,2020-05-01,IPCA peso mensal,3.Artigos de residência,0.58
-91,2020-06-01,IPCA peso mensal,3.Artigos de residência,1.3
-92,2020-07-01,IPCA peso mensal,3.Artigos de residência,0.9
-93,2020-08-01,IPCA peso mensal,3.Artigos de residência,0.56
-94,2020-09-01,IPCA peso mensal,3.Artigos de residência,1.0
-95,2020-10-01,IPCA peso mensal,3.Artigos de residência,1.53
-96,2020-11-01,IPCA peso mensal,3.Artigos de residência,0.86
-97,2020-12-01,IPCA peso mensal,3.Artigos de residência,1.76
-98,2021-01-01,IPCA peso mensal,3.Artigos de residência,0.86
-99,2021-02-01,IPCA peso mensal,3.Artigos de residência,0.66
-100,2021-03-01,IPCA peso mensal,3.Artigos de residência,0.69
-101,2021-04-01,IPCA peso mensal,3.Artigos de residência,0.57
-102,2021-05-01,IPCA peso mensal,3.Artigos de residência,1.25
-103,2021-06-01,IPCA peso mensal,3.Artigos de residência,1.09
-104,2021-07-01,IPCA peso mensal,3.Artigos de residência,0.78
-105,2021-08-01,IPCA peso mensal,3.Artigos de residência,0.99
-106,2021-09-01,IPCA peso mensal,3.Artigos de residência,0.9
-107,2021-10-01,IPCA peso mensal,3.Artigos de residência,1.27
-108,2021-11-01,IPCA peso mensal,3.Artigos de residência,1.03
-109,2021-12-01,IPCA peso mensal,3.Artigos de residência,1.37
-110,2022-01-01,IPCA peso mensal,3.Artigos de residência,1.82
-111,2022-02-01,IPCA peso mensal,3.Artigos de residência,1.76
-112,2022-03-01,IPCA peso mensal,3.Artigos de residência,0.57
-113,2022-04-01,IPCA peso mensal,3.Artigos de residência,1.53
-114,2022-05-01,IPCA peso mensal,3.Artigos de residência,0.66
-115,2022-06-01,IPCA peso mensal,3.Artigos de residência,0.55
-116,2022-07-01,IPCA peso mensal,3.Artigos de residência,0.12
-117,2022-08-01,IPCA peso mensal,3.Artigos de residência,0.42
-118,2022-09-01,IPCA peso mensal,3.Artigos de residência,-0.13
-119,2022-10-01,IPCA peso mensal,3.Artigos de residência,0.39
-120,2022-11-01,IPCA peso mensal,3.Artigos de residência,-0.68
-121,2022-12-01,IPCA peso mensal,3.Artigos de residência,0.64
-122,2023-01-01,IPCA peso mensal,3.Artigos de residência,0.7
-123,2023-02-01,IPCA peso mensal,3.Artigos de residência,0.11
-124,2023-03-01,IPCA peso mensal,3.Artigos de residência,-0.27
-125,2023-04-01,IPCA peso mensal,3.Artigos de residência,0.17
-126,2023-05-01,IPCA peso mensal,3.Artigos de residência,-0.23
-127,2023-06-01,IPCA peso mensal,3.Artigos de residência,-0.42
-128,2023-07-01,IPCA peso mensal,3.Artigos de residência,0.04
-129,2020-01-01,IPCA peso mensal,4.Vestuário,-0.48
-130,2020-02-01,IPCA peso mensal,4.Vestuário,-0.73
-131,2020-03-01,IPCA peso mensal,4.Vestuário,0.21
-132,2020-04-01,IPCA peso mensal,4.Vestuário,0.1
-133,2020-05-01,IPCA peso mensal,4.Vestuário,-0.58
-134,2020-06-01,IPCA peso mensal,4.Vestuário,-0.46
-135,2020-07-01,IPCA peso mensal,4.Vestuário,-0.52
-136,2020-08-01,IPCA peso mensal,4.Vestuário,-0.78
-137,2020-09-01,IPCA peso mensal,4.Vestuário,0.37
-138,2020-10-01,IPCA peso mensal,4.Vestuário,1.11
-139,2020-11-01,IPCA peso mensal,4.Vestuário,0.07
-140,2020-12-01,IPCA peso mensal,4.Vestuário,0.59
-141,2021-01-01,IPCA peso mensal,4.Vestuário,-0.07
-142,2021-02-01,IPCA peso mensal,4.Vestuário,0.38
-143,2021-03-01,IPCA peso mensal,4.Vestuário,0.29
-144,2021-04-01,IPCA peso mensal,4.Vestuário,0.47
-145,2021-05-01,IPCA peso mensal,4.Vestuário,0.92
-146,2021-06-01,IPCA peso mensal,4.Vestuário,1.21
-147,2021-07-01,IPCA peso mensal,4.Vestuário,0.53
-148,2021-08-01,IPCA peso mensal,4.Vestuário,1.02
-149,2021-09-01,IPCA peso mensal,4.Vestuário,0.31
-150,2021-10-01,IPCA peso mensal,4.Vestuário,1.8
-151,2021-11-01,IPCA peso mensal,4.Vestuário,0.95
-152,2021-12-01,IPCA peso mensal,4.Vestuário,2.06
-153,2022-01-01,IPCA peso mensal,4.Vestuário,1.07
-154,2022-02-01,IPCA peso mensal,4.Vestuário,0.88
-155,2022-03-01,IPCA peso mensal,4.Vestuário,1.82
-156,2022-04-01,IPCA peso mensal,4.Vestuário,1.26
-157,2022-05-01,IPCA peso mensal,4.Vestuário,2.11
-158,2022-06-01,IPCA peso mensal,4.Vestuário,1.67
-159,2022-07-01,IPCA peso mensal,4.Vestuário,0.58
-160,2022-08-01,IPCA peso mensal,4.Vestuário,1.69
-161,2022-09-01,IPCA peso mensal,4.Vestuário,1.77
-162,2022-10-01,IPCA peso mensal,4.Vestuário,1.22
-163,2022-11-01,IPCA peso mensal,4.Vestuário,1.1
-164,2022-12-01,IPCA peso mensal,4.Vestuário,1.52
-165,2023-01-01,IPCA peso mensal,4.Vestuário,-0.27
-166,2023-02-01,IPCA peso mensal,4.Vestuário,-0.24
-167,2023-03-01,IPCA peso mensal,4.Vestuário,0.31
-168,2023-04-01,IPCA peso mensal,4.Vestuário,0.79
-169,2023-05-01,IPCA peso mensal,4.Vestuário,0.47
-170,2023-06-01,IPCA peso mensal,4.Vestuário,0.35
-171,2023-07-01,IPCA peso mensal,4.Vestuário,-0.24
-172,2020-01-01,IPCA peso mensal,5.Transportes,0.32
-173,2020-02-01,IPCA peso mensal,5.Transportes,-0.23
-174,2020-03-01,IPCA peso mensal,5.Transportes,-0.9
-175,2020-04-01,IPCA peso mensal,5.Transportes,-2.66
-176,2020-05-01,IPCA peso mensal,5.Transportes,-1.9
-177,2020-06-01,IPCA peso mensal,5.Transportes,0.31
-178,2020-07-01,IPCA peso mensal,5.Transportes,0.78
-179,2020-08-01,IPCA peso mensal,5.Transportes,0.82
-180,2020-09-01,IPCA peso mensal,5.Transportes,0.7
-181,2020-10-01,IPCA peso mensal,5.Transportes,1.19
-182,2020-11-01,IPCA peso mensal,5.Transportes,1.33
-183,2020-12-01,IPCA peso mensal,5.Transportes,1.36
-184,2021-01-01,IPCA peso mensal,5.Transportes,0.41
-185,2021-02-01,IPCA peso mensal,5.Transportes,2.28
-186,2021-03-01,IPCA peso mensal,5.Transportes,3.81
-187,2021-04-01,IPCA peso mensal,5.Transportes,-0.08
-188,2021-05-01,IPCA peso mensal,5.Transportes,1.15
-189,2021-06-01,IPCA peso mensal,5.Transportes,0.41
-190,2021-07-01,IPCA peso mensal,5.Transportes,1.52
-191,2021-08-01,IPCA peso mensal,5.Transportes,1.46
-192,2021-09-01,IPCA peso mensal,5.Transportes,1.82
-193,2021-10-01,IPCA peso mensal,5.Transportes,2.62
-194,2021-11-01,IPCA peso mensal,5.Transportes,3.35
-195,2021-12-01,IPCA peso mensal,5.Transportes,0.58
-196,2022-01-01,IPCA peso mensal,5.Transportes,-0.11
-197,2022-02-01,IPCA peso mensal,5.Transportes,0.46
-198,2022-03-01,IPCA peso mensal,5.Transportes,3.02
-199,2022-04-01,IPCA peso mensal,5.Transportes,1.91
-200,2022-05-01,IPCA peso mensal,5.Transportes,1.34
-201,2022-06-01,IPCA peso mensal,5.Transportes,0.57
-202,2022-07-01,IPCA peso mensal,5.Transportes,-4.51
-203,2022-08-01,IPCA peso mensal,5.Transportes,-3.37
-204,2022-09-01,IPCA peso mensal,5.Transportes,-1.98
-205,2022-10-01,IPCA peso mensal,5.Transportes,0.58
-206,2022-11-01,IPCA peso mensal,5.Transportes,0.83
-207,2022-12-01,IPCA peso mensal,5.Transportes,0.21
-208,2023-01-01,IPCA peso mensal,5.Transportes,0.55
-209,2023-02-01,IPCA peso mensal,5.Transportes,0.37
-210,2023-03-01,IPCA peso mensal,5.Transportes,2.11
-211,2023-04-01,IPCA peso mensal,5.Transportes,0.56
-212,2023-05-01,IPCA peso mensal,5.Transportes,-0.57
-213,2023-06-01,IPCA peso mensal,5.Transportes,-0.41
-214,2023-07-01,IPCA peso mensal,5.Transportes,1.5
-215,2020-01-01,IPCA peso mensal,6.Saúde e cuidados pessoais,-0.32
-216,2020-02-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.73
-217,2020-03-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.21
-218,2020-04-01,IPCA peso mensal,6.Saúde e cuidados pessoais,-0.22
-219,2020-05-01,IPCA peso mensal,6.Saúde e cuidados pessoais,-0.1
-220,2020-06-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.35
-221,2020-07-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.44
-222,2020-08-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.5
-223,2020-09-01,IPCA peso mensal,6.Saúde e cuidados pessoais,-0.64
-224,2020-10-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.28
-225,2020-11-01,IPCA peso mensal,6.Saúde e cuidados pessoais,-0.13
-226,2020-12-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.4
-227,2021-01-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.32
-228,2021-02-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.62
-229,2021-03-01,IPCA peso mensal,6.Saúde e cuidados pessoais,-0.02
-230,2021-04-01,IPCA peso mensal,6.Saúde e cuidados pessoais,1.19
-231,2021-05-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.76
-232,2021-06-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.51
-233,2021-07-01,IPCA peso mensal,6.Saúde e cuidados pessoais,-0.65
-234,2021-08-01,IPCA peso mensal,6.Saúde e cuidados pessoais,-0.04
-235,2021-09-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.39
-236,2021-10-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.39
-237,2021-11-01,IPCA peso mensal,6.Saúde e cuidados pessoais,-0.57
-238,2021-12-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.75
-239,2022-01-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.36
-240,2022-02-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.47
-241,2022-03-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.88
-242,2022-04-01,IPCA peso mensal,6.Saúde e cuidados pessoais,1.77
-243,2022-05-01,IPCA peso mensal,6.Saúde e cuidados pessoais,1.01
-244,2022-06-01,IPCA peso mensal,6.Saúde e cuidados pessoais,1.24
-245,2022-07-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.49
-246,2022-08-01,IPCA peso mensal,6.Saúde e cuidados pessoais,1.31
-247,2022-09-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.57
-248,2022-10-01,IPCA peso mensal,6.Saúde e cuidados pessoais,1.16
-249,2022-11-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.02
-250,2022-12-01,IPCA peso mensal,6.Saúde e cuidados pessoais,1.6
-251,2023-01-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.16
-252,2023-02-01,IPCA peso mensal,6.Saúde e cuidados pessoais,1.26
-253,2023-03-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.82
-254,2023-04-01,IPCA peso mensal,6.Saúde e cuidados pessoais,1.49
-255,2023-05-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.93
-256,2023-06-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.11
-257,2023-07-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.26
-258,2020-01-01,IPCA peso mensal,7.Despesas pessoais,0.35
-259,2020-02-01,IPCA peso mensal,7.Despesas pessoais,0.31
-260,2020-03-01,IPCA peso mensal,7.Despesas pessoais,-0.23
-261,2020-04-01,IPCA peso mensal,7.Despesas pessoais,-0.14
-262,2020-05-01,IPCA peso mensal,7.Despesas pessoais,-0.04
-263,2020-06-01,IPCA peso mensal,7.Despesas pessoais,-0.05
-264,2020-07-01,IPCA peso mensal,7.Despesas pessoais,-0.11
-265,2020-08-01,IPCA peso mensal,7.Despesas pessoais,-0.01
-266,2020-09-01,IPCA peso mensal,7.Despesas pessoais,0.09
-267,2020-10-01,IPCA peso mensal,7.Despesas pessoais,0.19
-268,2020-11-01,IPCA peso mensal,7.Despesas pessoais,0.01
-269,2020-12-01,IPCA peso mensal,7.Despesas pessoais,0.65
-270,2021-01-01,IPCA peso mensal,7.Despesas pessoais,0.39
-271,2021-02-01,IPCA peso mensal,7.Despesas pessoais,0.17
-272,2021-03-01,IPCA peso mensal,7.Despesas pessoais,0.04
-273,2021-04-01,IPCA peso mensal,7.Despesas pessoais,0.01
-274,2021-05-01,IPCA peso mensal,7.Despesas pessoais,0.21
-275,2021-06-01,IPCA peso mensal,7.Despesas pessoais,0.29
-276,2021-07-01,IPCA peso mensal,7.Despesas pessoais,0.45
-277,2021-08-01,IPCA peso mensal,7.Despesas pessoais,0.64
-278,2021-09-01,IPCA peso mensal,7.Despesas pessoais,0.56
-279,2021-10-01,IPCA peso mensal,7.Despesas pessoais,0.75
-280,2021-11-01,IPCA peso mensal,7.Despesas pessoais,0.57
-281,2021-12-01,IPCA peso mensal,7.Despesas pessoais,0.56
-282,2022-01-01,IPCA peso mensal,7.Despesas pessoais,0.78
-283,2022-02-01,IPCA peso mensal,7.Despesas pessoais,0.64
-284,2022-03-01,IPCA peso mensal,7.Despesas pessoais,0.59
-285,2022-04-01,IPCA peso mensal,7.Despesas pessoais,0.48
-286,2022-05-01,IPCA peso mensal,7.Despesas pessoais,0.52
-287,2022-06-01,IPCA peso mensal,7.Despesas pessoais,0.49
-288,2022-07-01,IPCA peso mensal,7.Despesas pessoais,1.13
-289,2022-08-01,IPCA peso mensal,7.Despesas pessoais,0.54
-290,2022-09-01,IPCA peso mensal,7.Despesas pessoais,0.95
-291,2022-10-01,IPCA peso mensal,7.Despesas pessoais,0.57
-292,2022-11-01,IPCA peso mensal,7.Despesas pessoais,0.21
-293,2022-12-01,IPCA peso mensal,7.Despesas pessoais,0.62
-294,2023-01-01,IPCA peso mensal,7.Despesas pessoais,0.76
-295,2023-02-01,IPCA peso mensal,7.Despesas pessoais,0.44
-296,2023-03-01,IPCA peso mensal,7.Despesas pessoais,0.38
-297,2023-04-01,IPCA peso mensal,7.Despesas pessoais,0.18
-298,2023-05-01,IPCA peso mensal,7.Despesas pessoais,0.64
-299,2023-06-01,IPCA peso mensal,7.Despesas pessoais,0.36
-300,2023-07-01,IPCA peso mensal,7.Despesas pessoais,0.38
-301,2020-01-01,IPCA peso mensal,8.Educação,0.16
-302,2020-02-01,IPCA peso mensal,8.Educação,3.7
-303,2020-03-01,IPCA peso mensal,8.Educação,0.59
-304,2020-04-01,IPCA peso mensal,8.Educação,0.0
-305,2020-05-01,IPCA peso mensal,8.Educação,0.02
-306,2020-06-01,IPCA peso mensal,8.Educação,0.05
-307,2020-07-01,IPCA peso mensal,8.Educação,-0.12
-308,2020-08-01,IPCA peso mensal,8.Educação,-3.47
-309,2020-09-01,IPCA peso mensal,8.Educação,-0.09
-310,2020-10-01,IPCA peso mensal,8.Educação,-0.04
-311,2020-11-01,IPCA peso mensal,8.Educação,-0.02
-312,2020-12-01,IPCA peso mensal,8.Educação,0.48
-313,2021-01-01,IPCA peso mensal,8.Educação,0.13
-314,2021-02-01,IPCA peso mensal,8.Educação,2.48
-315,2021-03-01,IPCA peso mensal,8.Educação,-0.52
-316,2021-04-01,IPCA peso mensal,8.Educação,0.04
-317,2021-05-01,IPCA peso mensal,8.Educação,0.06
-318,2021-06-01,IPCA peso mensal,8.Educação,0.05
-319,2021-07-01,IPCA peso mensal,8.Educação,0.18
-320,2021-08-01,IPCA peso mensal,8.Educação,0.28
-321,2021-09-01,IPCA peso mensal,8.Educação,-0.01
-322,2021-10-01,IPCA peso mensal,8.Educação,0.06
-323,2021-11-01,IPCA peso mensal,8.Educação,0.02
-324,2021-12-01,IPCA peso mensal,8.Educação,0.05
-325,2022-01-01,IPCA peso mensal,8.Educação,0.25
-326,2022-02-01,IPCA peso mensal,8.Educação,5.61
-327,2022-03-01,IPCA peso mensal,8.Educação,0.15
-328,2022-04-01,IPCA peso mensal,8.Educação,0.06
-329,2022-05-01,IPCA peso mensal,8.Educação,0.04
-330,2022-06-01,IPCA peso mensal,8.Educação,0.09
-331,2022-07-01,IPCA peso mensal,8.Educação,0.06
-332,2022-08-01,IPCA peso mensal,8.Educação,0.61
-333,2022-09-01,IPCA peso mensal,8.Educação,0.12
-334,2022-10-01,IPCA peso mensal,8.Educação,0.18
-335,2022-11-01,IPCA peso mensal,8.Educação,0.02
-336,2022-12-01,IPCA peso mensal,8.Educação,0.19
-337,2023-01-01,IPCA peso mensal,8.Educação,0.36
-338,2023-02-01,IPCA peso mensal,8.Educação,6.28
-339,2023-03-01,IPCA peso mensal,8.Educação,0.1
-340,2023-04-01,IPCA peso mensal,8.Educação,0.09
-341,2023-05-01,IPCA peso mensal,8.Educação,0.05
-342,2023-06-01,IPCA peso mensal,8.Educação,0.06
-343,2023-07-01,IPCA peso mensal,8.Educação,0.13
-344,2020-01-01,IPCA peso mensal,9.Comunicação,0.12
-345,2020-02-01,IPCA peso mensal,9.Comunicação,0.21
-346,2020-03-01,IPCA peso mensal,9.Comunicação,0.04
-347,2020-04-01,IPCA peso mensal,9.Comunicação,-0.2
-348,2020-05-01,IPCA peso mensal,9.Comunicação,0.24
-349,2020-06-01,IPCA peso mensal,9.Comunicação,0.75
-350,2020-07-01,IPCA peso mensal,9.Comunicação,0.51
-351,2020-08-01,IPCA peso mensal,9.Comunicação,0.67
-352,2020-09-01,IPCA peso mensal,9.Comunicação,0.15
-353,2020-10-01,IPCA peso mensal,9.Comunicação,0.21
-354,2020-11-01,IPCA peso mensal,9.Comunicação,0.29
-355,2020-12-01,IPCA peso mensal,9.Comunicação,0.39
-356,2021-01-01,IPCA peso mensal,9.Comunicação,0.02
-357,2021-02-01,IPCA peso mensal,9.Comunicação,-0.13
-358,2021-03-01,IPCA peso mensal,9.Comunicação,-0.07
-359,2021-04-01,IPCA peso mensal,9.Comunicação,0.08
-360,2021-05-01,IPCA peso mensal,9.Comunicação,0.21
-361,2021-06-01,IPCA peso mensal,9.Comunicação,-0.12
-362,2021-07-01,IPCA peso mensal,9.Comunicação,0.12
-363,2021-08-01,IPCA peso mensal,9.Comunicação,0.23
-364,2021-09-01,IPCA peso mensal,9.Comunicação,0.07
-365,2021-10-01,IPCA peso mensal,9.Comunicação,0.54
-366,2021-11-01,IPCA peso mensal,9.Comunicação,0.09
-367,2021-12-01,IPCA peso mensal,9.Comunicação,0.34
-368,2022-01-01,IPCA peso mensal,9.Comunicação,1.05
-369,2022-02-01,IPCA peso mensal,9.Comunicação,0.29
-370,2022-03-01,IPCA peso mensal,9.Comunicação,-0.05
-371,2022-04-01,IPCA peso mensal,9.Comunicação,0.08
-372,2022-05-01,IPCA peso mensal,9.Comunicação,0.72
-373,2022-06-01,IPCA peso mensal,9.Comunicação,0.16
-374,2022-07-01,IPCA peso mensal,9.Comunicação,0.07
-375,2022-08-01,IPCA peso mensal,9.Comunicação,-1.1
-376,2022-09-01,IPCA peso mensal,9.Comunicação,-2.08
-377,2022-10-01,IPCA peso mensal,9.Comunicação,-0.48
-378,2022-11-01,IPCA peso mensal,9.Comunicação,-0.14
-379,2022-12-01,IPCA peso mensal,9.Comunicação,0.5
-380,2023-01-01,IPCA peso mensal,9.Comunicação,2.09
-381,2023-02-01,IPCA peso mensal,9.Comunicação,0.98
-382,2023-03-01,IPCA peso mensal,9.Comunicação,0.5
-383,2023-04-01,IPCA peso mensal,9.Comunicação,0.08
-384,2023-05-01,IPCA peso mensal,9.Comunicação,0.21
-385,2023-06-01,IPCA peso mensal,9.Comunicação,-0.14
-386,2023-07-01,IPCA peso mensal,9.Comunicação,0.0
+43,2023-08-01,IPCA peso mensal,1.Alimentação e bebidas,-0.85
+44,2020-01-01,IPCA peso mensal,2.Habitação,0.55
+45,2020-02-01,IPCA peso mensal,2.Habitação,-0.39
+46,2020-03-01,IPCA peso mensal,2.Habitação,0.13
+47,2020-04-01,IPCA peso mensal,2.Habitação,-0.1
+48,2020-05-01,IPCA peso mensal,2.Habitação,-0.25
+49,2020-06-01,IPCA peso mensal,2.Habitação,0.04
+50,2020-07-01,IPCA peso mensal,2.Habitação,0.8
+51,2020-08-01,IPCA peso mensal,2.Habitação,0.36
+52,2020-09-01,IPCA peso mensal,2.Habitação,0.37
+53,2020-10-01,IPCA peso mensal,2.Habitação,0.36
+54,2020-11-01,IPCA peso mensal,2.Habitação,0.44
+55,2020-12-01,IPCA peso mensal,2.Habitação,2.88
+56,2021-01-01,IPCA peso mensal,2.Habitação,-1.07
+57,2021-02-01,IPCA peso mensal,2.Habitação,0.4
+58,2021-03-01,IPCA peso mensal,2.Habitação,0.81
+59,2021-04-01,IPCA peso mensal,2.Habitação,0.22
+60,2021-05-01,IPCA peso mensal,2.Habitação,1.78
+61,2021-06-01,IPCA peso mensal,2.Habitação,1.1
+62,2021-07-01,IPCA peso mensal,2.Habitação,3.1
+63,2021-08-01,IPCA peso mensal,2.Habitação,0.68
+64,2021-09-01,IPCA peso mensal,2.Habitação,2.56
+65,2021-10-01,IPCA peso mensal,2.Habitação,1.04
+66,2021-11-01,IPCA peso mensal,2.Habitação,1.03
+67,2021-12-01,IPCA peso mensal,2.Habitação,0.74
+68,2022-01-01,IPCA peso mensal,2.Habitação,0.16
+69,2022-02-01,IPCA peso mensal,2.Habitação,0.54
+70,2022-03-01,IPCA peso mensal,2.Habitação,1.15
+71,2022-04-01,IPCA peso mensal,2.Habitação,-1.14
+72,2022-05-01,IPCA peso mensal,2.Habitação,-1.7
+73,2022-06-01,IPCA peso mensal,2.Habitação,0.41
+74,2022-07-01,IPCA peso mensal,2.Habitação,-1.05
+75,2022-08-01,IPCA peso mensal,2.Habitação,0.1
+76,2022-09-01,IPCA peso mensal,2.Habitação,0.6
+77,2022-10-01,IPCA peso mensal,2.Habitação,0.34
+78,2022-11-01,IPCA peso mensal,2.Habitação,0.51
+79,2022-12-01,IPCA peso mensal,2.Habitação,0.2
+80,2023-01-01,IPCA peso mensal,2.Habitação,0.33
+81,2023-02-01,IPCA peso mensal,2.Habitação,0.82
+82,2023-03-01,IPCA peso mensal,2.Habitação,0.57
+83,2023-04-01,IPCA peso mensal,2.Habitação,0.48
+84,2023-05-01,IPCA peso mensal,2.Habitação,0.67
+85,2023-06-01,IPCA peso mensal,2.Habitação,0.69
+86,2023-07-01,IPCA peso mensal,2.Habitação,-1.01
+87,2023-08-01,IPCA peso mensal,2.Habitação,1.11
+88,2020-01-01,IPCA peso mensal,3.Artigos de residência,-0.07
+89,2020-02-01,IPCA peso mensal,3.Artigos de residência,-0.08
+90,2020-03-01,IPCA peso mensal,3.Artigos de residência,-1.08
+91,2020-04-01,IPCA peso mensal,3.Artigos de residência,-1.37
+92,2020-05-01,IPCA peso mensal,3.Artigos de residência,0.58
+93,2020-06-01,IPCA peso mensal,3.Artigos de residência,1.3
+94,2020-07-01,IPCA peso mensal,3.Artigos de residência,0.9
+95,2020-08-01,IPCA peso mensal,3.Artigos de residência,0.56
+96,2020-09-01,IPCA peso mensal,3.Artigos de residência,1.0
+97,2020-10-01,IPCA peso mensal,3.Artigos de residência,1.53
+98,2020-11-01,IPCA peso mensal,3.Artigos de residência,0.86
+99,2020-12-01,IPCA peso mensal,3.Artigos de residência,1.76
+100,2021-01-01,IPCA peso mensal,3.Artigos de residência,0.86
+101,2021-02-01,IPCA peso mensal,3.Artigos de residência,0.66
+102,2021-03-01,IPCA peso mensal,3.Artigos de residência,0.69
+103,2021-04-01,IPCA peso mensal,3.Artigos de residência,0.57
+104,2021-05-01,IPCA peso mensal,3.Artigos de residência,1.25
+105,2021-06-01,IPCA peso mensal,3.Artigos de residência,1.09
+106,2021-07-01,IPCA peso mensal,3.Artigos de residência,0.78
+107,2021-08-01,IPCA peso mensal,3.Artigos de residência,0.99
+108,2021-09-01,IPCA peso mensal,3.Artigos de residência,0.9
+109,2021-10-01,IPCA peso mensal,3.Artigos de residência,1.27
+110,2021-11-01,IPCA peso mensal,3.Artigos de residência,1.03
+111,2021-12-01,IPCA peso mensal,3.Artigos de residência,1.37
+112,2022-01-01,IPCA peso mensal,3.Artigos de residência,1.82
+113,2022-02-01,IPCA peso mensal,3.Artigos de residência,1.76
+114,2022-03-01,IPCA peso mensal,3.Artigos de residência,0.57
+115,2022-04-01,IPCA peso mensal,3.Artigos de residência,1.53
+116,2022-05-01,IPCA peso mensal,3.Artigos de residência,0.66
+117,2022-06-01,IPCA peso mensal,3.Artigos de residência,0.55
+118,2022-07-01,IPCA peso mensal,3.Artigos de residência,0.12
+119,2022-08-01,IPCA peso mensal,3.Artigos de residência,0.42
+120,2022-09-01,IPCA peso mensal,3.Artigos de residência,-0.13
+121,2022-10-01,IPCA peso mensal,3.Artigos de residência,0.39
+122,2022-11-01,IPCA peso mensal,3.Artigos de residência,-0.68
+123,2022-12-01,IPCA peso mensal,3.Artigos de residência,0.64
+124,2023-01-01,IPCA peso mensal,3.Artigos de residência,0.7
+125,2023-02-01,IPCA peso mensal,3.Artigos de residência,0.11
+126,2023-03-01,IPCA peso mensal,3.Artigos de residência,-0.27
+127,2023-04-01,IPCA peso mensal,3.Artigos de residência,0.17
+128,2023-05-01,IPCA peso mensal,3.Artigos de residência,-0.23
+129,2023-06-01,IPCA peso mensal,3.Artigos de residência,-0.42
+130,2023-07-01,IPCA peso mensal,3.Artigos de residência,0.04
+131,2023-08-01,IPCA peso mensal,3.Artigos de residência,-0.04
+132,2020-01-01,IPCA peso mensal,4.Vestuário,-0.48
+133,2020-02-01,IPCA peso mensal,4.Vestuário,-0.73
+134,2020-03-01,IPCA peso mensal,4.Vestuário,0.21
+135,2020-04-01,IPCA peso mensal,4.Vestuário,0.1
+136,2020-05-01,IPCA peso mensal,4.Vestuário,-0.58
+137,2020-06-01,IPCA peso mensal,4.Vestuário,-0.46
+138,2020-07-01,IPCA peso mensal,4.Vestuário,-0.52
+139,2020-08-01,IPCA peso mensal,4.Vestuário,-0.78
+140,2020-09-01,IPCA peso mensal,4.Vestuário,0.37
+141,2020-10-01,IPCA peso mensal,4.Vestuário,1.11
+142,2020-11-01,IPCA peso mensal,4.Vestuário,0.07
+143,2020-12-01,IPCA peso mensal,4.Vestuário,0.59
+144,2021-01-01,IPCA peso mensal,4.Vestuário,-0.07
+145,2021-02-01,IPCA peso mensal,4.Vestuário,0.38
+146,2021-03-01,IPCA peso mensal,4.Vestuário,0.29
+147,2021-04-01,IPCA peso mensal,4.Vestuário,0.47
+148,2021-05-01,IPCA peso mensal,4.Vestuário,0.92
+149,2021-06-01,IPCA peso mensal,4.Vestuário,1.21
+150,2021-07-01,IPCA peso mensal,4.Vestuário,0.53
+151,2021-08-01,IPCA peso mensal,4.Vestuário,1.02
+152,2021-09-01,IPCA peso mensal,4.Vestuário,0.31
+153,2021-10-01,IPCA peso mensal,4.Vestuário,1.8
+154,2021-11-01,IPCA peso mensal,4.Vestuário,0.95
+155,2021-12-01,IPCA peso mensal,4.Vestuário,2.06
+156,2022-01-01,IPCA peso mensal,4.Vestuário,1.07
+157,2022-02-01,IPCA peso mensal,4.Vestuário,0.88
+158,2022-03-01,IPCA peso mensal,4.Vestuário,1.82
+159,2022-04-01,IPCA peso mensal,4.Vestuário,1.26
+160,2022-05-01,IPCA peso mensal,4.Vestuário,2.11
+161,2022-06-01,IPCA peso mensal,4.Vestuário,1.67
+162,2022-07-01,IPCA peso mensal,4.Vestuário,0.58
+163,2022-08-01,IPCA peso mensal,4.Vestuário,1.69
+164,2022-09-01,IPCA peso mensal,4.Vestuário,1.77
+165,2022-10-01,IPCA peso mensal,4.Vestuário,1.22
+166,2022-11-01,IPCA peso mensal,4.Vestuário,1.1
+167,2022-12-01,IPCA peso mensal,4.Vestuário,1.52
+168,2023-01-01,IPCA peso mensal,4.Vestuário,-0.27
+169,2023-02-01,IPCA peso mensal,4.Vestuário,-0.24
+170,2023-03-01,IPCA peso mensal,4.Vestuário,0.31
+171,2023-04-01,IPCA peso mensal,4.Vestuário,0.79
+172,2023-05-01,IPCA peso mensal,4.Vestuário,0.47
+173,2023-06-01,IPCA peso mensal,4.Vestuário,0.35
+174,2023-07-01,IPCA peso mensal,4.Vestuário,-0.24
+175,2023-08-01,IPCA peso mensal,4.Vestuário,0.54
+176,2020-01-01,IPCA peso mensal,5.Transportes,0.32
+177,2020-02-01,IPCA peso mensal,5.Transportes,-0.23
+178,2020-03-01,IPCA peso mensal,5.Transportes,-0.9
+179,2020-04-01,IPCA peso mensal,5.Transportes,-2.66
+180,2020-05-01,IPCA peso mensal,5.Transportes,-1.9
+181,2020-06-01,IPCA peso mensal,5.Transportes,0.31
+182,2020-07-01,IPCA peso mensal,5.Transportes,0.78
+183,2020-08-01,IPCA peso mensal,5.Transportes,0.82
+184,2020-09-01,IPCA peso mensal,5.Transportes,0.7
+185,2020-10-01,IPCA peso mensal,5.Transportes,1.19
+186,2020-11-01,IPCA peso mensal,5.Transportes,1.33
+187,2020-12-01,IPCA peso mensal,5.Transportes,1.36
+188,2021-01-01,IPCA peso mensal,5.Transportes,0.41
+189,2021-02-01,IPCA peso mensal,5.Transportes,2.28
+190,2021-03-01,IPCA peso mensal,5.Transportes,3.81
+191,2021-04-01,IPCA peso mensal,5.Transportes,-0.08
+192,2021-05-01,IPCA peso mensal,5.Transportes,1.15
+193,2021-06-01,IPCA peso mensal,5.Transportes,0.41
+194,2021-07-01,IPCA peso mensal,5.Transportes,1.52
+195,2021-08-01,IPCA peso mensal,5.Transportes,1.46
+196,2021-09-01,IPCA peso mensal,5.Transportes,1.82
+197,2021-10-01,IPCA peso mensal,5.Transportes,2.62
+198,2021-11-01,IPCA peso mensal,5.Transportes,3.35
+199,2021-12-01,IPCA peso mensal,5.Transportes,0.58
+200,2022-01-01,IPCA peso mensal,5.Transportes,-0.11
+201,2022-02-01,IPCA peso mensal,5.Transportes,0.46
+202,2022-03-01,IPCA peso mensal,5.Transportes,3.02
+203,2022-04-01,IPCA peso mensal,5.Transportes,1.91
+204,2022-05-01,IPCA peso mensal,5.Transportes,1.34
+205,2022-06-01,IPCA peso mensal,5.Transportes,0.57
+206,2022-07-01,IPCA peso mensal,5.Transportes,-4.51
+207,2022-08-01,IPCA peso mensal,5.Transportes,-3.37
+208,2022-09-01,IPCA peso mensal,5.Transportes,-1.98
+209,2022-10-01,IPCA peso mensal,5.Transportes,0.58
+210,2022-11-01,IPCA peso mensal,5.Transportes,0.83
+211,2022-12-01,IPCA peso mensal,5.Transportes,0.21
+212,2023-01-01,IPCA peso mensal,5.Transportes,0.55
+213,2023-02-01,IPCA peso mensal,5.Transportes,0.37
+214,2023-03-01,IPCA peso mensal,5.Transportes,2.11
+215,2023-04-01,IPCA peso mensal,5.Transportes,0.56
+216,2023-05-01,IPCA peso mensal,5.Transportes,-0.57
+217,2023-06-01,IPCA peso mensal,5.Transportes,-0.41
+218,2023-07-01,IPCA peso mensal,5.Transportes,1.5
+219,2023-08-01,IPCA peso mensal,5.Transportes,0.34
+220,2020-01-01,IPCA peso mensal,6.Saúde e cuidados pessoais,-0.32
+221,2020-02-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.73
+222,2020-03-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.21
+223,2020-04-01,IPCA peso mensal,6.Saúde e cuidados pessoais,-0.22
+224,2020-05-01,IPCA peso mensal,6.Saúde e cuidados pessoais,-0.1
+225,2020-06-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.35
+226,2020-07-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.44
+227,2020-08-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.5
+228,2020-09-01,IPCA peso mensal,6.Saúde e cuidados pessoais,-0.64
+229,2020-10-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.28
+230,2020-11-01,IPCA peso mensal,6.Saúde e cuidados pessoais,-0.13
+231,2020-12-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.4
+232,2021-01-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.32
+233,2021-02-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.62
+234,2021-03-01,IPCA peso mensal,6.Saúde e cuidados pessoais,-0.02
+235,2021-04-01,IPCA peso mensal,6.Saúde e cuidados pessoais,1.19
+236,2021-05-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.76
+237,2021-06-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.51
+238,2021-07-01,IPCA peso mensal,6.Saúde e cuidados pessoais,-0.65
+239,2021-08-01,IPCA peso mensal,6.Saúde e cuidados pessoais,-0.04
+240,2021-09-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.39
+241,2021-10-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.39
+242,2021-11-01,IPCA peso mensal,6.Saúde e cuidados pessoais,-0.57
+243,2021-12-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.75
+244,2022-01-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.36
+245,2022-02-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.47
+246,2022-03-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.88
+247,2022-04-01,IPCA peso mensal,6.Saúde e cuidados pessoais,1.77
+248,2022-05-01,IPCA peso mensal,6.Saúde e cuidados pessoais,1.01
+249,2022-06-01,IPCA peso mensal,6.Saúde e cuidados pessoais,1.24
+250,2022-07-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.49
+251,2022-08-01,IPCA peso mensal,6.Saúde e cuidados pessoais,1.31
+252,2022-09-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.57
+253,2022-10-01,IPCA peso mensal,6.Saúde e cuidados pessoais,1.16
+254,2022-11-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.02
+255,2022-12-01,IPCA peso mensal,6.Saúde e cuidados pessoais,1.6
+256,2023-01-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.16
+257,2023-02-01,IPCA peso mensal,6.Saúde e cuidados pessoais,1.26
+258,2023-03-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.82
+259,2023-04-01,IPCA peso mensal,6.Saúde e cuidados pessoais,1.49
+260,2023-05-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.93
+261,2023-06-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.11
+262,2023-07-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.26
+263,2023-08-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.58
+264,2020-01-01,IPCA peso mensal,7.Despesas pessoais,0.35
+265,2020-02-01,IPCA peso mensal,7.Despesas pessoais,0.31
+266,2020-03-01,IPCA peso mensal,7.Despesas pessoais,-0.23
+267,2020-04-01,IPCA peso mensal,7.Despesas pessoais,-0.14
+268,2020-05-01,IPCA peso mensal,7.Despesas pessoais,-0.04
+269,2020-06-01,IPCA peso mensal,7.Despesas pessoais,-0.05
+270,2020-07-01,IPCA peso mensal,7.Despesas pessoais,-0.11
+271,2020-08-01,IPCA peso mensal,7.Despesas pessoais,-0.01
+272,2020-09-01,IPCA peso mensal,7.Despesas pessoais,0.09
+273,2020-10-01,IPCA peso mensal,7.Despesas pessoais,0.19
+274,2020-11-01,IPCA peso mensal,7.Despesas pessoais,0.01
+275,2020-12-01,IPCA peso mensal,7.Despesas pessoais,0.65
+276,2021-01-01,IPCA peso mensal,7.Despesas pessoais,0.39
+277,2021-02-01,IPCA peso mensal,7.Despesas pessoais,0.17
+278,2021-03-01,IPCA peso mensal,7.Despesas pessoais,0.04
+279,2021-04-01,IPCA peso mensal,7.Despesas pessoais,0.01
+280,2021-05-01,IPCA peso mensal,7.Despesas pessoais,0.21
+281,2021-06-01,IPCA peso mensal,7.Despesas pessoais,0.29
+282,2021-07-01,IPCA peso mensal,7.Despesas pessoais,0.45
+283,2021-08-01,IPCA peso mensal,7.Despesas pessoais,0.64
+284,2021-09-01,IPCA peso mensal,7.Despesas pessoais,0.56
+285,2021-10-01,IPCA peso mensal,7.Despesas pessoais,0.75
+286,2021-11-01,IPCA peso mensal,7.Despesas pessoais,0.57
+287,2021-12-01,IPCA peso mensal,7.Despesas pessoais,0.56
+288,2022-01-01,IPCA peso mensal,7.Despesas pessoais,0.78
+289,2022-02-01,IPCA peso mensal,7.Despesas pessoais,0.64
+290,2022-03-01,IPCA peso mensal,7.Despesas pessoais,0.59
+291,2022-04-01,IPCA peso mensal,7.Despesas pessoais,0.48
+292,2022-05-01,IPCA peso mensal,7.Despesas pessoais,0.52
+293,2022-06-01,IPCA peso mensal,7.Despesas pessoais,0.49
+294,2022-07-01,IPCA peso mensal,7.Despesas pessoais,1.13
+295,2022-08-01,IPCA peso mensal,7.Despesas pessoais,0.54
+296,2022-09-01,IPCA peso mensal,7.Despesas pessoais,0.95
+297,2022-10-01,IPCA peso mensal,7.Despesas pessoais,0.57
+298,2022-11-01,IPCA peso mensal,7.Despesas pessoais,0.21
+299,2022-12-01,IPCA peso mensal,7.Despesas pessoais,0.62
+300,2023-01-01,IPCA peso mensal,7.Despesas pessoais,0.76
+301,2023-02-01,IPCA peso mensal,7.Despesas pessoais,0.44
+302,2023-03-01,IPCA peso mensal,7.Despesas pessoais,0.38
+303,2023-04-01,IPCA peso mensal,7.Despesas pessoais,0.18
+304,2023-05-01,IPCA peso mensal,7.Despesas pessoais,0.64
+305,2023-06-01,IPCA peso mensal,7.Despesas pessoais,0.36
+306,2023-07-01,IPCA peso mensal,7.Despesas pessoais,0.38
+307,2023-08-01,IPCA peso mensal,7.Despesas pessoais,0.38
+308,2020-01-01,IPCA peso mensal,8.Educação,0.16
+309,2020-02-01,IPCA peso mensal,8.Educação,3.7
+310,2020-03-01,IPCA peso mensal,8.Educação,0.59
+311,2020-04-01,IPCA peso mensal,8.Educação,0.0
+312,2020-05-01,IPCA peso mensal,8.Educação,0.02
+313,2020-06-01,IPCA peso mensal,8.Educação,0.05
+314,2020-07-01,IPCA peso mensal,8.Educação,-0.12
+315,2020-08-01,IPCA peso mensal,8.Educação,-3.47
+316,2020-09-01,IPCA peso mensal,8.Educação,-0.09
+317,2020-10-01,IPCA peso mensal,8.Educação,-0.04
+318,2020-11-01,IPCA peso mensal,8.Educação,-0.02
+319,2020-12-01,IPCA peso mensal,8.Educação,0.48
+320,2021-01-01,IPCA peso mensal,8.Educação,0.13
+321,2021-02-01,IPCA peso mensal,8.Educação,2.48
+322,2021-03-01,IPCA peso mensal,8.Educação,-0.52
+323,2021-04-01,IPCA peso mensal,8.Educação,0.04
+324,2021-05-01,IPCA peso mensal,8.Educação,0.06
+325,2021-06-01,IPCA peso mensal,8.Educação,0.05
+326,2021-07-01,IPCA peso mensal,8.Educação,0.18
+327,2021-08-01,IPCA peso mensal,8.Educação,0.28
+328,2021-09-01,IPCA peso mensal,8.Educação,-0.01
+329,2021-10-01,IPCA peso mensal,8.Educação,0.06
+330,2021-11-01,IPCA peso mensal,8.Educação,0.02
+331,2021-12-01,IPCA peso mensal,8.Educação,0.05
+332,2022-01-01,IPCA peso mensal,8.Educação,0.25
+333,2022-02-01,IPCA peso mensal,8.Educação,5.61
+334,2022-03-01,IPCA peso mensal,8.Educação,0.15
+335,2022-04-01,IPCA peso mensal,8.Educação,0.06
+336,2022-05-01,IPCA peso mensal,8.Educação,0.04
+337,2022-06-01,IPCA peso mensal,8.Educação,0.09
+338,2022-07-01,IPCA peso mensal,8.Educação,0.06
+339,2022-08-01,IPCA peso mensal,8.Educação,0.61
+340,2022-09-01,IPCA peso mensal,8.Educação,0.12
+341,2022-10-01,IPCA peso mensal,8.Educação,0.18
+342,2022-11-01,IPCA peso mensal,8.Educação,0.02
+343,2022-12-01,IPCA peso mensal,8.Educação,0.19
+344,2023-01-01,IPCA peso mensal,8.Educação,0.36
+345,2023-02-01,IPCA peso mensal,8.Educação,6.28
+346,2023-03-01,IPCA peso mensal,8.Educação,0.1
+347,2023-04-01,IPCA peso mensal,8.Educação,0.09
+348,2023-05-01,IPCA peso mensal,8.Educação,0.05
+349,2023-06-01,IPCA peso mensal,8.Educação,0.06
+350,2023-07-01,IPCA peso mensal,8.Educação,0.13
+351,2023-08-01,IPCA peso mensal,8.Educação,0.69
+352,2020-01-01,IPCA peso mensal,9.Comunicação,0.12
+353,2020-02-01,IPCA peso mensal,9.Comunicação,0.21
+354,2020-03-01,IPCA peso mensal,9.Comunicação,0.04
+355,2020-04-01,IPCA peso mensal,9.Comunicação,-0.2
+356,2020-05-01,IPCA peso mensal,9.Comunicação,0.24
+357,2020-06-01,IPCA peso mensal,9.Comunicação,0.75
+358,2020-07-01,IPCA peso mensal,9.Comunicação,0.51
+359,2020-08-01,IPCA peso mensal,9.Comunicação,0.67
+360,2020-09-01,IPCA peso mensal,9.Comunicação,0.15
+361,2020-10-01,IPCA peso mensal,9.Comunicação,0.21
+362,2020-11-01,IPCA peso mensal,9.Comunicação,0.29
+363,2020-12-01,IPCA peso mensal,9.Comunicação,0.39
+364,2021-01-01,IPCA peso mensal,9.Comunicação,0.02
+365,2021-02-01,IPCA peso mensal,9.Comunicação,-0.13
+366,2021-03-01,IPCA peso mensal,9.Comunicação,-0.07
+367,2021-04-01,IPCA peso mensal,9.Comunicação,0.08
+368,2021-05-01,IPCA peso mensal,9.Comunicação,0.21
+369,2021-06-01,IPCA peso mensal,9.Comunicação,-0.12
+370,2021-07-01,IPCA peso mensal,9.Comunicação,0.12
+371,2021-08-01,IPCA peso mensal,9.Comunicação,0.23
+372,2021-09-01,IPCA peso mensal,9.Comunicação,0.07
+373,2021-10-01,IPCA peso mensal,9.Comunicação,0.54
+374,2021-11-01,IPCA peso mensal,9.Comunicação,0.09
+375,2021-12-01,IPCA peso mensal,9.Comunicação,0.34
+376,2022-01-01,IPCA peso mensal,9.Comunicação,1.05
+377,2022-02-01,IPCA peso mensal,9.Comunicação,0.29
+378,2022-03-01,IPCA peso mensal,9.Comunicação,-0.05
+379,2022-04-01,IPCA peso mensal,9.Comunicação,0.08
+380,2022-05-01,IPCA peso mensal,9.Comunicação,0.72
+381,2022-06-01,IPCA peso mensal,9.Comunicação,0.16
+382,2022-07-01,IPCA peso mensal,9.Comunicação,0.07
+383,2022-08-01,IPCA peso mensal,9.Comunicação,-1.1
+384,2022-09-01,IPCA peso mensal,9.Comunicação,-2.08
+385,2022-10-01,IPCA peso mensal,9.Comunicação,-0.48
+386,2022-11-01,IPCA peso mensal,9.Comunicação,-0.14
+387,2022-12-01,IPCA peso mensal,9.Comunicação,0.5
+388,2023-01-01,IPCA peso mensal,9.Comunicação,2.09
+389,2023-02-01,IPCA peso mensal,9.Comunicação,0.98
+390,2023-03-01,IPCA peso mensal,9.Comunicação,0.5
+391,2023-04-01,IPCA peso mensal,9.Comunicação,0.08
+392,2023-05-01,IPCA peso mensal,9.Comunicação,0.21
+393,2023-06-01,IPCA peso mensal,9.Comunicação,-0.14
+394,2023-07-01,IPCA peso mensal,9.Comunicação,0.0
+395,2023-08-01,IPCA peso mensal,9.Comunicação,-0.09

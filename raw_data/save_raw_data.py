@@ -29,4 +29,40 @@ def db_trimestre_sazional(db_trimestre_sazional, path):
    db_trimestre_sazional.to_csv(path)
 
    
+def db_taxa_desemprego(db_taxa_desemprego, path):
+   db_taxa_desemprego.to_csv(path) 
+   
+   
+def db_tipos_emprego(db_tipos_emprego, path):
+   db_tipos_emprego.to_csv(path) 
+   
+   
+def db_grandes_regioes(db_grandes_regioes, path):
+   db_grandes_regioes.to_csv(path) 
+   
+def db_desempre_sexo(db_desempre_sexo, path):
+   db_desempre_sexo.to_csv(path) 
+   
+   
+def db_pop_idade(db_pop_idade, path):
+   db_pop_idade.to_csv(path) 
+   
+   
+def rendimento_regiao(rendimento_regiao, path):
+   rendimento_regiao.to_csv(path) 
+   
+   
+def rendimento_regiao_br(rendimento_regiao_br, path):
+   rendimento_regiao_br.to_csv(path) 
+   
+   
+def dados_admissoes(dados_admissoes, path):
+   dados_admissoes.to_csv(path) 
+   
+def dados_demissoes(dados_demissoes, path):
+   dados_demissoes.to_csv(path) 
+
+def dados_saldo(dados_saldo, path):
+   dados_saldo.to_csv(path) 
+   
    

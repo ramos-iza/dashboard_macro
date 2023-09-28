@@ -140,63 +140,99 @@ def cal_df_geral_ipca(ipca_analise):
             lista = linhas_com_1.values.tolist()
             todas_listas.append(lista)
             alimentacao_bebidas = pd.concat([pd.DataFrame(lista) for lista in todas_listas], ignore_index=True).rename(columns = {0: 'data', 1:'variavel', 2:'alimentacao e bebida', 3:'valor'})
-            alimentacao_bebidas = alimentacao_bebidas.groupby(alimentacao_bebidas['data'].dt.strftime('%Y-%m')).mean()['valor'].to_frame().rename(columns={'valor':'alimentacao_bebidas'})
+            #alimentacao_bebidas = alimentacao_bebidas.groupby(alimentacao_bebidas['data'].dt.strftime('%Y-%m')).mean()['valor'].to_frame().rename(columns={'valor':'alimentacao_bebidas'})
+            alimentacao_bebidas = alimentacao_bebidas[alimentacao_bebidas['alimentacao e bebida'] == '1.Alimentação e bebidas']
+            alimentacao_bebidas = alimentacao_bebidas[['data', 'valor']]
+            alimentacao_bebidas = alimentacao_bebidas.rename(columns={'valor':'alimentacao_bebidas'})
+            alimentacao_bebidas = alimentacao_bebidas.set_index('data')
         if numero == 2:
             numero_str = str(numero) + '.'
             linhas_com_2 = ipca_analise.loc[ipca_analise['grupo'].str.startswith(numero_str)]
             lista = linhas_com_2.values.tolist()
             todas_listas.append(lista)
             habitacao = pd.concat([pd.DataFrame(lista) for lista in todas_listas], ignore_index=True).rename(columns = {0: 'data', 1:'variavel', 2:'habitacao', 3:'valor'})
-            habitacao = habitacao.groupby(habitacao['data'].dt.strftime('%Y-%m')).mean()['valor'].to_frame().rename(columns={'valor':'habitacao'})
+            #habitacao = habitacao.groupby(habitacao['data'].dt.strftime('%Y-%m')).mean()['valor'].to_frame().rename(columns={'valor':'habitacao'})
+            habitacao = habitacao[habitacao['habitacao'] == '2.Habitação']
+            habitacao = habitacao[['data', 'valor']]
+            habitacao = habitacao.rename(columns={'valor':'habitacao'})
+            habitacao = habitacao.set_index('data')
         if numero == 3:
             numero_str = str(numero) + '.'
             linhas_com_3 = ipca_analise.loc[ipca_analise['grupo'].str.startswith(numero_str)]
             lista = linhas_com_3.values.tolist()
             todas_listas.append(lista)
             artigos_residencia = pd.concat([pd.DataFrame(lista) for lista in todas_listas], ignore_index=True).rename(columns = {0: 'data', 1:'variavel', 2:'artigos de residencia', 3:'valor'})
-            artigos_residencia = artigos_residencia.groupby(artigos_residencia['data'].dt.strftime('%Y-%m')).mean()['valor'].to_frame().rename(columns={'valor':'artigos_residencia'})
+            #artigos_residencia = artigos_residencia.groupby(artigos_residencia['data'].dt.strftime('%Y-%m')).mean()['valor'].to_frame().rename(columns={'valor':'artigos_residencia'})
+            artigos_residencia = artigos_residencia[artigos_residencia['artigos de residencia'] == '3.Artigos de residência']
+            artigos_residencia = artigos_residencia[['data', 'valor']]
+            artigos_residencia = artigos_residencia.rename(columns={'valor':'artigos_residencia'})
+            artigos_residencia = artigos_residencia.set_index('data')
         if numero == 4:
             numero_str = str(numero) + '.'
             linhas_com_4 = ipca_analise.loc[ipca_analise['grupo'].str.startswith(numero_str)]
             lista = linhas_com_4.values.tolist()
             todas_listas.append(lista)
             vestuario = pd.concat([pd.DataFrame(lista) for lista in todas_listas], ignore_index=True).rename(columns = {0: 'data', 1:'variavel', 2:'vestuario', 3:'valor'})
-            vestuario = vestuario.groupby(vestuario['data'].dt.strftime('%Y-%m')).mean()['valor'].to_frame().rename(columns={'valor':'vestuario'})
+            #vestuario = vestuario.groupby(vestuario['data'].dt.strftime('%Y-%m')).mean()['valor'].to_frame().rename(columns={'valor':'vestuario'})
+            vestuario = vestuario[vestuario['vestuario'] == '4.Vestuário']
+            vestuario = vestuario[['data', 'valor']]
+            vestuario = vestuario.rename(columns={'valor':'vestuario'})
+            vestuario = vestuario.set_index('data')            
         if numero == 5:
             numero_str = str(numero) + '.'
             linhas_com_5 = ipca_analise.loc[ipca_analise['grupo'].str.startswith(numero_str)]
             lista = linhas_com_5.values.tolist()
             todas_listas.append(lista)
             transportes = pd.concat([pd.DataFrame(lista) for lista in todas_listas], ignore_index=True).rename(columns = {0: 'data', 1:'variavel', 2:'trasportes', 3:'valor'})
-            transportes = transportes.groupby(transportes['data'].dt.strftime('%Y-%m')).mean()['valor'].to_frame().rename(columns={'valor':'transportes'})
+            #transportes = transportes.groupby(transportes['data'].dt.strftime('%Y-%m')).mean()['valor'].to_frame().rename(columns={'valor':'transportes'})
+            transportes = transportes[transportes['trasportes'] == '5.Transportes']
+            transportes = transportes[['data', 'valor']]
+            transportes = transportes.rename(columns={'valor':'transportes'})
+            transportes = transportes.set_index('data')
         if numero == 6:
             numero_str = str(numero) + '.'
             linhas_com_6 = ipca_analise.loc[ipca_analise['grupo'].str.startswith(numero_str)]
             lista = linhas_com_6.values.tolist()
             todas_listas.append(lista)
             saude = pd.concat([pd.DataFrame(lista) for lista in todas_listas], ignore_index=True).rename(columns = {0: 'data', 1:'variavel', 2:'saude e cuidados pessoais', 3:'valor'})
-            saude = saude.groupby(saude['data'].dt.strftime('%Y-%m')).mean()['valor'].to_frame().rename(columns={'valor':'saude'})
+            #saude = saude.groupby(saude['data'].dt.strftime('%Y-%m')).mean()['valor'].to_frame().rename(columns={'valor':'saude'})
+            saude = saude[saude['saude e cuidados pessoais'] == '6.Saúde e cuidados pessoais']
+            saude = saude[['data', 'valor']]
+            saude = saude.rename(columns={'valor':'saude'})
+            saude = saude.set_index('data')
         if numero == 7:
             numero_str = str(numero) + '.'
             linhas_com_7 = ipca_analise.loc[ipca_analise['grupo'].str.startswith(numero_str)]
             lista = linhas_com_7.values.tolist()
             todas_listas.append(lista)
             despesas_pessoais = pd.concat([pd.DataFrame(lista) for lista in todas_listas], ignore_index=True).rename(columns = {0: 'data', 1:'variavel', 2:'despesas pessoais', 3:'valor'})
-            despesas_pessoais = despesas_pessoais.groupby(despesas_pessoais['data'].dt.strftime('%Y-%m')).mean()['valor'].to_frame().rename(columns={'valor':'despesas_pessoais'})
+            #despesas_pessoais = despesas_pessoais.groupby(despesas_pessoais['data'].dt.strftime('%Y-%m')).mean()['valor'].to_frame().rename(columns={'valor':'despesas_pessoais'})
+            despesas_pessoais = despesas_pessoais[despesas_pessoais['despesas pessoais'] == '7.Despesas pessoais']
+            despesas_pessoais = despesas_pessoais[['data', 'valor']]
+            despesas_pessoais = despesas_pessoais.rename(columns={'valor':'despesas_pessoais'})
+            despesas_pessoais = despesas_pessoais.set_index('data')
         if numero == 8:
             numero_str = str(numero) + '.'
             linhas_com_8 = ipca_analise.loc[ipca_analise['grupo'].str.startswith(numero_str)]
             lista = linhas_com_8.values.tolist()
             todas_listas.append(lista)
             educacao = pd.concat([pd.DataFrame(lista) for lista in todas_listas], ignore_index=True).rename(columns = {0: 'data', 1:'variavel', 2:'educacao', 3:'valor'})
-            educacao = educacao.groupby(educacao['data'].dt.strftime('%Y-%m')).mean()['valor'].to_frame().rename(columns={'valor':'educacao'})        
+            #educacao = educacao.groupby(educacao['data'].dt.strftime('%Y-%m')).mean()['valor'].to_frame().rename(columns={'valor':'educacao'})    
+            educacao = educacao[educacao['educacao'] == '8.Educação']
+            educacao = educacao[['data', 'valor']]
+            educacao = educacao.rename(columns={'valor':'educacao'})
+            educacao = educacao.set_index('data')
         if numero == 9:
             numero_str = str(numero) + '.'
             linhas_com_9 = ipca_analise.loc[ipca_analise['grupo'].str.startswith(numero_str)]
             lista = linhas_com_9.values.tolist()
             todas_listas.append(lista)
             comunicacao = pd.concat([pd.DataFrame(lista) for lista in todas_listas], ignore_index=True).rename(columns = {0: 'data', 1:'variavel', 2:'comunicacao', 3:'valor'})
-            comunicacao = comunicacao.groupby(comunicacao['data'].dt.strftime('%Y-%m')).mean()['valor'].to_frame().rename(columns={'valor':'Comunicação'})
+            #comunicacao = comunicacao.groupby(comunicacao['data'].dt.strftime('%Y-%m')).mean()['valor'].to_frame().rename(columns={'valor':'Comunicação'})
+            comunicacao = comunicacao[comunicacao['comunicacao'] == '9.Comunicação']
+            comunicacao = comunicacao[['data', 'valor']]
+            comunicacao = comunicacao.rename(columns={'valor':'comunicacao'})
+            comunicacao = comunicacao.set_index('data')
     df_geral_ipca = pd.concat([alimentacao_bebidas, habitacao, artigos_residencia, vestuario, transportes, saude, despesas_pessoais, educacao, comunicacao], axis =1)
     df_geral_ipca.columns = ['Alimentação e bebidas', 'Habitação', 'Artigos de residência', 'Vestuário', 'Transportes', 'Saúde', 'Despesas Pessoais', 'Educação', 'Comunicação']    
     return df_geral_ipca
@@ -328,6 +364,40 @@ def juntando_ipca_corrente(peso_mensal_corrente, tabela_acum_mes_corrente):
 def last_date(dados_brutos_ipca_sidra):
     ultima_data = dados_brutos_ipca_sidra.D2N.iloc[-1]
     return ultima_data
+
+# Para o primeiro gráfico - IPCA mensal e acumulado 
+def calc_ipca_mes(dados_brutos_ipca_sidra):
+    ipca_mes = dados_brutos_ipca_sidra[dados_brutos_ipca_sidra['D4N'] == 'Índice geral']
+    ipca_mes = ipca_mes[ipca_mes['D3N'] == 'IPCA - Variação mensal']
+    # Manipulando a data 
+    meses_em_portugues = {
+    'janeiro': '01',
+    'fevereiro': '02',
+    'março': '03',
+    'abril': '04',
+    'maio': '05',
+    'junho': '06',
+    'julho': '07',
+    'agosto': '08',
+    'setembro': '09',
+    'outubro': '10',
+    'novembro': '11',
+    'dezembro': '12'}
+
+    ipca_mes[['mes', 'ano']] = ipca_mes['D2N'].str.split(' ', 1, expand=True)
+    ipca_mes['mes'] = ipca_mes['mes'].map(meses_em_portugues)
+    ipca_mes['data'] = ipca_mes['ano'] + '-' + ipca_mes['mes'] + '-01'
+    ipca_mes['data'] = pd.to_datetime(ipca_mes['data'])
+    
+    return ipca_mes
+
+def calc_ipca_12m(ipca_acum_ano):
+    ipca_acum_12m = ipca_acum_ano[ipca_acum_ano['grupo'] == 'Índice geral']
+    ipca_acum_12m = ipca_acum_12m.reset_index()
+    ipca_acum_12m['data'] = pd.to_datetime(ipca_acum_12m['data'])
+    ipca_acum_12m['data_formatada'] = ipca_acum_12m['data'].dt.strftime('%B %Y')
+    return ipca_acum_12m
+    
     
 # PIB
 
@@ -514,4 +584,123 @@ def col_trimestre1(data1):
     data1['trimestre'] = data1.apply(define_trimestre, axis=1)
     return data1
 
+# Emprego 
+def transf_tx_desemprego(db_taxa_desemprego):
+    db_taxa_desemprego.columns = db_taxa_desemprego.iloc[0]
+    db_taxa_desemprego = db_taxa_desemprego[1:]
+    db_taxa_desemprego = db_taxa_desemprego[db_taxa_desemprego['Variável (Código)'] == '4099']
+    db_taxa_desemprego['Valor'] = pd.to_numeric(db_taxa_desemprego['Valor'], errors='coerce')
+    db_taxa_desemprego['Valor'] = db_taxa_desemprego['Valor'].astype(float)
+    return db_taxa_desemprego
 
+
+def trans_tipos_emprego(db_tipos_emprego):
+    db_tipos_emprego.columns = db_tipos_emprego.iloc[0]
+    db_tipos_emprego = db_tipos_emprego[1:]
+    var_percent_tipo_emprego = db_tipos_emprego[db_tipos_emprego['Variável (Código)'] == '8430']
+    var_percent_tipo_emprego['Valor'] = pd.to_numeric(var_percent_tipo_emprego['Valor'], errors='coerce')
+    var_percent_tipo_emprego['Valor'] = var_percent_tipo_emprego['Valor'].astype(float)
+    
+    mapeamento_rotulos = {
+    'Posição na ocupação e categoria do emprego no trabalho principal': 'Ocupação e Categoria',
+    'Total': 'Total',
+    'Empregado': 'Empregado',
+    'Empregado no setor privado, exclusive trabalhador doméstico': 'Empregado no setor privado, exclusive trabalhador doméstico',
+    'Empregado no setor privado, exclusive trabalhador doméstico - com carteira de trabalho assinada': 'Empregado no setor privado, exclusive trabalhador doméstico - com carteira de trabalho assinada',
+    'Empregado no setor privado, exclusive trabalhador doméstico - sem carteira de trabalho assinada': 'Empregado no setor privado, exclusive trabalhador doméstico - sem carteira de trabalho assinada',
+    'Trabalhador doméstico': 'Trabalhador Doméstico',
+    'Trabalhador doméstico - com carteira de trabalho assinada': 'Trabalhador doméstico - com carteira de trabalho assinada',
+    'Trabalhador doméstico - sem carteira de trabalho assinada': 'Trabalhador doméstico - sem carteira de trabalho assinada',
+    'Empregado no setor público': 'Empregado no Setor Público',
+    'Empregado no setor público, exclusive militar e funcionário público estatutário - com carteira de trabalho assinada': 'Empregado no setor público, exclusive militar e funcionário público estatutário - com carteira de trabalho assinada',
+    'Empregado no setor público, exclusive militar e funcionário público estatutário - sem carteira de trabalho assinada': 'Empregado no setor público, exclusive militar e funcionário público estatutário - sem carteira de trabalho assinada',
+    'Empregado no setor público - militar e funcionário público estatutário': 'Empregado no setor público - militar e funcionário público estatutário',
+    'Empregador': 'Empregador',
+    'Empregador com CNPJ': 'Empregador com CNPJ',
+    'Empregador sem CNPJ': 'Empregador sem CNPJ',
+    'Conta própria': 'Conta Própria',
+    'Conta própria com CNPJ': 'Conta Própria com CNPJ',
+    'Conta própria sem CNPJ': 'Conta Própria sem CNPJ',
+    'Trabalhador familiar auxiliar': 'Trabalhador Familiar Auxiliar'}
+    
+    var_percent_tipo_emprego['Posição na ocupação e categoria do emprego no trabalho principal'] = var_percent_tipo_emprego['Posição na ocupação e categoria do emprego no trabalho principal'].replace(mapeamento_rotulos)
+    
+    return var_percent_tipo_emprego
+
+
+def transf_var_percent_tipo_emprego(var_percent_tipo_emprego):
+    pivot_var_percent_tipo_empreg = pd.pivot_table(var_percent_tipo_emprego, index=['Trimestre Móvel (Código)', 'Trimestre Móvel'], columns='Posição na ocupação e categoria do emprego no trabalho principal', values='Valor')
+    return pivot_var_percent_tipo_empreg 
+
+
+def transf_db_grandes_regioes(db_grandes_regioes):
+    db_grandes_regioes.columns = db_grandes_regioes.iloc[0]
+    db_grandes_regioes = db_grandes_regioes[1:]
+    db_grandes_regioes['Valor'] = pd.to_numeric(db_grandes_regioes['Valor'], errors='coerce')
+    db_grandes_regioes['Valor'] = db_grandes_regioes['Valor'].astype(float)
+    return db_grandes_regioes
+
+
+def transf_db_desempre_sexo(db_desempre_sexo):
+    db_desempre_sexo.columns = db_desempre_sexo.iloc[0]
+    db_desempre_sexo = db_desempre_sexo[1:]
+    db_desempre_sexo['Valor'] = pd.to_numeric(db_desempre_sexo['Valor'], errors='coerce')
+    db_desempre_sexo['Valor'] = db_desempre_sexo['Valor'].astype(float)
+    return db_desempre_sexo
+
+# Transformacoes da diferenca entre homens e mulheres 
+def trans_diferenca(db_desempre_sexo):
+    mulher = db_desempre_sexo[db_desempre_sexo['Sexo'] == 'Mulheres']
+    mulher = mulher[['Trimestre', 'Sexo', 'Valor']]
+    homem = db_desempre_sexo[db_desempre_sexo['Sexo'] == 'Homens']
+    homem = homem[['Trimestre', 'Sexo', 'Valor']]
+    merge_homem_mulher = pd.merge(mulher, homem, on = 'Trimestre')
+    merge_homem_mulher['diferenca'] = round(((((merge_homem_mulher['Valor_x']/100)/(merge_homem_mulher['Valor_y']/100))-1)*100),2)
+    return merge_homem_mulher
+
+def transf_por_idade(db_pop_idade): 
+    db_pop_idade.columns = db_pop_idade.iloc[0]
+    db_pop_idade = db_pop_idade[1:]
+    db_pop_idade['Valor'] = pd.to_numeric(db_pop_idade['Valor'], errors='coerce')
+    db_pop_idade['Valor'] = db_pop_idade['Valor'].astype(float)
+    return db_pop_idade
+    
+def transf_rendimento_regiao(rendimento_regiao_br, rendimento_regiao):   
+    rendimento_regiao_1 = pd.concat([rendimento_regiao_br, rendimento_regiao], ignore_index=False)
+    rendimento_regiao_1.columns = rendimento_regiao_1.iloc[0]
+    rendimento_regiao_1 = rendimento_regiao_1[1:]
+    rendimento_regiao_1['Valor'] = pd.to_numeric(rendimento_regiao_1['Valor'], errors='coerce')
+    rendimento_regiao_1['Valor'] = rendimento_regiao_1['Valor'].astype(float)
+    rendimento_regiao_1 = rendimento_regiao_1[rendimento_regiao_1['Grupo de idade'] != 'Grupo de idade']
+    rendimento_regiao_1 = rendimento_regiao_1[rendimento_regiao_1['Grupo de idade'] == 'Total'].rename(columns={'Brasil':'Grandes Regiões'})
+    return rendimento_regiao_1
+
+
+def transf_rendimento_idade(rendimento_regiao_br):
+    rendimento_idade = rendimento_regiao_br
+    rendimento_idade.columns = rendimento_idade.iloc[0]
+    rendimento_idade = rendimento_idade[1:]
+    rendimento_idade['Valor'] = pd.to_numeric(rendimento_idade['Valor'], errors='coerce')
+    rendimento_idade['Valor'] = rendimento_idade['Valor'].astype(float)
+    return rendimento_idade
+
+
+def transf_dados_caged(dados_admissoes, dados_demissoes, dados_saldo):
+    dados_admissoes.set_index('DATE', inplace=True)
+    dados_demissoes.set_index('DATE', inplace=True)
+    dados_saldo.set_index('DATE', inplace=True)
+    dados_caged = (
+    pd.concat([dados_admissoes, dados_demissoes, dados_saldo])
+    .pivot(columns = 'CODE', values = 'VALUE (Pessoa)')
+    .reset_index()
+    .rename(
+        columns = {
+            'DATE' : 'data',
+            'CAGED12_ADMISN12' : 'admissoes',
+            'CAGED12_DESLIGN12' : 'demissoes',
+            'CAGED12_SALDON12' : 'saldo'
+        })
+    )
+    return dados_caged
+    
+    
