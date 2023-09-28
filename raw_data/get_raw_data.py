@@ -2,6 +2,7 @@ import pandas as pd
 from bcb import sgs 
 import sidrapy as sidra
 from bcb import Expectativas 
+import ipeadatapy as ipea
 
 
 def ipca_mensal(start_date): 
@@ -89,11 +90,102 @@ def db_trimestre_sazional():
                 )
     return db_trimestre_sazional
     
+def db_taxa_desemprego():
+    db_taxa_desemprego = sidra.get_table(table_code = 6381,
+                    territorial_level = "1",
+                    ibge_territorial_code = "all",
+                    period = "all"
+                    )
+    return db_taxa_desemprego
 
 
-    
+def db_tipos_emprego():
+    db_tipos_emprego = sidra.get_table(table_code = 6320,
+                    territorial_level = "1",
+                    ibge_territorial_code = "all",
+                    period = "all",
+                    classification= '11913/all'
+                    )
+    return db_tipos_emprego
 
 
+def db_grandes_regioes():
+    db_grandes_regioes = sidra.get_table(table_code = '4099',
+                    territorial_level = "2",
+                    ibge_territorial_code = "all",
+                    variable = '4099',
+                    period = "all")
+    return db_grandes_regioes\
+        
+ 
+def db_desempre_sexo():       
+    db_desempre_sexo = sidra.get_table(table_code = '4093',
+                    territorial_level = "1",
+                    ibge_territorial_code = "all",
+                    variable = '4099',
+                    period = "all",
+                    classifications= {
+                        "2": "6794,4,5"
+                        })
+    return db_desempre_sexo
+
+
+def db_pop_idade():
+    db_pop_idade = sidra.get_table(table_code = '4094',
+                    territorial_level = "1",
+                    ibge_territorial_code = "all",
+                    variable = '4099',
+                    period = "all",
+                    classifications= {
+                        "58": "95253,114535,100052,108875,99127,3302"
+                        })
+    return db_pop_idade
+
+
+def rendimento_regiao():
+    rendimento_regiao = sidra.get_table(table_code = '5437',
+                    territorial_level = '2',
+                    ibge_territorial_code = "all",
+                    variable = '5932',
+                    period = "all",
+                    classifications= {
+                        "58": "95253,114535,100052,108875,99127,3302"
+                        })
+    return rendimento_regiao
+
+
+def rendimento_regiao_br():
+    rendimento_regiao_br = sidra.get_table(table_code = '5437',
+                territorial_level = '1',
+                ibge_territorial_code = "all",
+                variable = '5932',
+                period = "all",
+                classifications= {
+                    "58": "95253,114535,100052,108875,99127,3302"
+                    })
+    return rendimento_regiao_br 
+
+# Caged 
+import ipeadatapy as ipea
+# Ver metadados
+metadados_ipea = ipea.metadata()
+metadados_ipea
+
+# Identificar código do CAGED nos metadados 
+metadados_ipea[metadados_ipea.NAME.str.contains('Caged')]
+
+# Coletar dados 
+def dados_admissoes():
+    dados_admissoes = ipea.timeseries('CAGED12_ADMISN12')
+    return dados_admissoes 
+
+def dados_demissoes():
+    dados_demissoes = ipea.timeseries('CAGED12_DESLIGN12')
+    return dados_demissoes
+
+def dados_saldo():
+    dados_saldo = ipea.timeseries('CAGED12_SALDON12')
+    return dados_saldo
 
 
 

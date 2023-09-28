@@ -6,6 +6,7 @@ import plotly.graph_objects as go
 import plotly.express as px
 import matplotlib
 import config 
+import pandas as pd 
 
 #IPCA Focus
 
@@ -122,6 +123,16 @@ fig.update_layout(title_text = 'IPCA - Variação mensal e acumulada no ano (%) 
 fig.update_yaxes(categoryorder='category descending')
 fig.show()
 
+# Para o primeiro gráfico - IPCA mensal e acumulado 
+ipca_mes = rd.read_csv(config.silver['ipca_mes']['save_path'])
+ipca_acum_12m = rd.read_csv(config.silver['ipca_acum_12m']['save_path'])
+ipca_acum_12m['data'] = pd.to_datetime(ipca_acum_12m['data'])
+
+
+fig = go.Figure()
+fig.add_trace(go.Bar(x= ipca_mes['data'], y =ipca_mes['V']))
+fig.add_trace(go.Bar(x=ipca_acum_12m['data'], y=ipca_acum_12m['ipca_acum_ano']))
+fig.show()
 
 # PIB 
 data = rd.read_csv(config.silver['data']['save_path'])
@@ -172,4 +183,114 @@ fig = px.bar(
 
 fig.show()
 
+# Emprego 
 
+# Taxa de desemprego
+db_taxa_desemprego = rd.read_csv(config.silver['db_taxa_desemprego']['save_path'])
+
+fig = px.line(db_taxa_desemprego, y=db_taxa_desemprego['Valor'], x=db_taxa_desemprego['Trimestre Móvel'])
+fig.show()
+
+# variacao por tipo de emprego
+var_percent_tipo_emprego = rd.read_csv(config.silver['var_percent_tipo_emprego']['save_path'])
+
+fig = px.line(var_percent_tipo_emprego, x='Trimestre Móvel', y='Valor', color='Posição na ocupação e categoria do emprego no trabalho principal',
+              title='Gráfico de Linhas por Categoria de Emprego')
+fig.update_layout(xaxis_title='Trimestre Móvel', yaxis_title='Valor')
+
+fig.show()
+
+#Pivot
+pivot_var_percent_tipo_empreg = rd.read_csv(config.silver['pivot_var_percent_tipo_empreg']['save_path'])
+
+# Grandes regioes 
+db_grandes_regioes = rd.read_csv(config.silver['db_grandes_regioes']['save_path'])
+
+fig = px.line(db_grandes_regioes, x='Trimestre', y='Valor', color='Grande Região',
+              title='Taxa de desocupacao das pessoas com 14 anos o mais de idade, na semana de referencia (em %) - Grandes regioes ')
+fig.update_layout(xaxis_title='Trimestre', yaxis_title='Valor')
+fig.show()
+
+# Sexo
+db_desempre_sexo = rd.read_csv(config.silver['db_desempre_sexo']['save_path'])
+merge_homem_mulher = rd.read_csv(config.silver['merge_homem_mulher']['save_path'])
+
+fig = px.line(db_desempre_sexo, x='Trimestre', y='Valor', color='Sexo',
+              title='Taxa de desocupacao das pessoas de 14 anos ou mais, na semana de refernecia, por sexo (%)')
+fig.update_layout(xaxis_title='Trimestre', yaxis_title='Valor')
+fig.update_layout(yaxis2=dict(title='', overlaying='y', side='right'))
+fig.add_scatter(x=merge_homem_mulher['Trimestre'], y=merge_homem_mulher['diferenca'], 
+                fill='tozeroy', mode='lines', name='Diferença percentual entre homens e mulheres', yaxis='y2')
+fig.show()   
+
+# Por idade 
+db_pop_idade = rd.read_csv(config.silver['db_pop_idade']['save_path'])
+
+fig = px.line(db_pop_idade, x='Trimestre', y='Valor', color='Grupo de idade',
+              title='Taxa de desocupação, por idade, 1º trimestre 2012 - 2º trimestre 2023')
+
+fig.update_layout(xaxis_title='Trimestre', yaxis_title='Valor')
+fig.show()
+
+# Rendimento regiao  
+rendimento_regiao_1 = rd.read_csv(config.silver['rendimento_regiao_1']['save_path'])
+
+fig = px.line(rendimento_regiao_1, x='Trimestre', y='Valor', color='Grandes Regiões',
+              title='Rendimento Médio, por grande região, 1º trimestre 2012 - 2º trimestre 2023')
+fig.update_layout(xaxis_title='Trimestre', yaxis_title='Valor')
+fig.show()
+
+# Rendimento idade 
+rendimento_idade = rd.read_csv(config.silver['rendimento_idade']['save_path'])
+
+fig = px.line(rendimento_idade, x='Trimestre', y='Valor', color='Grupo de idade',
+              title='Rendimento Médio, por idade, 1º trimestre 2012 - 2º trimestre 2023')
+fig.update_layout(xaxis_title='Trimestre', yaxis_title='Valor')
+fig.show()
+
+# Caged 
+dados_caged = rd.read_csv(config.silver['dados_caged']['save_path'])
+
+bar_admissoes = go.Bar(
+    x=dados_caged['data'],
+    y=dados_caged['admissoes'],
+    name='Admissões',
+    marker=dict(color='#ccdcff')
+)
+
+# Crie um objeto Bar para 'demissoes'
+bar_demissoes = go.Bar(
+    x=dados_caged['data'],
+    y=dados_caged['demissoes'],
+    name='Demissões',
+    marker=dict(color='#dcdcdc')
+)
+
+# Crie um objeto Scatter para 'saldo' com o eixo y secundário
+scatter_saldo = go.Scatter(
+    x=dados_caged['data'],
+    y=dados_caged['saldo'],
+    name='Saldo',
+    mode='lines',
+    #yaxis='y2',
+    line=dict(color='#ff8247')
+)
+
+# Crie o layout do gráfico com dois eixos y e fundo branco
+layout = go.Layout(
+    title='Admissões, Demissões e Saldo no CAGED',
+    xaxis=dict(title='Trimestre'),
+    yaxis=dict(title='Admissões e Demissões'),
+    yaxis2=dict(
+        title='Saldo',
+        overlaying='y',
+        side='right'
+    ),
+    plot_bgcolor='white'  # Defina o fundo como branco
+)
+
+# Crie a figura com os objetos Bar e Scatter e o layout
+fig = go.Figure(data=[bar_admissoes, bar_demissoes, scatter_saldo], layout=layout)
+
+# Exiba o gráfico
+fig.show()
