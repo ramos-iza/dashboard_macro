@@ -7,7 +7,8 @@ import datetime
 from ast import Assign
 import plotly.graph_objects as go 
 import plotly.express as px
-
+from statsmodels.tsa import x13
+import os
 
 #Calc IPCA Anual
 # Read
@@ -544,3 +545,28 @@ fig = go.Figure(data=[bar_admissoes, bar_demissoes, scatter_saldo], layout=layou
 
 # Exiba o gráfico
 fig.show()
+
+
+# Credito 
+#Read
+dados_credito = rd.read_csv(config.raw['dados_credito']['path'])
+ipca_credito = rd.read_csv(config.raw['ipca_credito']['path'])
+
+#Transform 
+dados_credito = ts.tratamento_dados_credito(dados_credito= dados_credito)
+ipca_credito = ts.tratamento_ipca_credito(ipca_credito=ipca_credito)
+
+concessoes = ts.deflacionando_dessazonalizando(dados_credito=dados_credito, ipca_credito=ipca_credito)
+
+# Save 
+ssd.save_csv(
+    df= dados_credito,
+    path= config.silver['dados_credito']['save_path'])
+
+ssd.save_csv(
+    df= ipca_credito,
+    path= config.silver['ipca_credito']['save_path'])
+
+ssd.save_csv(
+    df= concessoes,
+    path= config.silver['concessoes']['save_path'])

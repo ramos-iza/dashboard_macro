@@ -51,6 +51,12 @@ raw= {
     'dados_saldo' : {
         'path' : 'dados/emprego/raw/dados_saldo.csv'
     },
+    'dados_credito' : {
+        'path' : 'dados/credito/raw/dados_credito.csv'
+    },
+    'ipca_credito' : {
+        'path' : 'dados/credito/raw/ipca_credito.csv'
+    },
 } 
 
 
@@ -170,5 +176,14 @@ silver= {
     'dados_caged' : {
         'save_path' : 'dados/emprego/silver/dados_caged.csv' 
     }, 
+    'dados_credito' : {
+        'save_path' : 'dados/credito/silver/dados_credito.csv' 
+    },
+    'ipca_credito' : {
+        'save_path' : 'dados/credito/silver/ipca_credito.csv' 
+    },
+    'concessoes' : {
+        'save_path' : 'dados/credito/silver/concessoes.csv' 
+    },
 
 }                  

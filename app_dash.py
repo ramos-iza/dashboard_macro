@@ -10,6 +10,7 @@ import config
 import streamlit as st
 from datetime import date
 import pandas as pd 
+from plotly.subplots import make_subplots
 
 # Grupos IPCA
 df_geral_ipca = rd.read_csv(config.silver['df_geral_ipca']['save_path'])
@@ -73,6 +74,11 @@ ipca_mes = rd.read_csv(config.silver['ipca_mes']['save_path'])
 ipca_acum_12m = rd.read_csv(config.silver['ipca_acum_12m']['save_path'])
 ipca_acum_12m['data'] = pd.to_datetime(ipca_acum_12m['data'])
 
+# Crédito 
+dados_credito = rd.read_csv(config.silver['dados_credito']['save_path'])
+ipca_credito = rd.read_csv(config.silver['ipca_credito']['save_path'])
+concessoes = rd.read_csv(config.silver['concessoes']['save_path'])
+
 container_cs = """
 <style>
     .main {
@@ -90,7 +96,7 @@ st.markdown(container_cs, unsafe_allow_html=True)
 with st.sidebar.expander("Dash macro", expanded=False):
     pass
 
-aba = st.sidebar.radio('Escolha a aba', ['IPCA', 'PIB', 'EMPREGO'])
+aba = st.sidebar.radio('Escolha a aba', ['IPCA', 'PIB', 'EMPREGO', 'CRÉDITO'])
 
 if aba == 'IPCA': 
     
@@ -305,7 +311,6 @@ if aba == 'EMPREGO':
     # dados caged 
     with st.expander('', expanded = True):
     
-
         check = st.checkbox('Selecione a caixa de seleção para saber mais informações sobre o CAGED')    
         if check == True: 
             st.write('Série com ajuste sazonal.\n'
@@ -366,8 +371,6 @@ if aba == 'EMPREGO':
                      '\n\n **2. Pessoas fora da força de trabalho:** São aquelas que não estão trabalhando e também não estão buscando emprego ativamente. Isso pode incluir estudantes em tempo integral, aposentados, donas de casa que não estão procurando emprego, entre outros.'
                      '\n\n Portanto, ao calcular a taxa de desemprego, não consideramos as pessoas que estão fora da força de trabalho, ou seja, aquelas que não estão trabalhando e também não estão buscando ativamente emprego. A taxa de desemprego é calculada dividindo o número de desocupados pelo total de pessoas na força de trabalho, que inclui apenas aqueles que estão procurando emprego.'
                     )
-        
-        
         
         fig = px.line(db_taxa_desemprego, y=db_taxa_desemprego['Valor'], x=db_taxa_desemprego['Trimestre Móvel'])
         fig.update_layout(title='Taxa de Desocupação - PNAD',title_font=dict(size=17), xaxis=dict(tickangle=45))
@@ -455,9 +458,167 @@ if aba == 'EMPREGO':
         fig.update_layout(title='Taxa de Desocupação - PNAD', xaxis_title='Trimestre', yaxis_title='Valor', title_font=dict(size=17), xaxis=dict(tickangle=45))
         st.plotly_chart(fig, use_container_width=True, responsive=True)
     
+if aba == 'CRÉDITO': 
+    
+    def credito():
+        
+        col1, col2 = st.columns(2)
+        with col1:
+            #st.write(f"<h1 style='text-align: center;'>{''}</h1>", unsafe_allow_html=True) # para não escrever nada
+            hoje = date.today().strftime('%d/%m/%Y')
+            st.markdown(f"<h1 style='color: #171616; font-size: 38px; text-align: left;'>{'CRÉDITO'}</h1>", unsafe_allow_html=True)#(f"<h1 style='text-align: center;'>{'IPCA'}</h1>", unsafe_allow_html=True)
+            st.markdown (f"<h6 style='color: #eb4c34; font-size: 17px; text-align: left;'>{hoje}</h6>", unsafe_allow_html=True) # ou data da análise f"<h2 style='text-align: center;'>{'IPCA'}</h1>", unsafe_allow_html=True
+            #st.subheader('xxxx')
+            
+    credito()  
+    
+    col1, col2, col3 = st.columns(3)
+    with col1:   
+        st.image('imagem7.jpeg')
+
+        
+    with col2: 
+        st.image('imagem10.jpeg')
+        
+    with col3: 
+        st.image('imagem9.jpeg')
+
+    # Concessão de crédito 
+    col1, col2 = st.columns(2)     
+    with col1:    
+        with st.expander('', expanded = True):
+                           
+            fig = go.Figure()
+            fig.add_trace(go.Scatter(x=dados_credito['data'], y=dados_credito["Concessões de crédito - Total"] / 1000, mode='lines', line=dict(color='#6980EA')))
+            fig.update_layout(title='Concessões de crédito - Total\n Valores nominais.<br>Dados: BCB', yaxis_title="R$ bilhões", title_font=dict(size=15.5), height=490)
+            st.plotly_chart(fig, use_container_width=True, responsive=True)
+    
+    # Concessão de crédito deflacionada e com ajuste sazional         
+    with col2:    
+        with st.expander('', expanded = True):
+
+            check = st.checkbox('Selecione a caixa de seleção para saber mais sobre o ajuste sazional')    
+            if check == True: 
+                st.write('Dados ajustado sazonalmente pelo X13-SEATS-ARIMA.\n'
+                        '\n O X13-SEATS-ARIMA incorpora técnicas avançadas de análise de séries temporais, incluindo a modelagem ARIMA (Médias Móveis Integradas Autoregressivas), bem como a capacidade de lidar com efeitos sazonais e de calendário, como feriados e dias úteis.'
+                        '\n .')            
+
+            data_atual = concessoes['data'] = pd.to_datetime(concessoes['data'])
+            data_atual = concessoes.tail(1)["data"].dt.strftime("%b/%Y").item()
+            fig = go.Figure()
+            fig.add_trace(go.Scatter(x=concessoes["data"], y=concessoes["ajuste"], mode='lines', line=dict(color='#f06e35')))
+            fig.update_layout(title=f"Concessões de crédito - Total<br>Valores deflacionados pelo IPCA a preços de {data_atual} e com ajuste sazonal.<br>Dados: BCB/IBGE", #ajustado sazonalmente pelo X13-SEATS-ARIMA.
+                            yaxis_title="R$ bilhões", title_font=dict(size=15.5))
+            st.plotly_chart(fig, use_container_width=True, responsive=True)
+            
+            
+    #Concessões de crédito - público/privado, livre/direcionado
+    with st.expander('', expanded=True):
+            
+        fig = make_subplots(rows=2, cols=2)
+        fig.add_trace(go.Scatter(x=dados_credito['data'], y=dados_credito["Concessões de crédito - PF"] / 1000, mode='lines', name='Concessões de crédito - PF', line=dict(color='#FFD39B')), row=1, col=1)
+        fig.add_trace(go.Scatter(x=dados_credito['data'], y=dados_credito["Concessões de crédito - PJ"] / 1000, mode='lines', name='Concessões de crédito - PJ', line=dict(color='#A9A9A9')), row=1, col=2)
+        fig.add_trace(go.Scatter(x=dados_credito['data'], y=dados_credito["Concessões de crédito - Livre"] / 1000, mode='lines', name='Concessões de crédito - Livre', line=dict(color='#FFA680')), row=2, col=1)
+        fig.add_trace(go.Scatter(x=dados_credito['data'], y=dados_credito["Concessões de crédito - Direcionado"] / 1000, mode='lines', name='Concessões de crédito - Direcionado', line=dict(color='#AED9CC')), row=2, col=2)
+        fig.update_layout(
+            title='Concessões de crédito <br>Valores nominais<br>Dados: BCB',
+            yaxis_title="R$ bilhões",
+            width=1000,  # Largura total do gráfico
+            height=600,   # Altura total do gráfico
+        )
+        st.plotly_chart(fig, use_container_width=True, responsive=True)
+        
+    # Concessão de crédito - PF x PJ 
+    col1, col2 = st.columns(2)     
+    with col1:
+        with st.expander('', expanded = True):
+            
+            
+            x = dados_credito['data']
+            y_pf = dados_credito["Concessões de crédito - PF"] / dados_credito["Concessões de crédito - Total"] * 100
+            y_pj = dados_credito["Concessões de crédito - PJ"] / dados_credito["Concessões de crédito - Total"] * 100
+            fig = go.Figure()
+            fig.add_trace(go.Scatter(x=x, y=y_pf, fill='tozeroy', mode='none', name='PF', stackgroup='stack'))
+            fig.add_trace(go.Scatter(x=x, y=y_pj, fill='tozeroy', mode='none', name='PJ', stackgroup='stack'))
+            fig.update_layout(title=f"Concessão de crédito Pessoa Física x Pessoa Jurídica<br>Dados: BCB",
+                            yaxis_title="% Total", 
+                            legend_title="Categorias")
+            st.plotly_chart(fig, use_container_width=True, responsive=True)
+    
+    # Concessão de crédito - livre x direcionado         
+    with col2:    
+        with st.expander('', expanded = True):      
+            
+            x = dados_credito['data']
+            y_livre = dados_credito["Concessões de crédito - Livre"] / dados_credito["Concessões de crédito - Total"] * 100
+            y_direcionada = dados_credito["Concessões de crédito - Direcionado"] / dados_credito["Concessões de crédito - Total"] * 100
+            fig = go.Figure()
+            fig.add_trace(go.Scatter(x=x, y=y_livre, fill='tozeroy', mode='none', name='Livre', stackgroup='stack'))
+            fig.add_trace(go.Scatter(x=x, y=y_direcionada, fill='tozeroy', mode='none', name='Direcionado', stackgroup='stack'))
+            fig.update_layout(title=f"Concessão de crédito Livre x Direcionada<br>Dados: BCB",
+                            yaxis_title="% Total", 
+                            legend_title="Categorias")
+            st.plotly_chart(fig, use_container_width=True, responsive=True)
+        
+    # Estoque 
+    col1, col2 = st.columns(2)     
+    with col1:
+        with st.expander('', expanded = True):
+            fig = go.Figure()
+            fig.add_trace(go.Scatter(x=dados_credito["data"], y=dados_credito["Saldo da carteira de crédito - Total"] / dados_credito["PIB acumulado dos últimos 12 meses"] * 100, fill='tozeroy', mode='none'))
+            fig.update_layout(title=f"Estoque de Crédito<br>Dados: BCB", 
+                            yaxis_title="R$ bilhões",height=490)
+            st.plotly_chart(fig, use_container_width=True, responsive=True)
+        
+    # Estoque - Privado/Publico % do Total   
+    with col2:    
+        with st.expander('', expanded = True):
+            
+            dados_credito = dados_credito.set_index('data')
+            x = dados_credito.index
+            y_privado = dados_credito["Saldos de crédito - Privado"] / dados_credito["Saldo da carteira de crédito - Total"] * 100
+            y_publico = dados_credito["Saldos de crédito - Público"] / dados_credito["Saldo da carteira de crédito - Total"] * 100
+            fig = go.Figure()
+            fig.add_trace(go.Scatter(x=x, y=y_privado, fill='tozeroy', mode='none', name='Privado', stackgroup='stack'))
+            fig.add_trace(go.Scatter(x=x, y=y_publico, fill='tozeroy', mode='none', name='Público', stackgroup='stack'))
+            fig.update_layout(title=f"Estoque de Crédito<br>Dados: BCB",
+                            yaxis_title="% Total", 
+                            legend_title="Categorias")
+            st.plotly_chart(fig, use_container_width=True, responsive=True)
+            
+    
+    #Taxa de juros - mercado de crédito 
+    col1, col2 = st.columns(2)     
+    with col1:    
+        with st.expander('', expanded = True):
+            
+            fig = go.Figure()
+            fig.add_trace(go.Scatter(x=dados_credito.index, y=dados_credito["Taxa média de juros das operações de crédito"], mode='lines', line=dict(color='#FFA680')))
+            fig.update_layout(title=f"Taxa de juros - Mercado de Crédito - Brasil<br>Dados: BCB", 
+                            yaxis_title="% a.a.", height=490)
+            st.plotly_chart(fig, use_container_width=True, responsive=True)
+    
+    # Spread bancário        
+    with col2:    
+        with st.expander('', expanded = True):
+            
+            fig = go.Figure()
+            fig.add_trace(go.Scatter(x=dados_credito.index, y=dados_credito["Spread médio das operações de crédito"], mode='lines', line=dict(color='#AED9CC')))
+            fig.update_layout(title=f"Spread bancário - Mercado de Crédito - Brasil<br>Dados: BCB", 
+                            yaxis_title="p.p.", height=490)
+            st.plotly_chart(fig, use_container_width=True, responsive=True)
+            
+    # Inadimplência 
+    with st.expander('', expanded = True):
+        
+        fig = go.Figure()
+        fig.add_trace(go.Scatter(x=dados_credito.index, y=dados_credito["Inadimplência da carteira de crédito"], mode='lines', line=dict(color='#FFB3B3')))
+        fig.update_layout(title=f"Inadimplência - Mercado de Crédito - Brasil<br>Dados: BCB", 
+                        yaxis_title="p.p.")
+        st.plotly_chart(fig, use_container_width=True, responsive=True)
+    
 
         
     
 
-                  
-            
+        
