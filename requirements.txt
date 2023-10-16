@@ -5,3 +5,5 @@ matplotlib
 python-bcb
 sidrapy
 streamlit
+statsmodels
+os
