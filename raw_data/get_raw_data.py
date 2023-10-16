@@ -3,6 +3,8 @@ from bcb import sgs
 import sidrapy as sidra
 from bcb import Expectativas 
 import ipeadatapy as ipea
+from statsmodels.tsa import x13
+import os
 
 
 def ipca_mensal(start_date): 
@@ -187,6 +189,63 @@ def dados_saldo():
     dados_saldo = ipea.timeseries('CAGED12_SALDON12')
     return dados_saldo
 
+
+def db_credito():
+    # Parâmetros e códigos para coleta de dados
+    codigos = {
+    # Concessões de crédito - Total - R$ (milhões)
+    "Concessões de crédito - Total": 20631,
+
+    # Concessões de crédito - Pessoas jurídicas - Total - R$ (milhões)
+    "Concessões de crédito - PJ": 20632,
+
+    # Concessões de crédito - Pessoas físicas - Total	- R$ (milhões)
+    "Concessões de crédito - PF": 20633,
+
+    # Concessões de crédito com recursos livres - Total	- R$ (milhões)
+    "Concessões de crédito - Livre": 20634,
+
+    # Concessões de crédito com recursos direcionados - Total	- R$ (milhões)
+    "Concessões de crédito - Direcionado": 20685,
+
+    # Saldo da carteira de crédito - Total - R$ (milhões)
+    "Saldo da carteira de crédito - Total": 20539,
+
+    # PIB acumulado dos últimos 12 meses - Valores correntes - (R$ milhões)
+    "PIB acumulado dos últimos 12 meses": 4382,
+
+    # Saldos das operações de crédito sob controle privado - Total	- (R$ milhões)
+    "Saldos de crédito - Privado": 2043,
+
+    # Saldos das operações de crédito sob controle público - Total	- (R$ milhões)
+    "Saldos de crédito - Público": 2007,
+
+    # Taxa média de juros das operações de crédito - Total - % a.a.
+    "Taxa média de juros das operações de crédito": 20714,
+
+    # Spread médio das operações de crédito - Total	- p.p.
+    "Spread médio das operações de crédito": 20783,
+
+    # Inadimplência da carteira de crédito - Total - %
+    "Inadimplência da carteira de crédito": 21082
+
+    }
+
+    # Importa dados do SGS/BCB
+    dados = sgs.get(codes = codigos, start = "2012-01-01")
+    return dados
+    
+    
+def ipca_cred():
+    # Importa dados do IPCA
+    ipca = sidra.get_table(
+        table_code = "1737", 
+        territorial_level = "1", 
+        ibge_territorial_code = "all", 
+        variable = "2266", 
+        period = "all"
+        )
+    return ipca
 
 
 

@@ -64,5 +64,11 @@ def dados_demissoes(dados_demissoes, path):
 
 def dados_saldo(dados_saldo, path):
    dados_saldo.to_csv(path) 
+
+def dados_credito(dados_credito, path):
+   dados_credito.to_csv(path) 
+   
+def ipca_credito(ipca_credito, path):
+   ipca_credito.to_csv(path) 
    
    

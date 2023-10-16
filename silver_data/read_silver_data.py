@@ -56,3 +56,12 @@ def ler_csv(caminho):
     db_desempre_sexo = pd.read_csv(caminho)
     return db_desempre_sexo
 
+
+def ler_csv(caminho):
+    dados_credito = pd.read_csv(caminho)
+    return dados_credito
+
+
+def ler_csv(caminho):
+    ipca_credito = pd.read_csv(caminho)
+    return ipca_credito

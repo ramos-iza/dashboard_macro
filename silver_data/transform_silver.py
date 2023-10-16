@@ -5,6 +5,8 @@ from ast import Assign
 import plotly.graph_objects as go 
 #import raw_data.save_raw_data as srd
 import pandas as pd 
+from statsmodels.tsa import x13
+import os
 
 
 def calc_ipca_anual(ipca_mensal):
@@ -702,5 +704,49 @@ def transf_dados_caged(dados_admissoes, dados_demissoes, dados_saldo):
         })
     )
     return dados_caged
+
+
+def tratamento_dados_credito(dados_credito):
+    dados_credito['Date'] = pd.to_datetime(dados_credito['Date'], format='%Y-%m-%d')
+    dados_credito.set_index("Date", inplace = True)
+    dados_credito.rename_axis("data", inplace = True)
+    return dados_credito
+
+
+def tratamento_ipca_credito(ipca_credito):
+    # Trata dados do IPCA
+    ipca_credito = ipca_credito.drop(columns=['Unnamed: 0'])
+    ipca_credito = (
+        ipca_credito
+        .rename(columns = ipca_credito.iloc[0])
+        .rename(columns = {"Mês (Código)": "data", "Valor": "ipca"})
+        .query("ipca not in 'Valor'")
+        .filter(items = ["data", "ipca"], axis = "columns")
+        .assign(
+            data = lambda x: pd.to_datetime(x.data, format = "%Y%m"),
+            ipca_credito = lambda y: y.ipca.astype(float)
+            )
+        .set_index("data")).drop(columns=['ipca'])
+    return ipca_credito
+
+
+def deflacionando_dessazonalizando(dados_credito, ipca_credito):
+    #os.environ["X13PATH"] = "/Users/izadoraramos/Desktop/Desktop/dashboard_macro/x13as" # caminho do programa X13 
+    # Caminho completo para a pasta x13as
+    caminho_x13as = '/Users/izadoraramos/Desktop/Desktop/dashboard_macro/bin/' 
+
+    # Configure a variável de ambiente X13PATH com o caminho completo para a x13as
+    os.environ["X13PATH"] = caminho_x13as
+
+    concessoes = ( # tratamentos e cálculos
+        pd.merge(
+            left = dados_credito["Concessões de crédito - Total"],
+            right = ipca_credito,
+            on = "data"
+            )
+        .assign(
+            deflacionado = lambda x: (x.ipca_credito.iloc[-1] / x.ipca_credito * x["Concessões de crédito - Total"]),
+            ajuste = lambda x: x13.x13_arima_analysis(endog = x.deflacionado / 1000, prefer_x13 = True, freq = 12).seasadj))
+    return concessoes
     
-    
+

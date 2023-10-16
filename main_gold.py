@@ -7,6 +7,7 @@ import plotly.express as px
 import matplotlib
 import config 
 import pandas as pd 
+from plotly.subplots import make_subplots
 
 #IPCA Focus
 
@@ -294,3 +295,91 @@ fig = go.Figure(data=[bar_admissoes, bar_demissoes, scatter_saldo], layout=layou
 
 # Exiba o gráfico
 fig.show()
+
+
+# Credito 
+dados_credito = rd.read_csv(config.silver['dados_credito']['save_path'])
+ipca_credito = rd.read_csv(config.silver['ipca_credito']['save_path'])
+concessoes = rd.read_csv(config.silver['concessoes']['save_path'])
+
+fig = go.Figure()
+fig.add_trace(go.Scatter(x=dados_credito["Concessões de crédito - Total"].index, y=dados_credito["Concessões de crédito - Total"] / 1000, mode='lines'))
+fig.update_layout(title='"Concessões de crédito - Total\nValores nominais\nDados: BCB"', yaxis_title="R$ bilhões")
+fig.show()
+
+fig = make_subplots(rows=2, cols=2)
+fig.add_trace(go.Scatter(x=dados_credito['data'], y=dados_credito["Concessões de crédito - PF"] / 1000, mode='lines', name='Concessões de crédito - PF'), row=1, col=1)
+fig.add_trace(go.Scatter(x=dados_credito['data'], y=dados_credito["Concessões de crédito - PJ"] / 1000, mode='lines', name='Concessões de crédito - PJ'), row=1, col=2)
+fig.add_trace(go.Scatter(x=dados_credito['data'], y=dados_credito["Concessões de crédito - Livre"] / 1000, mode='lines', name='Concessões de crédito - Livre'), row=2, col=1)
+fig.add_trace(go.Scatter(x=dados_credito['data'], y=dados_credito["Concessões de crédito - Direcionado"] / 1000, mode='lines', name='Concessões de crédito - Direcionado'), row=2, col=2)
+fig.update_layout(
+    title='Concessões de crédito\nValores nominais',
+    yaxis_title="R$ bilhões",
+    width=1000,  # Largura total do gráfico
+    height=600,   # Altura total do gráfico
+)
+fig.show()
+
+data_atual = concessoes['data'] = pd.to_datetime(concessoes['data'])
+data_atual = concessoes.tail(1)["data"].dt.strftime("%b/%Y").item()
+fig = go.Figure()
+fig.add_trace(go.Scatter(x=concessoes["data"], y=concessoes["ajuste"], mode='lines'))
+fig.update_layout(title=f"Concessões de crédito - Total<br>Valores deflacionados pelo IPCA a preços de {data_atual} e ajustado sazonalmente pelo X13-SEATS-ARIMA.", 
+                  yaxis_title="R$ bilhões")
+fig.show()
+
+fig = go.Figure()
+fig.add_trace(go.Scatter(x=dados_credito["data"], y=dados_credito["Saldo da carteira de crédito - Total"] / dados_credito["PIB acumulado dos últimos 12 meses"] * 100, fill='tozeroy', mode='none'))
+fig.update_layout(title=f"Estoque de Crédito", 
+                  yaxis_title="R$ bilhões")
+fig.show()
+
+fig = go.Figure()
+fig.add_trace(go.Scatter(x=dados_credito["data"], y=dados_credito["Saldo da carteira de crédito - Total"] / dados_credito["PIB acumulado dos últimos 12 meses"] * 100, fill='tozeroy', mode='none'))
+fig.update_layout(title=f"Estoque de Crédito", 
+                  yaxis_title="R$ bilhões")
+fig.show()
+
+dados_credito = dados_credito.set_index('data')
+x = dados_credito.index
+y_privado = dados_credito["Saldos de crédito - Privado"] / dados_credito["Saldo da carteira de crédito - Total"] * 100
+y_publico = dados_credito["Saldos de crédito - Público"] / dados_credito["Saldo da carteira de crédito - Total"] * 100
+fig = go.Figure()
+fig.add_trace(go.Scatter(x=x, y=y_privado, fill='tozeroy', mode='none', name='Privado', stackgroup='stack'))
+fig.add_trace(go.Scatter(x=x, y=y_publico, fill='tozeroy', mode='none', name='Público', stackgroup='stack'))
+fig.update_layout(title=f"Estoque de Crédito",
+                  yaxis_title="% Total", 
+                  legend_title="Categorias")
+fig.show()
+
+
+fig = go.Figure()
+fig.add_trace(go.Scatter(x=dados_credito.index, y=dados_credito["Taxa média de juros das operações de crédito"], mode='lines'))
+fig.update_layout(title=f"Taxa de juros - Mercado de Crédito - Brasil", 
+                  yaxis_title="% a.a.")
+fig.show()
+
+
+fig = go.Figure()
+fig.add_trace(go.Scatter(x=dados_credito.index, y=dados_credito["Spread médio das operações de crédito"], mode='lines'))
+fig.update_layout(title=f"Spread bancário - Mercado de Crédito - Brasil", 
+                  yaxis_title="p.p.")
+fig.show()
+
+fig = go.Figure()
+fig.add_trace(go.Scatter(x=dados_credito.index, y=dados_credito["Inadimplência da carteira de crédito"], mode='lines'))
+fig.update_layout(title=f"Inadimplência - Mercado de Crédito - Brasil", 
+                  yaxis_title="p.p.")
+fig.show()
+
+x = dados_credito.index
+y_pf = dados_credito["Concessões de crédito - PF"] / dados_credito["Concessões de crédito - Total"] * 100
+y_pj = dados_credito["Concessões de crédito - PJ"] / dados_credito["Concessões de crédito - Total"] * 100
+fig = go.Figure()
+fig.add_trace(go.Scatter(x=x, y=y_pf, fill='tozeroy', mode='none', name='Pf', stackgroup='stack'))
+fig.add_trace(go.Scatter(x=x, y=y_pj, fill='tozeroy', mode='none', name='Pj', stackgroup='stack'))
+fig.update_layout(title=f"Concessão de crédito PF x PJ",
+                  yaxis_title="% Total", 
+                  legend_title="Categorias")
+fig.show()
+

@@ -112,3 +112,13 @@ dados_saldo = grd.dados_saldo()
 
 srd.dados_saldo(dados_saldo=dados_saldo,
                 path=config['dados_saldo']['path'])
+
+
+dados_credito = grd.db_credito()
+srd.dados_credito(dados_credito=dados_credito,
+                path=config['dados_credito']['path'])
+
+
+ipca_credito = grd.ipca_cred() 
+srd.ipca_credito(ipca_credito=ipca_credito,
+                path=config['ipca_credito']['path'])
