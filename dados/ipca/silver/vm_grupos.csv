@@ -20564,3 +20564,460 @@ data,variavel,grupo,vm_grupos
 2023-09-01,IPCA peso mensal,9101019.Aparelho telefônico,-0.64
 2023-09-01,IPCA peso mensal,9101115.Serviços de streaming,0.0
 2023-09-01,IPCA peso mensal,"9101116.Combo de telefonia, internet e tv por assinatura",0.0
+2023-10-01,IPCA peso mensal,Índice geral,0.24
+2023-10-01,IPCA peso mensal,1.Alimentação e bebidas,0.31
+2023-10-01,IPCA peso mensal,11.Alimentação no domicílio,0.27
+2023-10-01,IPCA peso mensal,"1101.Cereais, leguminosas e oleaginosas",1.48
+2023-10-01,IPCA peso mensal,1101002.Arroz,2.99
+2023-10-01,IPCA peso mensal,1101051.Feijão - mulatinho,-1.56
+2023-10-01,IPCA peso mensal,1101052.Feijão - preto,-1.54
+2023-10-01,IPCA peso mensal,1101053.Feijão - macáçar (fradinho),-1.1
+2023-10-01,IPCA peso mensal,1101073.Feijão - carioca (rajado),-4.67
+2023-10-01,IPCA peso mensal,1101079.Milho (em grão),1.32
+2023-10-01,IPCA peso mensal,"1102.Farinhas, féculas e massas",-0.72
+2023-10-01,IPCA peso mensal,1102001.Farinha de arroz,-3.77
+2023-10-01,IPCA peso mensal,1102006.Macarrão,-1.12
+2023-10-01,IPCA peso mensal,1102008.Fubá de milho,-3.3
+2023-10-01,IPCA peso mensal,1102010.Flocos de milho,-1.23
+2023-10-01,IPCA peso mensal,1102012.Farinha de trigo,-0.56
+2023-10-01,IPCA peso mensal,1102023.Farinha de mandioca,-0.65
+2023-10-01,IPCA peso mensal,1102029.Massa semipreparada,-0.39
+2023-10-01,IPCA peso mensal,1102061.Macarrão instantâneo,0.6
+2023-10-01,IPCA peso mensal,"1103.Tubérculos, raízes e legumes",4.49
+2023-10-01,IPCA peso mensal,1103002.Batata-doce,4.84
+2023-10-01,IPCA peso mensal,1103003.Batata-inglesa,11.23
+2023-10-01,IPCA peso mensal,1103004.Inhame,6.48
+2023-10-01,IPCA peso mensal,1103005.Mandioca (aipim),1.32
+2023-10-01,IPCA peso mensal,1103020.Abobrinha,4.03
+2023-10-01,IPCA peso mensal,1103025.Pepino,25.75
+2023-10-01,IPCA peso mensal,1103026.Pimentão,1.36
+2023-10-01,IPCA peso mensal,1103028.Tomate,0.97
+2023-10-01,IPCA peso mensal,1103043.Cebola,8.46
+2023-10-01,IPCA peso mensal,1103044.Cenoura,-3.87
+2023-10-01,IPCA peso mensal,1104.Açúcares e derivados,0.37
+2023-10-01,IPCA peso mensal,1104003.Açúcar refinado,1.88
+2023-10-01,IPCA peso mensal,1104004.Açúcar cristal,1.42
+2023-10-01,IPCA peso mensal,1104018.Balas,0.12
+2023-10-01,IPCA peso mensal,1104023.Chocolate em barra e bombom,-1.31
+2023-10-01,IPCA peso mensal,1104032.Sorvete,0.8
+2023-10-01,IPCA peso mensal,1104052.Chocolate e achocolatado em pó,-0.13
+2023-10-01,IPCA peso mensal,1104060.Doce de frutas em pasta,3.12
+2023-10-01,IPCA peso mensal,1104067.Açúcar demerara,3.4
+2023-10-01,IPCA peso mensal,1105.Hortaliças e verduras,3.0
+2023-10-01,IPCA peso mensal,1105001.Alface,4.31
+2023-10-01,IPCA peso mensal,1105004.Coentro,-0.78
+2023-10-01,IPCA peso mensal,1105005.Couve,1.38
+2023-10-01,IPCA peso mensal,1105006.Couve-flor,1.98
+2023-10-01,IPCA peso mensal,1105010.Repolho,1.36
+2023-10-01,IPCA peso mensal,1105012.Cheiro-verde,1.52
+2023-10-01,IPCA peso mensal,1105019.Brócolis,3.22
+2023-10-01,IPCA peso mensal,1106.Frutas,3.06
+2023-10-01,IPCA peso mensal,1106001.Banana-da-terra,-0.65
+2023-10-01,IPCA peso mensal,1106003.Abacaxi,0.95
+2023-10-01,IPCA peso mensal,1106004.Abacate,-1.96
+2023-10-01,IPCA peso mensal,1106005.Banana - d'água,-0.78
+2023-10-01,IPCA peso mensal,1106006.Banana - maçã,4.76
+2023-10-01,IPCA peso mensal,1106008.Banana - prata,-1.01
+2023-10-01,IPCA peso mensal,1106011.Laranja - baía,9.96
+2023-10-01,IPCA peso mensal,1106012.Laranja - lima,14.05
+2023-10-01,IPCA peso mensal,1106015.Limão,4.21
+2023-10-01,IPCA peso mensal,1106017.Maçã,2.12
+2023-10-01,IPCA peso mensal,1106018.Mamão,5.54
+2023-10-01,IPCA peso mensal,1106019.Manga,13.05
+2023-10-01,IPCA peso mensal,1106020.Maracujá,1.22
+2023-10-01,IPCA peso mensal,1106021.Melancia,4.34
+2023-10-01,IPCA peso mensal,1106022.Melão,-3.44
+2023-10-01,IPCA peso mensal,1106023.Pera,3.42
+2023-10-01,IPCA peso mensal,1106027.Tangerina,8.95
+2023-10-01,IPCA peso mensal,1106028.Uva,2.34
+2023-10-01,IPCA peso mensal,1106039.Laranja - pera,6.41
+2023-10-01,IPCA peso mensal,1106051.Morango,-1.41
+2023-10-01,IPCA peso mensal,1106084.Goiaba,6.43
+2023-10-01,IPCA peso mensal,1107.Carnes,0.53
+2023-10-01,IPCA peso mensal,1107009.Fígado,-4.58
+2023-10-01,IPCA peso mensal,1107018.Carne de porco,0.57
+2023-10-01,IPCA peso mensal,1107031.Carne de carneiro,0.38
+2023-10-01,IPCA peso mensal,1107081.Cupim,-2.91
+2023-10-01,IPCA peso mensal,1107084.Contrafilé,1.94
+2023-10-01,IPCA peso mensal,1107085.Filé-mignon,0.6
+2023-10-01,IPCA peso mensal,1107087.Chã de dentro,0.88
+2023-10-01,IPCA peso mensal,1107088.Alcatra,1.19
+2023-10-01,IPCA peso mensal,1107089.Patinho,1.7
+2023-10-01,IPCA peso mensal,1107090.Lagarto redondo,-2.34
+2023-10-01,IPCA peso mensal,1107091.Lagarto comum,-0.23
+2023-10-01,IPCA peso mensal,1107093.Músculo,-0.47
+2023-10-01,IPCA peso mensal,1107094.Pá,-1.26
+2023-10-01,IPCA peso mensal,1107095.Acém,-0.3
+2023-10-01,IPCA peso mensal,1107096.Peito,-0.76
+2023-10-01,IPCA peso mensal,1107097.Capa de filé,1.32
+2023-10-01,IPCA peso mensal,1107099.Costela,-0.89
+2023-10-01,IPCA peso mensal,1107208.Picanha,2.91
+2023-10-01,IPCA peso mensal,1108.Pescados,0.42
+2023-10-01,IPCA peso mensal,1108002.Peixe - anchova,0.61
+2023-10-01,IPCA peso mensal,1108004.Peixe - corvina,-0.38
+2023-10-01,IPCA peso mensal,1108011.Peixe - tainha,-1.65
+2023-10-01,IPCA peso mensal,1108012.Peixe - sardinha,1.81
+2023-10-01,IPCA peso mensal,1108013.Camarão,1.27
+2023-10-01,IPCA peso mensal,1108019.Peixe - cavala,-0.26
+2023-10-01,IPCA peso mensal,1108029.Peixe - cação,0.72
+2023-10-01,IPCA peso mensal,1108031.Peixe - merluza,-0.57
+2023-10-01,IPCA peso mensal,1108032.Peixe - serra,1.69
+2023-10-01,IPCA peso mensal,1108038.Peixe - pescada,0.86
+2023-10-01,IPCA peso mensal,1108045.Caranguejo,-1.55
+2023-10-01,IPCA peso mensal,1108049.Peixe - castanha,0.61
+2023-10-01,IPCA peso mensal,1108052.Peixe - palombeta,0.31
+2023-10-01,IPCA peso mensal,1108072.Peixe - curimatã,4.35
+2023-10-01,IPCA peso mensal,1108075.Peixe - salmão,1.59
+2023-10-01,IPCA peso mensal,1108080.Peixe - tilápia,0.93
+2023-10-01,IPCA peso mensal,1108087.Peixe - tambaqui,-0.49
+2023-10-01,IPCA peso mensal,1108088.Peixe - dourada,-4.17
+2023-10-01,IPCA peso mensal,1108092.Peixe - filhote,0.66
+2023-10-01,IPCA peso mensal,1108096.Peixe - peroá,-0.43
+2023-10-01,IPCA peso mensal,1108112.Peixe - pintado,3.19
+2023-10-01,IPCA peso mensal,1108125.Peixe - aruanã,1.62
+2023-10-01,IPCA peso mensal,1109.Carnes e peixes industrializados,-0.78
+2023-10-01,IPCA peso mensal,1109002.Presunto,-0.65
+2023-10-01,IPCA peso mensal,1109007.Salsicha,-0.79
+2023-10-01,IPCA peso mensal,1109008.Linguiça,-1.08
+2023-10-01,IPCA peso mensal,1109010.Mortadela,0.7
+2023-10-01,IPCA peso mensal,1109012.Salame,-0.91
+2023-10-01,IPCA peso mensal,1109023.Bacalhau,-2.52
+2023-10-01,IPCA peso mensal,1109056.Carne-seca e de sol,-0.65
+2023-10-01,IPCA peso mensal,1109058.Carne de porco salgada e defumada,1.69
+2023-10-01,IPCA peso mensal,1110.Aves e ovos,-0.14
+2023-10-01,IPCA peso mensal,1110009.Frango inteiro,0.54
+2023-10-01,IPCA peso mensal,1110010.Frango em pedaços,0.73
+2023-10-01,IPCA peso mensal,1110044.Ovo de galinha,-2.85
+2023-10-01,IPCA peso mensal,1111.Leites e derivados,-2.78
+2023-10-01,IPCA peso mensal,1111004.Leite longa vida,-5.48
+2023-10-01,IPCA peso mensal,1111008.Leite condensado,-2.36
+2023-10-01,IPCA peso mensal,1111009.Leite em pó,-0.87
+2023-10-01,IPCA peso mensal,1111011.Queijo,-1.14
+2023-10-01,IPCA peso mensal,1111019.Iogurte e bebidas lácteas,-0.63
+2023-10-01,IPCA peso mensal,1111021.Requeijão,-1.33
+2023-10-01,IPCA peso mensal,1111031.Manteiga,-0.61
+2023-10-01,IPCA peso mensal,1111038.Leite fermentado,-0.86
+2023-10-01,IPCA peso mensal,1112.Panificados,-0.1
+2023-10-01,IPCA peso mensal,1112003.Biscoito,-0.64
+2023-10-01,IPCA peso mensal,1112015.Pão francês,0.19
+2023-10-01,IPCA peso mensal,1112017.Pão doce,1.13
+2023-10-01,IPCA peso mensal,1112018.Pão de forma,-0.9
+2023-10-01,IPCA peso mensal,1112019.Bolo,-0.4
+2023-10-01,IPCA peso mensal,1112025.Pão de queijo,1.24
+2023-10-01,IPCA peso mensal,1113.Óleos e gorduras,-0.12
+2023-10-01,IPCA peso mensal,1113013.Óleo de soja,-1.77
+2023-10-01,IPCA peso mensal,1113014.Azeite de oliva,5.32
+2023-10-01,IPCA peso mensal,1113040.Margarina,-0.6
+2023-10-01,IPCA peso mensal,1114.Bebidas e infusões,0.27
+2023-10-01,IPCA peso mensal,1114001.Suco de frutas,0.51
+2023-10-01,IPCA peso mensal,1114003.Polpa de fruta (congelada),-1.74
+2023-10-01,IPCA peso mensal,1114004.Açaí (emulsão),-2.82
+2023-10-01,IPCA peso mensal,1114022.Café moído,-1.23
+2023-10-01,IPCA peso mensal,1114023.Café solúvel,1.61
+2023-10-01,IPCA peso mensal,1114083.Refrigerante e água mineral,0.44
+2023-10-01,IPCA peso mensal,1114084.Cerveja,1.8
+2023-10-01,IPCA peso mensal,1114085.Outras bebidas alcoólicas,1.83
+2023-10-01,IPCA peso mensal,1114087.Vinho,0.37
+2023-10-01,IPCA peso mensal,1114090.Suco em pó,-0.73
+2023-10-01,IPCA peso mensal,1114091.Chá mate (erva mate),0.91
+2023-10-01,IPCA peso mensal,1115.Enlatados e conservas,0.14
+2023-10-01,IPCA peso mensal,1115013.Alimento infantil,-1.05
+2023-10-01,IPCA peso mensal,1115016.Palmito em conserva,1.29
+2023-10-01,IPCA peso mensal,1115017.Pepino em conserva,-0.3
+2023-10-01,IPCA peso mensal,1115039.Sardinha em conserva,-0.59
+2023-10-01,IPCA peso mensal,1115050.Salsicha em conserva,-3.09
+2023-10-01,IPCA peso mensal,1115056.Sopa desidratada,-1.43
+2023-10-01,IPCA peso mensal,1115057.Azeitona,0.67
+2023-10-01,IPCA peso mensal,1115058.Milho-verde em conserva,0.09
+2023-10-01,IPCA peso mensal,1115075.Atum em conserva,0.58
+2023-10-01,IPCA peso mensal,1116.Sal e condimentos,-0.25
+2023-10-01,IPCA peso mensal,1116001.Leite de coco,-0.54
+2023-10-01,IPCA peso mensal,1116005.Atomatado,0.83
+2023-10-01,IPCA peso mensal,1116010.Alho,-2.3
+2023-10-01,IPCA peso mensal,1116013.Sal,-3.78
+2023-10-01,IPCA peso mensal,1116022.Colorau,0.03
+2023-10-01,IPCA peso mensal,1116023.Caldo de tucupi,-3.76
+2023-10-01,IPCA peso mensal,1116026.Fermento,0.77
+2023-10-01,IPCA peso mensal,1116033.Maionese,0.64
+2023-10-01,IPCA peso mensal,1116041.Vinagre,-0.86
+2023-10-01,IPCA peso mensal,1116048.Caldo concentrado,0.33
+2023-10-01,IPCA peso mensal,1116071.Tempero misto,0.85
+2023-10-01,IPCA peso mensal,12.Alimentação fora do domicílio,0.42
+2023-10-01,IPCA peso mensal,1201.Alimentação fora do domicílio,0.42
+2023-10-01,IPCA peso mensal,1201001.Refeição,0.48
+2023-10-01,IPCA peso mensal,1201003.Lanche,0.19
+2023-10-01,IPCA peso mensal,1201007.Refrigerante e água mineral,0.51
+2023-10-01,IPCA peso mensal,1201009.Cafezinho,2.24
+2023-10-01,IPCA peso mensal,1201048.Cerveja,0.72
+2023-10-01,IPCA peso mensal,1201051.Outras bebidas alcoólicas,1.2
+2023-10-01,IPCA peso mensal,1201052.Vinho,1.26
+2023-10-01,IPCA peso mensal,1201061.Doces,0.11
+2023-10-01,IPCA peso mensal,1201088.Sorvete,0.88
+2023-10-01,IPCA peso mensal,2.Habitação,0.02
+2023-10-01,IPCA peso mensal,21.Encargos e manutenção,0.23
+2023-10-01,IPCA peso mensal,2101.Aluguel e taxas,0.33
+2023-10-01,IPCA peso mensal,2101001.Aluguel residencial,0.28
+2023-10-01,IPCA peso mensal,2101002.Condomínio,0.37
+2023-10-01,IPCA peso mensal,2101004.Taxa de água e esgoto,0.37
+2023-10-01,IPCA peso mensal,2101012.Mudança,-3.74
+2023-10-01,IPCA peso mensal,2103.Reparos,0.01
+2023-10-01,IPCA peso mensal,2103005.Ferragens,-0.55
+2023-10-01,IPCA peso mensal,2103008.Material de eletricidade,-1.31
+2023-10-01,IPCA peso mensal,2103012.Vidro,-0.84
+2023-10-01,IPCA peso mensal,2103014.Tinta,0.05
+2023-10-01,IPCA peso mensal,2103032.Revestimento de piso e parede,-1.22
+2023-10-01,IPCA peso mensal,2103038.Madeira e taco,0.88
+2023-10-01,IPCA peso mensal,2103039.Cimento,-0.37
+2023-10-01,IPCA peso mensal,2103040.Tijolo,1.15
+2023-10-01,IPCA peso mensal,2103041.Material hidráulico,-1.33
+2023-10-01,IPCA peso mensal,2103042.Mão de obra,0.68
+2023-10-01,IPCA peso mensal,2103048.Areia,-0.69
+2023-10-01,IPCA peso mensal,2103049.Pedras,1.45
+2023-10-01,IPCA peso mensal,2103055.Telha,-0.48
+2023-10-01,IPCA peso mensal,2104.Artigos de limpeza,-0.3
+2023-10-01,IPCA peso mensal,2104003.Saco para lixo,-1.49
+2023-10-01,IPCA peso mensal,2104005.Água sanitária,-0.04
+2023-10-01,IPCA peso mensal,2104008.Detergente,-0.42
+2023-10-01,IPCA peso mensal,2104009.Sabão em pó,-1.03
+2023-10-01,IPCA peso mensal,2104012.Desinfetante,0.48
+2023-10-01,IPCA peso mensal,2104015.Sabão em barra,-0.7
+2023-10-01,IPCA peso mensal,2104016.Esponja de limpeza,-1.72
+2023-10-01,IPCA peso mensal,2104019.Sabão líquido,-1.72
+2023-10-01,IPCA peso mensal,2104020.Limpador multiuso,2.78
+2023-10-01,IPCA peso mensal,2104041.Papel toalha,0.88
+2023-10-01,IPCA peso mensal,2104085.Amaciante e alvejante,0.18
+2023-10-01,IPCA peso mensal,22.Combustíveis e energia,-0.37
+2023-10-01,IPCA peso mensal,2201.Combustíveis (domésticos),0.24
+2023-10-01,IPCA peso mensal,2201003.Carvão vegetal,2.21
+2023-10-01,IPCA peso mensal,2201004.Gás de botijão,0.27
+2023-10-01,IPCA peso mensal,2201005.Gás encanado,0.0
+2023-10-01,IPCA peso mensal,2202.Energia elétrica residencial,-0.58
+2023-10-01,IPCA peso mensal,2202003.Energia elétrica residencial,-0.58
+2023-10-01,IPCA peso mensal,3.Artigos de residência,0.46
+2023-10-01,IPCA peso mensal,31.Móveis e utensílios,0.29
+2023-10-01,IPCA peso mensal,3101.Mobiliário,0.54
+2023-10-01,IPCA peso mensal,3101002.Móvel para sala,-0.09
+2023-10-01,IPCA peso mensal,3101003.Móvel para quarto,0.63
+2023-10-01,IPCA peso mensal,3101015.Móvel para copa e cozinha,1.45
+2023-10-01,IPCA peso mensal,3101016.Móvel infantil,0.7
+2023-10-01,IPCA peso mensal,3101017.Colchão,-0.69
+2023-10-01,IPCA peso mensal,3102.Utensílios e enfeites,-0.23
+2023-10-01,IPCA peso mensal,3102001.Artigos de iluminação,-1.73
+2023-10-01,IPCA peso mensal,3102005.Tapete,0.0
+2023-10-01,IPCA peso mensal,3102006.Cortina,0.89
+2023-10-01,IPCA peso mensal,3102007.Utensílios de metal,0.0
+2023-10-01,IPCA peso mensal,3102009.Utensílios de vidro e louça,-1.39
+2023-10-01,IPCA peso mensal,3102010.Utensílios de plástico,0.04
+2023-10-01,IPCA peso mensal,3102035.Flores naturais,-0.18
+2023-10-01,IPCA peso mensal,3102337.Utensílios para bebê,0.84
+2023-10-01,IPCA peso mensal,"3103.Cama, mesa e banho",-0.09
+2023-10-01,IPCA peso mensal,3103001.Roupa de cama,-0.1
+2023-10-01,IPCA peso mensal,3103003.Roupa de banho,0.45
+2023-10-01,IPCA peso mensal,32.Aparelhos eletroeletrônicos,0.58
+2023-10-01,IPCA peso mensal,3201.Eletrodomésticos e equipamentos,1.16
+2023-10-01,IPCA peso mensal,3201001.Refrigerador,0.75
+2023-10-01,IPCA peso mensal,3201002.Ar-condicionado,6.09
+2023-10-01,IPCA peso mensal,3201006.Máquina de lavar roupa,0.11
+2023-10-01,IPCA peso mensal,3201013.Ventilador,0.2
+2023-10-01,IPCA peso mensal,3201021.Fogão,0.87
+2023-10-01,IPCA peso mensal,3201050.Chuveiro elétrico,-1.36
+2023-10-01,IPCA peso mensal,"3202.Tv, som e informática",-0.25
+2023-10-01,IPCA peso mensal,3202001.Televisor,-0.82
+2023-10-01,IPCA peso mensal,3202003.Aparelho de som,-0.3
+2023-10-01,IPCA peso mensal,3202008.Videogame (console),-0.19
+2023-10-01,IPCA peso mensal,3202028.Computador pessoal,0.66
+2023-10-01,IPCA peso mensal,33.Consertos e manutenção,0.79
+2023-10-01,IPCA peso mensal,3301.Consertos e manutenção,0.79
+2023-10-01,IPCA peso mensal,3301002.Conserto de refrigerador,0.61
+2023-10-01,IPCA peso mensal,3301006.Conserto de televisor,-1.83
+2023-10-01,IPCA peso mensal,3301015.Conserto de máquina de lavar roupa,-1.7
+2023-10-01,IPCA peso mensal,3301022.Reforma de estofado,0.97
+2023-10-01,IPCA peso mensal,3301088.Conserto de aparelho celular,-0.32
+2023-10-01,IPCA peso mensal,3301130.Conserto de bicicleta,1.17
+2023-10-01,IPCA peso mensal,4.Vestuário,0.45
+2023-10-01,IPCA peso mensal,41.Roupas,0.44
+2023-10-01,IPCA peso mensal,4101.Roupa masculina,0.5
+2023-10-01,IPCA peso mensal,4101002.Calça comprida masculina,-0.98
+2023-10-01,IPCA peso mensal,4101005.Agasalho masculino,-1.05
+2023-10-01,IPCA peso mensal,4101006.Bermuda/short masculino,0.63
+2023-10-01,IPCA peso mensal,4101008.Cueca,1.15
+2023-10-01,IPCA peso mensal,4101009.Camisa/camiseta masculina,1.24
+2023-10-01,IPCA peso mensal,4102.Roupa feminina,0.33
+2023-10-01,IPCA peso mensal,4102002.Calça comprida feminina,-0.37
+2023-10-01,IPCA peso mensal,4102003.Agasalho feminino,-0.33
+2023-10-01,IPCA peso mensal,4102004.Saia,1.34
+2023-10-01,IPCA peso mensal,4102005.Vestido,-0.81
+2023-10-01,IPCA peso mensal,4102008.Blusa,1.23
+2023-10-01,IPCA peso mensal,4102010.Lingerie,0.54
+2023-10-01,IPCA peso mensal,4102013.Bermuda/short feminino,1.76
+2023-10-01,IPCA peso mensal,4103.Roupa infantil,0.54
+2023-10-01,IPCA peso mensal,4103001.Uniforme escolar,0.0
+2023-10-01,IPCA peso mensal,4103002.Calça comprida infantil,-0.34
+2023-10-01,IPCA peso mensal,4103005.Agasalho infantil,0.1
+2023-10-01,IPCA peso mensal,4103007.Vestido infantil,1.93
+2023-10-01,IPCA peso mensal,4103008.Bermuda/short infantil,1.26
+2023-10-01,IPCA peso mensal,4103011.Camisa/camiseta infantil,0.93
+2023-10-01,IPCA peso mensal,4103031.Conjunto infantil,0.0
+2023-10-01,IPCA peso mensal,42.Calçados e acessórios,0.59
+2023-10-01,IPCA peso mensal,4201.Calçados e acessórios,0.59
+2023-10-01,IPCA peso mensal,4201002.Sapato masculino,0.15
+2023-10-01,IPCA peso mensal,4201003.Sapato feminino,-0.01
+2023-10-01,IPCA peso mensal,4201004.Sapato infantil,1.36
+2023-10-01,IPCA peso mensal,4201015.Bolsa,-0.59
+2023-10-01,IPCA peso mensal,4201040.Mochila,0.79
+2023-10-01,IPCA peso mensal,4201063.Tênis,0.93
+2023-10-01,IPCA peso mensal,4201098.Sandália/chinelo,1.31
+2023-10-01,IPCA peso mensal,43.Joias e bijuterias,-0.11
+2023-10-01,IPCA peso mensal,4301.Joias e bijuterias,-0.11
+2023-10-01,IPCA peso mensal,4301001.Bijuteria,0.11
+2023-10-01,IPCA peso mensal,4301002.Joia,-0.44
+2023-10-01,IPCA peso mensal,4301004.Relógio de pulso,0.78
+2023-10-01,IPCA peso mensal,44.Tecidos e armarinho,0.29
+2023-10-01,IPCA peso mensal,4401.Tecidos e armarinho,0.29
+2023-10-01,IPCA peso mensal,4401001.Tecido,0.07
+2023-10-01,IPCA peso mensal,4401002.Artigos de armarinho,1.33
+2023-10-01,IPCA peso mensal,5.Transportes,0.35
+2023-10-01,IPCA peso mensal,51.Transportes,0.35
+2023-10-01,IPCA peso mensal,5101.Transporte público,5.0
+2023-10-01,IPCA peso mensal,5101001.Ônibus urbano,0.0
+2023-10-01,IPCA peso mensal,5101002.Táxi,1.42
+2023-10-01,IPCA peso mensal,5101004.Trem,0.0
+2023-10-01,IPCA peso mensal,5101006.Ônibus intermunicipal,0.9
+2023-10-01,IPCA peso mensal,5101007.Ônibus interestadual,-0.11
+2023-10-01,IPCA peso mensal,5101010.Passagem aérea,23.7
+2023-10-01,IPCA peso mensal,5101011.Metrô,0.0
+2023-10-01,IPCA peso mensal,5101026.Transporte escolar,-0.15
+2023-10-01,IPCA peso mensal,5101051.Transporte por aplicativo,-0.89
+2023-10-01,IPCA peso mensal,5101053.Integração transporte público,0.0
+2023-10-01,IPCA peso mensal,5102.Veículo próprio,0.09
+2023-10-01,IPCA peso mensal,5102001.Automóvel novo,-0.32
+2023-10-01,IPCA peso mensal,5102004.Emplacamento e licença,1.63
+2023-10-01,IPCA peso mensal,5102005.Seguro voluntário de veículo,-2.34
+2023-10-01,IPCA peso mensal,5102006.Multa,0.0
+2023-10-01,IPCA peso mensal,5102007.Óleo lubrificante,0.38
+2023-10-01,IPCA peso mensal,5102009.Acessórios e peças,0.15
+2023-10-01,IPCA peso mensal,5102010.Pneu,-1.65
+2023-10-01,IPCA peso mensal,5102011.Conserto de automóvel,-0.04
+2023-10-01,IPCA peso mensal,5102013.Estacionamento,0.63
+2023-10-01,IPCA peso mensal,5102015.Pedágio,1.51
+2023-10-01,IPCA peso mensal,5102020.Automóvel usado,-0.38
+2023-10-01,IPCA peso mensal,5102037.Pintura de veículo,1.68
+2023-10-01,IPCA peso mensal,5102051.Aluguel de veículo,-3.42
+2023-10-01,IPCA peso mensal,5102053.Motocicleta,0.65
+2023-10-01,IPCA peso mensal,5104.Combustíveis (veículos),-1.39
+2023-10-01,IPCA peso mensal,5104001.Gasolina,-1.53
+2023-10-01,IPCA peso mensal,5104002.Etanol,-0.96
+2023-10-01,IPCA peso mensal,5104003.Óleo diesel,0.33
+2023-10-01,IPCA peso mensal,5104005.Gás veicular,-1.23
+2023-10-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.32
+2023-10-01,IPCA peso mensal,61.Produtos farmacêuticos e óticos,0.15
+2023-10-01,IPCA peso mensal,6101.Produtos farmacêuticos,0.06
+2023-10-01,IPCA peso mensal,6101001.Anti-infeccioso e antibiótico,-0.19
+2023-10-01,IPCA peso mensal,6101002.Analgésico e antitérmico,0.21
+2023-10-01,IPCA peso mensal,6101003.Anti-inflamatório e antirreumático,-0.43
+2023-10-01,IPCA peso mensal,6101004.Antigripal e antitussígeno,1.11
+2023-10-01,IPCA peso mensal,6101006.Dermatológico,0.89
+2023-10-01,IPCA peso mensal,6101007.Antialérgico e broncodilatador,-0.3
+2023-10-01,IPCA peso mensal,6101009.Gastroprotetor,-0.42
+2023-10-01,IPCA peso mensal,6101010.Vitamina e fortificante,0.77
+2023-10-01,IPCA peso mensal,6101011.Hormonal,-0.52
+2023-10-01,IPCA peso mensal,6101013.Psicotrópico e anorexígeno,0.22
+2023-10-01,IPCA peso mensal,6101014.Hipotensor e hipocolesterolêmico,0.34
+2023-10-01,IPCA peso mensal,6101051.Oftalmológico,0.12
+2023-10-01,IPCA peso mensal,6101064.Antidiabético,-2.2
+2023-10-01,IPCA peso mensal,6101148.Neurológico,0.06
+2023-10-01,IPCA peso mensal,6102.Produtos óticos,1.35
+2023-10-01,IPCA peso mensal,6102012.Óculos de grau,1.35
+2023-10-01,IPCA peso mensal,62.Serviços de saúde,0.59
+2023-10-01,IPCA peso mensal,6201.Serviços médicos e dentários,0.23
+2023-10-01,IPCA peso mensal,6201002.Médico,-0.06
+2023-10-01,IPCA peso mensal,6201003.Dentista,0.52
+2023-10-01,IPCA peso mensal,6201005.Aparelho ortodôntico,0.97
+2023-10-01,IPCA peso mensal,6201007.Fisioterapeuta,0.61
+2023-10-01,IPCA peso mensal,6201010.Psicólogo,0.0
+2023-10-01,IPCA peso mensal,6202.Serviços laboratoriais e hospitalares,0.12
+2023-10-01,IPCA peso mensal,6202003.Exame de laboratório,0.21
+2023-10-01,IPCA peso mensal,6202004.Hospitalização e cirurgia,0.15
+2023-10-01,IPCA peso mensal,6202006.Exame de imagem,-0.06
+2023-10-01,IPCA peso mensal,6203.Plano de saúde,0.76
+2023-10-01,IPCA peso mensal,6203001.Plano de saúde,0.76
+2023-10-01,IPCA peso mensal,63.Cuidados pessoais,0.09
+2023-10-01,IPCA peso mensal,6301.Higiene pessoal,0.09
+2023-10-01,IPCA peso mensal,6301001.Produto para cabelo,-0.08
+2023-10-01,IPCA peso mensal,6301002.Fralda descartável,0.07
+2023-10-01,IPCA peso mensal,6301004.Produto para barba,-0.56
+2023-10-01,IPCA peso mensal,6301006.Produto para pele,-2.62
+2023-10-01,IPCA peso mensal,6301007.Produto para higiene bucal,0.22
+2023-10-01,IPCA peso mensal,6301010.Produto para unha,1.56
+2023-10-01,IPCA peso mensal,6301011.Perfume,1.7
+2023-10-01,IPCA peso mensal,6301014.Desodorante,-0.4
+2023-10-01,IPCA peso mensal,6301015.Absorvente higiênico,0.7
+2023-10-01,IPCA peso mensal,6301016.Sabonete,-0.78
+2023-10-01,IPCA peso mensal,6301017.Papel higiênico,0.99
+2023-10-01,IPCA peso mensal,6301020.Artigos de maquiagem,-1.11
+2023-10-01,IPCA peso mensal,7.Despesas pessoais,0.27
+2023-10-01,IPCA peso mensal,71.Serviços pessoais,0.38
+2023-10-01,IPCA peso mensal,7101.Serviços pessoais,0.38
+2023-10-01,IPCA peso mensal,7101001.Costureira,0.99
+2023-10-01,IPCA peso mensal,7101005.Manicure,0.53
+2023-10-01,IPCA peso mensal,7101010.Empregado doméstico,0.33
+2023-10-01,IPCA peso mensal,7101011.Cabeleireiro e barbeiro,-0.06
+2023-10-01,IPCA peso mensal,7101014.Depilação,0.3
+2023-10-01,IPCA peso mensal,7101034.Cartório,0.0
+2023-10-01,IPCA peso mensal,7101036.Despachante,0.54
+2023-10-01,IPCA peso mensal,7101076.Serviço bancário,0.67
+2023-10-01,IPCA peso mensal,7101090.Conselho de classe,0.49
+2023-10-01,IPCA peso mensal,7101144.Sobrancelha,0.73
+2023-10-01,IPCA peso mensal,72.Recreação e fumo,0.11
+2023-10-01,IPCA peso mensal,7201.Recreação,0.08
+2023-10-01,IPCA peso mensal,7201006.Clube,0.25
+2023-10-01,IPCA peso mensal,7201010.Instrumento musical,0.11
+2023-10-01,IPCA peso mensal,7201015.Tratamento de animais (clínica),0.77
+2023-10-01,IPCA peso mensal,7201019.Bicicleta,-0.46
+2023-10-01,IPCA peso mensal,7201020.Alimento para animais,-1.11
+2023-10-01,IPCA peso mensal,7201023.Brinquedo,-0.33
+2023-10-01,IPCA peso mensal,7201054.Casa noturna,-0.02
+2023-10-01,IPCA peso mensal,7201063.Jogos de azar,0.0
+2023-10-01,IPCA peso mensal,7201067.Material de caça e pesca,1.49
+2023-10-01,IPCA peso mensal,7201090.Hospedagem,0.45
+2023-10-01,IPCA peso mensal,7201095.Pacote turístico,1.32
+2023-10-01,IPCA peso mensal,7201256.Serviço de higiene para animais,1.36
+2023-10-01,IPCA peso mensal,"7201266.Cinema, teatro e concertos",-1.17
+2023-10-01,IPCA peso mensal,7202.Fumo,0.33
+2023-10-01,IPCA peso mensal,7202041.Cigarro,0.33
+2023-10-01,IPCA peso mensal,8.Educação,0.05
+2023-10-01,IPCA peso mensal,"81.Cursos, leitura e papelaria",0.05
+2023-10-01,IPCA peso mensal,8101.Cursos regulares,0.0
+2023-10-01,IPCA peso mensal,8101001.Creche,0.0
+2023-10-01,IPCA peso mensal,8101002.Pré-escola,0.0
+2023-10-01,IPCA peso mensal,8101003.Ensino fundamental,0.0
+2023-10-01,IPCA peso mensal,8101004.Ensino médio,0.0
+2023-10-01,IPCA peso mensal,8101005.Ensino superior,0.0
+2023-10-01,IPCA peso mensal,8101006.Pós-graduação,0.0
+2023-10-01,IPCA peso mensal,8101008.Educação de jovens e adultos,0.0
+2023-10-01,IPCA peso mensal,8101045.Curso técnico,0.0
+2023-10-01,IPCA peso mensal,8102.Leitura,0.12
+2023-10-01,IPCA peso mensal,8102001.Jornal diário,0.0
+2023-10-01,IPCA peso mensal,8102004.Revista,0.0
+2023-10-01,IPCA peso mensal,8102007.Livro didático,0.0
+2023-10-01,IPCA peso mensal,8102008.Livro não didático,0.65
+2023-10-01,IPCA peso mensal,8103.Papelaria,0.35
+2023-10-01,IPCA peso mensal,8103001.Caderno,1.13
+2023-10-01,IPCA peso mensal,8103014.Artigos de papelaria,-0.11
+2023-10-01,IPCA peso mensal,8104.Cursos diversos,0.21
+2023-10-01,IPCA peso mensal,8104001.Curso preparatório,0.0
+2023-10-01,IPCA peso mensal,8104003.Curso de idioma,0.0
+2023-10-01,IPCA peso mensal,8104004.Curso de informática,0.0
+2023-10-01,IPCA peso mensal,8104005.Autoescola,0.46
+2023-10-01,IPCA peso mensal,8104006.Atividades físicas,0.38
+2023-10-01,IPCA peso mensal,9.Comunicação,-0.19
+2023-10-01,IPCA peso mensal,91.Comunicação,-0.19
+2023-10-01,IPCA peso mensal,9101.Comunicação,-0.19
+2023-10-01,IPCA peso mensal,9101001.Correio,0.0
+2023-10-01,IPCA peso mensal,9101002.Plano de telefonia fixa,-0.36
+2023-10-01,IPCA peso mensal,9101008.Plano de telefonia móvel,0.0
+2023-10-01,IPCA peso mensal,9101010.Tv por assinatura,0.0
+2023-10-01,IPCA peso mensal,9101018.Acesso à internet,0.0
+2023-10-01,IPCA peso mensal,9101019.Aparelho telefônico,-0.96
+2023-10-01,IPCA peso mensal,9101115.Serviços de streaming,0.0
+2023-10-01,IPCA peso mensal,"9101116.Combo de telefonia, internet e tv por assinatura",0.0
