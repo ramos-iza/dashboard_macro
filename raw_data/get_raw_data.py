@@ -29,10 +29,8 @@ def dados_brutos_ipca_sidra():
 
 def ipca_focus():
     em = Expectativas()
-    em.describe()
-    exp_ipca = Expectativas().get_endpoint('ExpectativasMercadoAnuais')
+    exp_ipca = em.get_endpoint('ExpectativasMercadoAnuais')
     ipca_focus = (exp_ipca.query().filter(exp_ipca.Indicador == 'IPCA').filter(exp_ipca.Data >= '2013-05-04').collect())
-    ipca_focus.info()
     return ipca_focus
 
 
@@ -246,6 +244,11 @@ def ipca_cred():
         period = "all"
         )
     return ipca
+
+
+def sgs_m1():
+    m1 = sgs.get(codes= '27785').rename(columns= { '27785': 'm1'})
+    return m1
 
 
 

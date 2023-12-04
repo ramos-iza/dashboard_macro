@@ -13,7 +13,7 @@ def calc_ipca_anual(ipca_mensal):
   ipca_mensal['Date'] = pd.to_datetime(ipca_mensal['Date'])
   ipca_mensal['ipca_anual'] = (ipca_mensal['ipca_mensal']/100)+1
   
-  ipca_anual = ipca_mensal.groupby(ipca_mensal['Date'].dt.year).prod()['ipca_anual'] -1
+  ipca_anual = ipca_mensal.groupby(ipca_mensal['Date'].dt.year).prod(numeric_only=True)['ipca_anual'] -1
   return ipca_anual.to_frame()
 
 def transformar_data_em_datetime(df, nome_coluna, format):
@@ -710,6 +710,7 @@ def tratamento_dados_credito(dados_credito):
     dados_credito['Date'] = pd.to_datetime(dados_credito['Date'], format='%Y-%m-%d')
     dados_credito.set_index("Date", inplace = True)
     dados_credito.rename_axis("data", inplace = True)
+    dados_credito.dropna(inplace=True)
     return dados_credito
 
 

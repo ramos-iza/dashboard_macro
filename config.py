@@ -57,6 +57,10 @@ raw= {
     'ipca_credito' : {
         'path' : 'dados/credito/raw/ipca_credito.csv'
     },
+    'sgs_m1' : {
+        'path' : 'dados/ipca/raw/sgs_m1.csv'
+    },    
+    
 } 
 
 

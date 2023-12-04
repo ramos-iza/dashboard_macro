@@ -45,408 +45,418 @@
 43,7,Região Metropolitana,2,%,2.87,1501,Belém - PA,202307,julho 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
 44,7,Região Metropolitana,2,%,3.52,1501,Belém - PA,202308,agosto 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
 45,7,Região Metropolitana,2,%,3.98,1501,Belém - PA,202309,setembro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-46,7,Região Metropolitana,2,%,0.28,2301,Fortaleza - CE,202001,janeiro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-47,7,Região Metropolitana,2,%,1.08,2301,Fortaleza - CE,202002,fevereiro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-48,7,Região Metropolitana,2,%,1.29,2301,Fortaleza - CE,202003,março 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-49,7,Região Metropolitana,2,%,1.17,2301,Fortaleza - CE,202004,abril 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-50,7,Região Metropolitana,2,%,0.64,2301,Fortaleza - CE,202005,maio 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-51,7,Região Metropolitana,2,%,0.98,2301,Fortaleza - CE,202006,junho 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-52,7,Região Metropolitana,2,%,1.55,2301,Fortaleza - CE,202007,julho 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-53,7,Região Metropolitana,2,%,1.32,2301,Fortaleza - CE,202008,agosto 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-54,7,Região Metropolitana,2,%,2.55,2301,Fortaleza - CE,202009,setembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-55,7,Região Metropolitana,2,%,3.40,2301,Fortaleza - CE,202010,outubro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-56,7,Região Metropolitana,2,%,4.23,2301,Fortaleza - CE,202011,novembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-57,7,Região Metropolitana,2,%,5.74,2301,Fortaleza - CE,202012,dezembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-58,7,Região Metropolitana,2,%,0.36,2301,Fortaleza - CE,202101,janeiro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-59,7,Região Metropolitana,2,%,1.85,2301,Fortaleza - CE,202102,fevereiro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-60,7,Região Metropolitana,2,%,2.59,2301,Fortaleza - CE,202103,março 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-61,7,Região Metropolitana,2,%,3.36,2301,Fortaleza - CE,202104,abril 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-62,7,Região Metropolitana,2,%,4.50,2301,Fortaleza - CE,202105,maio 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-63,7,Região Metropolitana,2,%,5.11,2301,Fortaleza - CE,202106,junho 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-64,7,Região Metropolitana,2,%,6.08,2301,Fortaleza - CE,202107,julho 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-65,7,Região Metropolitana,2,%,6.54,2301,Fortaleza - CE,202108,agosto 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-66,7,Região Metropolitana,2,%,7.84,2301,Fortaleza - CE,202109,setembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-67,7,Região Metropolitana,2,%,8.87,2301,Fortaleza - CE,202110,outubro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-68,7,Região Metropolitana,2,%,10.03,2301,Fortaleza - CE,202111,novembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-69,7,Região Metropolitana,2,%,10.63,2301,Fortaleza - CE,202112,dezembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-70,7,Região Metropolitana,2,%,0.73,2301,Fortaleza - CE,202201,janeiro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-71,7,Região Metropolitana,2,%,1.50,2301,Fortaleza - CE,202202,fevereiro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-72,7,Região Metropolitana,2,%,3.21,2301,Fortaleza - CE,202203,março 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-73,7,Região Metropolitana,2,%,4.23,2301,Fortaleza - CE,202204,abril 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-74,7,Região Metropolitana,2,%,5.69,2301,Fortaleza - CE,202205,maio 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-75,7,Região Metropolitana,2,%,6.34,2301,Fortaleza - CE,202206,junho 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-76,7,Região Metropolitana,2,%,5.65,2301,Fortaleza - CE,202207,julho 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-77,7,Região Metropolitana,2,%,4.87,2301,Fortaleza - CE,202208,agosto 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-78,7,Região Metropolitana,2,%,4.19,2301,Fortaleza - CE,202209,setembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-79,7,Região Metropolitana,2,%,4.82,2301,Fortaleza - CE,202210,outubro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-80,7,Região Metropolitana,2,%,5.12,2301,Fortaleza - CE,202211,novembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-81,7,Região Metropolitana,2,%,5.76,2301,Fortaleza - CE,202212,dezembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-82,7,Região Metropolitana,2,%,0.86,2301,Fortaleza - CE,202301,janeiro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-83,7,Região Metropolitana,2,%,1.60,2301,Fortaleza - CE,202302,fevereiro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-84,7,Região Metropolitana,2,%,1.96,2301,Fortaleza - CE,202303,março 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-85,7,Região Metropolitana,2,%,2.53,2301,Fortaleza - CE,202304,abril 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-86,7,Região Metropolitana,2,%,3.10,2301,Fortaleza - CE,202305,maio 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-87,7,Região Metropolitana,2,%,2.69,2301,Fortaleza - CE,202306,junho 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-88,7,Região Metropolitana,2,%,2.86,2301,Fortaleza - CE,202307,julho 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-89,7,Região Metropolitana,2,%,3.62,2301,Fortaleza - CE,202308,agosto 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-90,7,Região Metropolitana,2,%,3.76,2301,Fortaleza - CE,202309,setembro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-91,7,Região Metropolitana,2,%,0.30,2601,Recife - PE,202001,janeiro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-92,7,Região Metropolitana,2,%,0.68,2601,Recife - PE,202002,fevereiro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-93,7,Região Metropolitana,2,%,0.99,2601,Recife - PE,202003,março 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-94,7,Região Metropolitana,2,%,0.79,2601,Recife - PE,202004,abril 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-95,7,Região Metropolitana,2,%,0.61,2601,Recife - PE,202005,maio 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-96,7,Região Metropolitana,2,%,1.12,2601,Recife - PE,202006,junho 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-97,7,Região Metropolitana,2,%,1.52,2601,Recife - PE,202007,julho 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-98,7,Região Metropolitana,2,%,1.98,2601,Recife - PE,202008,agosto 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-99,7,Região Metropolitana,2,%,2.78,2601,Recife - PE,202009,setembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-100,7,Região Metropolitana,2,%,3.62,2601,Recife - PE,202010,outubro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-101,7,Região Metropolitana,2,%,4.00,2601,Recife - PE,202011,novembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-102,7,Região Metropolitana,2,%,5.66,2601,Recife - PE,202012,dezembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-103,7,Região Metropolitana,2,%,0.50,2601,Recife - PE,202101,janeiro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-104,7,Região Metropolitana,2,%,1.28,2601,Recife - PE,202102,fevereiro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-105,7,Região Metropolitana,2,%,1.91,2601,Recife - PE,202103,março 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-106,7,Região Metropolitana,2,%,2.40,2601,Recife - PE,202104,abril 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-107,7,Região Metropolitana,2,%,3.18,2601,Recife - PE,202105,maio 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-108,7,Região Metropolitana,2,%,4.13,2601,Recife - PE,202106,junho 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-109,7,Região Metropolitana,2,%,5.14,2601,Recife - PE,202107,julho 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-110,7,Região Metropolitana,2,%,5.84,2601,Recife - PE,202108,agosto 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-111,7,Região Metropolitana,2,%,7.00,2601,Recife - PE,202109,setembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-112,7,Região Metropolitana,2,%,8.17,2601,Recife - PE,202110,outubro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-113,7,Região Metropolitana,2,%,9.27,2601,Recife - PE,202111,novembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-114,7,Região Metropolitana,2,%,10.42,2601,Recife - PE,202112,dezembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-115,7,Região Metropolitana,2,%,0.41,2601,Recife - PE,202201,janeiro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-116,7,Região Metropolitana,2,%,1.38,2601,Recife - PE,202202,fevereiro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-117,7,Região Metropolitana,2,%,2.94,2601,Recife - PE,202203,março 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-118,7,Região Metropolitana,2,%,4.09,2601,Recife - PE,202204,abril 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-119,7,Região Metropolitana,2,%,4.67,2601,Recife - PE,202205,maio 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-120,7,Região Metropolitana,2,%,5.85,2601,Recife - PE,202206,junho 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-121,7,Região Metropolitana,2,%,5.41,2601,Recife - PE,202207,julho 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-122,7,Região Metropolitana,2,%,3.94,2601,Recife - PE,202208,agosto 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-123,7,Região Metropolitana,2,%,3.49,2601,Recife - PE,202209,setembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-124,7,Região Metropolitana,2,%,4.47,2601,Recife - PE,202210,outubro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-125,7,Região Metropolitana,2,%,4.88,2601,Recife - PE,202211,novembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-126,7,Região Metropolitana,2,%,5.80,2601,Recife - PE,202212,dezembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-127,7,Região Metropolitana,2,%,0.03,2601,Recife - PE,202301,janeiro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-128,7,Região Metropolitana,2,%,1.03,2601,Recife - PE,202302,fevereiro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-129,7,Região Metropolitana,2,%,1.65,2601,Recife - PE,202303,março 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-130,7,Região Metropolitana,2,%,1.81,2601,Recife - PE,202304,abril 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-131,7,Região Metropolitana,2,%,2.23,2601,Recife - PE,202305,maio 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-132,7,Região Metropolitana,2,%,2.52,2601,Recife - PE,202306,junho 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-133,7,Região Metropolitana,2,%,2.93,2601,Recife - PE,202307,julho 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-134,7,Região Metropolitana,2,%,3.31,2601,Recife - PE,202308,agosto 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-135,7,Região Metropolitana,2,%,3.36,2601,Recife - PE,202309,setembro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-136,7,Região Metropolitana,2,%,0.34,2901,Salvador - BA,202001,janeiro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-137,7,Região Metropolitana,2,%,0.50,2901,Salvador - BA,202002,fevereiro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-138,7,Região Metropolitana,2,%,0.67,2901,Salvador - BA,202003,março 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-139,7,Região Metropolitana,2,%,0.51,2901,Salvador - BA,202004,abril 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-140,7,Região Metropolitana,2,%,0.04,2901,Salvador - BA,202005,maio 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-141,7,Região Metropolitana,2,%,0.72,2901,Salvador - BA,202006,junho 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-142,7,Região Metropolitana,2,%,1.34,2901,Salvador - BA,202007,julho 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-143,7,Região Metropolitana,2,%,1.48,2901,Salvador - BA,202008,agosto 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-144,7,Região Metropolitana,2,%,1.71,2901,Salvador - BA,202009,setembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-145,7,Região Metropolitana,2,%,2.16,2901,Salvador - BA,202010,outubro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-146,7,Região Metropolitana,2,%,3.36,2901,Salvador - BA,202011,novembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-147,7,Região Metropolitana,2,%,4.31,2901,Salvador - BA,202012,dezembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-148,7,Região Metropolitana,2,%,0.26,2901,Salvador - BA,202101,janeiro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-149,7,Região Metropolitana,2,%,1.19,2901,Salvador - BA,202102,fevereiro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-150,7,Região Metropolitana,2,%,2.01,2901,Salvador - BA,202103,março 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-151,7,Região Metropolitana,2,%,2.10,2901,Salvador - BA,202104,abril 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-152,7,Região Metropolitana,2,%,3.24,2901,Salvador - BA,202105,maio 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-153,7,Região Metropolitana,2,%,4.13,2901,Salvador - BA,202106,junho 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-154,7,Região Metropolitana,2,%,4.91,2901,Salvador - BA,202107,julho 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-155,7,Região Metropolitana,2,%,5.64,2901,Salvador - BA,202108,agosto 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-156,7,Região Metropolitana,2,%,6.81,2901,Salvador - BA,202109,setembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-157,7,Região Metropolitana,2,%,8.11,2901,Salvador - BA,202110,outubro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-158,7,Região Metropolitana,2,%,9.64,2901,Salvador - BA,202111,novembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-159,7,Região Metropolitana,2,%,10.78,2901,Salvador - BA,202112,dezembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-160,7,Região Metropolitana,2,%,0.86,2901,Salvador - BA,202201,janeiro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-161,7,Região Metropolitana,2,%,1.70,2901,Salvador - BA,202202,fevereiro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-162,7,Região Metropolitana,2,%,3.26,2901,Salvador - BA,202203,março 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-163,7,Região Metropolitana,2,%,3.95,2901,Salvador - BA,202204,abril 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-164,7,Região Metropolitana,2,%,5.29,2901,Salvador - BA,202205,maio 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-165,7,Região Metropolitana,2,%,6.60,2901,Salvador - BA,202206,junho 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-166,7,Região Metropolitana,2,%,5.48,2901,Salvador - BA,202207,julho 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-167,7,Região Metropolitana,2,%,5.30,2901,Salvador - BA,202208,agosto 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-168,7,Região Metropolitana,2,%,4.97,2901,Salvador - BA,202209,setembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-169,7,Região Metropolitana,2,%,5.61,2901,Salvador - BA,202210,outubro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-170,7,Região Metropolitana,2,%,5.88,2901,Salvador - BA,202211,novembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-171,7,Região Metropolitana,2,%,6.29,2901,Salvador - BA,202212,dezembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-172,7,Região Metropolitana,2,%,1.09,2901,Salvador - BA,202301,janeiro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-173,7,Região Metropolitana,2,%,1.90,2901,Salvador - BA,202302,fevereiro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-174,7,Região Metropolitana,2,%,2.36,2901,Salvador - BA,202303,março 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-175,7,Região Metropolitana,2,%,2.87,2901,Salvador - BA,202304,abril 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-176,7,Região Metropolitana,2,%,3.23,2901,Salvador - BA,202305,maio 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-177,7,Região Metropolitana,2,%,3.00,2901,Salvador - BA,202306,junho 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-178,7,Região Metropolitana,2,%,3.26,2901,Salvador - BA,202307,julho 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-179,7,Região Metropolitana,2,%,3.44,2901,Salvador - BA,202308,agosto 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-180,7,Região Metropolitana,2,%,3.49,2901,Salvador - BA,202309,setembro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-181,7,Região Metropolitana,2,%,0.20,3101,Belo Horizonte - MG,202001,janeiro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-182,7,Região Metropolitana,2,%,0.70,3101,Belo Horizonte - MG,202002,fevereiro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-183,7,Região Metropolitana,2,%,0.75,3101,Belo Horizonte - MG,202003,março 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-184,7,Região Metropolitana,2,%,0.53,3101,Belo Horizonte - MG,202004,abril 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-185,7,Região Metropolitana,2,%,-0.07,3101,Belo Horizonte - MG,202005,maio 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-186,7,Região Metropolitana,2,%,-0.02,3101,Belo Horizonte - MG,202006,junho 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-187,7,Região Metropolitana,2,%,0.37,3101,Belo Horizonte - MG,202007,julho 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-188,7,Região Metropolitana,2,%,0.58,3101,Belo Horizonte - MG,202008,agosto 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-189,7,Região Metropolitana,2,%,1.34,3101,Belo Horizonte - MG,202009,setembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-190,7,Região Metropolitana,2,%,2.43,3101,Belo Horizonte - MG,202010,outubro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-191,7,Região Metropolitana,2,%,3.41,3101,Belo Horizonte - MG,202011,novembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-192,7,Região Metropolitana,2,%,4.99,3101,Belo Horizonte - MG,202012,dezembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-193,7,Região Metropolitana,2,%,0.33,3101,Belo Horizonte - MG,202101,janeiro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-194,7,Região Metropolitana,2,%,1.06,3101,Belo Horizonte - MG,202102,fevereiro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-195,7,Região Metropolitana,2,%,2.25,3101,Belo Horizonte - MG,202103,março 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-196,7,Região Metropolitana,2,%,2.63,3101,Belo Horizonte - MG,202104,abril 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-197,7,Região Metropolitana,2,%,3.44,3101,Belo Horizonte - MG,202105,maio 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-198,7,Região Metropolitana,2,%,3.87,3101,Belo Horizonte - MG,202106,junho 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-199,7,Região Metropolitana,2,%,4.61,3101,Belo Horizonte - MG,202107,julho 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-200,7,Região Metropolitana,2,%,5.06,3101,Belo Horizonte - MG,202108,agosto 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-201,7,Região Metropolitana,2,%,6.47,3101,Belo Horizonte - MG,202109,setembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-202,7,Região Metropolitana,2,%,7.77,3101,Belo Horizonte - MG,202110,outubro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-203,7,Região Metropolitana,2,%,8.77,3101,Belo Horizonte - MG,202111,novembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-204,7,Região Metropolitana,2,%,9.58,3101,Belo Horizonte - MG,202112,dezembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-205,7,Região Metropolitana,2,%,0.80,3101,Belo Horizonte - MG,202201,janeiro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-206,7,Região Metropolitana,2,%,1.88,3101,Belo Horizonte - MG,202202,fevereiro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-207,7,Região Metropolitana,2,%,3.35,3101,Belo Horizonte - MG,202203,março 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-208,7,Região Metropolitana,2,%,4.44,3101,Belo Horizonte - MG,202204,abril 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-209,7,Região Metropolitana,2,%,4.71,3101,Belo Horizonte - MG,202205,maio 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-210,7,Região Metropolitana,2,%,5.58,3101,Belo Horizonte - MG,202206,junho 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-211,7,Região Metropolitana,2,%,4.45,3101,Belo Horizonte - MG,202207,julho 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-212,7,Região Metropolitana,2,%,3.14,3101,Belo Horizonte - MG,202208,agosto 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-213,7,Região Metropolitana,2,%,2.78,3101,Belo Horizonte - MG,202209,setembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-214,7,Região Metropolitana,2,%,3.34,3101,Belo Horizonte - MG,202210,outubro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-215,7,Região Metropolitana,2,%,3.89,3101,Belo Horizonte - MG,202211,novembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-216,7,Região Metropolitana,2,%,4.64,3101,Belo Horizonte - MG,202212,dezembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-217,7,Região Metropolitana,2,%,0.82,3101,Belo Horizonte - MG,202301,janeiro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-218,7,Região Metropolitana,2,%,1.64,3101,Belo Horizonte - MG,202302,fevereiro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-219,7,Região Metropolitana,2,%,2.04,3101,Belo Horizonte - MG,202303,março 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-220,7,Região Metropolitana,2,%,2.65,3101,Belo Horizonte - MG,202304,abril 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-221,7,Região Metropolitana,2,%,3.15,3101,Belo Horizonte - MG,202305,maio 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-222,7,Região Metropolitana,2,%,3.46,3101,Belo Horizonte - MG,202306,junho 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-223,7,Região Metropolitana,2,%,3.30,3101,Belo Horizonte - MG,202307,julho 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-224,7,Região Metropolitana,2,%,3.22,3101,Belo Horizonte - MG,202308,agosto 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-225,7,Região Metropolitana,2,%,3.47,3101,Belo Horizonte - MG,202309,setembro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-226,7,Região Metropolitana,2,%,0.29,3201,Grande Vitória - ES,202001,janeiro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-227,7,Região Metropolitana,2,%,0.63,3201,Grande Vitória - ES,202002,fevereiro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-228,7,Região Metropolitana,2,%,0.75,3201,Grande Vitória - ES,202003,março 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-229,7,Região Metropolitana,2,%,0.66,3201,Grande Vitória - ES,202004,abril 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-230,7,Região Metropolitana,2,%,0.18,3201,Grande Vitória - ES,202005,maio 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-231,7,Região Metropolitana,2,%,0.74,3201,Grande Vitória - ES,202006,junho 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-232,7,Região Metropolitana,2,%,0.95,3201,Grande Vitória - ES,202007,julho 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-233,7,Região Metropolitana,2,%,0.92,3201,Grande Vitória - ES,202008,agosto 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-234,7,Região Metropolitana,2,%,1.76,3201,Grande Vitória - ES,202009,setembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-235,7,Região Metropolitana,2,%,2.68,3201,Grande Vitória - ES,202010,outubro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-236,7,Região Metropolitana,2,%,3.68,3201,Grande Vitória - ES,202011,novembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-237,7,Região Metropolitana,2,%,5.15,3201,Grande Vitória - ES,202012,dezembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-238,7,Região Metropolitana,2,%,0.44,3201,Grande Vitória - ES,202101,janeiro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-239,7,Região Metropolitana,2,%,1.44,3201,Grande Vitória - ES,202102,fevereiro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-240,7,Região Metropolitana,2,%,2.55,3201,Grande Vitória - ES,202103,março 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-241,7,Região Metropolitana,2,%,2.94,3201,Grande Vitória - ES,202104,abril 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-242,7,Região Metropolitana,2,%,3.70,3201,Grande Vitória - ES,202105,maio 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-243,7,Região Metropolitana,2,%,4.31,3201,Grande Vitória - ES,202106,junho 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-244,7,Região Metropolitana,2,%,5.23,3201,Grande Vitória - ES,202107,julho 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-245,7,Região Metropolitana,2,%,6.61,3201,Grande Vitória - ES,202108,agosto 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-246,7,Região Metropolitana,2,%,7.93,3201,Grande Vitória - ES,202109,setembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-247,7,Região Metropolitana,2,%,9.58,3201,Grande Vitória - ES,202110,outubro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-248,7,Região Metropolitana,2,%,10.69,3201,Grande Vitória - ES,202111,novembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-249,7,Região Metropolitana,2,%,11.50,3201,Grande Vitória - ES,202112,dezembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-250,7,Região Metropolitana,2,%,0.57,3201,Grande Vitória - ES,202201,janeiro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-251,7,Região Metropolitana,2,%,1.44,3201,Grande Vitória - ES,202202,fevereiro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-252,7,Região Metropolitana,2,%,2.96,3201,Grande Vitória - ES,202203,março 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-253,7,Região Metropolitana,2,%,3.81,3201,Grande Vitória - ES,202204,abril 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-254,7,Região Metropolitana,2,%,3.73,3201,Grande Vitória - ES,202205,maio 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-255,7,Região Metropolitana,2,%,4.36,3201,Grande Vitória - ES,202206,junho 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-256,7,Região Metropolitana,2,%,2.99,3201,Grande Vitória - ES,202207,julho 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-257,7,Região Metropolitana,2,%,3.46,3201,Grande Vitória - ES,202208,agosto 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-258,7,Região Metropolitana,2,%,3.64,3201,Grande Vitória - ES,202209,setembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-259,7,Região Metropolitana,2,%,4.26,3201,Grande Vitória - ES,202210,outubro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-260,7,Região Metropolitana,2,%,4.35,3201,Grande Vitória - ES,202211,novembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-261,7,Região Metropolitana,2,%,5.03,3201,Grande Vitória - ES,202212,dezembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-262,7,Região Metropolitana,2,%,0.92,3201,Grande Vitória - ES,202301,janeiro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-263,7,Região Metropolitana,2,%,1.85,3201,Grande Vitória - ES,202302,fevereiro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-264,7,Região Metropolitana,2,%,2.70,3201,Grande Vitória - ES,202303,março 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-265,7,Região Metropolitana,2,%,3.03,3201,Grande Vitória - ES,202304,abril 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-266,7,Região Metropolitana,2,%,3.03,3201,Grande Vitória - ES,202305,maio 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-267,7,Região Metropolitana,2,%,3.10,3201,Grande Vitória - ES,202306,junho 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-268,7,Região Metropolitana,2,%,3.14,3201,Grande Vitória - ES,202307,julho 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-269,7,Região Metropolitana,2,%,3.46,3201,Grande Vitória - ES,202308,agosto 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-270,7,Região Metropolitana,2,%,3.90,3201,Grande Vitória - ES,202309,setembro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-271,7,Região Metropolitana,2,%,0.05,3301,Rio de Janeiro - RJ,202001,janeiro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-272,7,Região Metropolitana,2,%,0.03,3301,Rio de Janeiro - RJ,202002,fevereiro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-273,7,Região Metropolitana,2,%,0.50,3301,Rio de Janeiro - RJ,202003,março 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-274,7,Região Metropolitana,2,%,0.68,3301,Rio de Janeiro - RJ,202004,abril 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-275,7,Região Metropolitana,2,%,0.40,3301,Rio de Janeiro - RJ,202005,maio 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-276,7,Região Metropolitana,2,%,0.40,3301,Rio de Janeiro - RJ,202006,junho 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-277,7,Região Metropolitana,2,%,0.64,3301,Rio de Janeiro - RJ,202007,julho 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-278,7,Região Metropolitana,2,%,0.51,3301,Rio de Janeiro - RJ,202008,agosto 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-279,7,Região Metropolitana,2,%,1.13,3301,Rio de Janeiro - RJ,202009,setembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-280,7,Região Metropolitana,2,%,1.73,3301,Rio de Janeiro - RJ,202010,outubro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-281,7,Região Metropolitana,2,%,2.43,3301,Rio de Janeiro - RJ,202011,novembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-282,7,Região Metropolitana,2,%,4.09,3301,Rio de Janeiro - RJ,202012,dezembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-283,7,Região Metropolitana,2,%,0.18,3301,Rio de Janeiro - RJ,202101,janeiro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-284,7,Região Metropolitana,2,%,0.56,3301,Rio de Janeiro - RJ,202102,fevereiro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-285,7,Região Metropolitana,2,%,1.35,3301,Rio de Janeiro - RJ,202103,março 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-286,7,Região Metropolitana,2,%,1.91,3301,Rio de Janeiro - RJ,202104,abril 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-287,7,Região Metropolitana,2,%,2.80,3301,Rio de Janeiro - RJ,202105,maio 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-288,7,Região Metropolitana,2,%,3.05,3301,Rio de Janeiro - RJ,202106,junho 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-289,7,Região Metropolitana,2,%,3.70,3301,Rio de Janeiro - RJ,202107,julho 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-290,7,Região Metropolitana,2,%,4.38,3301,Rio de Janeiro - RJ,202108,agosto 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-291,7,Região Metropolitana,2,%,5.65,3301,Rio de Janeiro - RJ,202109,setembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-292,7,Região Metropolitana,2,%,6.88,3301,Rio de Janeiro - RJ,202110,outubro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-293,7,Região Metropolitana,2,%,7.82,3301,Rio de Janeiro - RJ,202111,novembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-294,7,Região Metropolitana,2,%,8.58,3301,Rio de Janeiro - RJ,202112,dezembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-295,7,Região Metropolitana,2,%,0.60,3301,Rio de Janeiro - RJ,202201,janeiro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-296,7,Região Metropolitana,2,%,1.94,3301,Rio de Janeiro - RJ,202202,fevereiro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-297,7,Região Metropolitana,2,%,3.64,3301,Rio de Janeiro - RJ,202203,março 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-298,7,Região Metropolitana,2,%,5.08,3301,Rio de Janeiro - RJ,202204,abril 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-299,7,Região Metropolitana,2,%,5.66,3301,Rio de Janeiro - RJ,202205,maio 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-300,7,Região Metropolitana,2,%,6.07,3301,Rio de Janeiro - RJ,202206,junho 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-301,7,Região Metropolitana,2,%,5.60,3301,Rio de Janeiro - RJ,202207,julho 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-302,7,Região Metropolitana,2,%,5.62,3301,Rio de Janeiro - RJ,202208,agosto 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-303,7,Região Metropolitana,2,%,5.50,3301,Rio de Janeiro - RJ,202209,setembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-304,7,Região Metropolitana,2,%,5.93,3301,Rio de Janeiro - RJ,202210,outubro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-305,7,Região Metropolitana,2,%,6.30,3301,Rio de Janeiro - RJ,202211,novembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-306,7,Região Metropolitana,2,%,6.65,3301,Rio de Janeiro - RJ,202212,dezembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-307,7,Região Metropolitana,2,%,0.43,3301,Rio de Janeiro - RJ,202301,janeiro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-308,7,Região Metropolitana,2,%,1.09,3301,Rio de Janeiro - RJ,202302,fevereiro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-309,7,Região Metropolitana,2,%,1.73,3301,Rio de Janeiro - RJ,202303,março 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-310,7,Região Metropolitana,2,%,2.60,3301,Rio de Janeiro - RJ,202304,abril 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-311,7,Região Metropolitana,2,%,2.68,3301,Rio de Janeiro - RJ,202305,maio 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-312,7,Região Metropolitana,2,%,2.48,3301,Rio de Janeiro - RJ,202306,junho 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-313,7,Região Metropolitana,2,%,2.51,3301,Rio de Janeiro - RJ,202307,julho 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-314,7,Região Metropolitana,2,%,2.47,3301,Rio de Janeiro - RJ,202308,agosto 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-315,7,Região Metropolitana,2,%,2.65,3301,Rio de Janeiro - RJ,202309,setembro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-316,7,Região Metropolitana,2,%,0.33,3501,São Paulo - SP,202001,janeiro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-317,7,Região Metropolitana,2,%,0.56,3501,São Paulo - SP,202002,fevereiro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-318,7,Região Metropolitana,2,%,0.66,3501,São Paulo - SP,202003,março 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-319,7,Região Metropolitana,2,%,0.29,3501,São Paulo - SP,202004,abril 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-320,7,Região Metropolitana,2,%,0.01,3501,São Paulo - SP,202005,maio 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-321,7,Região Metropolitana,2,%,0.30,3501,São Paulo - SP,202006,junho 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-322,7,Região Metropolitana,2,%,0.55,3501,São Paulo - SP,202007,julho 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-323,7,Região Metropolitana,2,%,0.86,3501,São Paulo - SP,202008,agosto 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-324,7,Região Metropolitana,2,%,1.31,3501,São Paulo - SP,202009,setembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-325,7,Região Metropolitana,2,%,2.21,3501,São Paulo - SP,202010,outubro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-326,7,Região Metropolitana,2,%,3.27,3501,São Paulo - SP,202011,novembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-327,7,Região Metropolitana,2,%,4.40,3501,São Paulo - SP,202012,dezembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-328,7,Região Metropolitana,2,%,0.24,3501,São Paulo - SP,202101,janeiro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-329,7,Região Metropolitana,2,%,1.07,3501,São Paulo - SP,202102,fevereiro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-330,7,Região Metropolitana,2,%,1.83,3501,São Paulo - SP,202103,março 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-331,7,Região Metropolitana,2,%,1.97,3501,São Paulo - SP,202104,abril 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-332,7,Região Metropolitana,2,%,2.77,3501,São Paulo - SP,202105,maio 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-333,7,Região Metropolitana,2,%,3.31,3501,São Paulo - SP,202106,junho 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-334,7,Região Metropolitana,2,%,4.33,3501,São Paulo - SP,202107,julho 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-335,7,Região Metropolitana,2,%,5.41,3501,São Paulo - SP,202108,agosto 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-336,7,Região Metropolitana,2,%,6.47,3501,São Paulo - SP,202109,setembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-337,7,Região Metropolitana,2,%,7.90,3501,São Paulo - SP,202110,outubro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-338,7,Região Metropolitana,2,%,8.83,3501,São Paulo - SP,202111,novembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-339,7,Região Metropolitana,2,%,9.59,3501,São Paulo - SP,202112,dezembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-340,7,Região Metropolitana,2,%,0.63,3501,São Paulo - SP,202201,janeiro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-341,7,Região Metropolitana,2,%,1.69,3501,São Paulo - SP,202202,fevereiro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-342,7,Região Metropolitana,2,%,3.17,3501,São Paulo - SP,202203,março 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-343,7,Região Metropolitana,2,%,4.26,3501,São Paulo - SP,202204,abril 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-344,7,Região Metropolitana,2,%,4.63,3501,São Paulo - SP,202205,maio 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-345,7,Região Metropolitana,2,%,5.27,3501,São Paulo - SP,202206,junho 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-346,7,Região Metropolitana,2,%,5.19,3501,São Paulo - SP,202207,julho 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-347,7,Região Metropolitana,2,%,5.18,3501,São Paulo - SP,202208,agosto 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-348,7,Região Metropolitana,2,%,4.84,3501,São Paulo - SP,202209,setembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-349,7,Região Metropolitana,2,%,5.53,3501,São Paulo - SP,202210,outubro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-350,7,Região Metropolitana,2,%,5.95,3501,São Paulo - SP,202211,novembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-351,7,Região Metropolitana,2,%,6.61,3501,São Paulo - SP,202212,dezembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-352,7,Região Metropolitana,2,%,0.68,3501,São Paulo - SP,202301,janeiro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-353,7,Região Metropolitana,2,%,1.61,3501,São Paulo - SP,202302,fevereiro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-354,7,Região Metropolitana,2,%,2.20,3501,São Paulo - SP,202303,março 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-355,7,Região Metropolitana,2,%,2.88,3501,São Paulo - SP,202304,abril 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-356,7,Região Metropolitana,2,%,3.13,3501,São Paulo - SP,202305,maio 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-357,7,Região Metropolitana,2,%,3.12,3501,São Paulo - SP,202306,junho 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-358,7,Região Metropolitana,2,%,3.10,3501,São Paulo - SP,202307,julho 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-359,7,Região Metropolitana,2,%,3.33,3501,São Paulo - SP,202308,agosto 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-360,7,Região Metropolitana,2,%,3.73,3501,São Paulo - SP,202309,setembro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-361,7,Região Metropolitana,2,%,0.05,4101,Curitiba - PR,202001,janeiro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-362,7,Região Metropolitana,2,%,0.13,4101,Curitiba - PR,202002,fevereiro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-363,7,Região Metropolitana,2,%,0.26,4101,Curitiba - PR,202003,março 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-364,7,Região Metropolitana,2,%,-0.90,4101,Curitiba - PR,202004,abril 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-365,7,Região Metropolitana,2,%,-1.46,4101,Curitiba - PR,202005,maio 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-366,7,Região Metropolitana,2,%,-0.68,4101,Curitiba - PR,202006,junho 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-367,7,Região Metropolitana,2,%,-0.29,4101,Curitiba - PR,202007,julho 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-368,7,Região Metropolitana,2,%,-0.09,4101,Curitiba - PR,202008,agosto 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-369,7,Região Metropolitana,2,%,0.62,4101,Curitiba - PR,202009,setembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-370,7,Região Metropolitana,2,%,1.65,4101,Curitiba - PR,202010,outubro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-371,7,Região Metropolitana,2,%,2.53,4101,Curitiba - PR,202011,novembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-372,7,Região Metropolitana,2,%,3.95,4101,Curitiba - PR,202012,dezembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-373,7,Região Metropolitana,2,%,0.44,4101,Curitiba - PR,202101,janeiro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-374,7,Região Metropolitana,2,%,1.36,4101,Curitiba - PR,202102,fevereiro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-375,7,Região Metropolitana,2,%,2.71,4101,Curitiba - PR,202103,março 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-376,7,Região Metropolitana,2,%,3.18,4101,Curitiba - PR,202104,abril 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-377,7,Região Metropolitana,2,%,4.14,4101,Curitiba - PR,202105,maio 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-378,7,Região Metropolitana,2,%,4.77,4101,Curitiba - PR,202106,junho 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-379,7,Região Metropolitana,2,%,6.44,4101,Curitiba - PR,202107,julho 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-380,7,Região Metropolitana,2,%,7.72,4101,Curitiba - PR,202108,agosto 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-381,7,Região Metropolitana,2,%,9.39,4101,Curitiba - PR,202109,setembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-382,7,Região Metropolitana,2,%,10.97,4101,Curitiba - PR,202110,outubro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-383,7,Região Metropolitana,2,%,12.16,4101,Curitiba - PR,202111,novembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-384,7,Região Metropolitana,2,%,12.73,4101,Curitiba - PR,202112,dezembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-385,7,Região Metropolitana,2,%,0.47,4101,Curitiba - PR,202201,janeiro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-386,7,Região Metropolitana,2,%,1.76,4101,Curitiba - PR,202202,fevereiro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-387,7,Região Metropolitana,2,%,4.20,4101,Curitiba - PR,202203,março 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-388,7,Região Metropolitana,2,%,5.09,4101,Curitiba - PR,202204,abril 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-389,7,Região Metropolitana,2,%,5.49,4101,Curitiba - PR,202205,maio 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-390,7,Região Metropolitana,2,%,6.17,4101,Curitiba - PR,202206,junho 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-391,7,Região Metropolitana,2,%,4.67,4101,Curitiba - PR,202207,julho 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-392,7,Região Metropolitana,2,%,4.19,4101,Curitiba - PR,202208,agosto 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-393,7,Região Metropolitana,2,%,4.02,4101,Curitiba - PR,202209,setembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-394,7,Região Metropolitana,2,%,4.23,4101,Curitiba - PR,202210,outubro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-395,7,Região Metropolitana,2,%,4.47,4101,Curitiba - PR,202211,novembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-396,7,Região Metropolitana,2,%,5.26,4101,Curitiba - PR,202212,dezembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-397,7,Região Metropolitana,2,%,-0.05,4101,Curitiba - PR,202301,janeiro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-398,7,Região Metropolitana,2,%,1.04,4101,Curitiba - PR,202302,fevereiro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-399,7,Região Metropolitana,2,%,2.08,4101,Curitiba - PR,202303,março 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-400,7,Região Metropolitana,2,%,2.66,4101,Curitiba - PR,202304,abril 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-401,7,Região Metropolitana,2,%,2.92,4101,Curitiba - PR,202305,maio 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-402,7,Região Metropolitana,2,%,2.95,4101,Curitiba - PR,202306,junho 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-403,7,Região Metropolitana,2,%,3.24,4101,Curitiba - PR,202307,julho 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-404,7,Região Metropolitana,2,%,3.53,4101,Curitiba - PR,202308,agosto 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-405,7,Região Metropolitana,2,%,3.76,4101,Curitiba - PR,202309,setembro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-406,7,Região Metropolitana,2,%,0.17,4301,Porto Alegre - RS,202001,janeiro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-407,7,Região Metropolitana,2,%,0.33,4301,Porto Alegre - RS,202002,fevereiro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-408,7,Região Metropolitana,2,%,0.01,4301,Porto Alegre - RS,202003,março 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-409,7,Região Metropolitana,2,%,-0.04,4301,Porto Alegre - RS,202004,abril 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-410,7,Região Metropolitana,2,%,-0.48,4301,Porto Alegre - RS,202005,maio 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-411,7,Região Metropolitana,2,%,-0.49,4301,Porto Alegre - RS,202006,junho 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-412,7,Região Metropolitana,2,%,-0.12,4301,Porto Alegre - RS,202007,julho 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-413,7,Região Metropolitana,2,%,0.21,4301,Porto Alegre - RS,202008,agosto 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-414,7,Região Metropolitana,2,%,0.89,4301,Porto Alegre - RS,202009,setembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-415,7,Região Metropolitana,2,%,1.53,4301,Porto Alegre - RS,202010,outubro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-416,7,Região Metropolitana,2,%,2.34,4301,Porto Alegre - RS,202011,novembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-417,7,Região Metropolitana,2,%,4.22,4301,Porto Alegre - RS,202012,dezembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
-418,7,Região Metropolitana,2,%,0.25,4301,Porto Alegre - RS,202101,janeiro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-419,7,Região Metropolitana,2,%,1.11,4301,Porto Alegre - RS,202102,fevereiro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-420,7,Região Metropolitana,2,%,2.06,4301,Porto Alegre - RS,202103,março 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-421,7,Região Metropolitana,2,%,2.25,4301,Porto Alegre - RS,202104,abril 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-422,7,Região Metropolitana,2,%,3.32,4301,Porto Alegre - RS,202105,maio 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-423,7,Região Metropolitana,2,%,4.14,4301,Porto Alegre - RS,202106,junho 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-424,7,Região Metropolitana,2,%,5.42,4301,Porto Alegre - RS,202107,julho 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-425,7,Região Metropolitana,2,%,6.17,4301,Porto Alegre - RS,202108,agosto 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-426,7,Região Metropolitana,2,%,7.79,4301,Porto Alegre - RS,202109,setembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-427,7,Região Metropolitana,2,%,9.02,4301,Porto Alegre - RS,202110,outubro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-428,7,Região Metropolitana,2,%,10.07,4301,Porto Alegre - RS,202111,novembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-429,7,Região Metropolitana,2,%,10.99,4301,Porto Alegre - RS,202112,dezembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
-430,7,Região Metropolitana,2,%,-0.53,4301,Porto Alegre - RS,202201,janeiro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-431,7,Região Metropolitana,2,%,-0.10,4301,Porto Alegre - RS,202202,fevereiro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-432,7,Região Metropolitana,2,%,1.50,4301,Porto Alegre - RS,202203,março 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-433,7,Região Metropolitana,2,%,2.65,4301,Porto Alegre - RS,202204,abril 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-434,7,Região Metropolitana,2,%,3.14,4301,Porto Alegre - RS,202205,maio 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-435,7,Região Metropolitana,2,%,3.85,4301,Porto Alegre - RS,202206,junho 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-436,7,Região Metropolitana,2,%,3.24,4301,Porto Alegre - RS,202207,julho 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-437,7,Região Metropolitana,2,%,2.31,4301,Porto Alegre - RS,202208,agosto 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-438,7,Região Metropolitana,2,%,1.83,4301,Porto Alegre - RS,202209,setembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-439,7,Região Metropolitana,2,%,2.61,4301,Porto Alegre - RS,202210,outubro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-440,7,Região Metropolitana,2,%,3.04,4301,Porto Alegre - RS,202211,novembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-441,7,Região Metropolitana,2,%,3.61,4301,Porto Alegre - RS,202212,dezembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
-442,7,Região Metropolitana,2,%,0.23,4301,Porto Alegre - RS,202301,janeiro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-443,7,Região Metropolitana,2,%,0.98,4301,Porto Alegre - RS,202302,fevereiro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-444,7,Região Metropolitana,2,%,2.24,4301,Porto Alegre - RS,202303,março 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-445,7,Região Metropolitana,2,%,2.75,4301,Porto Alegre - RS,202304,abril 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-446,7,Região Metropolitana,2,%,2.83,4301,Porto Alegre - RS,202305,maio 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-447,7,Região Metropolitana,2,%,2.81,4301,Porto Alegre - RS,202306,junho 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-448,7,Região Metropolitana,2,%,3.36,4301,Porto Alegre - RS,202307,julho 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-449,7,Região Metropolitana,2,%,3.60,4301,Porto Alegre - RS,202308,agosto 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
-450,7,Região Metropolitana,2,%,3.79,4301,Porto Alegre - RS,202309,setembro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+46,7,Região Metropolitana,2,%,3.92,1501,Belém - PA,202310,outubro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+47,7,Região Metropolitana,2,%,0.28,2301,Fortaleza - CE,202001,janeiro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+48,7,Região Metropolitana,2,%,1.08,2301,Fortaleza - CE,202002,fevereiro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+49,7,Região Metropolitana,2,%,1.29,2301,Fortaleza - CE,202003,março 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+50,7,Região Metropolitana,2,%,1.17,2301,Fortaleza - CE,202004,abril 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+51,7,Região Metropolitana,2,%,0.64,2301,Fortaleza - CE,202005,maio 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+52,7,Região Metropolitana,2,%,0.98,2301,Fortaleza - CE,202006,junho 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+53,7,Região Metropolitana,2,%,1.55,2301,Fortaleza - CE,202007,julho 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+54,7,Região Metropolitana,2,%,1.32,2301,Fortaleza - CE,202008,agosto 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+55,7,Região Metropolitana,2,%,2.55,2301,Fortaleza - CE,202009,setembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+56,7,Região Metropolitana,2,%,3.40,2301,Fortaleza - CE,202010,outubro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+57,7,Região Metropolitana,2,%,4.23,2301,Fortaleza - CE,202011,novembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+58,7,Região Metropolitana,2,%,5.74,2301,Fortaleza - CE,202012,dezembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+59,7,Região Metropolitana,2,%,0.36,2301,Fortaleza - CE,202101,janeiro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+60,7,Região Metropolitana,2,%,1.85,2301,Fortaleza - CE,202102,fevereiro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+61,7,Região Metropolitana,2,%,2.59,2301,Fortaleza - CE,202103,março 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+62,7,Região Metropolitana,2,%,3.36,2301,Fortaleza - CE,202104,abril 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+63,7,Região Metropolitana,2,%,4.50,2301,Fortaleza - CE,202105,maio 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+64,7,Região Metropolitana,2,%,5.11,2301,Fortaleza - CE,202106,junho 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+65,7,Região Metropolitana,2,%,6.08,2301,Fortaleza - CE,202107,julho 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+66,7,Região Metropolitana,2,%,6.54,2301,Fortaleza - CE,202108,agosto 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+67,7,Região Metropolitana,2,%,7.84,2301,Fortaleza - CE,202109,setembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+68,7,Região Metropolitana,2,%,8.87,2301,Fortaleza - CE,202110,outubro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+69,7,Região Metropolitana,2,%,10.03,2301,Fortaleza - CE,202111,novembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+70,7,Região Metropolitana,2,%,10.63,2301,Fortaleza - CE,202112,dezembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+71,7,Região Metropolitana,2,%,0.73,2301,Fortaleza - CE,202201,janeiro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+72,7,Região Metropolitana,2,%,1.50,2301,Fortaleza - CE,202202,fevereiro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+73,7,Região Metropolitana,2,%,3.21,2301,Fortaleza - CE,202203,março 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+74,7,Região Metropolitana,2,%,4.23,2301,Fortaleza - CE,202204,abril 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+75,7,Região Metropolitana,2,%,5.69,2301,Fortaleza - CE,202205,maio 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+76,7,Região Metropolitana,2,%,6.34,2301,Fortaleza - CE,202206,junho 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+77,7,Região Metropolitana,2,%,5.65,2301,Fortaleza - CE,202207,julho 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+78,7,Região Metropolitana,2,%,4.87,2301,Fortaleza - CE,202208,agosto 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+79,7,Região Metropolitana,2,%,4.19,2301,Fortaleza - CE,202209,setembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+80,7,Região Metropolitana,2,%,4.82,2301,Fortaleza - CE,202210,outubro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+81,7,Região Metropolitana,2,%,5.12,2301,Fortaleza - CE,202211,novembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+82,7,Região Metropolitana,2,%,5.76,2301,Fortaleza - CE,202212,dezembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+83,7,Região Metropolitana,2,%,0.86,2301,Fortaleza - CE,202301,janeiro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+84,7,Região Metropolitana,2,%,1.60,2301,Fortaleza - CE,202302,fevereiro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+85,7,Região Metropolitana,2,%,1.96,2301,Fortaleza - CE,202303,março 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+86,7,Região Metropolitana,2,%,2.53,2301,Fortaleza - CE,202304,abril 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+87,7,Região Metropolitana,2,%,3.10,2301,Fortaleza - CE,202305,maio 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+88,7,Região Metropolitana,2,%,2.69,2301,Fortaleza - CE,202306,junho 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+89,7,Região Metropolitana,2,%,2.86,2301,Fortaleza - CE,202307,julho 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+90,7,Região Metropolitana,2,%,3.62,2301,Fortaleza - CE,202308,agosto 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+91,7,Região Metropolitana,2,%,3.76,2301,Fortaleza - CE,202309,setembro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+92,7,Região Metropolitana,2,%,3.69,2301,Fortaleza - CE,202310,outubro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+93,7,Região Metropolitana,2,%,0.30,2601,Recife - PE,202001,janeiro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+94,7,Região Metropolitana,2,%,0.68,2601,Recife - PE,202002,fevereiro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+95,7,Região Metropolitana,2,%,0.99,2601,Recife - PE,202003,março 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+96,7,Região Metropolitana,2,%,0.79,2601,Recife - PE,202004,abril 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+97,7,Região Metropolitana,2,%,0.61,2601,Recife - PE,202005,maio 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+98,7,Região Metropolitana,2,%,1.12,2601,Recife - PE,202006,junho 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+99,7,Região Metropolitana,2,%,1.52,2601,Recife - PE,202007,julho 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+100,7,Região Metropolitana,2,%,1.98,2601,Recife - PE,202008,agosto 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+101,7,Região Metropolitana,2,%,2.78,2601,Recife - PE,202009,setembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+102,7,Região Metropolitana,2,%,3.62,2601,Recife - PE,202010,outubro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+103,7,Região Metropolitana,2,%,4.00,2601,Recife - PE,202011,novembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+104,7,Região Metropolitana,2,%,5.66,2601,Recife - PE,202012,dezembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+105,7,Região Metropolitana,2,%,0.50,2601,Recife - PE,202101,janeiro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+106,7,Região Metropolitana,2,%,1.28,2601,Recife - PE,202102,fevereiro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+107,7,Região Metropolitana,2,%,1.91,2601,Recife - PE,202103,março 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+108,7,Região Metropolitana,2,%,2.40,2601,Recife - PE,202104,abril 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+109,7,Região Metropolitana,2,%,3.18,2601,Recife - PE,202105,maio 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+110,7,Região Metropolitana,2,%,4.13,2601,Recife - PE,202106,junho 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+111,7,Região Metropolitana,2,%,5.14,2601,Recife - PE,202107,julho 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+112,7,Região Metropolitana,2,%,5.84,2601,Recife - PE,202108,agosto 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+113,7,Região Metropolitana,2,%,7.00,2601,Recife - PE,202109,setembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+114,7,Região Metropolitana,2,%,8.17,2601,Recife - PE,202110,outubro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+115,7,Região Metropolitana,2,%,9.27,2601,Recife - PE,202111,novembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+116,7,Região Metropolitana,2,%,10.42,2601,Recife - PE,202112,dezembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+117,7,Região Metropolitana,2,%,0.41,2601,Recife - PE,202201,janeiro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+118,7,Região Metropolitana,2,%,1.38,2601,Recife - PE,202202,fevereiro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+119,7,Região Metropolitana,2,%,2.94,2601,Recife - PE,202203,março 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+120,7,Região Metropolitana,2,%,4.09,2601,Recife - PE,202204,abril 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+121,7,Região Metropolitana,2,%,4.67,2601,Recife - PE,202205,maio 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+122,7,Região Metropolitana,2,%,5.85,2601,Recife - PE,202206,junho 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+123,7,Região Metropolitana,2,%,5.41,2601,Recife - PE,202207,julho 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+124,7,Região Metropolitana,2,%,3.94,2601,Recife - PE,202208,agosto 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+125,7,Região Metropolitana,2,%,3.49,2601,Recife - PE,202209,setembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+126,7,Região Metropolitana,2,%,4.47,2601,Recife - PE,202210,outubro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+127,7,Região Metropolitana,2,%,4.88,2601,Recife - PE,202211,novembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+128,7,Região Metropolitana,2,%,5.80,2601,Recife - PE,202212,dezembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+129,7,Região Metropolitana,2,%,0.03,2601,Recife - PE,202301,janeiro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+130,7,Região Metropolitana,2,%,1.03,2601,Recife - PE,202302,fevereiro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+131,7,Região Metropolitana,2,%,1.65,2601,Recife - PE,202303,março 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+132,7,Região Metropolitana,2,%,1.81,2601,Recife - PE,202304,abril 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+133,7,Região Metropolitana,2,%,2.23,2601,Recife - PE,202305,maio 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+134,7,Região Metropolitana,2,%,2.52,2601,Recife - PE,202306,junho 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+135,7,Região Metropolitana,2,%,2.93,2601,Recife - PE,202307,julho 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+136,7,Região Metropolitana,2,%,3.31,2601,Recife - PE,202308,agosto 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+137,7,Região Metropolitana,2,%,3.36,2601,Recife - PE,202309,setembro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+138,7,Região Metropolitana,2,%,3.26,2601,Recife - PE,202310,outubro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+139,7,Região Metropolitana,2,%,0.34,2901,Salvador - BA,202001,janeiro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+140,7,Região Metropolitana,2,%,0.50,2901,Salvador - BA,202002,fevereiro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+141,7,Região Metropolitana,2,%,0.67,2901,Salvador - BA,202003,março 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+142,7,Região Metropolitana,2,%,0.51,2901,Salvador - BA,202004,abril 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+143,7,Região Metropolitana,2,%,0.04,2901,Salvador - BA,202005,maio 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+144,7,Região Metropolitana,2,%,0.72,2901,Salvador - BA,202006,junho 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+145,7,Região Metropolitana,2,%,1.34,2901,Salvador - BA,202007,julho 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+146,7,Região Metropolitana,2,%,1.48,2901,Salvador - BA,202008,agosto 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+147,7,Região Metropolitana,2,%,1.71,2901,Salvador - BA,202009,setembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+148,7,Região Metropolitana,2,%,2.16,2901,Salvador - BA,202010,outubro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+149,7,Região Metropolitana,2,%,3.36,2901,Salvador - BA,202011,novembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+150,7,Região Metropolitana,2,%,4.31,2901,Salvador - BA,202012,dezembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+151,7,Região Metropolitana,2,%,0.26,2901,Salvador - BA,202101,janeiro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+152,7,Região Metropolitana,2,%,1.19,2901,Salvador - BA,202102,fevereiro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+153,7,Região Metropolitana,2,%,2.01,2901,Salvador - BA,202103,março 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+154,7,Região Metropolitana,2,%,2.10,2901,Salvador - BA,202104,abril 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+155,7,Região Metropolitana,2,%,3.24,2901,Salvador - BA,202105,maio 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+156,7,Região Metropolitana,2,%,4.13,2901,Salvador - BA,202106,junho 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+157,7,Região Metropolitana,2,%,4.91,2901,Salvador - BA,202107,julho 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+158,7,Região Metropolitana,2,%,5.64,2901,Salvador - BA,202108,agosto 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+159,7,Região Metropolitana,2,%,6.81,2901,Salvador - BA,202109,setembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+160,7,Região Metropolitana,2,%,8.11,2901,Salvador - BA,202110,outubro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+161,7,Região Metropolitana,2,%,9.64,2901,Salvador - BA,202111,novembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+162,7,Região Metropolitana,2,%,10.78,2901,Salvador - BA,202112,dezembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+163,7,Região Metropolitana,2,%,0.86,2901,Salvador - BA,202201,janeiro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+164,7,Região Metropolitana,2,%,1.70,2901,Salvador - BA,202202,fevereiro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+165,7,Região Metropolitana,2,%,3.26,2901,Salvador - BA,202203,março 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+166,7,Região Metropolitana,2,%,3.95,2901,Salvador - BA,202204,abril 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+167,7,Região Metropolitana,2,%,5.29,2901,Salvador - BA,202205,maio 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+168,7,Região Metropolitana,2,%,6.60,2901,Salvador - BA,202206,junho 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+169,7,Região Metropolitana,2,%,5.48,2901,Salvador - BA,202207,julho 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+170,7,Região Metropolitana,2,%,5.30,2901,Salvador - BA,202208,agosto 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+171,7,Região Metropolitana,2,%,4.97,2901,Salvador - BA,202209,setembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+172,7,Região Metropolitana,2,%,5.61,2901,Salvador - BA,202210,outubro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+173,7,Região Metropolitana,2,%,5.88,2901,Salvador - BA,202211,novembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+174,7,Região Metropolitana,2,%,6.29,2901,Salvador - BA,202212,dezembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+175,7,Região Metropolitana,2,%,1.09,2901,Salvador - BA,202301,janeiro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+176,7,Região Metropolitana,2,%,1.90,2901,Salvador - BA,202302,fevereiro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+177,7,Região Metropolitana,2,%,2.36,2901,Salvador - BA,202303,março 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+178,7,Região Metropolitana,2,%,2.87,2901,Salvador - BA,202304,abril 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+179,7,Região Metropolitana,2,%,3.23,2901,Salvador - BA,202305,maio 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+180,7,Região Metropolitana,2,%,3.00,2901,Salvador - BA,202306,junho 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+181,7,Região Metropolitana,2,%,3.26,2901,Salvador - BA,202307,julho 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+182,7,Região Metropolitana,2,%,3.44,2901,Salvador - BA,202308,agosto 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+183,7,Região Metropolitana,2,%,3.49,2901,Salvador - BA,202309,setembro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+184,7,Região Metropolitana,2,%,3.79,2901,Salvador - BA,202310,outubro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+185,7,Região Metropolitana,2,%,0.20,3101,Belo Horizonte - MG,202001,janeiro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+186,7,Região Metropolitana,2,%,0.70,3101,Belo Horizonte - MG,202002,fevereiro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+187,7,Região Metropolitana,2,%,0.75,3101,Belo Horizonte - MG,202003,março 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+188,7,Região Metropolitana,2,%,0.53,3101,Belo Horizonte - MG,202004,abril 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+189,7,Região Metropolitana,2,%,-0.07,3101,Belo Horizonte - MG,202005,maio 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+190,7,Região Metropolitana,2,%,-0.02,3101,Belo Horizonte - MG,202006,junho 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+191,7,Região Metropolitana,2,%,0.37,3101,Belo Horizonte - MG,202007,julho 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+192,7,Região Metropolitana,2,%,0.58,3101,Belo Horizonte - MG,202008,agosto 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+193,7,Região Metropolitana,2,%,1.34,3101,Belo Horizonte - MG,202009,setembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+194,7,Região Metropolitana,2,%,2.43,3101,Belo Horizonte - MG,202010,outubro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+195,7,Região Metropolitana,2,%,3.41,3101,Belo Horizonte - MG,202011,novembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+196,7,Região Metropolitana,2,%,4.99,3101,Belo Horizonte - MG,202012,dezembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+197,7,Região Metropolitana,2,%,0.33,3101,Belo Horizonte - MG,202101,janeiro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+198,7,Região Metropolitana,2,%,1.06,3101,Belo Horizonte - MG,202102,fevereiro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+199,7,Região Metropolitana,2,%,2.25,3101,Belo Horizonte - MG,202103,março 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+200,7,Região Metropolitana,2,%,2.63,3101,Belo Horizonte - MG,202104,abril 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+201,7,Região Metropolitana,2,%,3.44,3101,Belo Horizonte - MG,202105,maio 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+202,7,Região Metropolitana,2,%,3.87,3101,Belo Horizonte - MG,202106,junho 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+203,7,Região Metropolitana,2,%,4.61,3101,Belo Horizonte - MG,202107,julho 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+204,7,Região Metropolitana,2,%,5.06,3101,Belo Horizonte - MG,202108,agosto 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+205,7,Região Metropolitana,2,%,6.47,3101,Belo Horizonte - MG,202109,setembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+206,7,Região Metropolitana,2,%,7.77,3101,Belo Horizonte - MG,202110,outubro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+207,7,Região Metropolitana,2,%,8.77,3101,Belo Horizonte - MG,202111,novembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+208,7,Região Metropolitana,2,%,9.58,3101,Belo Horizonte - MG,202112,dezembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+209,7,Região Metropolitana,2,%,0.80,3101,Belo Horizonte - MG,202201,janeiro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+210,7,Região Metropolitana,2,%,1.88,3101,Belo Horizonte - MG,202202,fevereiro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+211,7,Região Metropolitana,2,%,3.35,3101,Belo Horizonte - MG,202203,março 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+212,7,Região Metropolitana,2,%,4.44,3101,Belo Horizonte - MG,202204,abril 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+213,7,Região Metropolitana,2,%,4.71,3101,Belo Horizonte - MG,202205,maio 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+214,7,Região Metropolitana,2,%,5.58,3101,Belo Horizonte - MG,202206,junho 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+215,7,Região Metropolitana,2,%,4.45,3101,Belo Horizonte - MG,202207,julho 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+216,7,Região Metropolitana,2,%,3.14,3101,Belo Horizonte - MG,202208,agosto 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+217,7,Região Metropolitana,2,%,2.78,3101,Belo Horizonte - MG,202209,setembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+218,7,Região Metropolitana,2,%,3.34,3101,Belo Horizonte - MG,202210,outubro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+219,7,Região Metropolitana,2,%,3.89,3101,Belo Horizonte - MG,202211,novembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+220,7,Região Metropolitana,2,%,4.64,3101,Belo Horizonte - MG,202212,dezembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+221,7,Região Metropolitana,2,%,0.82,3101,Belo Horizonte - MG,202301,janeiro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+222,7,Região Metropolitana,2,%,1.64,3101,Belo Horizonte - MG,202302,fevereiro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+223,7,Região Metropolitana,2,%,2.04,3101,Belo Horizonte - MG,202303,março 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+224,7,Região Metropolitana,2,%,2.65,3101,Belo Horizonte - MG,202304,abril 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+225,7,Região Metropolitana,2,%,3.15,3101,Belo Horizonte - MG,202305,maio 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+226,7,Região Metropolitana,2,%,3.46,3101,Belo Horizonte - MG,202306,junho 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+227,7,Região Metropolitana,2,%,3.30,3101,Belo Horizonte - MG,202307,julho 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+228,7,Região Metropolitana,2,%,3.22,3101,Belo Horizonte - MG,202308,agosto 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+229,7,Região Metropolitana,2,%,3.47,3101,Belo Horizonte - MG,202309,setembro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+230,7,Região Metropolitana,2,%,3.94,3101,Belo Horizonte - MG,202310,outubro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+231,7,Região Metropolitana,2,%,0.29,3201,Grande Vitória - ES,202001,janeiro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+232,7,Região Metropolitana,2,%,0.63,3201,Grande Vitória - ES,202002,fevereiro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+233,7,Região Metropolitana,2,%,0.75,3201,Grande Vitória - ES,202003,março 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+234,7,Região Metropolitana,2,%,0.66,3201,Grande Vitória - ES,202004,abril 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+235,7,Região Metropolitana,2,%,0.18,3201,Grande Vitória - ES,202005,maio 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+236,7,Região Metropolitana,2,%,0.74,3201,Grande Vitória - ES,202006,junho 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+237,7,Região Metropolitana,2,%,0.95,3201,Grande Vitória - ES,202007,julho 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+238,7,Região Metropolitana,2,%,0.92,3201,Grande Vitória - ES,202008,agosto 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+239,7,Região Metropolitana,2,%,1.76,3201,Grande Vitória - ES,202009,setembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+240,7,Região Metropolitana,2,%,2.68,3201,Grande Vitória - ES,202010,outubro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+241,7,Região Metropolitana,2,%,3.68,3201,Grande Vitória - ES,202011,novembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+242,7,Região Metropolitana,2,%,5.15,3201,Grande Vitória - ES,202012,dezembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+243,7,Região Metropolitana,2,%,0.44,3201,Grande Vitória - ES,202101,janeiro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+244,7,Região Metropolitana,2,%,1.44,3201,Grande Vitória - ES,202102,fevereiro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+245,7,Região Metropolitana,2,%,2.55,3201,Grande Vitória - ES,202103,março 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+246,7,Região Metropolitana,2,%,2.94,3201,Grande Vitória - ES,202104,abril 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+247,7,Região Metropolitana,2,%,3.70,3201,Grande Vitória - ES,202105,maio 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+248,7,Região Metropolitana,2,%,4.31,3201,Grande Vitória - ES,202106,junho 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+249,7,Região Metropolitana,2,%,5.23,3201,Grande Vitória - ES,202107,julho 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+250,7,Região Metropolitana,2,%,6.61,3201,Grande Vitória - ES,202108,agosto 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+251,7,Região Metropolitana,2,%,7.93,3201,Grande Vitória - ES,202109,setembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+252,7,Região Metropolitana,2,%,9.58,3201,Grande Vitória - ES,202110,outubro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+253,7,Região Metropolitana,2,%,10.69,3201,Grande Vitória - ES,202111,novembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+254,7,Região Metropolitana,2,%,11.50,3201,Grande Vitória - ES,202112,dezembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+255,7,Região Metropolitana,2,%,0.57,3201,Grande Vitória - ES,202201,janeiro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+256,7,Região Metropolitana,2,%,1.44,3201,Grande Vitória - ES,202202,fevereiro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+257,7,Região Metropolitana,2,%,2.96,3201,Grande Vitória - ES,202203,março 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+258,7,Região Metropolitana,2,%,3.81,3201,Grande Vitória - ES,202204,abril 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+259,7,Região Metropolitana,2,%,3.73,3201,Grande Vitória - ES,202205,maio 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+260,7,Região Metropolitana,2,%,4.36,3201,Grande Vitória - ES,202206,junho 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+261,7,Região Metropolitana,2,%,2.99,3201,Grande Vitória - ES,202207,julho 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+262,7,Região Metropolitana,2,%,3.46,3201,Grande Vitória - ES,202208,agosto 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+263,7,Região Metropolitana,2,%,3.64,3201,Grande Vitória - ES,202209,setembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+264,7,Região Metropolitana,2,%,4.26,3201,Grande Vitória - ES,202210,outubro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+265,7,Região Metropolitana,2,%,4.35,3201,Grande Vitória - ES,202211,novembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+266,7,Região Metropolitana,2,%,5.03,3201,Grande Vitória - ES,202212,dezembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+267,7,Região Metropolitana,2,%,0.92,3201,Grande Vitória - ES,202301,janeiro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+268,7,Região Metropolitana,2,%,1.85,3201,Grande Vitória - ES,202302,fevereiro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+269,7,Região Metropolitana,2,%,2.70,3201,Grande Vitória - ES,202303,março 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+270,7,Região Metropolitana,2,%,3.03,3201,Grande Vitória - ES,202304,abril 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+271,7,Região Metropolitana,2,%,3.03,3201,Grande Vitória - ES,202305,maio 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+272,7,Região Metropolitana,2,%,3.10,3201,Grande Vitória - ES,202306,junho 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+273,7,Região Metropolitana,2,%,3.14,3201,Grande Vitória - ES,202307,julho 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+274,7,Região Metropolitana,2,%,3.46,3201,Grande Vitória - ES,202308,agosto 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+275,7,Região Metropolitana,2,%,3.90,3201,Grande Vitória - ES,202309,setembro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+276,7,Região Metropolitana,2,%,4.08,3201,Grande Vitória - ES,202310,outubro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+277,7,Região Metropolitana,2,%,0.05,3301,Rio de Janeiro - RJ,202001,janeiro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+278,7,Região Metropolitana,2,%,0.03,3301,Rio de Janeiro - RJ,202002,fevereiro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+279,7,Região Metropolitana,2,%,0.50,3301,Rio de Janeiro - RJ,202003,março 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+280,7,Região Metropolitana,2,%,0.68,3301,Rio de Janeiro - RJ,202004,abril 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+281,7,Região Metropolitana,2,%,0.40,3301,Rio de Janeiro - RJ,202005,maio 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+282,7,Região Metropolitana,2,%,0.40,3301,Rio de Janeiro - RJ,202006,junho 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+283,7,Região Metropolitana,2,%,0.64,3301,Rio de Janeiro - RJ,202007,julho 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+284,7,Região Metropolitana,2,%,0.51,3301,Rio de Janeiro - RJ,202008,agosto 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+285,7,Região Metropolitana,2,%,1.13,3301,Rio de Janeiro - RJ,202009,setembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+286,7,Região Metropolitana,2,%,1.73,3301,Rio de Janeiro - RJ,202010,outubro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+287,7,Região Metropolitana,2,%,2.43,3301,Rio de Janeiro - RJ,202011,novembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+288,7,Região Metropolitana,2,%,4.09,3301,Rio de Janeiro - RJ,202012,dezembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+289,7,Região Metropolitana,2,%,0.18,3301,Rio de Janeiro - RJ,202101,janeiro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+290,7,Região Metropolitana,2,%,0.56,3301,Rio de Janeiro - RJ,202102,fevereiro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+291,7,Região Metropolitana,2,%,1.35,3301,Rio de Janeiro - RJ,202103,março 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+292,7,Região Metropolitana,2,%,1.91,3301,Rio de Janeiro - RJ,202104,abril 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+293,7,Região Metropolitana,2,%,2.80,3301,Rio de Janeiro - RJ,202105,maio 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+294,7,Região Metropolitana,2,%,3.05,3301,Rio de Janeiro - RJ,202106,junho 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+295,7,Região Metropolitana,2,%,3.70,3301,Rio de Janeiro - RJ,202107,julho 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+296,7,Região Metropolitana,2,%,4.38,3301,Rio de Janeiro - RJ,202108,agosto 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+297,7,Região Metropolitana,2,%,5.65,3301,Rio de Janeiro - RJ,202109,setembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+298,7,Região Metropolitana,2,%,6.88,3301,Rio de Janeiro - RJ,202110,outubro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+299,7,Região Metropolitana,2,%,7.82,3301,Rio de Janeiro - RJ,202111,novembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+300,7,Região Metropolitana,2,%,8.58,3301,Rio de Janeiro - RJ,202112,dezembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+301,7,Região Metropolitana,2,%,0.60,3301,Rio de Janeiro - RJ,202201,janeiro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+302,7,Região Metropolitana,2,%,1.94,3301,Rio de Janeiro - RJ,202202,fevereiro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+303,7,Região Metropolitana,2,%,3.64,3301,Rio de Janeiro - RJ,202203,março 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+304,7,Região Metropolitana,2,%,5.08,3301,Rio de Janeiro - RJ,202204,abril 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+305,7,Região Metropolitana,2,%,5.66,3301,Rio de Janeiro - RJ,202205,maio 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+306,7,Região Metropolitana,2,%,6.07,3301,Rio de Janeiro - RJ,202206,junho 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+307,7,Região Metropolitana,2,%,5.60,3301,Rio de Janeiro - RJ,202207,julho 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+308,7,Região Metropolitana,2,%,5.62,3301,Rio de Janeiro - RJ,202208,agosto 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+309,7,Região Metropolitana,2,%,5.50,3301,Rio de Janeiro - RJ,202209,setembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+310,7,Região Metropolitana,2,%,5.93,3301,Rio de Janeiro - RJ,202210,outubro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+311,7,Região Metropolitana,2,%,6.30,3301,Rio de Janeiro - RJ,202211,novembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+312,7,Região Metropolitana,2,%,6.65,3301,Rio de Janeiro - RJ,202212,dezembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+313,7,Região Metropolitana,2,%,0.43,3301,Rio de Janeiro - RJ,202301,janeiro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+314,7,Região Metropolitana,2,%,1.09,3301,Rio de Janeiro - RJ,202302,fevereiro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+315,7,Região Metropolitana,2,%,1.73,3301,Rio de Janeiro - RJ,202303,março 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+316,7,Região Metropolitana,2,%,2.60,3301,Rio de Janeiro - RJ,202304,abril 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+317,7,Região Metropolitana,2,%,2.68,3301,Rio de Janeiro - RJ,202305,maio 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+318,7,Região Metropolitana,2,%,2.48,3301,Rio de Janeiro - RJ,202306,junho 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+319,7,Região Metropolitana,2,%,2.51,3301,Rio de Janeiro - RJ,202307,julho 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+320,7,Região Metropolitana,2,%,2.47,3301,Rio de Janeiro - RJ,202308,agosto 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+321,7,Região Metropolitana,2,%,2.65,3301,Rio de Janeiro - RJ,202309,setembro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+322,7,Região Metropolitana,2,%,3.04,3301,Rio de Janeiro - RJ,202310,outubro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+323,7,Região Metropolitana,2,%,0.33,3501,São Paulo - SP,202001,janeiro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+324,7,Região Metropolitana,2,%,0.56,3501,São Paulo - SP,202002,fevereiro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+325,7,Região Metropolitana,2,%,0.66,3501,São Paulo - SP,202003,março 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+326,7,Região Metropolitana,2,%,0.29,3501,São Paulo - SP,202004,abril 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+327,7,Região Metropolitana,2,%,0.01,3501,São Paulo - SP,202005,maio 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+328,7,Região Metropolitana,2,%,0.30,3501,São Paulo - SP,202006,junho 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+329,7,Região Metropolitana,2,%,0.55,3501,São Paulo - SP,202007,julho 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+330,7,Região Metropolitana,2,%,0.86,3501,São Paulo - SP,202008,agosto 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+331,7,Região Metropolitana,2,%,1.31,3501,São Paulo - SP,202009,setembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+332,7,Região Metropolitana,2,%,2.21,3501,São Paulo - SP,202010,outubro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+333,7,Região Metropolitana,2,%,3.27,3501,São Paulo - SP,202011,novembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+334,7,Região Metropolitana,2,%,4.40,3501,São Paulo - SP,202012,dezembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+335,7,Região Metropolitana,2,%,0.24,3501,São Paulo - SP,202101,janeiro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+336,7,Região Metropolitana,2,%,1.07,3501,São Paulo - SP,202102,fevereiro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+337,7,Região Metropolitana,2,%,1.83,3501,São Paulo - SP,202103,março 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+338,7,Região Metropolitana,2,%,1.97,3501,São Paulo - SP,202104,abril 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+339,7,Região Metropolitana,2,%,2.77,3501,São Paulo - SP,202105,maio 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+340,7,Região Metropolitana,2,%,3.31,3501,São Paulo - SP,202106,junho 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+341,7,Região Metropolitana,2,%,4.33,3501,São Paulo - SP,202107,julho 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+342,7,Região Metropolitana,2,%,5.41,3501,São Paulo - SP,202108,agosto 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+343,7,Região Metropolitana,2,%,6.47,3501,São Paulo - SP,202109,setembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+344,7,Região Metropolitana,2,%,7.90,3501,São Paulo - SP,202110,outubro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+345,7,Região Metropolitana,2,%,8.83,3501,São Paulo - SP,202111,novembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+346,7,Região Metropolitana,2,%,9.59,3501,São Paulo - SP,202112,dezembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+347,7,Região Metropolitana,2,%,0.63,3501,São Paulo - SP,202201,janeiro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+348,7,Região Metropolitana,2,%,1.69,3501,São Paulo - SP,202202,fevereiro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+349,7,Região Metropolitana,2,%,3.17,3501,São Paulo - SP,202203,março 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+350,7,Região Metropolitana,2,%,4.26,3501,São Paulo - SP,202204,abril 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+351,7,Região Metropolitana,2,%,4.63,3501,São Paulo - SP,202205,maio 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+352,7,Região Metropolitana,2,%,5.27,3501,São Paulo - SP,202206,junho 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+353,7,Região Metropolitana,2,%,5.19,3501,São Paulo - SP,202207,julho 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+354,7,Região Metropolitana,2,%,5.18,3501,São Paulo - SP,202208,agosto 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+355,7,Região Metropolitana,2,%,4.84,3501,São Paulo - SP,202209,setembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+356,7,Região Metropolitana,2,%,5.53,3501,São Paulo - SP,202210,outubro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+357,7,Região Metropolitana,2,%,5.95,3501,São Paulo - SP,202211,novembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+358,7,Região Metropolitana,2,%,6.61,3501,São Paulo - SP,202212,dezembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+359,7,Região Metropolitana,2,%,0.68,3501,São Paulo - SP,202301,janeiro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+360,7,Região Metropolitana,2,%,1.61,3501,São Paulo - SP,202302,fevereiro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+361,7,Região Metropolitana,2,%,2.20,3501,São Paulo - SP,202303,março 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+362,7,Região Metropolitana,2,%,2.88,3501,São Paulo - SP,202304,abril 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+363,7,Região Metropolitana,2,%,3.13,3501,São Paulo - SP,202305,maio 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+364,7,Região Metropolitana,2,%,3.12,3501,São Paulo - SP,202306,junho 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+365,7,Região Metropolitana,2,%,3.10,3501,São Paulo - SP,202307,julho 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+366,7,Região Metropolitana,2,%,3.33,3501,São Paulo - SP,202308,agosto 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+367,7,Região Metropolitana,2,%,3.73,3501,São Paulo - SP,202309,setembro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+368,7,Região Metropolitana,2,%,3.96,3501,São Paulo - SP,202310,outubro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+369,7,Região Metropolitana,2,%,0.05,4101,Curitiba - PR,202001,janeiro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+370,7,Região Metropolitana,2,%,0.13,4101,Curitiba - PR,202002,fevereiro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+371,7,Região Metropolitana,2,%,0.26,4101,Curitiba - PR,202003,março 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+372,7,Região Metropolitana,2,%,-0.90,4101,Curitiba - PR,202004,abril 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+373,7,Região Metropolitana,2,%,-1.46,4101,Curitiba - PR,202005,maio 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+374,7,Região Metropolitana,2,%,-0.68,4101,Curitiba - PR,202006,junho 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+375,7,Região Metropolitana,2,%,-0.29,4101,Curitiba - PR,202007,julho 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+376,7,Região Metropolitana,2,%,-0.09,4101,Curitiba - PR,202008,agosto 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+377,7,Região Metropolitana,2,%,0.62,4101,Curitiba - PR,202009,setembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+378,7,Região Metropolitana,2,%,1.65,4101,Curitiba - PR,202010,outubro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+379,7,Região Metropolitana,2,%,2.53,4101,Curitiba - PR,202011,novembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+380,7,Região Metropolitana,2,%,3.95,4101,Curitiba - PR,202012,dezembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+381,7,Região Metropolitana,2,%,0.44,4101,Curitiba - PR,202101,janeiro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+382,7,Região Metropolitana,2,%,1.36,4101,Curitiba - PR,202102,fevereiro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+383,7,Região Metropolitana,2,%,2.71,4101,Curitiba - PR,202103,março 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+384,7,Região Metropolitana,2,%,3.18,4101,Curitiba - PR,202104,abril 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+385,7,Região Metropolitana,2,%,4.14,4101,Curitiba - PR,202105,maio 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+386,7,Região Metropolitana,2,%,4.77,4101,Curitiba - PR,202106,junho 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+387,7,Região Metropolitana,2,%,6.44,4101,Curitiba - PR,202107,julho 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+388,7,Região Metropolitana,2,%,7.72,4101,Curitiba - PR,202108,agosto 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+389,7,Região Metropolitana,2,%,9.39,4101,Curitiba - PR,202109,setembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+390,7,Região Metropolitana,2,%,10.97,4101,Curitiba - PR,202110,outubro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+391,7,Região Metropolitana,2,%,12.16,4101,Curitiba - PR,202111,novembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+392,7,Região Metropolitana,2,%,12.73,4101,Curitiba - PR,202112,dezembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+393,7,Região Metropolitana,2,%,0.47,4101,Curitiba - PR,202201,janeiro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+394,7,Região Metropolitana,2,%,1.76,4101,Curitiba - PR,202202,fevereiro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+395,7,Região Metropolitana,2,%,4.20,4101,Curitiba - PR,202203,março 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+396,7,Região Metropolitana,2,%,5.09,4101,Curitiba - PR,202204,abril 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+397,7,Região Metropolitana,2,%,5.49,4101,Curitiba - PR,202205,maio 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+398,7,Região Metropolitana,2,%,6.17,4101,Curitiba - PR,202206,junho 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+399,7,Região Metropolitana,2,%,4.67,4101,Curitiba - PR,202207,julho 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+400,7,Região Metropolitana,2,%,4.19,4101,Curitiba - PR,202208,agosto 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+401,7,Região Metropolitana,2,%,4.02,4101,Curitiba - PR,202209,setembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+402,7,Região Metropolitana,2,%,4.23,4101,Curitiba - PR,202210,outubro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+403,7,Região Metropolitana,2,%,4.47,4101,Curitiba - PR,202211,novembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+404,7,Região Metropolitana,2,%,5.26,4101,Curitiba - PR,202212,dezembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+405,7,Região Metropolitana,2,%,-0.05,4101,Curitiba - PR,202301,janeiro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+406,7,Região Metropolitana,2,%,1.04,4101,Curitiba - PR,202302,fevereiro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+407,7,Região Metropolitana,2,%,2.08,4101,Curitiba - PR,202303,março 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+408,7,Região Metropolitana,2,%,2.66,4101,Curitiba - PR,202304,abril 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+409,7,Região Metropolitana,2,%,2.92,4101,Curitiba - PR,202305,maio 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+410,7,Região Metropolitana,2,%,2.95,4101,Curitiba - PR,202306,junho 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+411,7,Região Metropolitana,2,%,3.24,4101,Curitiba - PR,202307,julho 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+412,7,Região Metropolitana,2,%,3.53,4101,Curitiba - PR,202308,agosto 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+413,7,Região Metropolitana,2,%,3.76,4101,Curitiba - PR,202309,setembro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+414,7,Região Metropolitana,2,%,3.94,4101,Curitiba - PR,202310,outubro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+415,7,Região Metropolitana,2,%,0.17,4301,Porto Alegre - RS,202001,janeiro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+416,7,Região Metropolitana,2,%,0.33,4301,Porto Alegre - RS,202002,fevereiro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+417,7,Região Metropolitana,2,%,0.01,4301,Porto Alegre - RS,202003,março 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+418,7,Região Metropolitana,2,%,-0.04,4301,Porto Alegre - RS,202004,abril 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+419,7,Região Metropolitana,2,%,-0.48,4301,Porto Alegre - RS,202005,maio 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+420,7,Região Metropolitana,2,%,-0.49,4301,Porto Alegre - RS,202006,junho 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+421,7,Região Metropolitana,2,%,-0.12,4301,Porto Alegre - RS,202007,julho 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+422,7,Região Metropolitana,2,%,0.21,4301,Porto Alegre - RS,202008,agosto 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+423,7,Região Metropolitana,2,%,0.89,4301,Porto Alegre - RS,202009,setembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+424,7,Região Metropolitana,2,%,1.53,4301,Porto Alegre - RS,202010,outubro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+425,7,Região Metropolitana,2,%,2.34,4301,Porto Alegre - RS,202011,novembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+426,7,Região Metropolitana,2,%,4.22,4301,Porto Alegre - RS,202012,dezembro 2020,69,IPCA - Variação acumulada no ano,7169,Índice geral
+427,7,Região Metropolitana,2,%,0.25,4301,Porto Alegre - RS,202101,janeiro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+428,7,Região Metropolitana,2,%,1.11,4301,Porto Alegre - RS,202102,fevereiro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+429,7,Região Metropolitana,2,%,2.06,4301,Porto Alegre - RS,202103,março 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+430,7,Região Metropolitana,2,%,2.25,4301,Porto Alegre - RS,202104,abril 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+431,7,Região Metropolitana,2,%,3.32,4301,Porto Alegre - RS,202105,maio 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+432,7,Região Metropolitana,2,%,4.14,4301,Porto Alegre - RS,202106,junho 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+433,7,Região Metropolitana,2,%,5.42,4301,Porto Alegre - RS,202107,julho 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+434,7,Região Metropolitana,2,%,6.17,4301,Porto Alegre - RS,202108,agosto 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+435,7,Região Metropolitana,2,%,7.79,4301,Porto Alegre - RS,202109,setembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+436,7,Região Metropolitana,2,%,9.02,4301,Porto Alegre - RS,202110,outubro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+437,7,Região Metropolitana,2,%,10.07,4301,Porto Alegre - RS,202111,novembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+438,7,Região Metropolitana,2,%,10.99,4301,Porto Alegre - RS,202112,dezembro 2021,69,IPCA - Variação acumulada no ano,7169,Índice geral
+439,7,Região Metropolitana,2,%,-0.53,4301,Porto Alegre - RS,202201,janeiro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+440,7,Região Metropolitana,2,%,-0.10,4301,Porto Alegre - RS,202202,fevereiro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+441,7,Região Metropolitana,2,%,1.50,4301,Porto Alegre - RS,202203,março 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+442,7,Região Metropolitana,2,%,2.65,4301,Porto Alegre - RS,202204,abril 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+443,7,Região Metropolitana,2,%,3.14,4301,Porto Alegre - RS,202205,maio 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+444,7,Região Metropolitana,2,%,3.85,4301,Porto Alegre - RS,202206,junho 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+445,7,Região Metropolitana,2,%,3.24,4301,Porto Alegre - RS,202207,julho 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+446,7,Região Metropolitana,2,%,2.31,4301,Porto Alegre - RS,202208,agosto 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+447,7,Região Metropolitana,2,%,1.83,4301,Porto Alegre - RS,202209,setembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+448,7,Região Metropolitana,2,%,2.61,4301,Porto Alegre - RS,202210,outubro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+449,7,Região Metropolitana,2,%,3.04,4301,Porto Alegre - RS,202211,novembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+450,7,Região Metropolitana,2,%,3.61,4301,Porto Alegre - RS,202212,dezembro 2022,69,IPCA - Variação acumulada no ano,7169,Índice geral
+451,7,Região Metropolitana,2,%,0.23,4301,Porto Alegre - RS,202301,janeiro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+452,7,Região Metropolitana,2,%,0.98,4301,Porto Alegre - RS,202302,fevereiro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+453,7,Região Metropolitana,2,%,2.24,4301,Porto Alegre - RS,202303,março 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+454,7,Região Metropolitana,2,%,2.75,4301,Porto Alegre - RS,202304,abril 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+455,7,Região Metropolitana,2,%,2.83,4301,Porto Alegre - RS,202305,maio 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+456,7,Região Metropolitana,2,%,2.81,4301,Porto Alegre - RS,202306,junho 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+457,7,Região Metropolitana,2,%,3.36,4301,Porto Alegre - RS,202307,julho 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+458,7,Região Metropolitana,2,%,3.60,4301,Porto Alegre - RS,202308,agosto 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+459,7,Região Metropolitana,2,%,3.79,4301,Porto Alegre - RS,202309,setembro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
+460,7,Região Metropolitana,2,%,3.83,4301,Porto Alegre - RS,202310,outubro 2023,69,IPCA - Variação acumulada no ano,7169,Índice geral
