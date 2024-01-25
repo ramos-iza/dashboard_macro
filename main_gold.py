@@ -15,7 +15,7 @@ def run_gold(config_silver, config_raw):
     print('----- IPCA -----')
 
     #IPCA Focus
-
+'''
     dataframe_2019 = rd.read_csv(config.silver['dataframe_2019']['save_path'])
 
     fig = go.Figure()
@@ -392,4 +392,4 @@ if __name__ == '__main__':
     run_gold(
         config_silver=config_silver,
         config_raw=config_raw,
-        )
+        )'''
