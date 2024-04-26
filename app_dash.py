@@ -79,6 +79,10 @@ dados_credito = rd.read_csv(config.silver['dados_credito']['save_path'])
 ipca_credito = rd.read_csv(config.silver['ipca_credito']['save_path'])
 concessoes = rd.read_csv(config.silver['concessoes']['save_path'])
 
+# IPCA 15 
+ipca_15_mensal = rd.read_csv(config.silver['ipca_15_mensal']['save_path'])
+ipca_15_acum12m = rd.read_csv(config.silver['ipca_15_acum12m']['save_path'])
+
 container_cs = """
 <style>
     .main {
@@ -123,9 +127,7 @@ if aba == 'IPCA':
     with col3: 
         st.image('imagem9.jpeg')
 
-    with st.expander('IPCA - Mensal e Acumulado nos ultimos 12 meses', expanded=True):
-            
-            
+    with st.expander('IPCA - Mensal e Acumulado em 12 meses', expanded=True):    
         fig = go.Figure()
         fig.add_trace(go.Bar(x= ipca_mes['data'], y =ipca_mes['V'], name = 'IPCA mensal', marker=dict(color='#f06e35')))
         fig.add_trace(go.Bar(x=ipca_acum_12m['data'], y=ipca_acum_12m['ipca_acum_ano'], name = 'IPCA acumulado 12 m', marker=dict(color='#6980EA')))
@@ -160,7 +162,13 @@ if aba == 'IPCA':
             fig.update_yaxes(categoryorder='category descending')
             st.plotly_chart(fig, use_container_width=True, responsive=True)
             
-            
+    with st.expander('IPCA 15 - Mensal e Acumulado em 12 meses', expanded=True):   
+        fig = go.Figure()
+        fig.add_trace(go.Bar(x= ipca_15_mensal['D2N'], y =ipca_15_mensal['V'], name = 'IPCA 15 mensal', marker=dict(color='#f06e35')))
+        fig.add_trace(go.Bar(x=ipca_15_acum12m['D2N'], y=ipca_15_acum12m['V'], name = 'IPCA 15 acumulado 12 m', marker=dict(color='#6980EA')))
+        fig.update_layout(height=535,title={'text': f'IPCA 15 - Mensal e Acumulado nos últimos 12 meses', 'font': {'size': 16}})
+        st.plotly_chart(fig, use_container_width=True, responsive=True) 
+                
             
     with st.expander('IPCA região metropolitana', expanded=True):
             

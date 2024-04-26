@@ -387,6 +387,21 @@ def run_gold(config_silver, config_raw):
                     yaxis_title="% Total", 
                     legend_title="Categorias")
     fig.show()
+    
+    print('----- IPCA 15 -----')
+    
+    ipca_15_mensal = rd.read_csv(config.silver['ipca_15_mensal']['save_path'])
+    ipca_15_acum12m = rd.read_csv(config.silver['ipca_15_acum12m']['save_path'])
+
+    fig = go.Figure()
+    fig.add_trace(go.Bar(x= ipca_15_mensal['D2N'], y =ipca_15_mensal['V'], name = 'IPCA 15 mensal', marker=dict(color='#f06e35')))
+    fig.add_trace(go.Bar(x=ipca_15_acum12m['D2N'], y=ipca_15_acum12m['V'], name = 'IPCA 15 acumulado 12 m', marker=dict(color='#6980EA')))
+    fig.update_layout(height=535,title={'text': f'IPCA 15 - Mensal e Acumulado nos últimos 12 meses', 'font': {'size': 16}})
+    fig.show()
+    #st.plotly_chart(fig, use_container_width=True, responsive=True)
+    
+    
+ 
 
 if __name__ == '__main__':
     run_gold(

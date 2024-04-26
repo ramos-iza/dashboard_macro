@@ -1,10 +1,9 @@
 import pandas as pd
-import pandas as pd 
+import locale
 import datetime
 from ast import Assign
 import plotly.graph_objects as go 
 #import raw_data.save_raw_data as srd
-import pandas as pd 
 from statsmodels.tsa import x13
 import os
 
@@ -749,5 +748,22 @@ def deflacionando_dessazonalizando(dados_credito, ipca_credito):
             deflacionado = lambda x: (x.ipca_credito.iloc[-1] / x.ipca_credito * x["Concessões de crédito - Total"]),
             ajuste = lambda x: x13.x13_arima_analysis(endog = x.deflacionado / 1000, prefer_x13 = True, freq = 12).seasadj))
     return concessoes
-    
 
+# IPCA 15 
+def ipca_15_mensal(ipca_15):
+    ipca_15_mensal = ipca_15[ipca_15['D3N'] == 'IPCA15 - Variação mensal']
+    
+    locale.setlocale(locale.LC_TIME, 'pt_BR')
+    ipca_15_mensal['D2N'] = pd.to_datetime(ipca_15_mensal['D2N'], format='%B %Y')
+    ipca_15_mensal['D2N'] = ipca_15_mensal['D2N'].dt.to_period('M')
+    ipca_15_mensal = ipca_15_mensal[ipca_15_mensal['D2N'] >= '2020-01']
+    return ipca_15_mensal
+    
+def ipca_15_acum12m(ipca_15):
+    ipca_15_acum12m = ipca_15[ipca_15['D3N'] == 'IPCA15 - Variação acumulada em 12 meses']
+    
+    locale.setlocale(locale.LC_TIME, 'pt_BR')
+    ipca_15_acum12m['D2N'] = pd.to_datetime(ipca_15_acum12m['D2N'], format='%B %Y')
+    ipca_15_acum12m['D2N'] = ipca_15_acum12m['D2N'].dt.to_period('M')
+    ipca_15_acum12m = ipca_15_acum12m[ipca_15_acum12m['D2N'] >= '2020-01']
+    return ipca_15_acum12m

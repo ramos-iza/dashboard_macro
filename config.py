@@ -59,7 +59,10 @@ raw= {
     },
     'sgs_m1' : {
         'path' : 'dados/ipca/raw/sgs_m1.csv'
-    },    
+    },  
+    'dados_brutos_ipca_15': {
+        'path': 'dados/ipca/raw/dados_brutos_ipca_15.csv'
+    },  
     
 } 
 
@@ -189,5 +192,16 @@ silver= {
     'concessoes' : {
         'save_path' : 'dados/credito/silver/concessoes.csv' 
     },
-
+    'ipca_15': {
+        'read_path': 'dados/ipca/raw/dados_brutos_ipca_15.csv',
+        'save_path' : 'dados/ipca/silver/ipca_15.csv',
+    },
+    'ipca_15_mensal': {
+        'read_path': 'dados/ipca/raw/dados_brutos_ipca_15_mensal.csv',
+        'save_path' : 'dados/ipca/silver/ipca_15_mensal.csv',
+    },
+    'ipca_15_acum12m': {
+        'read_path': 'dados/ipca/raw/dados_brutos_ipca_15.csv',
+        'save_path' : 'dados/ipca/silver/ipca_15_acum12m.csv',
+    },
 }                  

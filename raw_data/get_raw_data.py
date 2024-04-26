@@ -250,5 +250,18 @@ def sgs_m1():
     m1 = sgs.get(codes= '27785').rename(columns= { '27785': 'm1'})
     return m1
 
+def dados_brutos_ipca_15():
+    variable= ['355', '1120']
+    dados_brutos_ipca_15 = pd.DataFrame()
+    for var in variable:
+        df = sidra.get_table(
+            table_code= '3065', 
+            territorial_level= '1', 
+            ibge_territorial_code= 'all', 
+            period= 'last 120',
+            variable= var)
+        dados_brutos_ipca_15 = pd.concat([df, dados_brutos_ipca_15], axis=0)
+    return dados_brutos_ipca_15
+
 
 
