@@ -6,3 +6,4 @@ python-bcb
 sidrapy
 streamlit
 statsmodels
+locale

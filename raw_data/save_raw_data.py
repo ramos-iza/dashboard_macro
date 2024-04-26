@@ -73,3 +73,6 @@ def ipca_credito(ipca_credito, path):
    
 def save_to_csv(df, path):
    df.to_csv(path) 
+   
+def dados_brutos_ipca_15(dados_brutos_ipca_15, path):
+    dados_brutos_ipca_15.to_csv(path)

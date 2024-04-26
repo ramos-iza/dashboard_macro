@@ -534,6 +534,25 @@ def run_silver(config_silver, config_raw, show_plots=False):
         df= concessoes,
         path= config_silver['concessoes']['save_path'])
     
+    # IPCA 15 
+    print('----- IPCA 15 -----')
+    #Calc IPCA 15
+    # Read
+    ipca_15 = rd.read_csv(config_silver['ipca_15']['read_path'])
+    # Transform
+    ipca_15_mensal = ts.ipca_15_mensal(ipca_15)
+    ipca_15_acum12m = ts.ipca_15_acum12m(ipca_15)
+    # Save
+    ssd.save_csv(
+    df=ipca_15_mensal, 
+    path=config_silver['ipca_15_mensal']['save_path']
+    )
+    
+    ssd.save_csv(
+    df=ipca_15_acum12m, 
+    path=config_silver['ipca_15_acum12m']['save_path']
+    )
+    
     
 if __name__ == '__main__':
     run_silver(

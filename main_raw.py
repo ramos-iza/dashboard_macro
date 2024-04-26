@@ -40,6 +40,13 @@ def run_raw(config):
 
     srd.ipca_nucleo(ipca_nucleo=ipca_nucleo,
                     path=config['ipca_nucleo']['path'])
+    
+    print('----- IPCA 15 -----')
+    dados_brutos_ipca_15 = grd.dados_brutos_ipca_15()
+
+    srd.dados_brutos_ipca_15(
+        dados_brutos_ipca_15=dados_brutos_ipca_15,
+        path=config['dados_brutos_ipca_15']['path'])
 
 
     # Pib 
@@ -135,3 +142,4 @@ def run_raw(config):
 
 if __name__ == '__main__':
     run_raw(config)
+    
