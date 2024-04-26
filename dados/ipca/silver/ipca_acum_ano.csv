@@ -22392,3 +22392,917 @@ data,variavel,grupo,ipca_acum_ano
 2024-01-01,IPCA % acum. ano,9101019.Aparelho telefônico,-0.98
 2024-01-01,IPCA % acum. ano,9101115.Serviços de streaming,1.05
 2024-01-01,IPCA % acum. ano,"9101116.Combo de telefonia, internet e tv por assinatura",0.0
+2024-02-01,IPCA % acum. ano,Índice geral,1.25
+2024-02-01,IPCA % acum. ano,1.Alimentação e bebidas,2.34
+2024-02-01,IPCA % acum. ano,11.Alimentação no domicílio,2.95
+2024-02-01,IPCA % acum. ano,"1101.Cereais, leguminosas e oleaginosas",10.99
+2024-02-01,IPCA % acum. ano,1101002.Arroz,10.32
+2024-02-01,IPCA % acum. ano,1101051.Feijão - mulatinho,9.87
+2024-02-01,IPCA % acum. ano,1101052.Feijão - preto,11.95
+2024-02-01,IPCA % acum. ano,1101053.Feijão - macáçar (fradinho),17.8
+2024-02-01,IPCA % acum. ano,1101073.Feijão - carioca (rajado),15.27
+2024-02-01,IPCA % acum. ano,1101079.Milho (em grão),-3.84
+2024-02-01,IPCA % acum. ano,"1102.Farinhas, féculas e massas",0.34
+2024-02-01,IPCA % acum. ano,1102001.Farinha de arroz,4.04
+2024-02-01,IPCA % acum. ano,1102006.Macarrão,-0.99
+2024-02-01,IPCA % acum. ano,1102008.Fubá de milho,-1.52
+2024-02-01,IPCA % acum. ano,1102010.Flocos de milho,-1.43
+2024-02-01,IPCA % acum. ano,1102012.Farinha de trigo,-2.79
+2024-02-01,IPCA % acum. ano,1102023.Farinha de mandioca,3.48
+2024-02-01,IPCA % acum. ano,1102029.Massa semipreparada,0.28
+2024-02-01,IPCA % acum. ano,1102061.Macarrão instantâneo,1.06
+2024-02-01,IPCA % acum. ano,"1103.Tubérculos, raízes e legumes",16.02
+2024-02-01,IPCA % acum. ano,1103002.Batata-doce,11.64
+2024-02-01,IPCA % acum. ano,1103003.Batata-inglesa,38.24
+2024-02-01,IPCA % acum. ano,1103004.Inhame,12.36
+2024-02-01,IPCA % acum. ano,1103005.Mandioca (aipim),3.87
+2024-02-01,IPCA % acum. ano,1103020.Abobrinha,-15.88
+2024-02-01,IPCA % acum. ano,1103025.Pepino,-23.95
+2024-02-01,IPCA % acum. ano,1103026.Pimentão,-10.38
+2024-02-01,IPCA % acum. ano,1103028.Tomate,3.06
+2024-02-01,IPCA % acum. ano,1103043.Cebola,1.39
+2024-02-01,IPCA % acum. ano,1103044.Cenoura,56.99
+2024-02-01,IPCA % acum. ano,1104.Açúcares e derivados,0.36
+2024-02-01,IPCA % acum. ano,1104003.Açúcar refinado,2.17
+2024-02-01,IPCA % acum. ano,1104004.Açúcar cristal,0.64
+2024-02-01,IPCA % acum. ano,1104018.Balas,-0.42
+2024-02-01,IPCA % acum. ano,1104023.Chocolate em barra e bombom,0.56
+2024-02-01,IPCA % acum. ano,1104032.Sorvete,-1.61
+2024-02-01,IPCA % acum. ano,1104052.Chocolate e achocolatado em pó,0.75
+2024-02-01,IPCA % acum. ano,1104060.Doce de frutas em pasta,-6.14
+2024-02-01,IPCA % acum. ano,1104067.Açúcar demerara,2.5
+2024-02-01,IPCA % acum. ano,1105.Hortaliças e verduras,4.2
+2024-02-01,IPCA % acum. ano,1105001.Alface,2.18
+2024-02-01,IPCA % acum. ano,1105004.Coentro,18.94
+2024-02-01,IPCA % acum. ano,1105005.Couve,2.68
+2024-02-01,IPCA % acum. ano,1105006.Couve-flor,12.57
+2024-02-01,IPCA % acum. ano,1105010.Repolho,14.74
+2024-02-01,IPCA % acum. ano,1105012.Cheiro-verde,4.08
+2024-02-01,IPCA % acum. ano,1105019.Brócolis,2.15
+2024-02-01,IPCA % acum. ano,1106.Frutas,9.0
+2024-02-01,IPCA % acum. ano,1106001.Banana-da-terra,3.19
+2024-02-01,IPCA % acum. ano,1106003.Abacaxi,15.35
+2024-02-01,IPCA % acum. ano,1106004.Abacate,5.58
+2024-02-01,IPCA % acum. ano,1106005.Banana - d'água,8.52
+2024-02-01,IPCA % acum. ano,1106006.Banana - maçã,8.9
+2024-02-01,IPCA % acum. ano,1106008.Banana - prata,17.45
+2024-02-01,IPCA % acum. ano,1106011.Laranja - baía,4.55
+2024-02-01,IPCA % acum. ano,1106012.Laranja - lima,29.19
+2024-02-01,IPCA % acum. ano,1106015.Limão,-27.4
+2024-02-01,IPCA % acum. ano,1106017.Maçã,3.87
+2024-02-01,IPCA % acum. ano,1106018.Mamão,-4.18
+2024-02-01,IPCA % acum. ano,1106019.Manga,44.21
+2024-02-01,IPCA % acum. ano,1106020.Maracujá,13.24
+2024-02-01,IPCA % acum. ano,1106021.Melancia,-5.76
+2024-02-01,IPCA % acum. ano,1106022.Melão,-3.34
+2024-02-01,IPCA % acum. ano,1106023.Pera,1.02
+2024-02-01,IPCA % acum. ano,1106027.Tangerina,8.87
+2024-02-01,IPCA % acum. ano,1106028.Uva,6.43
+2024-02-01,IPCA % acum. ano,1106039.Laranja - pera,16.86
+2024-02-01,IPCA % acum. ano,1106051.Morango,-14.86
+2024-02-01,IPCA % acum. ano,1106084.Goiaba,6.32
+2024-02-01,IPCA % acum. ano,1107.Carnes,-0.5
+2024-02-01,IPCA % acum. ano,1107009.Fígado,-5.16
+2024-02-01,IPCA % acum. ano,1107018.Carne de porco,-1.49
+2024-02-01,IPCA % acum. ano,1107031.Carne de carneiro,-0.02
+2024-02-01,IPCA % acum. ano,1107081.Cupim,-2.37
+2024-02-01,IPCA % acum. ano,1107084.Contrafilé,0.42
+2024-02-01,IPCA % acum. ano,1107085.Filé-mignon,-0.87
+2024-02-01,IPCA % acum. ano,1107087.Chã de dentro,0.16
+2024-02-01,IPCA % acum. ano,1107088.Alcatra,1.74
+2024-02-01,IPCA % acum. ano,1107089.Patinho,-0.57
+2024-02-01,IPCA % acum. ano,1107090.Lagarto redondo,-1.08
+2024-02-01,IPCA % acum. ano,1107091.Lagarto comum,0.85
+2024-02-01,IPCA % acum. ano,1107093.Músculo,-1.77
+2024-02-01,IPCA % acum. ano,1107094.Pá,-1.17
+2024-02-01,IPCA % acum. ano,1107095.Acém,-2.33
+2024-02-01,IPCA % acum. ano,1107096.Peito,-1.52
+2024-02-01,IPCA % acum. ano,1107097.Capa de filé,1.22
+2024-02-01,IPCA % acum. ano,1107099.Costela,-1.59
+2024-02-01,IPCA % acum. ano,1107208.Picanha,0.8
+2024-02-01,IPCA % acum. ano,1108.Pescados,1.77
+2024-02-01,IPCA % acum. ano,1108002.Peixe - anchova,-9.1
+2024-02-01,IPCA % acum. ano,1108004.Peixe - corvina,4.14
+2024-02-01,IPCA % acum. ano,1108011.Peixe - tainha,-2.16
+2024-02-01,IPCA % acum. ano,1108012.Peixe - sardinha,2.77
+2024-02-01,IPCA % acum. ano,1108013.Camarão,-0.58
+2024-02-01,IPCA % acum. ano,1108019.Peixe - cavala,2.17
+2024-02-01,IPCA % acum. ano,1108029.Peixe - cação,-0.26
+2024-02-01,IPCA % acum. ano,1108031.Peixe - merluza,2.12
+2024-02-01,IPCA % acum. ano,1108032.Peixe - serra,-6.93
+2024-02-01,IPCA % acum. ano,1108038.Peixe - pescada,1.63
+2024-02-01,IPCA % acum. ano,1108045.Caranguejo,2.27
+2024-02-01,IPCA % acum. ano,1108049.Peixe - castanha,0.26
+2024-02-01,IPCA % acum. ano,1108052.Peixe - palombeta,-5.33
+2024-02-01,IPCA % acum. ano,1108072.Peixe - curimatã,4.65
+2024-02-01,IPCA % acum. ano,1108075.Peixe - salmão,4.43
+2024-02-01,IPCA % acum. ano,1108080.Peixe - tilápia,3.82
+2024-02-01,IPCA % acum. ano,1108087.Peixe - tambaqui,1.63
+2024-02-01,IPCA % acum. ano,1108088.Peixe - dourada,-14.66
+2024-02-01,IPCA % acum. ano,1108092.Peixe - filhote,2.24
+2024-02-01,IPCA % acum. ano,1108096.Peixe - peroá,16.27
+2024-02-01,IPCA % acum. ano,1108112.Peixe - pintado,-0.21
+2024-02-01,IPCA % acum. ano,1108125.Peixe - aruanã,-1.31
+2024-02-01,IPCA % acum. ano,1109.Carnes e peixes industrializados,0.85
+2024-02-01,IPCA % acum. ano,1109002.Presunto,0.46
+2024-02-01,IPCA % acum. ano,1109007.Salsicha,0.22
+2024-02-01,IPCA % acum. ano,1109008.Linguiça,1.7
+2024-02-01,IPCA % acum. ano,1109010.Mortadela,-1.34
+2024-02-01,IPCA % acum. ano,1109012.Salame,-0.82
+2024-02-01,IPCA % acum. ano,1109023.Bacalhau,2.93
+2024-02-01,IPCA % acum. ano,1109056.Carne-seca e de sol,-0.39
+2024-02-01,IPCA % acum. ano,1109058.Carne de porco salgada e defumada,2.55
+2024-02-01,IPCA % acum. ano,1110.Aves e ovos,1.66
+2024-02-01,IPCA % acum. ano,1110009.Frango inteiro,1.86
+2024-02-01,IPCA % acum. ano,1110010.Frango em pedaços,2.02
+2024-02-01,IPCA % acum. ano,1110044.Ovo de galinha,0.58
+2024-02-01,IPCA % acum. ano,1111.Leites e derivados,1.77
+2024-02-01,IPCA % acum. ano,1111004.Leite longa vida,4.22
+2024-02-01,IPCA % acum. ano,1111008.Leite condensado,1.95
+2024-02-01,IPCA % acum. ano,1111009.Leite em pó,-0.26
+2024-02-01,IPCA % acum. ano,1111011.Queijo,0.32
+2024-02-01,IPCA % acum. ano,1111019.Iogurte e bebidas lácteas,0.19
+2024-02-01,IPCA % acum. ano,1111021.Requeijão,-0.7
+2024-02-01,IPCA % acum. ano,1111031.Manteiga,1.69
+2024-02-01,IPCA % acum. ano,1111038.Leite fermentado,1.19
+2024-02-01,IPCA % acum. ano,1112.Panificados,0.2
+2024-02-01,IPCA % acum. ano,1112003.Biscoito,-0.19
+2024-02-01,IPCA % acum. ano,1112015.Pão francês,0.21
+2024-02-01,IPCA % acum. ano,1112017.Pão doce,0.3
+2024-02-01,IPCA % acum. ano,1112018.Pão de forma,0.83
+2024-02-01,IPCA % acum. ano,1112019.Bolo,0.67
+2024-02-01,IPCA % acum. ano,1112025.Pão de queijo,1.31
+2024-02-01,IPCA % acum. ano,1113.Óleos e gorduras,1.93
+2024-02-01,IPCA % acum. ano,1113013.Óleo de soja,1.75
+2024-02-01,IPCA % acum. ano,1113014.Azeite de oliva,6.36
+2024-02-01,IPCA % acum. ano,1113040.Margarina,-1.28
+2024-02-01,IPCA % acum. ano,1114.Bebidas e infusões,1.63
+2024-02-01,IPCA % acum. ano,1114001.Suco de frutas,0.43
+2024-02-01,IPCA % acum. ano,1114003.Polpa de fruta (congelada),1.52
+2024-02-01,IPCA % acum. ano,1114004.Açaí (emulsão),29.95
+2024-02-01,IPCA % acum. ano,1114022.Café moído,1.02
+2024-02-01,IPCA % acum. ano,1114023.Café solúvel,2.96
+2024-02-01,IPCA % acum. ano,1114083.Refrigerante e água mineral,0.48
+2024-02-01,IPCA % acum. ano,1114084.Cerveja,0.25
+2024-02-01,IPCA % acum. ano,1114085.Outras bebidas alcoólicas,3.35
+2024-02-01,IPCA % acum. ano,1114087.Vinho,1.11
+2024-02-01,IPCA % acum. ano,1114090.Suco em pó,0.34
+2024-02-01,IPCA % acum. ano,1114091.Chá mate (erva mate),2.15
+2024-02-01,IPCA % acum. ano,1115.Enlatados e conservas,-0.1
+2024-02-01,IPCA % acum. ano,1115013.Alimento infantil,2.42
+2024-02-01,IPCA % acum. ano,1115016.Palmito em conserva,2.04
+2024-02-01,IPCA % acum. ano,1115017.Pepino em conserva,1.37
+2024-02-01,IPCA % acum. ano,1115039.Sardinha em conserva,-1.1
+2024-02-01,IPCA % acum. ano,1115050.Salsicha em conserva,-0.14
+2024-02-01,IPCA % acum. ano,1115056.Sopa desidratada,-3.5
+2024-02-01,IPCA % acum. ano,1115057.Azeitona,1.06
+2024-02-01,IPCA % acum. ano,1115058.Milho-verde em conserva,-1.65
+2024-02-01,IPCA % acum. ano,1115075.Atum em conserva,0.49
+2024-02-01,IPCA % acum. ano,1116.Sal e condimentos,-0.08
+2024-02-01,IPCA % acum. ano,1116001.Leite de coco,-0.95
+2024-02-01,IPCA % acum. ano,1116005.Atomatado,0.24
+2024-02-01,IPCA % acum. ano,1116010.Alho,-0.32
+2024-02-01,IPCA % acum. ano,1116013.Sal,2.6
+2024-02-01,IPCA % acum. ano,1116022.Colorau,5.41
+2024-02-01,IPCA % acum. ano,1116023.Caldo de tucupi,0.67
+2024-02-01,IPCA % acum. ano,1116026.Fermento,-4.97
+2024-02-01,IPCA % acum. ano,1116033.Maionese,-0.67
+2024-02-01,IPCA % acum. ano,1116041.Vinagre,-0.11
+2024-02-01,IPCA % acum. ano,1116048.Caldo concentrado,-0.1
+2024-02-01,IPCA % acum. ano,1116071.Tempero misto,0.52
+2024-02-01,IPCA % acum. ano,12.Alimentação fora do domicílio,0.74
+2024-02-01,IPCA % acum. ano,1201.Alimentação fora do domicílio,0.74
+2024-02-01,IPCA % acum. ano,1201001.Refeição,0.84
+2024-02-01,IPCA % acum. ano,1201003.Lanche,0.56
+2024-02-01,IPCA % acum. ano,1201007.Refrigerante e água mineral,0.29
+2024-02-01,IPCA % acum. ano,1201009.Cafezinho,1.32
+2024-02-01,IPCA % acum. ano,1201048.Cerveja,0.84
+2024-02-01,IPCA % acum. ano,1201051.Outras bebidas alcoólicas,0.07
+2024-02-01,IPCA % acum. ano,1201052.Vinho,-6.06
+2024-02-01,IPCA % acum. ano,1201061.Doces,-2.02
+2024-02-01,IPCA % acum. ano,1201088.Sorvete,1.23
+2024-02-01,IPCA % acum. ano,2.Habitação,0.52
+2024-02-01,IPCA % acum. ano,21.Encargos e manutenção,0.93
+2024-02-01,IPCA % acum. ano,2101.Aluguel e taxas,1.1
+2024-02-01,IPCA % acum. ano,2101001.Aluguel residencial,0.99
+2024-02-01,IPCA % acum. ano,2101002.Condomínio,1.42
+2024-02-01,IPCA % acum. ano,2101004.Taxa de água e esgoto,0.94
+2024-02-01,IPCA % acum. ano,2101012.Mudança,-1.91
+2024-02-01,IPCA % acum. ano,2103.Reparos,0.99
+2024-02-01,IPCA % acum. ano,2103005.Ferragens,-0.73
+2024-02-01,IPCA % acum. ano,2103008.Material de eletricidade,0.46
+2024-02-01,IPCA % acum. ano,2103012.Vidro,-1.88
+2024-02-01,IPCA % acum. ano,2103014.Tinta,0.69
+2024-02-01,IPCA % acum. ano,2103032.Revestimento de piso e parede,1.92
+2024-02-01,IPCA % acum. ano,2103038.Madeira e taco,-0.74
+2024-02-01,IPCA % acum. ano,2103039.Cimento,-0.75
+2024-02-01,IPCA % acum. ano,2103040.Tijolo,-0.2
+2024-02-01,IPCA % acum. ano,2103041.Material hidráulico,-1.16
+2024-02-01,IPCA % acum. ano,2103042.Mão de obra,1.16
+2024-02-01,IPCA % acum. ano,2103048.Areia,1.03
+2024-02-01,IPCA % acum. ano,2103049.Pedras,6.26
+2024-02-01,IPCA % acum. ano,2103055.Telha,0.08
+2024-02-01,IPCA % acum. ano,2104.Artigos de limpeza,-0.84
+2024-02-01,IPCA % acum. ano,2104003.Saco para lixo,0.12
+2024-02-01,IPCA % acum. ano,2104005.Água sanitária,-1.41
+2024-02-01,IPCA % acum. ano,2104008.Detergente,-0.26
+2024-02-01,IPCA % acum. ano,2104009.Sabão em pó,-1.02
+2024-02-01,IPCA % acum. ano,2104012.Desinfetante,-0.24
+2024-02-01,IPCA % acum. ano,2104015.Sabão em barra,-0.89
+2024-02-01,IPCA % acum. ano,2104016.Esponja de limpeza,-0.49
+2024-02-01,IPCA % acum. ano,2104019.Sabão líquido,-1.59
+2024-02-01,IPCA % acum. ano,2104020.Limpador multiuso,0.95
+2024-02-01,IPCA % acum. ano,2104041.Papel toalha,-3.39
+2024-02-01,IPCA % acum. ano,2104085.Amaciante e alvejante,-1.31
+2024-02-01,IPCA % acum. ano,22.Combustíveis e energia,-0.23
+2024-02-01,IPCA % acum. ano,2201.Combustíveis (domésticos),0.56
+2024-02-01,IPCA % acum. ano,2201003.Carvão vegetal,2.89
+2024-02-01,IPCA % acum. ano,2201004.Gás de botijão,0.78
+2024-02-01,IPCA % acum. ano,2201005.Gás encanado,-1.19
+2024-02-01,IPCA % acum. ano,2202.Energia elétrica residencial,-0.5
+2024-02-01,IPCA % acum. ano,2202003.Energia elétrica residencial,-0.5
+2024-02-01,IPCA % acum. ano,3.Artigos de residência,0.15
+2024-02-01,IPCA % acum. ano,31.Móveis e utensílios,-0.03
+2024-02-01,IPCA % acum. ano,3101.Mobiliário,0.24
+2024-02-01,IPCA % acum. ano,3101002.Móvel para sala,0.51
+2024-02-01,IPCA % acum. ano,3101003.Móvel para quarto,0.19
+2024-02-01,IPCA % acum. ano,3101015.Móvel para copa e cozinha,-0.12
+2024-02-01,IPCA % acum. ano,3101016.Móvel infantil,0.69
+2024-02-01,IPCA % acum. ano,3101017.Colchão,0.19
+2024-02-01,IPCA % acum. ano,3102.Utensílios e enfeites,-0.41
+2024-02-01,IPCA % acum. ano,3102001.Artigos de iluminação,-1.69
+2024-02-01,IPCA % acum. ano,3102005.Tapete,-0.81
+2024-02-01,IPCA % acum. ano,3102006.Cortina,1.01
+2024-02-01,IPCA % acum. ano,3102007.Utensílios de metal,-0.15
+2024-02-01,IPCA % acum. ano,3102009.Utensílios de vidro e louça,-0.59
+2024-02-01,IPCA % acum. ano,3102010.Utensílios de plástico,-0.96
+2024-02-01,IPCA % acum. ano,3102035.Flores naturais,-7.02
+2024-02-01,IPCA % acum. ano,3102337.Utensílios para bebê,-0.3
+2024-02-01,IPCA % acum. ano,"3103.Cama, mesa e banho",-0.93
+2024-02-01,IPCA % acum. ano,3103001.Roupa de cama,-0.92
+2024-02-01,IPCA % acum. ano,3103003.Roupa de banho,-1.26
+2024-02-01,IPCA % acum. ano,32.Aparelhos eletroeletrônicos,0.27
+2024-02-01,IPCA % acum. ano,3201.Eletrodomésticos e equipamentos,0.1
+2024-02-01,IPCA % acum. ano,3201001.Refrigerador,1.01
+2024-02-01,IPCA % acum. ano,3201002.Ar-condicionado,-1.34
+2024-02-01,IPCA % acum. ano,3201006.Máquina de lavar roupa,-0.37
+2024-02-01,IPCA % acum. ano,3201013.Ventilador,3.02
+2024-02-01,IPCA % acum. ano,3201021.Fogão,-0.43
+2024-02-01,IPCA % acum. ano,3201050.Chuveiro elétrico,-0.55
+2024-02-01,IPCA % acum. ano,"3202.Tv, som e informática",0.52
+2024-02-01,IPCA % acum. ano,3202001.Televisor,0.5
+2024-02-01,IPCA % acum. ano,3202003.Aparelho de som,0.3
+2024-02-01,IPCA % acum. ano,3202008.Videogame (console),-0.56
+2024-02-01,IPCA % acum. ano,3202028.Computador pessoal,0.57
+2024-02-01,IPCA % acum. ano,33.Consertos e manutenção,0.61
+2024-02-01,IPCA % acum. ano,3301.Consertos e manutenção,0.61
+2024-02-01,IPCA % acum. ano,3301002.Conserto de refrigerador,0.5
+2024-02-01,IPCA % acum. ano,3301006.Conserto de televisor,3.42
+2024-02-01,IPCA % acum. ano,3301015.Conserto de máquina de lavar roupa,0.98
+2024-02-01,IPCA % acum. ano,3301022.Reforma de estofado,0.77
+2024-02-01,IPCA % acum. ano,3301088.Conserto de aparelho celular,-0.49
+2024-02-01,IPCA % acum. ano,3301130.Conserto de bicicleta,0.86
+2024-02-01,IPCA % acum. ano,4.Vestuário,-0.31
+2024-02-01,IPCA % acum. ano,41.Roupas,-0.67
+2024-02-01,IPCA % acum. ano,4101.Roupa masculina,-0.21
+2024-02-01,IPCA % acum. ano,4101002.Calça comprida masculina,-0.72
+2024-02-01,IPCA % acum. ano,4101005.Agasalho masculino,0.52
+2024-02-01,IPCA % acum. ano,4101006.Bermuda/short masculino,-0.97
+2024-02-01,IPCA % acum. ano,4101008.Cueca,0.1
+2024-02-01,IPCA % acum. ano,4101009.Camisa/camiseta masculina,0.23
+2024-02-01,IPCA % acum. ano,4102.Roupa feminina,-1.2
+2024-02-01,IPCA % acum. ano,4102002.Calça comprida feminina,-2.08
+2024-02-01,IPCA % acum. ano,4102003.Agasalho feminino,-0.59
+2024-02-01,IPCA % acum. ano,4102004.Saia,-0.53
+2024-02-01,IPCA % acum. ano,4102005.Vestido,-2.13
+2024-02-01,IPCA % acum. ano,4102008.Blusa,-0.73
+2024-02-01,IPCA % acum. ano,4102010.Lingerie,0.92
+2024-02-01,IPCA % acum. ano,4102013.Bermuda/short feminino,-0.18
+2024-02-01,IPCA % acum. ano,4103.Roupa infantil,-0.35
+2024-02-01,IPCA % acum. ano,4103001.Uniforme escolar,2.86
+2024-02-01,IPCA % acum. ano,4103002.Calça comprida infantil,-0.75
+2024-02-01,IPCA % acum. ano,4103005.Agasalho infantil,-1.32
+2024-02-01,IPCA % acum. ano,4103007.Vestido infantil,-2.54
+2024-02-01,IPCA % acum. ano,4103008.Bermuda/short infantil,-0.98
+2024-02-01,IPCA % acum. ano,4103011.Camisa/camiseta infantil,-0.15
+2024-02-01,IPCA % acum. ano,4103031.Conjunto infantil,-1.16
+2024-02-01,IPCA % acum. ano,42.Calçados e acessórios,0.6
+2024-02-01,IPCA % acum. ano,4201.Calçados e acessórios,0.6
+2024-02-01,IPCA % acum. ano,4201002.Sapato masculino,0.85
+2024-02-01,IPCA % acum. ano,4201003.Sapato feminino,0.53
+2024-02-01,IPCA % acum. ano,4201004.Sapato infantil,1.4
+2024-02-01,IPCA % acum. ano,4201015.Bolsa,-0.36
+2024-02-01,IPCA % acum. ano,4201040.Mochila,0.81
+2024-02-01,IPCA % acum. ano,4201063.Tênis,1.08
+2024-02-01,IPCA % acum. ano,4201098.Sandália/chinelo,-0.52
+2024-02-01,IPCA % acum. ano,43.Joias e bijuterias,-0.03
+2024-02-01,IPCA % acum. ano,4301.Joias e bijuterias,-0.03
+2024-02-01,IPCA % acum. ano,4301001.Bijuteria,0.17
+2024-02-01,IPCA % acum. ano,4301002.Joia,0.18
+2024-02-01,IPCA % acum. ano,4301004.Relógio de pulso,-0.76
+2024-02-01,IPCA % acum. ano,44.Tecidos e armarinho,-0.56
+2024-02-01,IPCA % acum. ano,4401.Tecidos e armarinho,-0.56
+2024-02-01,IPCA % acum. ano,4401001.Tecido,-0.67
+2024-02-01,IPCA % acum. ano,4401002.Artigos de armarinho,-0.04
+2024-02-01,IPCA % acum. ano,5.Transportes,0.07
+2024-02-01,IPCA % acum. ano,51.Transportes,0.07
+2024-02-01,IPCA % acum. ano,5101.Transporte público,-6.06
+2024-02-01,IPCA % acum. ano,5101001.Ônibus urbano,0.97
+2024-02-01,IPCA % acum. ano,5101002.Táxi,1.9
+2024-02-01,IPCA % acum. ano,5101004.Trem,5.15
+2024-02-01,IPCA % acum. ano,5101006.Ônibus intermunicipal,5.53
+2024-02-01,IPCA % acum. ano,5101007.Ônibus interestadual,1.22
+2024-02-01,IPCA % acum. ano,5101010.Passagem aérea,-24.29
+2024-02-01,IPCA % acum. ano,5101011.Metrô,7.57
+2024-02-01,IPCA % acum. ano,5101026.Transporte escolar,3.11
+2024-02-01,IPCA % acum. ano,5101051.Transporte por aplicativo,-6.52
+2024-02-01,IPCA % acum. ano,5101053.Integração transporte público,2.43
+2024-02-01,IPCA % acum. ano,5102.Veículo próprio,0.56
+2024-02-01,IPCA % acum. ano,5102001.Automóvel novo,0.82
+2024-02-01,IPCA % acum. ano,5102004.Emplacamento e licença,-0.19
+2024-02-01,IPCA % acum. ano,5102005.Seguro voluntário de veículo,0.94
+2024-02-01,IPCA % acum. ano,5102006.Multa,0.0
+2024-02-01,IPCA % acum. ano,5102007.Óleo lubrificante,0.25
+2024-02-01,IPCA % acum. ano,5102009.Acessórios e peças,0.78
+2024-02-01,IPCA % acum. ano,5102010.Pneu,-0.99
+2024-02-01,IPCA % acum. ano,5102011.Conserto de automóvel,1.02
+2024-02-01,IPCA % acum. ano,5102013.Estacionamento,2.54
+2024-02-01,IPCA % acum. ano,5102015.Pedágio,0.58
+2024-02-01,IPCA % acum. ano,5102020.Automóvel usado,0.33
+2024-02-01,IPCA % acum. ano,5102037.Pintura de veículo,0.94
+2024-02-01,IPCA % acum. ano,5102051.Aluguel de veículo,8.88
+2024-02-01,IPCA % acum. ano,5102053.Motocicleta,1.71
+2024-02-01,IPCA % acum. ano,5104.Combustíveis (veículos),2.53
+2024-02-01,IPCA % acum. ano,5104001.Gasolina,2.61
+2024-02-01,IPCA % acum. ano,5104002.Etanol,2.91
+2024-02-01,IPCA % acum. ano,5104003.Óleo diesel,-0.86
+2024-02-01,IPCA % acum. ano,5104005.Gás veicular,6.09
+2024-02-01,IPCA % acum. ano,6.Saúde e cuidados pessoais,1.49
+2024-02-01,IPCA % acum. ano,61.Produtos farmacêuticos e óticos,1.29
+2024-02-01,IPCA % acum. ano,6101.Produtos farmacêuticos,1.19
+2024-02-01,IPCA % acum. ano,6101001.Anti-infeccioso e antibiótico,0.93
+2024-02-01,IPCA % acum. ano,6101002.Analgésico e antitérmico,1.43
+2024-02-01,IPCA % acum. ano,6101003.Anti-inflamatório e antirreumático,1.46
+2024-02-01,IPCA % acum. ano,6101004.Antigripal e antitussígeno,0.97
+2024-02-01,IPCA % acum. ano,6101006.Dermatológico,1.27
+2024-02-01,IPCA % acum. ano,6101007.Antialérgico e broncodilatador,0.59
+2024-02-01,IPCA % acum. ano,6101009.Gastroprotetor,1.5
+2024-02-01,IPCA % acum. ano,6101010.Vitamina e fortificante,0.75
+2024-02-01,IPCA % acum. ano,6101011.Hormonal,0.73
+2024-02-01,IPCA % acum. ano,6101013.Psicotrópico e anorexígeno,1.6
+2024-02-01,IPCA % acum. ano,6101014.Hipotensor e hipocolesterolêmico,1.12
+2024-02-01,IPCA % acum. ano,6101051.Oftalmológico,1.32
+2024-02-01,IPCA % acum. ano,6101064.Antidiabético,2.48
+2024-02-01,IPCA % acum. ano,6101148.Neurológico,-0.12
+2024-02-01,IPCA % acum. ano,6102.Produtos óticos,2.73
+2024-02-01,IPCA % acum. ano,6102012.Óculos de grau,2.73
+2024-02-01,IPCA % acum. ano,62.Serviços de saúde,1.62
+2024-02-01,IPCA % acum. ano,6201.Serviços médicos e dentários,2.04
+2024-02-01,IPCA % acum. ano,6201002.Médico,1.66
+2024-02-01,IPCA % acum. ano,6201003.Dentista,2.48
+2024-02-01,IPCA % acum. ano,6201005.Aparelho ortodôntico,1.98
+2024-02-01,IPCA % acum. ano,6201007.Fisioterapeuta,0.0
+2024-02-01,IPCA % acum. ano,6201010.Psicólogo,1.46
+2024-02-01,IPCA % acum. ano,6202.Serviços laboratoriais e hospitalares,1.34
+2024-02-01,IPCA % acum. ano,6202003.Exame de laboratório,1.14
+2024-02-01,IPCA % acum. ano,6202004.Hospitalização e cirurgia,1.49
+2024-02-01,IPCA % acum. ano,6202006.Exame de imagem,1.12
+2024-02-01,IPCA % acum. ano,6203.Plano de saúde,1.54
+2024-02-01,IPCA % acum. ano,6203001.Plano de saúde,1.54
+2024-02-01,IPCA % acum. ano,63.Cuidados pessoais,1.49
+2024-02-01,IPCA % acum. ano,6301.Higiene pessoal,1.49
+2024-02-01,IPCA % acum. ano,6301001.Produto para cabelo,0.78
+2024-02-01,IPCA % acum. ano,6301002.Fralda descartável,1.33
+2024-02-01,IPCA % acum. ano,6301004.Produto para barba,1.05
+2024-02-01,IPCA % acum. ano,6301006.Produto para pele,1.58
+2024-02-01,IPCA % acum. ano,6301007.Produto para higiene bucal,-0.63
+2024-02-01,IPCA % acum. ano,6301010.Produto para unha,-0.82
+2024-02-01,IPCA % acum. ano,6301011.Perfume,3.28
+2024-02-01,IPCA % acum. ano,6301014.Desodorante,1.11
+2024-02-01,IPCA % acum. ano,6301015.Absorvente higiênico,1.39
+2024-02-01,IPCA % acum. ano,6301016.Sabonete,0.32
+2024-02-01,IPCA % acum. ano,6301017.Papel higiênico,-0.58
+2024-02-01,IPCA % acum. ano,6301020.Artigos de maquiagem,3.06
+2024-02-01,IPCA % acum. ano,7.Despesas pessoais,0.88
+2024-02-01,IPCA % acum. ano,71.Serviços pessoais,1.71
+2024-02-01,IPCA % acum. ano,7101.Serviços pessoais,1.71
+2024-02-01,IPCA % acum. ano,7101001.Costureira,-0.63
+2024-02-01,IPCA % acum. ano,7101005.Manicure,2.35
+2024-02-01,IPCA % acum. ano,7101010.Empregado doméstico,0.56
+2024-02-01,IPCA % acum. ano,7101011.Cabeleireiro e barbeiro,1.27
+2024-02-01,IPCA % acum. ano,7101014.Depilação,0.99
+2024-02-01,IPCA % acum. ano,7101034.Cartório,4.6
+2024-02-01,IPCA % acum. ano,7101036.Despachante,1.09
+2024-02-01,IPCA % acum. ano,7101076.Serviço bancário,3.86
+2024-02-01,IPCA % acum. ano,7101090.Conselho de classe,0.51
+2024-02-01,IPCA % acum. ano,7101144.Sobrancelha,1.35
+2024-02-01,IPCA % acum. ano,72.Recreação e fumo,-0.44
+2024-02-01,IPCA % acum. ano,7201.Recreação,-0.79
+2024-02-01,IPCA % acum. ano,7201006.Clube,0.36
+2024-02-01,IPCA % acum. ano,7201010.Instrumento musical,0.07
+2024-02-01,IPCA % acum. ano,7201015.Tratamento de animais (clínica),-0.1
+2024-02-01,IPCA % acum. ano,7201019.Bicicleta,-2.83
+2024-02-01,IPCA % acum. ano,7201020.Alimento para animais,-0.14
+2024-02-01,IPCA % acum. ano,7201023.Brinquedo,0.83
+2024-02-01,IPCA % acum. ano,7201054.Casa noturna,3.29
+2024-02-01,IPCA % acum. ano,7201063.Jogos de azar,0.0
+2024-02-01,IPCA % acum. ano,7201067.Material de caça e pesca,-3.23
+2024-02-01,IPCA % acum. ano,7201090.Hospedagem,0.08
+2024-02-01,IPCA % acum. ano,7201095.Pacote turístico,-1.88
+2024-02-01,IPCA % acum. ano,7201256.Serviço de higiene para animais,1.21
+2024-02-01,IPCA % acum. ano,"7201266.Cinema, teatro e concertos",-3.5
+2024-02-01,IPCA % acum. ano,7202.Fumo,2.01
+2024-02-01,IPCA % acum. ano,7202041.Cigarro,2.01
+2024-02-01,IPCA % acum. ano,8.Educação,5.32
+2024-02-01,IPCA % acum. ano,"81.Cursos, leitura e papelaria",5.32
+2024-02-01,IPCA % acum. ano,8101.Cursos regulares,6.13
+2024-02-01,IPCA % acum. ano,8101001.Creche,6.03
+2024-02-01,IPCA % acum. ano,8101002.Pré-escola,8.05
+2024-02-01,IPCA % acum. ano,8101003.Ensino fundamental,8.24
+2024-02-01,IPCA % acum. ano,8101004.Ensino médio,8.51
+2024-02-01,IPCA % acum. ano,8101005.Ensino superior,3.81
+2024-02-01,IPCA % acum. ano,8101006.Pós-graduação,2.76
+2024-02-01,IPCA % acum. ano,8101008.Educação de jovens e adultos,2.23
+2024-02-01,IPCA % acum. ano,8101045.Curso técnico,6.14
+2024-02-01,IPCA % acum. ano,8102.Leitura,3.72
+2024-02-01,IPCA % acum. ano,8102001.Jornal diário,0.36
+2024-02-01,IPCA % acum. ano,8102004.Revista,1.28
+2024-02-01,IPCA % acum. ano,8102007.Livro didático,4.01
+2024-02-01,IPCA % acum. ano,8102008.Livro não didático,4.74
+2024-02-01,IPCA % acum. ano,8103.Papelaria,0.61
+2024-02-01,IPCA % acum. ano,8103001.Caderno,2.1
+2024-02-01,IPCA % acum. ano,8103014.Artigos de papelaria,-0.29
+2024-02-01,IPCA % acum. ano,8104.Cursos diversos,2.76
+2024-02-01,IPCA % acum. ano,8104001.Curso preparatório,3.85
+2024-02-01,IPCA % acum. ano,8104003.Curso de idioma,4.29
+2024-02-01,IPCA % acum. ano,8104004.Curso de informática,-0.25
+2024-02-01,IPCA % acum. ano,8104005.Autoescola,2.83
+2024-02-01,IPCA % acum. ano,8104006.Atividades físicas,1.46
+2024-02-01,IPCA % acum. ano,9.Comunicação,1.48
+2024-02-01,IPCA % acum. ano,91.Comunicação,1.48
+2024-02-01,IPCA % acum. ano,9101.Comunicação,1.48
+2024-02-01,IPCA % acum. ano,9101001.Correio,0.0
+2024-02-01,IPCA % acum. ano,9101002.Plano de telefonia fixa,-0.08
+2024-02-01,IPCA % acum. ano,9101008.Plano de telefonia móvel,1.14
+2024-02-01,IPCA % acum. ano,9101010.Tv por assinatura,4.02
+2024-02-01,IPCA % acum. ano,9101018.Acesso à internet,0.0
+2024-02-01,IPCA % acum. ano,9101019.Aparelho telefônico,-1.13
+2024-02-01,IPCA % acum. ano,9101115.Serviços de streaming,1.05
+2024-02-01,IPCA % acum. ano,"9101116.Combo de telefonia, internet e tv por assinatura",3.29
+2024-03-01,IPCA % acum. ano,Índice geral,1.42
+2024-03-01,IPCA % acum. ano,1.Alimentação e bebidas,2.88
+2024-03-01,IPCA % acum. ano,11.Alimentação no domicílio,3.56
+2024-03-01,IPCA % acum. ano,"1101.Cereais, leguminosas e oleaginosas",10.53
+2024-03-01,IPCA % acum. ano,1101002.Arroz,9.33
+2024-03-01,IPCA % acum. ano,1101051.Feijão - mulatinho,9.49
+2024-03-01,IPCA % acum. ano,1101052.Feijão - preto,14.7
+2024-03-01,IPCA % acum. ano,1101053.Feijão - macáçar (fradinho),18.38
+2024-03-01,IPCA % acum. ano,1101073.Feijão - carioca (rajado),16.17
+2024-03-01,IPCA % acum. ano,1101079.Milho (em grão),-4.09
+2024-03-01,IPCA % acum. ano,"1102.Farinhas, féculas e massas",-0.58
+2024-03-01,IPCA % acum. ano,1102001.Farinha de arroz,3.51
+2024-03-01,IPCA % acum. ano,1102006.Macarrão,-1.38
+2024-03-01,IPCA % acum. ano,1102008.Fubá de milho,-2.18
+2024-03-01,IPCA % acum. ano,1102010.Flocos de milho,0.29
+2024-03-01,IPCA % acum. ano,1102012.Farinha de trigo,-4.22
+2024-03-01,IPCA % acum. ano,1102023.Farinha de mandioca,2.16
+2024-03-01,IPCA % acum. ano,1102029.Massa semipreparada,-1.08
+2024-03-01,IPCA % acum. ano,1102061.Macarrão instantâneo,0.87
+2024-03-01,IPCA % acum. ano,"1103.Tubérculos, raízes e legumes",16.51
+2024-03-01,IPCA % acum. ano,1103002.Batata-doce,13.56
+2024-03-01,IPCA % acum. ano,1103003.Batata-inglesa,17.74
+2024-03-01,IPCA % acum. ano,1103004.Inhame,6.79
+2024-03-01,IPCA % acum. ano,1103005.Mandioca (aipim),5.12
+2024-03-01,IPCA % acum. ano,1103020.Abobrinha,0.01
+2024-03-01,IPCA % acum. ano,1103025.Pepino,-24.21
+2024-03-01,IPCA % acum. ano,1103026.Pimentão,-1.31
+2024-03-01,IPCA % acum. ano,1103028.Tomate,13.21
+2024-03-01,IPCA % acum. ano,1103043.Cebola,15.93
+2024-03-01,IPCA % acum. ano,1103044.Cenoura,45.08
+2024-03-01,IPCA % acum. ano,1104.Açúcares e derivados,-0.06
+2024-03-01,IPCA % acum. ano,1104003.Açúcar refinado,2.54
+2024-03-01,IPCA % acum. ano,1104004.Açúcar cristal,0.38
+2024-03-01,IPCA % acum. ano,1104018.Balas,-0.16
+2024-03-01,IPCA % acum. ano,1104023.Chocolate em barra e bombom,-1.74
+2024-03-01,IPCA % acum. ano,1104032.Sorvete,-0.55
+2024-03-01,IPCA % acum. ano,1104052.Chocolate e achocolatado em pó,0.1
+2024-03-01,IPCA % acum. ano,1104060.Doce de frutas em pasta,-1.09
+2024-03-01,IPCA % acum. ano,1104067.Açúcar demerara,4.08
+2024-03-01,IPCA % acum. ano,1105.Hortaliças e verduras,6.53
+2024-03-01,IPCA % acum. ano,1105001.Alface,5.07
+2024-03-01,IPCA % acum. ano,1105004.Coentro,35.95
+2024-03-01,IPCA % acum. ano,1105005.Couve,6.49
+2024-03-01,IPCA % acum. ano,1105006.Couve-flor,9.79
+2024-03-01,IPCA % acum. ano,1105010.Repolho,10.21
+2024-03-01,IPCA % acum. ano,1105012.Cheiro-verde,7.07
+2024-03-01,IPCA % acum. ano,1105019.Brócolis,1.87
+2024-03-01,IPCA % acum. ano,1106.Frutas,13.09
+2024-03-01,IPCA % acum. ano,1106001.Banana-da-terra,2.21
+2024-03-01,IPCA % acum. ano,1106003.Abacaxi,12.64
+2024-03-01,IPCA % acum. ano,1106004.Abacate,1.47
+2024-03-01,IPCA % acum. ano,1106005.Banana - d'água,11.51
+2024-03-01,IPCA % acum. ano,1106006.Banana - maçã,14.63
+2024-03-01,IPCA % acum. ano,1106008.Banana - prata,26.61
+2024-03-01,IPCA % acum. ano,1106011.Laranja - baía,8.84
+2024-03-01,IPCA % acum. ano,1106012.Laranja - lima,32.58
+2024-03-01,IPCA % acum. ano,1106015.Limão,-16.25
+2024-03-01,IPCA % acum. ano,1106017.Maçã,2.93
+2024-03-01,IPCA % acum. ano,1106018.Mamão,1.95
+2024-03-01,IPCA % acum. ano,1106019.Manga,47.4
+2024-03-01,IPCA % acum. ano,1106020.Maracujá,-8.94
+2024-03-01,IPCA % acum. ano,1106021.Melancia,-1.54
+2024-03-01,IPCA % acum. ano,1106022.Melão,7.68
+2024-03-01,IPCA % acum. ano,1106023.Pera,-3.14
+2024-03-01,IPCA % acum. ano,1106027.Tangerina,13.81
+2024-03-01,IPCA % acum. ano,1106028.Uva,7.71
+2024-03-01,IPCA % acum. ano,1106039.Laranja - pera,23.27
+2024-03-01,IPCA % acum. ano,1106051.Morango,3.55
+2024-03-01,IPCA % acum. ano,1106084.Goiaba,7.68
+2024-03-01,IPCA % acum. ano,1107.Carnes,-1.43
+2024-03-01,IPCA % acum. ano,1107009.Fígado,-5.74
+2024-03-01,IPCA % acum. ano,1107018.Carne de porco,-1.78
+2024-03-01,IPCA % acum. ano,1107031.Carne de carneiro,-0.96
+2024-03-01,IPCA % acum. ano,1107081.Cupim,-0.83
+2024-03-01,IPCA % acum. ano,1107084.Contrafilé,-2.19
+2024-03-01,IPCA % acum. ano,1107085.Filé-mignon,-0.83
+2024-03-01,IPCA % acum. ano,1107087.Chã de dentro,-1.24
+2024-03-01,IPCA % acum. ano,1107088.Alcatra,-1.06
+2024-03-01,IPCA % acum. ano,1107089.Patinho,-0.72
+2024-03-01,IPCA % acum. ano,1107090.Lagarto redondo,-1.63
+2024-03-01,IPCA % acum. ano,1107091.Lagarto comum,-0.55
+2024-03-01,IPCA % acum. ano,1107093.Músculo,-1.29
+2024-03-01,IPCA % acum. ano,1107094.Pá,-1.09
+2024-03-01,IPCA % acum. ano,1107095.Acém,-1.52
+2024-03-01,IPCA % acum. ano,1107096.Peito,-1.61
+2024-03-01,IPCA % acum. ano,1107097.Capa de filé,-0.25
+2024-03-01,IPCA % acum. ano,1107099.Costela,-1.33
+2024-03-01,IPCA % acum. ano,1107208.Picanha,-0.33
+2024-03-01,IPCA % acum. ano,1108.Pescados,3.53
+2024-03-01,IPCA % acum. ano,1108002.Peixe - anchova,-8.26
+2024-03-01,IPCA % acum. ano,1108004.Peixe - corvina,10.9
+2024-03-01,IPCA % acum. ano,1108011.Peixe - tainha,0.44
+2024-03-01,IPCA % acum. ano,1108012.Peixe - sardinha,5.68
+2024-03-01,IPCA % acum. ano,1108013.Camarão,2.0
+2024-03-01,IPCA % acum. ano,1108019.Peixe - cavala,6.45
+2024-03-01,IPCA % acum. ano,1108029.Peixe - cação,0.71
+2024-03-01,IPCA % acum. ano,1108031.Peixe - merluza,2.03
+2024-03-01,IPCA % acum. ano,1108032.Peixe - serra,-5.98
+2024-03-01,IPCA % acum. ano,1108038.Peixe - pescada,4.68
+2024-03-01,IPCA % acum. ano,1108045.Caranguejo,4.53
+2024-03-01,IPCA % acum. ano,1108049.Peixe - castanha,3.14
+2024-03-01,IPCA % acum. ano,1108052.Peixe - palombeta,0.14
+2024-03-01,IPCA % acum. ano,1108072.Peixe - curimatã,7.64
+2024-03-01,IPCA % acum. ano,1108075.Peixe - salmão,3.67
+2024-03-01,IPCA % acum. ano,1108080.Peixe - tilápia,4.51
+2024-03-01,IPCA % acum. ano,1108087.Peixe - tambaqui,3.89
+2024-03-01,IPCA % acum. ano,1108088.Peixe - dourada,-18.76
+2024-03-01,IPCA % acum. ano,1108092.Peixe - filhote,-0.07
+2024-03-01,IPCA % acum. ano,1108096.Peixe - peroá,8.47
+2024-03-01,IPCA % acum. ano,1108112.Peixe - pintado,-0.11
+2024-03-01,IPCA % acum. ano,1108125.Peixe - aruanã,2.03
+2024-03-01,IPCA % acum. ano,1109.Carnes e peixes industrializados,0.14
+2024-03-01,IPCA % acum. ano,1109002.Presunto,-0.12
+2024-03-01,IPCA % acum. ano,1109007.Salsicha,0.81
+2024-03-01,IPCA % acum. ano,1109008.Linguiça,0.56
+2024-03-01,IPCA % acum. ano,1109010.Mortadela,0.19
+2024-03-01,IPCA % acum. ano,1109012.Salame,0.8
+2024-03-01,IPCA % acum. ano,1109023.Bacalhau,2.96
+2024-03-01,IPCA % acum. ano,1109056.Carne-seca e de sol,-1.86
+2024-03-01,IPCA % acum. ano,1109058.Carne de porco salgada e defumada,2.02
+2024-03-01,IPCA % acum. ano,1110.Aves e ovos,3.44
+2024-03-01,IPCA % acum. ano,1110009.Frango inteiro,2.65
+2024-03-01,IPCA % acum. ano,1110010.Frango em pedaços,3.14
+2024-03-01,IPCA % acum. ano,1110044.Ovo de galinha,5.19
+2024-03-01,IPCA % acum. ano,1111.Leites e derivados,2.52
+2024-03-01,IPCA % acum. ano,1111004.Leite longa vida,6.96
+2024-03-01,IPCA % acum. ano,1111008.Leite condensado,0.75
+2024-03-01,IPCA % acum. ano,1111009.Leite em pó,-0.11
+2024-03-01,IPCA % acum. ano,1111011.Queijo,-0.62
+2024-03-01,IPCA % acum. ano,1111019.Iogurte e bebidas lácteas,-0.22
+2024-03-01,IPCA % acum. ano,1111021.Requeijão,-0.02
+2024-03-01,IPCA % acum. ano,1111031.Manteiga,2.62
+2024-03-01,IPCA % acum. ano,1111038.Leite fermentado,-0.43
+2024-03-01,IPCA % acum. ano,1112.Panificados,0.46
+2024-03-01,IPCA % acum. ano,1112003.Biscoito,-0.87
+2024-03-01,IPCA % acum. ano,1112015.Pão francês,0.85
+2024-03-01,IPCA % acum. ano,1112017.Pão doce,1.67
+2024-03-01,IPCA % acum. ano,1112018.Pão de forma,1.17
+2024-03-01,IPCA % acum. ano,1112019.Bolo,1.46
+2024-03-01,IPCA % acum. ano,1112025.Pão de queijo,-0.27
+2024-03-01,IPCA % acum. ano,1113.Óleos e gorduras,0.94
+2024-03-01,IPCA % acum. ano,1113013.Óleo de soja,-1.05
+2024-03-01,IPCA % acum. ano,1113014.Azeite de oliva,10.28
+2024-03-01,IPCA % acum. ano,1113040.Margarina,-2.45
+2024-03-01,IPCA % acum. ano,1114.Bebidas e infusões,3.21
+2024-03-01,IPCA % acum. ano,1114001.Suco de frutas,2.06
+2024-03-01,IPCA % acum. ano,1114003.Polpa de fruta (congelada),3.85
+2024-03-01,IPCA % acum. ano,1114004.Açaí (emulsão),48.4
+2024-03-01,IPCA % acum. ano,1114022.Café moído,2.11
+2024-03-01,IPCA % acum. ano,1114023.Café solúvel,3.35
+2024-03-01,IPCA % acum. ano,1114083.Refrigerante e água mineral,1.72
+2024-03-01,IPCA % acum. ano,1114084.Cerveja,1.05
+2024-03-01,IPCA % acum. ano,1114085.Outras bebidas alcoólicas,2.59
+2024-03-01,IPCA % acum. ano,1114087.Vinho,1.72
+2024-03-01,IPCA % acum. ano,1114090.Suco em pó,0.27
+2024-03-01,IPCA % acum. ano,1114091.Chá mate (erva mate),2.41
+2024-03-01,IPCA % acum. ano,1115.Enlatados e conservas,-0.44
+2024-03-01,IPCA % acum. ano,1115013.Alimento infantil,0.84
+2024-03-01,IPCA % acum. ano,1115016.Palmito em conserva,2.82
+2024-03-01,IPCA % acum. ano,1115017.Pepino em conserva,0.33
+2024-03-01,IPCA % acum. ano,1115039.Sardinha em conserva,-1.58
+2024-03-01,IPCA % acum. ano,1115050.Salsicha em conserva,0.67
+2024-03-01,IPCA % acum. ano,1115056.Sopa desidratada,-1.38
+2024-03-01,IPCA % acum. ano,1115057.Azeitona,1.45
+2024-03-01,IPCA % acum. ano,1115058.Milho-verde em conserva,-2.69
+2024-03-01,IPCA % acum. ano,1115075.Atum em conserva,-0.5
+2024-03-01,IPCA % acum. ano,1116.Sal e condimentos,2.43
+2024-03-01,IPCA % acum. ano,1116001.Leite de coco,-1.57
+2024-03-01,IPCA % acum. ano,1116005.Atomatado,0.64
+2024-03-01,IPCA % acum. ano,1116010.Alho,7.55
+2024-03-01,IPCA % acum. ano,1116013.Sal,4.88
+2024-03-01,IPCA % acum. ano,1116022.Colorau,7.13
+2024-03-01,IPCA % acum. ano,1116023.Caldo de tucupi,0.46
+2024-03-01,IPCA % acum. ano,1116026.Fermento,-6.84
+2024-03-01,IPCA % acum. ano,1116033.Maionese,-0.05
+2024-03-01,IPCA % acum. ano,1116041.Vinagre,1.09
+2024-03-01,IPCA % acum. ano,1116048.Caldo concentrado,-0.71
+2024-03-01,IPCA % acum. ano,1116071.Tempero misto,1.04
+2024-03-01,IPCA % acum. ano,12.Alimentação fora do domicílio,1.09
+2024-03-01,IPCA % acum. ano,1201.Alimentação fora do domicílio,1.09
+2024-03-01,IPCA % acum. ano,1201001.Refeição,0.94
+2024-03-01,IPCA % acum. ano,1201003.Lanche,1.23
+2024-03-01,IPCA % acum. ano,1201007.Refrigerante e água mineral,1.32
+2024-03-01,IPCA % acum. ano,1201009.Cafezinho,3.42
+2024-03-01,IPCA % acum. ano,1201048.Cerveja,1.9
+2024-03-01,IPCA % acum. ano,1201051.Outras bebidas alcoólicas,0.79
+2024-03-01,IPCA % acum. ano,1201052.Vinho,-3.99
+2024-03-01,IPCA % acum. ano,1201061.Doces,-0.06
+2024-03-01,IPCA % acum. ano,1201088.Sorvete,1.44
+2024-03-01,IPCA % acum. ano,2.Habitação,0.7
+2024-03-01,IPCA % acum. ano,21.Encargos e manutenção,1.13
+2024-03-01,IPCA % acum. ano,2101.Aluguel e taxas,1.4
+2024-03-01,IPCA % acum. ano,2101001.Aluguel residencial,1.15
+2024-03-01,IPCA % acum. ano,2101002.Condomínio,2.17
+2024-03-01,IPCA % acum. ano,2101004.Taxa de água e esgoto,0.98
+2024-03-01,IPCA % acum. ano,2101012.Mudança,1.91
+2024-03-01,IPCA % acum. ano,2103.Reparos,0.98
+2024-03-01,IPCA % acum. ano,2103005.Ferragens,-1.59
+2024-03-01,IPCA % acum. ano,2103008.Material de eletricidade,1.42
+2024-03-01,IPCA % acum. ano,2103012.Vidro,-0.94
+2024-03-01,IPCA % acum. ano,2103014.Tinta,-0.09
+2024-03-01,IPCA % acum. ano,2103032.Revestimento de piso e parede,1.57
+2024-03-01,IPCA % acum. ano,2103038.Madeira e taco,-1.35
+2024-03-01,IPCA % acum. ano,2103039.Cimento,-0.5
+2024-03-01,IPCA % acum. ano,2103040.Tijolo,-0.63
+2024-03-01,IPCA % acum. ano,2103041.Material hidráulico,-2.15
+2024-03-01,IPCA % acum. ano,2103042.Mão de obra,1.77
+2024-03-01,IPCA % acum. ano,2103048.Areia,2.05
+2024-03-01,IPCA % acum. ano,2103049.Pedras,3.07
+2024-03-01,IPCA % acum. ano,2103055.Telha,-0.22
+2024-03-01,IPCA % acum. ano,2104.Artigos de limpeza,-1.27
+2024-03-01,IPCA % acum. ano,2104003.Saco para lixo,-0.65
+2024-03-01,IPCA % acum. ano,2104005.Água sanitária,-0.44
+2024-03-01,IPCA % acum. ano,2104008.Detergente,-0.44
+2024-03-01,IPCA % acum. ano,2104009.Sabão em pó,-2.2
+2024-03-01,IPCA % acum. ano,2104012.Desinfetante,-0.21
+2024-03-01,IPCA % acum. ano,2104015.Sabão em barra,-2.33
+2024-03-01,IPCA % acum. ano,2104016.Esponja de limpeza,0.38
+2024-03-01,IPCA % acum. ano,2104019.Sabão líquido,-1.36
+2024-03-01,IPCA % acum. ano,2104020.Limpador multiuso,1.03
+2024-03-01,IPCA % acum. ano,2104041.Papel toalha,-2.24
+2024-03-01,IPCA % acum. ano,2104085.Amaciante e alvejante,-1.57
+2024-03-01,IPCA % acum. ano,22.Combustíveis e energia,-0.06
+2024-03-01,IPCA % acum. ano,2201.Combustíveis (domésticos),0.87
+2024-03-01,IPCA % acum. ano,2201003.Carvão vegetal,2.39
+2024-03-01,IPCA % acum. ano,2201004.Gás de botijão,1.14
+2024-03-01,IPCA % acum. ano,2201005.Gás encanado,-1.23
+2024-03-01,IPCA % acum. ano,2202.Energia elétrica residencial,-0.39
+2024-03-01,IPCA % acum. ano,2202003.Energia elétrica residencial,-0.39
+2024-03-01,IPCA % acum. ano,3.Artigos de residência,0.11
+2024-03-01,IPCA % acum. ano,31.Móveis e utensílios,0.3
+2024-03-01,IPCA % acum. ano,3101.Mobiliário,0.73
+2024-03-01,IPCA % acum. ano,3101002.Móvel para sala,0.94
+2024-03-01,IPCA % acum. ano,3101003.Móvel para quarto,0.93
+2024-03-01,IPCA % acum. ano,3101015.Móvel para copa e cozinha,-0.18
+2024-03-01,IPCA % acum. ano,3101016.Móvel infantil,2.0
+2024-03-01,IPCA % acum. ano,3101017.Colchão,1.0
+2024-03-01,IPCA % acum. ano,3102.Utensílios e enfeites,-0.93
+2024-03-01,IPCA % acum. ano,3102001.Artigos de iluminação,-3.46
+2024-03-01,IPCA % acum. ano,3102005.Tapete,-0.25
+2024-03-01,IPCA % acum. ano,3102006.Cortina,0.5
+2024-03-01,IPCA % acum. ano,3102007.Utensílios de metal,-0.92
+2024-03-01,IPCA % acum. ano,3102009.Utensílios de vidro e louça,-0.37
+2024-03-01,IPCA % acum. ano,3102010.Utensílios de plástico,-1.8
+2024-03-01,IPCA % acum. ano,3102035.Flores naturais,-5.41
+2024-03-01,IPCA % acum. ano,3102337.Utensílios para bebê,0.03
+2024-03-01,IPCA % acum. ano,"3103.Cama, mesa e banho",0.28
+2024-03-01,IPCA % acum. ano,3103001.Roupa de cama,0.35
+2024-03-01,IPCA % acum. ano,3103003.Roupa de banho,-2.17
+2024-03-01,IPCA % acum. ano,32.Aparelhos eletroeletrônicos,-0.25
+2024-03-01,IPCA % acum. ano,3201.Eletrodomésticos e equipamentos,-0.58
+2024-03-01,IPCA % acum. ano,3201001.Refrigerador,0.42
+2024-03-01,IPCA % acum. ano,3201002.Ar-condicionado,-3.3
+2024-03-01,IPCA % acum. ano,3201006.Máquina de lavar roupa,-1.05
+2024-03-01,IPCA % acum. ano,3201013.Ventilador,3.0
+2024-03-01,IPCA % acum. ano,3201021.Fogão,-0.59
+2024-03-01,IPCA % acum. ano,3201050.Chuveiro elétrico,0.05
+2024-03-01,IPCA % acum. ano,"3202.Tv, som e informática",0.23
+2024-03-01,IPCA % acum. ano,3202001.Televisor,0.45
+2024-03-01,IPCA % acum. ano,3202003.Aparelho de som,0.14
+2024-03-01,IPCA % acum. ano,3202008.Videogame (console),-0.61
+2024-03-01,IPCA % acum. ano,3202028.Computador pessoal,-0.11
+2024-03-01,IPCA % acum. ano,33.Consertos e manutenção,0.78
+2024-03-01,IPCA % acum. ano,3301.Consertos e manutenção,0.78
+2024-03-01,IPCA % acum. ano,3301002.Conserto de refrigerador,0.86
+2024-03-01,IPCA % acum. ano,3301006.Conserto de televisor,5.86
+2024-03-01,IPCA % acum. ano,3301015.Conserto de máquina de lavar roupa,0.97
+2024-03-01,IPCA % acum. ano,3301022.Reforma de estofado,-0.01
+2024-03-01,IPCA % acum. ano,3301088.Conserto de aparelho celular,-0.81
+2024-03-01,IPCA % acum. ano,3301130.Conserto de bicicleta,1.35
+2024-03-01,IPCA % acum. ano,4.Vestuário,-0.28
+2024-03-01,IPCA % acum. ano,41.Roupas,-0.58
+2024-03-01,IPCA % acum. ano,4101.Roupa masculina,-0.42
+2024-03-01,IPCA % acum. ano,4101002.Calça comprida masculina,-0.47
+2024-03-01,IPCA % acum. ano,4101005.Agasalho masculino,2.43
+2024-03-01,IPCA % acum. ano,4101006.Bermuda/short masculino,-1.69
+2024-03-01,IPCA % acum. ano,4101008.Cueca,0.58
+2024-03-01,IPCA % acum. ano,4101009.Camisa/camiseta masculina,-0.14
+2024-03-01,IPCA % acum. ano,4102.Roupa feminina,-0.84
+2024-03-01,IPCA % acum. ano,4102002.Calça comprida feminina,-0.89
+2024-03-01,IPCA % acum. ano,4102003.Agasalho feminino,1.06
+2024-03-01,IPCA % acum. ano,4102004.Saia,1.02
+2024-03-01,IPCA % acum. ano,4102005.Vestido,-1.87
+2024-03-01,IPCA % acum. ano,4102008.Blusa,-0.81
+2024-03-01,IPCA % acum. ano,4102010.Lingerie,0.5
+2024-03-01,IPCA % acum. ano,4102013.Bermuda/short feminino,0.57
+2024-03-01,IPCA % acum. ano,4103.Roupa infantil,-0.29
+2024-03-01,IPCA % acum. ano,4103001.Uniforme escolar,2.97
+2024-03-01,IPCA % acum. ano,4103002.Calça comprida infantil,0.67
+2024-03-01,IPCA % acum. ano,4103005.Agasalho infantil,1.5
+2024-03-01,IPCA % acum. ano,4103007.Vestido infantil,-2.39
+2024-03-01,IPCA % acum. ano,4103008.Bermuda/short infantil,-2.17
+2024-03-01,IPCA % acum. ano,4103011.Camisa/camiseta infantil,-0.75
+2024-03-01,IPCA % acum. ano,4103031.Conjunto infantil,-0.71
+2024-03-01,IPCA % acum. ano,42.Calçados e acessórios,0.41
+2024-03-01,IPCA % acum. ano,4201.Calçados e acessórios,0.41
+2024-03-01,IPCA % acum. ano,4201002.Sapato masculino,0.88
+2024-03-01,IPCA % acum. ano,4201003.Sapato feminino,0.49
+2024-03-01,IPCA % acum. ano,4201004.Sapato infantil,1.39
+2024-03-01,IPCA % acum. ano,4201015.Bolsa,0.24
+2024-03-01,IPCA % acum. ano,4201040.Mochila,0.56
+2024-03-01,IPCA % acum. ano,4201063.Tênis,0.58
+2024-03-01,IPCA % acum. ano,4201098.Sandália/chinelo,-0.65
+2024-03-01,IPCA % acum. ano,43.Joias e bijuterias,0.23
+2024-03-01,IPCA % acum. ano,4301.Joias e bijuterias,0.23
+2024-03-01,IPCA % acum. ano,4301001.Bijuteria,-0.35
+2024-03-01,IPCA % acum. ano,4301002.Joia,0.32
+2024-03-01,IPCA % acum. ano,4301004.Relógio de pulso,0.18
+2024-03-01,IPCA % acum. ano,44.Tecidos e armarinho,-0.04
+2024-03-01,IPCA % acum. ano,4401.Tecidos e armarinho,-0.04
+2024-03-01,IPCA % acum. ano,4401001.Tecido,-0.18
+2024-03-01,IPCA % acum. ano,4401002.Artigos de armarinho,0.61
+2024-03-01,IPCA % acum. ano,5.Transportes,-0.27
+2024-03-01,IPCA % acum. ano,51.Transportes,-0.27
+2024-03-01,IPCA % acum. ano,5101.Transporte público,-7.79
+2024-03-01,IPCA % acum. ano,5101001.Ônibus urbano,0.9
+2024-03-01,IPCA % acum. ano,5101002.Táxi,2.13
+2024-03-01,IPCA % acum. ano,5101004.Trem,4.95
+2024-03-01,IPCA % acum. ano,5101006.Ônibus intermunicipal,6.32
+2024-03-01,IPCA % acum. ano,5101007.Ônibus interestadual,1.39
+2024-03-01,IPCA % acum. ano,5101010.Passagem aérea,-31.21
+2024-03-01,IPCA % acum. ano,5101011.Metrô,7.57
+2024-03-01,IPCA % acum. ano,5101026.Transporte escolar,4.41
+2024-03-01,IPCA % acum. ano,5101051.Transporte por aplicativo,-4.22
+2024-03-01,IPCA % acum. ano,5101053.Integração transporte público,2.43
+2024-03-01,IPCA % acum. ano,5102.Veículo próprio,0.36
+2024-03-01,IPCA % acum. ano,5102001.Automóvel novo,0.66
+2024-03-01,IPCA % acum. ano,5102004.Emplacamento e licença,-0.28
+2024-03-01,IPCA % acum. ano,5102005.Seguro voluntário de veículo,0.74
+2024-03-01,IPCA % acum. ano,5102006.Multa,0.0
+2024-03-01,IPCA % acum. ano,5102007.Óleo lubrificante,-0.07
+2024-03-01,IPCA % acum. ano,5102009.Acessórios e peças,0.95
+2024-03-01,IPCA % acum. ano,5102010.Pneu,-1.35
+2024-03-01,IPCA % acum. ano,5102011.Conserto de automóvel,0.74
+2024-03-01,IPCA % acum. ano,5102013.Estacionamento,3.35
+2024-03-01,IPCA % acum. ano,5102015.Pedágio,0.58
+2024-03-01,IPCA % acum. ano,5102020.Automóvel usado,-0.1
+2024-03-01,IPCA % acum. ano,5102037.Pintura de veículo,2.27
+2024-03-01,IPCA % acum. ano,5102051.Aluguel de veículo,7.94
+2024-03-01,IPCA % acum. ano,5102053.Motocicleta,1.51
+2024-03-01,IPCA % acum. ano,5104.Combustíveis (veículos),2.71
+2024-03-01,IPCA % acum. ano,5104001.Gasolina,2.83
+2024-03-01,IPCA % acum. ano,5104002.Etanol,3.47
+2024-03-01,IPCA % acum. ano,5104003.Óleo diesel,-1.59
+2024-03-01,IPCA % acum. ano,5104005.Gás veicular,3.74
+2024-03-01,IPCA % acum. ano,6.Saúde e cuidados pessoais,1.92
+2024-03-01,IPCA % acum. ano,61.Produtos farmacêuticos e óticos,1.72
+2024-03-01,IPCA % acum. ano,6101.Produtos farmacêuticos,1.71
+2024-03-01,IPCA % acum. ano,6101001.Anti-infeccioso e antibiótico,2.21
+2024-03-01,IPCA % acum. ano,6101002.Analgésico e antitérmico,1.99
+2024-03-01,IPCA % acum. ano,6101003.Anti-inflamatório e antirreumático,2.77
+2024-03-01,IPCA % acum. ano,6101004.Antigripal e antitussígeno,1.93
+2024-03-01,IPCA % acum. ano,6101006.Dermatológico,1.3
+2024-03-01,IPCA % acum. ano,6101007.Antialérgico e broncodilatador,0.93
+2024-03-01,IPCA % acum. ano,6101009.Gastroprotetor,2.36
+2024-03-01,IPCA % acum. ano,6101010.Vitamina e fortificante,1.74
+2024-03-01,IPCA % acum. ano,6101011.Hormonal,1.08
+2024-03-01,IPCA % acum. ano,6101013.Psicotrópico e anorexígeno,1.13
+2024-03-01,IPCA % acum. ano,6101014.Hipotensor e hipocolesterolêmico,1.27
+2024-03-01,IPCA % acum. ano,6101051.Oftalmológico,2.77
+2024-03-01,IPCA % acum. ano,6101064.Antidiabético,2.4
+2024-03-01,IPCA % acum. ano,6101148.Neurológico,1.14
+2024-03-01,IPCA % acum. ano,6102.Produtos óticos,1.93
+2024-03-01,IPCA % acum. ano,6102012.Óculos de grau,1.93
+2024-03-01,IPCA % acum. ano,62.Serviços de saúde,2.32
+2024-03-01,IPCA % acum. ano,6201.Serviços médicos e dentários,2.55
+2024-03-01,IPCA % acum. ano,6201002.Médico,2.3
+2024-03-01,IPCA % acum. ano,6201003.Dentista,2.84
+2024-03-01,IPCA % acum. ano,6201005.Aparelho ortodôntico,3.3
+2024-03-01,IPCA % acum. ano,6201007.Fisioterapeuta,0.0
+2024-03-01,IPCA % acum. ano,6201010.Psicólogo,1.7
+2024-03-01,IPCA % acum. ano,6202.Serviços laboratoriais e hospitalares,1.91
+2024-03-01,IPCA % acum. ano,6202003.Exame de laboratório,1.34
+2024-03-01,IPCA % acum. ano,6202004.Hospitalização e cirurgia,2.26
+2024-03-01,IPCA % acum. ano,6202006.Exame de imagem,1.4
+2024-03-01,IPCA % acum. ano,6203.Plano de saúde,2.31
+2024-03-01,IPCA % acum. ano,6203001.Plano de saúde,2.31
+2024-03-01,IPCA % acum. ano,63.Cuidados pessoais,1.55
+2024-03-01,IPCA % acum. ano,6301.Higiene pessoal,1.55
+2024-03-01,IPCA % acum. ano,6301001.Produto para cabelo,0.78
+2024-03-01,IPCA % acum. ano,6301002.Fralda descartável,1.57
+2024-03-01,IPCA % acum. ano,6301004.Produto para barba,0.71
+2024-03-01,IPCA % acum. ano,6301006.Produto para pele,4.02
+2024-03-01,IPCA % acum. ano,6301007.Produto para higiene bucal,-0.12
+2024-03-01,IPCA % acum. ano,6301010.Produto para unha,0.39
+2024-03-01,IPCA % acum. ano,6301011.Perfume,2.56
+2024-03-01,IPCA % acum. ano,6301014.Desodorante,1.66
+2024-03-01,IPCA % acum. ano,6301015.Absorvente higiênico,1.17
+2024-03-01,IPCA % acum. ano,6301016.Sabonete,-0.04
+2024-03-01,IPCA % acum. ano,6301017.Papel higiênico,-0.63
+2024-03-01,IPCA % acum. ano,6301020.Artigos de maquiagem,1.83
+2024-03-01,IPCA % acum. ano,7.Despesas pessoais,1.21
+2024-03-01,IPCA % acum. ano,71.Serviços pessoais,2.21
+2024-03-01,IPCA % acum. ano,7101.Serviços pessoais,2.21
+2024-03-01,IPCA % acum. ano,7101001.Costureira,-1.23
+2024-03-01,IPCA % acum. ano,7101005.Manicure,3.65
+2024-03-01,IPCA % acum. ano,7101010.Empregado doméstico,0.92
+2024-03-01,IPCA % acum. ano,7101011.Cabeleireiro e barbeiro,2.21
+2024-03-01,IPCA % acum. ano,7101014.Depilação,1.54
+2024-03-01,IPCA % acum. ano,7101034.Cartório,4.6
+2024-03-01,IPCA % acum. ano,7101036.Despachante,1.81
+2024-03-01,IPCA % acum. ano,7101076.Serviço bancário,4.1
+2024-03-01,IPCA % acum. ano,7101090.Conselho de classe,0.76
+2024-03-01,IPCA % acum. ano,7101144.Sobrancelha,1.83
+2024-03-01,IPCA % acum. ano,72.Recreação e fumo,-0.37
+2024-03-01,IPCA % acum. ano,7201.Recreação,-0.74
+2024-03-01,IPCA % acum. ano,7201006.Clube,0.57
+2024-03-01,IPCA % acum. ano,7201010.Instrumento musical,0.51
+2024-03-01,IPCA % acum. ano,7201015.Tratamento de animais (clínica),0.52
+2024-03-01,IPCA % acum. ano,7201019.Bicicleta,-4.49
+2024-03-01,IPCA % acum. ano,7201020.Alimento para animais,0.13
+2024-03-01,IPCA % acum. ano,7201023.Brinquedo,-0.25
+2024-03-01,IPCA % acum. ano,7201054.Casa noturna,0.46
+2024-03-01,IPCA % acum. ano,7201063.Jogos de azar,0.0
+2024-03-01,IPCA % acum. ano,7201067.Material de caça e pesca,0.99
+2024-03-01,IPCA % acum. ano,7201090.Hospedagem,0.84
+2024-03-01,IPCA % acum. ano,7201095.Pacote turístico,-6.43
+2024-03-01,IPCA % acum. ano,7201256.Serviço de higiene para animais,1.21
+2024-03-01,IPCA % acum. ano,"7201266.Cinema, teatro e concertos",1.46
+2024-03-01,IPCA % acum. ano,7202.Fumo,2.17
+2024-03-01,IPCA % acum. ano,7202041.Cigarro,2.17
+2024-03-01,IPCA % acum. ano,8.Educação,5.47
+2024-03-01,IPCA % acum. ano,"81.Cursos, leitura e papelaria",5.47
+2024-03-01,IPCA % acum. ano,8101.Cursos regulares,6.13
+2024-03-01,IPCA % acum. ano,8101001.Creche,6.03
+2024-03-01,IPCA % acum. ano,8101002.Pré-escola,8.05
+2024-03-01,IPCA % acum. ano,8101003.Ensino fundamental,8.24
+2024-03-01,IPCA % acum. ano,8101004.Ensino médio,8.51
+2024-03-01,IPCA % acum. ano,8101005.Ensino superior,3.81
+2024-03-01,IPCA % acum. ano,8101006.Pós-graduação,2.76
+2024-03-01,IPCA % acum. ano,8101008.Educação de jovens e adultos,2.23
+2024-03-01,IPCA % acum. ano,8101045.Curso técnico,6.14
+2024-03-01,IPCA % acum. ano,8102.Leitura,4.03
+2024-03-01,IPCA % acum. ano,8102001.Jornal diário,2.94
+2024-03-01,IPCA % acum. ano,8102004.Revista,1.46
+2024-03-01,IPCA % acum. ano,8102007.Livro didático,3.93
+2024-03-01,IPCA % acum. ano,8102008.Livro não didático,5.66
+2024-03-01,IPCA % acum. ano,8103.Papelaria,1.76
+2024-03-01,IPCA % acum. ano,8103001.Caderno,2.95
+2024-03-01,IPCA % acum. ano,8103014.Artigos de papelaria,1.04
+2024-03-01,IPCA % acum. ano,8104.Cursos diversos,3.41
+2024-03-01,IPCA % acum. ano,8104001.Curso preparatório,3.85
+2024-03-01,IPCA % acum. ano,8104003.Curso de idioma,4.29
+2024-03-01,IPCA % acum. ano,8104004.Curso de informática,4.5
+2024-03-01,IPCA % acum. ano,8104005.Autoescola,2.49
+2024-03-01,IPCA % acum. ano,8104006.Atividades físicas,2.82
+2024-03-01,IPCA % acum. ano,9.Comunicação,1.35
+2024-03-01,IPCA % acum. ano,91.Comunicação,1.35
+2024-03-01,IPCA % acum. ano,9101.Comunicação,1.35
+2024-03-01,IPCA % acum. ano,9101001.Correio,0.0
+2024-03-01,IPCA % acum. ano,9101002.Plano de telefonia fixa,-0.51
+2024-03-01,IPCA % acum. ano,9101008.Plano de telefonia móvel,1.14
+2024-03-01,IPCA % acum. ano,9101010.Tv por assinatura,4.02
+2024-03-01,IPCA % acum. ano,9101018.Acesso à internet,0.0
+2024-03-01,IPCA % acum. ano,9101019.Aparelho telefônico,-2.49
+2024-03-01,IPCA % acum. ano,9101115.Serviços de streaming,9.29
+2024-03-01,IPCA % acum. ano,"9101116.Combo de telefonia, internet e tv por assinatura",3.29
