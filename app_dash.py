@@ -602,7 +602,7 @@ if aba == 'CRÉDITO':
             
             fig = go.Figure()
             fig.add_trace(go.Scatter(x=dados_credito.index, y=dados_credito["Taxa média de juros das operações de crédito"], mode='lines', line=dict(color='#FFA680')))
-            fig.update_layout(title=f"Taxa de juros - Mercado de Crédito - Brasil<br>Dados: BCB", 
+            fig.update_layout(title=f"Taxa Média de Juros das Novas Concessões de Crédito - Mercado de Crédito - Brasil<br>Dados: BCB", 
                             yaxis_title="% a.a.", height=490)
             st.plotly_chart(fig, use_container_width=True, responsive=True)
     
@@ -612,7 +612,7 @@ if aba == 'CRÉDITO':
             
             fig = go.Figure()
             fig.add_trace(go.Scatter(x=dados_credito.index, y=dados_credito["Spread médio das operações de crédito"], mode='lines', line=dict(color='#AED9CC')))
-            fig.update_layout(title=f"Spread bancário - Mercado de Crédito - Brasil<br>Dados: BCB", 
+            fig.update_layout(title=f"Spread Bancário - Mercado de Crédito - Brasil<br>Dados: BCB", 
                             yaxis_title="p.p.", height=490)
             st.plotly_chart(fig, use_container_width=True, responsive=True)
             
