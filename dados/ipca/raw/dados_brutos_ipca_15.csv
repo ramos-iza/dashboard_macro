@@ -1,243 +1,243 @@
 ,NC,NN,MC,MN,V,D1C,D1N,D2C,D2N,D3C,D3N
 0,Nível Territorial (Código),Nível Territorial,Unidade de Medida (Código),Unidade de Medida,Valor,Brasil (Código),Brasil,Mês (Código),Mês,Variável (Código),Variável
-1,1,Brasil,2,%,6.31,1,Brasil,201405,maio 2014,1120,IPCA15 - Variação acumulada em 12 meses
-2,1,Brasil,2,%,6.41,1,Brasil,201406,junho 2014,1120,IPCA15 - Variação acumulada em 12 meses
-3,1,Brasil,2,%,6.51,1,Brasil,201407,julho 2014,1120,IPCA15 - Variação acumulada em 12 meses
-4,1,Brasil,2,%,6.49,1,Brasil,201408,agosto 2014,1120,IPCA15 - Variação acumulada em 12 meses
-5,1,Brasil,2,%,6.62,1,Brasil,201409,setembro 2014,1120,IPCA15 - Variação acumulada em 12 meses
-6,1,Brasil,2,%,6.62,1,Brasil,201410,outubro 2014,1120,IPCA15 - Variação acumulada em 12 meses
-7,1,Brasil,2,%,6.42,1,Brasil,201411,novembro 2014,1120,IPCA15 - Variação acumulada em 12 meses
-8,1,Brasil,2,%,6.46,1,Brasil,201412,dezembro 2014,1120,IPCA15 - Variação acumulada em 12 meses
-9,1,Brasil,2,%,6.69,1,Brasil,201501,janeiro 2015,1120,IPCA15 - Variação acumulada em 12 meses
-10,1,Brasil,2,%,7.36,1,Brasil,201502,fevereiro 2015,1120,IPCA15 - Variação acumulada em 12 meses
-11,1,Brasil,2,%,7.90,1,Brasil,201503,março 2015,1120,IPCA15 - Variação acumulada em 12 meses
-12,1,Brasil,2,%,8.22,1,Brasil,201504,abril 2015,1120,IPCA15 - Variação acumulada em 12 meses
-13,1,Brasil,2,%,8.24,1,Brasil,201505,maio 2015,1120,IPCA15 - Variação acumulada em 12 meses
-14,1,Brasil,2,%,8.80,1,Brasil,201506,junho 2015,1120,IPCA15 - Variação acumulada em 12 meses
-15,1,Brasil,2,%,9.25,1,Brasil,201507,julho 2015,1120,IPCA15 - Variação acumulada em 12 meses
-16,1,Brasil,2,%,9.57,1,Brasil,201508,agosto 2015,1120,IPCA15 - Variação acumulada em 12 meses
-17,1,Brasil,2,%,9.57,1,Brasil,201509,setembro 2015,1120,IPCA15 - Variação acumulada em 12 meses
-18,1,Brasil,2,%,9.77,1,Brasil,201510,outubro 2015,1120,IPCA15 - Variação acumulada em 12 meses
-19,1,Brasil,2,%,10.28,1,Brasil,201511,novembro 2015,1120,IPCA15 - Variação acumulada em 12 meses
-20,1,Brasil,2,%,10.71,1,Brasil,201512,dezembro 2015,1120,IPCA15 - Variação acumulada em 12 meses
-21,1,Brasil,2,%,10.74,1,Brasil,201601,janeiro 2016,1120,IPCA15 - Variação acumulada em 12 meses
-22,1,Brasil,2,%,10.84,1,Brasil,201602,fevereiro 2016,1120,IPCA15 - Variação acumulada em 12 meses
-23,1,Brasil,2,%,9.95,1,Brasil,201603,março 2016,1120,IPCA15 - Variação acumulada em 12 meses
-24,1,Brasil,2,%,9.34,1,Brasil,201604,abril 2016,1120,IPCA15 - Variação acumulada em 12 meses
-25,1,Brasil,2,%,9.62,1,Brasil,201605,maio 2016,1120,IPCA15 - Variação acumulada em 12 meses
-26,1,Brasil,2,%,8.98,1,Brasil,201606,junho 2016,1120,IPCA15 - Variação acumulada em 12 meses
-27,1,Brasil,2,%,8.93,1,Brasil,201607,julho 2016,1120,IPCA15 - Variação acumulada em 12 meses
-28,1,Brasil,2,%,8.95,1,Brasil,201608,agosto 2016,1120,IPCA15 - Variação acumulada em 12 meses
-29,1,Brasil,2,%,8.78,1,Brasil,201609,setembro 2016,1120,IPCA15 - Variação acumulada em 12 meses
-30,1,Brasil,2,%,8.27,1,Brasil,201610,outubro 2016,1120,IPCA15 - Variação acumulada em 12 meses
-31,1,Brasil,2,%,7.64,1,Brasil,201611,novembro 2016,1120,IPCA15 - Variação acumulada em 12 meses
-32,1,Brasil,2,%,6.58,1,Brasil,201612,dezembro 2016,1120,IPCA15 - Variação acumulada em 12 meses
-33,1,Brasil,2,%,5.94,1,Brasil,201701,janeiro 2017,1120,IPCA15 - Variação acumulada em 12 meses
-34,1,Brasil,2,%,5.02,1,Brasil,201702,fevereiro 2017,1120,IPCA15 - Variação acumulada em 12 meses
-35,1,Brasil,2,%,4.73,1,Brasil,201703,março 2017,1120,IPCA15 - Variação acumulada em 12 meses
-36,1,Brasil,2,%,4.41,1,Brasil,201704,abril 2017,1120,IPCA15 - Variação acumulada em 12 meses
-37,1,Brasil,2,%,3.77,1,Brasil,201705,maio 2017,1120,IPCA15 - Variação acumulada em 12 meses
-38,1,Brasil,2,%,3.52,1,Brasil,201706,junho 2017,1120,IPCA15 - Variação acumulada em 12 meses
-39,1,Brasil,2,%,2.78,1,Brasil,201707,julho 2017,1120,IPCA15 - Variação acumulada em 12 meses
-40,1,Brasil,2,%,2.68,1,Brasil,201708,agosto 2017,1120,IPCA15 - Variação acumulada em 12 meses
-41,1,Brasil,2,%,2.56,1,Brasil,201709,setembro 2017,1120,IPCA15 - Variação acumulada em 12 meses
-42,1,Brasil,2,%,2.71,1,Brasil,201710,outubro 2017,1120,IPCA15 - Variação acumulada em 12 meses
-43,1,Brasil,2,%,2.77,1,Brasil,201711,novembro 2017,1120,IPCA15 - Variação acumulada em 12 meses
-44,1,Brasil,2,%,2.94,1,Brasil,201712,dezembro 2017,1120,IPCA15 - Variação acumulada em 12 meses
-45,1,Brasil,2,%,3.02,1,Brasil,201801,janeiro 2018,1120,IPCA15 - Variação acumulada em 12 meses
-46,1,Brasil,2,%,2.86,1,Brasil,201802,fevereiro 2018,1120,IPCA15 - Variação acumulada em 12 meses
-47,1,Brasil,2,%,2.80,1,Brasil,201803,março 2018,1120,IPCA15 - Variação acumulada em 12 meses
-48,1,Brasil,2,%,2.80,1,Brasil,201804,abril 2018,1120,IPCA15 - Variação acumulada em 12 meses
-49,1,Brasil,2,%,2.70,1,Brasil,201805,maio 2018,1120,IPCA15 - Variação acumulada em 12 meses
-50,1,Brasil,2,%,3.68,1,Brasil,201806,junho 2018,1120,IPCA15 - Variação acumulada em 12 meses
-51,1,Brasil,2,%,4.53,1,Brasil,201807,julho 2018,1120,IPCA15 - Variação acumulada em 12 meses
-52,1,Brasil,2,%,4.30,1,Brasil,201808,agosto 2018,1120,IPCA15 - Variação acumulada em 12 meses
-53,1,Brasil,2,%,4.28,1,Brasil,201809,setembro 2018,1120,IPCA15 - Variação acumulada em 12 meses
-54,1,Brasil,2,%,4.53,1,Brasil,201810,outubro 2018,1120,IPCA15 - Variação acumulada em 12 meses
-55,1,Brasil,2,%,4.39,1,Brasil,201811,novembro 2018,1120,IPCA15 - Variação acumulada em 12 meses
-56,1,Brasil,2,%,3.86,1,Brasil,201812,dezembro 2018,1120,IPCA15 - Variação acumulada em 12 meses
-57,1,Brasil,2,%,3.77,1,Brasil,201901,janeiro 2019,1120,IPCA15 - Variação acumulada em 12 meses
-58,1,Brasil,2,%,3.73,1,Brasil,201902,fevereiro 2019,1120,IPCA15 - Variação acumulada em 12 meses
-59,1,Brasil,2,%,4.18,1,Brasil,201903,março 2019,1120,IPCA15 - Variação acumulada em 12 meses
-60,1,Brasil,2,%,4.71,1,Brasil,201904,abril 2019,1120,IPCA15 - Variação acumulada em 12 meses
-61,1,Brasil,2,%,4.93,1,Brasil,201905,maio 2019,1120,IPCA15 - Variação acumulada em 12 meses
-62,1,Brasil,2,%,3.84,1,Brasil,201906,junho 2019,1120,IPCA15 - Variação acumulada em 12 meses
-63,1,Brasil,2,%,3.27,1,Brasil,201907,julho 2019,1120,IPCA15 - Variação acumulada em 12 meses
-64,1,Brasil,2,%,3.22,1,Brasil,201908,agosto 2019,1120,IPCA15 - Variação acumulada em 12 meses
-65,1,Brasil,2,%,3.22,1,Brasil,201909,setembro 2019,1120,IPCA15 - Variação acumulada em 12 meses
-66,1,Brasil,2,%,2.72,1,Brasil,201910,outubro 2019,1120,IPCA15 - Variação acumulada em 12 meses
-67,1,Brasil,2,%,2.67,1,Brasil,201911,novembro 2019,1120,IPCA15 - Variação acumulada em 12 meses
-68,1,Brasil,2,%,3.91,1,Brasil,201912,dezembro 2019,1120,IPCA15 - Variação acumulada em 12 meses
-69,1,Brasil,2,%,4.34,1,Brasil,202001,janeiro 2020,1120,IPCA15 - Variação acumulada em 12 meses
-70,1,Brasil,2,%,4.21,1,Brasil,202002,fevereiro 2020,1120,IPCA15 - Variação acumulada em 12 meses
-71,1,Brasil,2,%,3.67,1,Brasil,202003,março 2020,1120,IPCA15 - Variação acumulada em 12 meses
-72,1,Brasil,2,%,2.92,1,Brasil,202004,abril 2020,1120,IPCA15 - Variação acumulada em 12 meses
-73,1,Brasil,2,%,1.96,1,Brasil,202005,maio 2020,1120,IPCA15 - Variação acumulada em 12 meses
-74,1,Brasil,2,%,1.92,1,Brasil,202006,junho 2020,1120,IPCA15 - Variação acumulada em 12 meses
-75,1,Brasil,2,%,2.13,1,Brasil,202007,julho 2020,1120,IPCA15 - Variação acumulada em 12 meses
-76,1,Brasil,2,%,2.28,1,Brasil,202008,agosto 2020,1120,IPCA15 - Variação acumulada em 12 meses
-77,1,Brasil,2,%,2.65,1,Brasil,202009,setembro 2020,1120,IPCA15 - Variação acumulada em 12 meses
-78,1,Brasil,2,%,3.52,1,Brasil,202010,outubro 2020,1120,IPCA15 - Variação acumulada em 12 meses
-79,1,Brasil,2,%,4.22,1,Brasil,202011,novembro 2020,1120,IPCA15 - Variação acumulada em 12 meses
-80,1,Brasil,2,%,4.23,1,Brasil,202012,dezembro 2020,1120,IPCA15 - Variação acumulada em 12 meses
-81,1,Brasil,2,%,4.30,1,Brasil,202101,janeiro 2021,1120,IPCA15 - Variação acumulada em 12 meses
-82,1,Brasil,2,%,4.57,1,Brasil,202102,fevereiro 2021,1120,IPCA15 - Variação acumulada em 12 meses
-83,1,Brasil,2,%,5.52,1,Brasil,202103,março 2021,1120,IPCA15 - Variação acumulada em 12 meses
-84,1,Brasil,2,%,6.17,1,Brasil,202104,abril 2021,1120,IPCA15 - Variação acumulada em 12 meses
-85,1,Brasil,2,%,7.27,1,Brasil,202105,maio 2021,1120,IPCA15 - Variação acumulada em 12 meses
-86,1,Brasil,2,%,8.13,1,Brasil,202106,junho 2021,1120,IPCA15 - Variação acumulada em 12 meses
-87,1,Brasil,2,%,8.59,1,Brasil,202107,julho 2021,1120,IPCA15 - Variação acumulada em 12 meses
-88,1,Brasil,2,%,9.30,1,Brasil,202108,agosto 2021,1120,IPCA15 - Variação acumulada em 12 meses
-89,1,Brasil,2,%,10.05,1,Brasil,202109,setembro 2021,1120,IPCA15 - Variação acumulada em 12 meses
-90,1,Brasil,2,%,10.34,1,Brasil,202110,outubro 2021,1120,IPCA15 - Variação acumulada em 12 meses
-91,1,Brasil,2,%,10.73,1,Brasil,202111,novembro 2021,1120,IPCA15 - Variação acumulada em 12 meses
-92,1,Brasil,2,%,10.42,1,Brasil,202112,dezembro 2021,1120,IPCA15 - Variação acumulada em 12 meses
-93,1,Brasil,2,%,10.20,1,Brasil,202201,janeiro 2022,1120,IPCA15 - Variação acumulada em 12 meses
-94,1,Brasil,2,%,10.76,1,Brasil,202202,fevereiro 2022,1120,IPCA15 - Variação acumulada em 12 meses
-95,1,Brasil,2,%,10.79,1,Brasil,202203,março 2022,1120,IPCA15 - Variação acumulada em 12 meses
-96,1,Brasil,2,%,12.03,1,Brasil,202204,abril 2022,1120,IPCA15 - Variação acumulada em 12 meses
-97,1,Brasil,2,%,12.20,1,Brasil,202205,maio 2022,1120,IPCA15 - Variação acumulada em 12 meses
-98,1,Brasil,2,%,12.04,1,Brasil,202206,junho 2022,1120,IPCA15 - Variação acumulada em 12 meses
-99,1,Brasil,2,%,11.39,1,Brasil,202207,julho 2022,1120,IPCA15 - Variação acumulada em 12 meses
-100,1,Brasil,2,%,9.60,1,Brasil,202208,agosto 2022,1120,IPCA15 - Variação acumulada em 12 meses
-101,1,Brasil,2,%,7.96,1,Brasil,202209,setembro 2022,1120,IPCA15 - Variação acumulada em 12 meses
-102,1,Brasil,2,%,6.85,1,Brasil,202210,outubro 2022,1120,IPCA15 - Variação acumulada em 12 meses
-103,1,Brasil,2,%,6.17,1,Brasil,202211,novembro 2022,1120,IPCA15 - Variação acumulada em 12 meses
-104,1,Brasil,2,%,5.90,1,Brasil,202212,dezembro 2022,1120,IPCA15 - Variação acumulada em 12 meses
-105,1,Brasil,2,%,5.87,1,Brasil,202301,janeiro 2023,1120,IPCA15 - Variação acumulada em 12 meses
-106,1,Brasil,2,%,5.63,1,Brasil,202302,fevereiro 2023,1120,IPCA15 - Variação acumulada em 12 meses
-107,1,Brasil,2,%,5.36,1,Brasil,202303,março 2023,1120,IPCA15 - Variação acumulada em 12 meses
-108,1,Brasil,2,%,4.16,1,Brasil,202304,abril 2023,1120,IPCA15 - Variação acumulada em 12 meses
-109,1,Brasil,2,%,4.07,1,Brasil,202305,maio 2023,1120,IPCA15 - Variação acumulada em 12 meses
-110,1,Brasil,2,%,3.40,1,Brasil,202306,junho 2023,1120,IPCA15 - Variação acumulada em 12 meses
-111,1,Brasil,2,%,3.19,1,Brasil,202307,julho 2023,1120,IPCA15 - Variação acumulada em 12 meses
-112,1,Brasil,2,%,4.24,1,Brasil,202308,agosto 2023,1120,IPCA15 - Variação acumulada em 12 meses
-113,1,Brasil,2,%,5.00,1,Brasil,202309,setembro 2023,1120,IPCA15 - Variação acumulada em 12 meses
-114,1,Brasil,2,%,5.05,1,Brasil,202310,outubro 2023,1120,IPCA15 - Variação acumulada em 12 meses
-115,1,Brasil,2,%,4.84,1,Brasil,202311,novembro 2023,1120,IPCA15 - Variação acumulada em 12 meses
-116,1,Brasil,2,%,4.72,1,Brasil,202312,dezembro 2023,1120,IPCA15 - Variação acumulada em 12 meses
-117,1,Brasil,2,%,4.47,1,Brasil,202401,janeiro 2024,1120,IPCA15 - Variação acumulada em 12 meses
-118,1,Brasil,2,%,4.49,1,Brasil,202402,fevereiro 2024,1120,IPCA15 - Variação acumulada em 12 meses
-119,1,Brasil,2,%,4.14,1,Brasil,202403,março 2024,1120,IPCA15 - Variação acumulada em 12 meses
-120,1,Brasil,2,%,3.77,1,Brasil,202404,abril 2024,1120,IPCA15 - Variação acumulada em 12 meses
+1,1,Brasil,2,%,6.41,1,Brasil,201406,junho 2014,1120,IPCA15 - Variação acumulada em 12 meses
+2,1,Brasil,2,%,6.51,1,Brasil,201407,julho 2014,1120,IPCA15 - Variação acumulada em 12 meses
+3,1,Brasil,2,%,6.49,1,Brasil,201408,agosto 2014,1120,IPCA15 - Variação acumulada em 12 meses
+4,1,Brasil,2,%,6.62,1,Brasil,201409,setembro 2014,1120,IPCA15 - Variação acumulada em 12 meses
+5,1,Brasil,2,%,6.62,1,Brasil,201410,outubro 2014,1120,IPCA15 - Variação acumulada em 12 meses
+6,1,Brasil,2,%,6.42,1,Brasil,201411,novembro 2014,1120,IPCA15 - Variação acumulada em 12 meses
+7,1,Brasil,2,%,6.46,1,Brasil,201412,dezembro 2014,1120,IPCA15 - Variação acumulada em 12 meses
+8,1,Brasil,2,%,6.69,1,Brasil,201501,janeiro 2015,1120,IPCA15 - Variação acumulada em 12 meses
+9,1,Brasil,2,%,7.36,1,Brasil,201502,fevereiro 2015,1120,IPCA15 - Variação acumulada em 12 meses
+10,1,Brasil,2,%,7.90,1,Brasil,201503,março 2015,1120,IPCA15 - Variação acumulada em 12 meses
+11,1,Brasil,2,%,8.22,1,Brasil,201504,abril 2015,1120,IPCA15 - Variação acumulada em 12 meses
+12,1,Brasil,2,%,8.24,1,Brasil,201505,maio 2015,1120,IPCA15 - Variação acumulada em 12 meses
+13,1,Brasil,2,%,8.80,1,Brasil,201506,junho 2015,1120,IPCA15 - Variação acumulada em 12 meses
+14,1,Brasil,2,%,9.25,1,Brasil,201507,julho 2015,1120,IPCA15 - Variação acumulada em 12 meses
+15,1,Brasil,2,%,9.57,1,Brasil,201508,agosto 2015,1120,IPCA15 - Variação acumulada em 12 meses
+16,1,Brasil,2,%,9.57,1,Brasil,201509,setembro 2015,1120,IPCA15 - Variação acumulada em 12 meses
+17,1,Brasil,2,%,9.77,1,Brasil,201510,outubro 2015,1120,IPCA15 - Variação acumulada em 12 meses
+18,1,Brasil,2,%,10.28,1,Brasil,201511,novembro 2015,1120,IPCA15 - Variação acumulada em 12 meses
+19,1,Brasil,2,%,10.71,1,Brasil,201512,dezembro 2015,1120,IPCA15 - Variação acumulada em 12 meses
+20,1,Brasil,2,%,10.74,1,Brasil,201601,janeiro 2016,1120,IPCA15 - Variação acumulada em 12 meses
+21,1,Brasil,2,%,10.84,1,Brasil,201602,fevereiro 2016,1120,IPCA15 - Variação acumulada em 12 meses
+22,1,Brasil,2,%,9.95,1,Brasil,201603,março 2016,1120,IPCA15 - Variação acumulada em 12 meses
+23,1,Brasil,2,%,9.34,1,Brasil,201604,abril 2016,1120,IPCA15 - Variação acumulada em 12 meses
+24,1,Brasil,2,%,9.62,1,Brasil,201605,maio 2016,1120,IPCA15 - Variação acumulada em 12 meses
+25,1,Brasil,2,%,8.98,1,Brasil,201606,junho 2016,1120,IPCA15 - Variação acumulada em 12 meses
+26,1,Brasil,2,%,8.93,1,Brasil,201607,julho 2016,1120,IPCA15 - Variação acumulada em 12 meses
+27,1,Brasil,2,%,8.95,1,Brasil,201608,agosto 2016,1120,IPCA15 - Variação acumulada em 12 meses
+28,1,Brasil,2,%,8.78,1,Brasil,201609,setembro 2016,1120,IPCA15 - Variação acumulada em 12 meses
+29,1,Brasil,2,%,8.27,1,Brasil,201610,outubro 2016,1120,IPCA15 - Variação acumulada em 12 meses
+30,1,Brasil,2,%,7.64,1,Brasil,201611,novembro 2016,1120,IPCA15 - Variação acumulada em 12 meses
+31,1,Brasil,2,%,6.58,1,Brasil,201612,dezembro 2016,1120,IPCA15 - Variação acumulada em 12 meses
+32,1,Brasil,2,%,5.94,1,Brasil,201701,janeiro 2017,1120,IPCA15 - Variação acumulada em 12 meses
+33,1,Brasil,2,%,5.02,1,Brasil,201702,fevereiro 2017,1120,IPCA15 - Variação acumulada em 12 meses
+34,1,Brasil,2,%,4.73,1,Brasil,201703,março 2017,1120,IPCA15 - Variação acumulada em 12 meses
+35,1,Brasil,2,%,4.41,1,Brasil,201704,abril 2017,1120,IPCA15 - Variação acumulada em 12 meses
+36,1,Brasil,2,%,3.77,1,Brasil,201705,maio 2017,1120,IPCA15 - Variação acumulada em 12 meses
+37,1,Brasil,2,%,3.52,1,Brasil,201706,junho 2017,1120,IPCA15 - Variação acumulada em 12 meses
+38,1,Brasil,2,%,2.78,1,Brasil,201707,julho 2017,1120,IPCA15 - Variação acumulada em 12 meses
+39,1,Brasil,2,%,2.68,1,Brasil,201708,agosto 2017,1120,IPCA15 - Variação acumulada em 12 meses
+40,1,Brasil,2,%,2.56,1,Brasil,201709,setembro 2017,1120,IPCA15 - Variação acumulada em 12 meses
+41,1,Brasil,2,%,2.71,1,Brasil,201710,outubro 2017,1120,IPCA15 - Variação acumulada em 12 meses
+42,1,Brasil,2,%,2.77,1,Brasil,201711,novembro 2017,1120,IPCA15 - Variação acumulada em 12 meses
+43,1,Brasil,2,%,2.94,1,Brasil,201712,dezembro 2017,1120,IPCA15 - Variação acumulada em 12 meses
+44,1,Brasil,2,%,3.02,1,Brasil,201801,janeiro 2018,1120,IPCA15 - Variação acumulada em 12 meses
+45,1,Brasil,2,%,2.86,1,Brasil,201802,fevereiro 2018,1120,IPCA15 - Variação acumulada em 12 meses
+46,1,Brasil,2,%,2.80,1,Brasil,201803,março 2018,1120,IPCA15 - Variação acumulada em 12 meses
+47,1,Brasil,2,%,2.80,1,Brasil,201804,abril 2018,1120,IPCA15 - Variação acumulada em 12 meses
+48,1,Brasil,2,%,2.70,1,Brasil,201805,maio 2018,1120,IPCA15 - Variação acumulada em 12 meses
+49,1,Brasil,2,%,3.68,1,Brasil,201806,junho 2018,1120,IPCA15 - Variação acumulada em 12 meses
+50,1,Brasil,2,%,4.53,1,Brasil,201807,julho 2018,1120,IPCA15 - Variação acumulada em 12 meses
+51,1,Brasil,2,%,4.30,1,Brasil,201808,agosto 2018,1120,IPCA15 - Variação acumulada em 12 meses
+52,1,Brasil,2,%,4.28,1,Brasil,201809,setembro 2018,1120,IPCA15 - Variação acumulada em 12 meses
+53,1,Brasil,2,%,4.53,1,Brasil,201810,outubro 2018,1120,IPCA15 - Variação acumulada em 12 meses
+54,1,Brasil,2,%,4.39,1,Brasil,201811,novembro 2018,1120,IPCA15 - Variação acumulada em 12 meses
+55,1,Brasil,2,%,3.86,1,Brasil,201812,dezembro 2018,1120,IPCA15 - Variação acumulada em 12 meses
+56,1,Brasil,2,%,3.77,1,Brasil,201901,janeiro 2019,1120,IPCA15 - Variação acumulada em 12 meses
+57,1,Brasil,2,%,3.73,1,Brasil,201902,fevereiro 2019,1120,IPCA15 - Variação acumulada em 12 meses
+58,1,Brasil,2,%,4.18,1,Brasil,201903,março 2019,1120,IPCA15 - Variação acumulada em 12 meses
+59,1,Brasil,2,%,4.71,1,Brasil,201904,abril 2019,1120,IPCA15 - Variação acumulada em 12 meses
+60,1,Brasil,2,%,4.93,1,Brasil,201905,maio 2019,1120,IPCA15 - Variação acumulada em 12 meses
+61,1,Brasil,2,%,3.84,1,Brasil,201906,junho 2019,1120,IPCA15 - Variação acumulada em 12 meses
+62,1,Brasil,2,%,3.27,1,Brasil,201907,julho 2019,1120,IPCA15 - Variação acumulada em 12 meses
+63,1,Brasil,2,%,3.22,1,Brasil,201908,agosto 2019,1120,IPCA15 - Variação acumulada em 12 meses
+64,1,Brasil,2,%,3.22,1,Brasil,201909,setembro 2019,1120,IPCA15 - Variação acumulada em 12 meses
+65,1,Brasil,2,%,2.72,1,Brasil,201910,outubro 2019,1120,IPCA15 - Variação acumulada em 12 meses
+66,1,Brasil,2,%,2.67,1,Brasil,201911,novembro 2019,1120,IPCA15 - Variação acumulada em 12 meses
+67,1,Brasil,2,%,3.91,1,Brasil,201912,dezembro 2019,1120,IPCA15 - Variação acumulada em 12 meses
+68,1,Brasil,2,%,4.34,1,Brasil,202001,janeiro 2020,1120,IPCA15 - Variação acumulada em 12 meses
+69,1,Brasil,2,%,4.21,1,Brasil,202002,fevereiro 2020,1120,IPCA15 - Variação acumulada em 12 meses
+70,1,Brasil,2,%,3.67,1,Brasil,202003,março 2020,1120,IPCA15 - Variação acumulada em 12 meses
+71,1,Brasil,2,%,2.92,1,Brasil,202004,abril 2020,1120,IPCA15 - Variação acumulada em 12 meses
+72,1,Brasil,2,%,1.96,1,Brasil,202005,maio 2020,1120,IPCA15 - Variação acumulada em 12 meses
+73,1,Brasil,2,%,1.92,1,Brasil,202006,junho 2020,1120,IPCA15 - Variação acumulada em 12 meses
+74,1,Brasil,2,%,2.13,1,Brasil,202007,julho 2020,1120,IPCA15 - Variação acumulada em 12 meses
+75,1,Brasil,2,%,2.28,1,Brasil,202008,agosto 2020,1120,IPCA15 - Variação acumulada em 12 meses
+76,1,Brasil,2,%,2.65,1,Brasil,202009,setembro 2020,1120,IPCA15 - Variação acumulada em 12 meses
+77,1,Brasil,2,%,3.52,1,Brasil,202010,outubro 2020,1120,IPCA15 - Variação acumulada em 12 meses
+78,1,Brasil,2,%,4.22,1,Brasil,202011,novembro 2020,1120,IPCA15 - Variação acumulada em 12 meses
+79,1,Brasil,2,%,4.23,1,Brasil,202012,dezembro 2020,1120,IPCA15 - Variação acumulada em 12 meses
+80,1,Brasil,2,%,4.30,1,Brasil,202101,janeiro 2021,1120,IPCA15 - Variação acumulada em 12 meses
+81,1,Brasil,2,%,4.57,1,Brasil,202102,fevereiro 2021,1120,IPCA15 - Variação acumulada em 12 meses
+82,1,Brasil,2,%,5.52,1,Brasil,202103,março 2021,1120,IPCA15 - Variação acumulada em 12 meses
+83,1,Brasil,2,%,6.17,1,Brasil,202104,abril 2021,1120,IPCA15 - Variação acumulada em 12 meses
+84,1,Brasil,2,%,7.27,1,Brasil,202105,maio 2021,1120,IPCA15 - Variação acumulada em 12 meses
+85,1,Brasil,2,%,8.13,1,Brasil,202106,junho 2021,1120,IPCA15 - Variação acumulada em 12 meses
+86,1,Brasil,2,%,8.59,1,Brasil,202107,julho 2021,1120,IPCA15 - Variação acumulada em 12 meses
+87,1,Brasil,2,%,9.30,1,Brasil,202108,agosto 2021,1120,IPCA15 - Variação acumulada em 12 meses
+88,1,Brasil,2,%,10.05,1,Brasil,202109,setembro 2021,1120,IPCA15 - Variação acumulada em 12 meses
+89,1,Brasil,2,%,10.34,1,Brasil,202110,outubro 2021,1120,IPCA15 - Variação acumulada em 12 meses
+90,1,Brasil,2,%,10.73,1,Brasil,202111,novembro 2021,1120,IPCA15 - Variação acumulada em 12 meses
+91,1,Brasil,2,%,10.42,1,Brasil,202112,dezembro 2021,1120,IPCA15 - Variação acumulada em 12 meses
+92,1,Brasil,2,%,10.20,1,Brasil,202201,janeiro 2022,1120,IPCA15 - Variação acumulada em 12 meses
+93,1,Brasil,2,%,10.76,1,Brasil,202202,fevereiro 2022,1120,IPCA15 - Variação acumulada em 12 meses
+94,1,Brasil,2,%,10.79,1,Brasil,202203,março 2022,1120,IPCA15 - Variação acumulada em 12 meses
+95,1,Brasil,2,%,12.03,1,Brasil,202204,abril 2022,1120,IPCA15 - Variação acumulada em 12 meses
+96,1,Brasil,2,%,12.20,1,Brasil,202205,maio 2022,1120,IPCA15 - Variação acumulada em 12 meses
+97,1,Brasil,2,%,12.04,1,Brasil,202206,junho 2022,1120,IPCA15 - Variação acumulada em 12 meses
+98,1,Brasil,2,%,11.39,1,Brasil,202207,julho 2022,1120,IPCA15 - Variação acumulada em 12 meses
+99,1,Brasil,2,%,9.60,1,Brasil,202208,agosto 2022,1120,IPCA15 - Variação acumulada em 12 meses
+100,1,Brasil,2,%,7.96,1,Brasil,202209,setembro 2022,1120,IPCA15 - Variação acumulada em 12 meses
+101,1,Brasil,2,%,6.85,1,Brasil,202210,outubro 2022,1120,IPCA15 - Variação acumulada em 12 meses
+102,1,Brasil,2,%,6.17,1,Brasil,202211,novembro 2022,1120,IPCA15 - Variação acumulada em 12 meses
+103,1,Brasil,2,%,5.90,1,Brasil,202212,dezembro 2022,1120,IPCA15 - Variação acumulada em 12 meses
+104,1,Brasil,2,%,5.87,1,Brasil,202301,janeiro 2023,1120,IPCA15 - Variação acumulada em 12 meses
+105,1,Brasil,2,%,5.63,1,Brasil,202302,fevereiro 2023,1120,IPCA15 - Variação acumulada em 12 meses
+106,1,Brasil,2,%,5.36,1,Brasil,202303,março 2023,1120,IPCA15 - Variação acumulada em 12 meses
+107,1,Brasil,2,%,4.16,1,Brasil,202304,abril 2023,1120,IPCA15 - Variação acumulada em 12 meses
+108,1,Brasil,2,%,4.07,1,Brasil,202305,maio 2023,1120,IPCA15 - Variação acumulada em 12 meses
+109,1,Brasil,2,%,3.40,1,Brasil,202306,junho 2023,1120,IPCA15 - Variação acumulada em 12 meses
+110,1,Brasil,2,%,3.19,1,Brasil,202307,julho 2023,1120,IPCA15 - Variação acumulada em 12 meses
+111,1,Brasil,2,%,4.24,1,Brasil,202308,agosto 2023,1120,IPCA15 - Variação acumulada em 12 meses
+112,1,Brasil,2,%,5.00,1,Brasil,202309,setembro 2023,1120,IPCA15 - Variação acumulada em 12 meses
+113,1,Brasil,2,%,5.05,1,Brasil,202310,outubro 2023,1120,IPCA15 - Variação acumulada em 12 meses
+114,1,Brasil,2,%,4.84,1,Brasil,202311,novembro 2023,1120,IPCA15 - Variação acumulada em 12 meses
+115,1,Brasil,2,%,4.72,1,Brasil,202312,dezembro 2023,1120,IPCA15 - Variação acumulada em 12 meses
+116,1,Brasil,2,%,4.47,1,Brasil,202401,janeiro 2024,1120,IPCA15 - Variação acumulada em 12 meses
+117,1,Brasil,2,%,4.49,1,Brasil,202402,fevereiro 2024,1120,IPCA15 - Variação acumulada em 12 meses
+118,1,Brasil,2,%,4.14,1,Brasil,202403,março 2024,1120,IPCA15 - Variação acumulada em 12 meses
+119,1,Brasil,2,%,3.77,1,Brasil,202404,abril 2024,1120,IPCA15 - Variação acumulada em 12 meses
+120,1,Brasil,2,%,3.70,1,Brasil,202405,maio 2024,1120,IPCA15 - Variação acumulada em 12 meses
 0,Nível Territorial (Código),Nível Territorial,Unidade de Medida (Código),Unidade de Medida,Valor,Brasil (Código),Brasil,Mês (Código),Mês,Variável (Código),Variável
-1,1,Brasil,2,%,0.58,1,Brasil,201405,maio 2014,355,IPCA15 - Variação mensal
-2,1,Brasil,2,%,0.47,1,Brasil,201406,junho 2014,355,IPCA15 - Variação mensal
-3,1,Brasil,2,%,0.17,1,Brasil,201407,julho 2014,355,IPCA15 - Variação mensal
-4,1,Brasil,2,%,0.14,1,Brasil,201408,agosto 2014,355,IPCA15 - Variação mensal
-5,1,Brasil,2,%,0.39,1,Brasil,201409,setembro 2014,355,IPCA15 - Variação mensal
-6,1,Brasil,2,%,0.48,1,Brasil,201410,outubro 2014,355,IPCA15 - Variação mensal
-7,1,Brasil,2,%,0.38,1,Brasil,201411,novembro 2014,355,IPCA15 - Variação mensal
-8,1,Brasil,2,%,0.79,1,Brasil,201412,dezembro 2014,355,IPCA15 - Variação mensal
-9,1,Brasil,2,%,0.89,1,Brasil,201501,janeiro 2015,355,IPCA15 - Variação mensal
-10,1,Brasil,2,%,1.33,1,Brasil,201502,fevereiro 2015,355,IPCA15 - Variação mensal
-11,1,Brasil,2,%,1.24,1,Brasil,201503,março 2015,355,IPCA15 - Variação mensal
-12,1,Brasil,2,%,1.07,1,Brasil,201504,abril 2015,355,IPCA15 - Variação mensal
-13,1,Brasil,2,%,0.60,1,Brasil,201505,maio 2015,355,IPCA15 - Variação mensal
-14,1,Brasil,2,%,0.99,1,Brasil,201506,junho 2015,355,IPCA15 - Variação mensal
-15,1,Brasil,2,%,0.59,1,Brasil,201507,julho 2015,355,IPCA15 - Variação mensal
-16,1,Brasil,2,%,0.43,1,Brasil,201508,agosto 2015,355,IPCA15 - Variação mensal
-17,1,Brasil,2,%,0.39,1,Brasil,201509,setembro 2015,355,IPCA15 - Variação mensal
-18,1,Brasil,2,%,0.66,1,Brasil,201510,outubro 2015,355,IPCA15 - Variação mensal
-19,1,Brasil,2,%,0.85,1,Brasil,201511,novembro 2015,355,IPCA15 - Variação mensal
-20,1,Brasil,2,%,1.18,1,Brasil,201512,dezembro 2015,355,IPCA15 - Variação mensal
-21,1,Brasil,2,%,0.92,1,Brasil,201601,janeiro 2016,355,IPCA15 - Variação mensal
-22,1,Brasil,2,%,1.42,1,Brasil,201602,fevereiro 2016,355,IPCA15 - Variação mensal
-23,1,Brasil,2,%,0.43,1,Brasil,201603,março 2016,355,IPCA15 - Variação mensal
-24,1,Brasil,2,%,0.51,1,Brasil,201604,abril 2016,355,IPCA15 - Variação mensal
-25,1,Brasil,2,%,0.86,1,Brasil,201605,maio 2016,355,IPCA15 - Variação mensal
-26,1,Brasil,2,%,0.40,1,Brasil,201606,junho 2016,355,IPCA15 - Variação mensal
-27,1,Brasil,2,%,0.54,1,Brasil,201607,julho 2016,355,IPCA15 - Variação mensal
-28,1,Brasil,2,%,0.45,1,Brasil,201608,agosto 2016,355,IPCA15 - Variação mensal
-29,1,Brasil,2,%,0.23,1,Brasil,201609,setembro 2016,355,IPCA15 - Variação mensal
-30,1,Brasil,2,%,0.19,1,Brasil,201610,outubro 2016,355,IPCA15 - Variação mensal
-31,1,Brasil,2,%,0.26,1,Brasil,201611,novembro 2016,355,IPCA15 - Variação mensal
-32,1,Brasil,2,%,0.19,1,Brasil,201612,dezembro 2016,355,IPCA15 - Variação mensal
-33,1,Brasil,2,%,0.31,1,Brasil,201701,janeiro 2017,355,IPCA15 - Variação mensal
-34,1,Brasil,2,%,0.54,1,Brasil,201702,fevereiro 2017,355,IPCA15 - Variação mensal
-35,1,Brasil,2,%,0.15,1,Brasil,201703,março 2017,355,IPCA15 - Variação mensal
-36,1,Brasil,2,%,0.21,1,Brasil,201704,abril 2017,355,IPCA15 - Variação mensal
-37,1,Brasil,2,%,0.24,1,Brasil,201705,maio 2017,355,IPCA15 - Variação mensal
-38,1,Brasil,2,%,0.16,1,Brasil,201706,junho 2017,355,IPCA15 - Variação mensal
-39,1,Brasil,2,%,-0.18,1,Brasil,201707,julho 2017,355,IPCA15 - Variação mensal
-40,1,Brasil,2,%,0.35,1,Brasil,201708,agosto 2017,355,IPCA15 - Variação mensal
-41,1,Brasil,2,%,0.11,1,Brasil,201709,setembro 2017,355,IPCA15 - Variação mensal
-42,1,Brasil,2,%,0.34,1,Brasil,201710,outubro 2017,355,IPCA15 - Variação mensal
-43,1,Brasil,2,%,0.32,1,Brasil,201711,novembro 2017,355,IPCA15 - Variação mensal
-44,1,Brasil,2,%,0.35,1,Brasil,201712,dezembro 2017,355,IPCA15 - Variação mensal
-45,1,Brasil,2,%,0.39,1,Brasil,201801,janeiro 2018,355,IPCA15 - Variação mensal
-46,1,Brasil,2,%,0.38,1,Brasil,201802,fevereiro 2018,355,IPCA15 - Variação mensal
-47,1,Brasil,2,%,0.10,1,Brasil,201803,março 2018,355,IPCA15 - Variação mensal
-48,1,Brasil,2,%,0.21,1,Brasil,201804,abril 2018,355,IPCA15 - Variação mensal
-49,1,Brasil,2,%,0.14,1,Brasil,201805,maio 2018,355,IPCA15 - Variação mensal
-50,1,Brasil,2,%,1.11,1,Brasil,201806,junho 2018,355,IPCA15 - Variação mensal
-51,1,Brasil,2,%,0.64,1,Brasil,201807,julho 2018,355,IPCA15 - Variação mensal
-52,1,Brasil,2,%,0.13,1,Brasil,201808,agosto 2018,355,IPCA15 - Variação mensal
-53,1,Brasil,2,%,0.09,1,Brasil,201809,setembro 2018,355,IPCA15 - Variação mensal
-54,1,Brasil,2,%,0.58,1,Brasil,201810,outubro 2018,355,IPCA15 - Variação mensal
-55,1,Brasil,2,%,0.19,1,Brasil,201811,novembro 2018,355,IPCA15 - Variação mensal
-56,1,Brasil,2,%,-0.16,1,Brasil,201812,dezembro 2018,355,IPCA15 - Variação mensal
-57,1,Brasil,2,%,0.30,1,Brasil,201901,janeiro 2019,355,IPCA15 - Variação mensal
-58,1,Brasil,2,%,0.34,1,Brasil,201902,fevereiro 2019,355,IPCA15 - Variação mensal
-59,1,Brasil,2,%,0.54,1,Brasil,201903,março 2019,355,IPCA15 - Variação mensal
-60,1,Brasil,2,%,0.72,1,Brasil,201904,abril 2019,355,IPCA15 - Variação mensal
-61,1,Brasil,2,%,0.35,1,Brasil,201905,maio 2019,355,IPCA15 - Variação mensal
-62,1,Brasil,2,%,0.06,1,Brasil,201906,junho 2019,355,IPCA15 - Variação mensal
-63,1,Brasil,2,%,0.09,1,Brasil,201907,julho 2019,355,IPCA15 - Variação mensal
-64,1,Brasil,2,%,0.08,1,Brasil,201908,agosto 2019,355,IPCA15 - Variação mensal
-65,1,Brasil,2,%,0.09,1,Brasil,201909,setembro 2019,355,IPCA15 - Variação mensal
-66,1,Brasil,2,%,0.09,1,Brasil,201910,outubro 2019,355,IPCA15 - Variação mensal
-67,1,Brasil,2,%,0.14,1,Brasil,201911,novembro 2019,355,IPCA15 - Variação mensal
-68,1,Brasil,2,%,1.05,1,Brasil,201912,dezembro 2019,355,IPCA15 - Variação mensal
-69,1,Brasil,2,%,0.71,1,Brasil,202001,janeiro 2020,355,IPCA15 - Variação mensal
-70,1,Brasil,2,%,0.22,1,Brasil,202002,fevereiro 2020,355,IPCA15 - Variação mensal
-71,1,Brasil,2,%,0.02,1,Brasil,202003,março 2020,355,IPCA15 - Variação mensal
-72,1,Brasil,2,%,-0.01,1,Brasil,202004,abril 2020,355,IPCA15 - Variação mensal
-73,1,Brasil,2,%,-0.59,1,Brasil,202005,maio 2020,355,IPCA15 - Variação mensal
-74,1,Brasil,2,%,0.02,1,Brasil,202006,junho 2020,355,IPCA15 - Variação mensal
-75,1,Brasil,2,%,0.30,1,Brasil,202007,julho 2020,355,IPCA15 - Variação mensal
-76,1,Brasil,2,%,0.23,1,Brasil,202008,agosto 2020,355,IPCA15 - Variação mensal
-77,1,Brasil,2,%,0.45,1,Brasil,202009,setembro 2020,355,IPCA15 - Variação mensal
-78,1,Brasil,2,%,0.94,1,Brasil,202010,outubro 2020,355,IPCA15 - Variação mensal
-79,1,Brasil,2,%,0.81,1,Brasil,202011,novembro 2020,355,IPCA15 - Variação mensal
-80,1,Brasil,2,%,1.06,1,Brasil,202012,dezembro 2020,355,IPCA15 - Variação mensal
-81,1,Brasil,2,%,0.78,1,Brasil,202101,janeiro 2021,355,IPCA15 - Variação mensal
-82,1,Brasil,2,%,0.48,1,Brasil,202102,fevereiro 2021,355,IPCA15 - Variação mensal
-83,1,Brasil,2,%,0.93,1,Brasil,202103,março 2021,355,IPCA15 - Variação mensal
-84,1,Brasil,2,%,0.60,1,Brasil,202104,abril 2021,355,IPCA15 - Variação mensal
-85,1,Brasil,2,%,0.44,1,Brasil,202105,maio 2021,355,IPCA15 - Variação mensal
-86,1,Brasil,2,%,0.83,1,Brasil,202106,junho 2021,355,IPCA15 - Variação mensal
-87,1,Brasil,2,%,0.72,1,Brasil,202107,julho 2021,355,IPCA15 - Variação mensal
-88,1,Brasil,2,%,0.89,1,Brasil,202108,agosto 2021,355,IPCA15 - Variação mensal
-89,1,Brasil,2,%,1.14,1,Brasil,202109,setembro 2021,355,IPCA15 - Variação mensal
-90,1,Brasil,2,%,1.20,1,Brasil,202110,outubro 2021,355,IPCA15 - Variação mensal
-91,1,Brasil,2,%,1.17,1,Brasil,202111,novembro 2021,355,IPCA15 - Variação mensal
-92,1,Brasil,2,%,0.78,1,Brasil,202112,dezembro 2021,355,IPCA15 - Variação mensal
-93,1,Brasil,2,%,0.58,1,Brasil,202201,janeiro 2022,355,IPCA15 - Variação mensal
-94,1,Brasil,2,%,0.99,1,Brasil,202202,fevereiro 2022,355,IPCA15 - Variação mensal
-95,1,Brasil,2,%,0.95,1,Brasil,202203,março 2022,355,IPCA15 - Variação mensal
-96,1,Brasil,2,%,1.73,1,Brasil,202204,abril 2022,355,IPCA15 - Variação mensal
-97,1,Brasil,2,%,0.59,1,Brasil,202205,maio 2022,355,IPCA15 - Variação mensal
-98,1,Brasil,2,%,0.69,1,Brasil,202206,junho 2022,355,IPCA15 - Variação mensal
-99,1,Brasil,2,%,0.13,1,Brasil,202207,julho 2022,355,IPCA15 - Variação mensal
-100,1,Brasil,2,%,-0.73,1,Brasil,202208,agosto 2022,355,IPCA15 - Variação mensal
-101,1,Brasil,2,%,-0.37,1,Brasil,202209,setembro 2022,355,IPCA15 - Variação mensal
-102,1,Brasil,2,%,0.16,1,Brasil,202210,outubro 2022,355,IPCA15 - Variação mensal
-103,1,Brasil,2,%,0.53,1,Brasil,202211,novembro 2022,355,IPCA15 - Variação mensal
-104,1,Brasil,2,%,0.52,1,Brasil,202212,dezembro 2022,355,IPCA15 - Variação mensal
-105,1,Brasil,2,%,0.55,1,Brasil,202301,janeiro 2023,355,IPCA15 - Variação mensal
-106,1,Brasil,2,%,0.76,1,Brasil,202302,fevereiro 2023,355,IPCA15 - Variação mensal
-107,1,Brasil,2,%,0.69,1,Brasil,202303,março 2023,355,IPCA15 - Variação mensal
-108,1,Brasil,2,%,0.57,1,Brasil,202304,abril 2023,355,IPCA15 - Variação mensal
-109,1,Brasil,2,%,0.51,1,Brasil,202305,maio 2023,355,IPCA15 - Variação mensal
-110,1,Brasil,2,%,0.04,1,Brasil,202306,junho 2023,355,IPCA15 - Variação mensal
-111,1,Brasil,2,%,-0.07,1,Brasil,202307,julho 2023,355,IPCA15 - Variação mensal
-112,1,Brasil,2,%,0.28,1,Brasil,202308,agosto 2023,355,IPCA15 - Variação mensal
-113,1,Brasil,2,%,0.35,1,Brasil,202309,setembro 2023,355,IPCA15 - Variação mensal
-114,1,Brasil,2,%,0.21,1,Brasil,202310,outubro 2023,355,IPCA15 - Variação mensal
-115,1,Brasil,2,%,0.33,1,Brasil,202311,novembro 2023,355,IPCA15 - Variação mensal
-116,1,Brasil,2,%,0.40,1,Brasil,202312,dezembro 2023,355,IPCA15 - Variação mensal
-117,1,Brasil,2,%,0.31,1,Brasil,202401,janeiro 2024,355,IPCA15 - Variação mensal
-118,1,Brasil,2,%,0.78,1,Brasil,202402,fevereiro 2024,355,IPCA15 - Variação mensal
-119,1,Brasil,2,%,0.36,1,Brasil,202403,março 2024,355,IPCA15 - Variação mensal
-120,1,Brasil,2,%,0.21,1,Brasil,202404,abril 2024,355,IPCA15 - Variação mensal
+1,1,Brasil,2,%,0.47,1,Brasil,201406,junho 2014,355,IPCA15 - Variação mensal
+2,1,Brasil,2,%,0.17,1,Brasil,201407,julho 2014,355,IPCA15 - Variação mensal
+3,1,Brasil,2,%,0.14,1,Brasil,201408,agosto 2014,355,IPCA15 - Variação mensal
+4,1,Brasil,2,%,0.39,1,Brasil,201409,setembro 2014,355,IPCA15 - Variação mensal
+5,1,Brasil,2,%,0.48,1,Brasil,201410,outubro 2014,355,IPCA15 - Variação mensal
+6,1,Brasil,2,%,0.38,1,Brasil,201411,novembro 2014,355,IPCA15 - Variação mensal
+7,1,Brasil,2,%,0.79,1,Brasil,201412,dezembro 2014,355,IPCA15 - Variação mensal
+8,1,Brasil,2,%,0.89,1,Brasil,201501,janeiro 2015,355,IPCA15 - Variação mensal
+9,1,Brasil,2,%,1.33,1,Brasil,201502,fevereiro 2015,355,IPCA15 - Variação mensal
+10,1,Brasil,2,%,1.24,1,Brasil,201503,março 2015,355,IPCA15 - Variação mensal
+11,1,Brasil,2,%,1.07,1,Brasil,201504,abril 2015,355,IPCA15 - Variação mensal
+12,1,Brasil,2,%,0.60,1,Brasil,201505,maio 2015,355,IPCA15 - Variação mensal
+13,1,Brasil,2,%,0.99,1,Brasil,201506,junho 2015,355,IPCA15 - Variação mensal
+14,1,Brasil,2,%,0.59,1,Brasil,201507,julho 2015,355,IPCA15 - Variação mensal
+15,1,Brasil,2,%,0.43,1,Brasil,201508,agosto 2015,355,IPCA15 - Variação mensal
+16,1,Brasil,2,%,0.39,1,Brasil,201509,setembro 2015,355,IPCA15 - Variação mensal
+17,1,Brasil,2,%,0.66,1,Brasil,201510,outubro 2015,355,IPCA15 - Variação mensal
+18,1,Brasil,2,%,0.85,1,Brasil,201511,novembro 2015,355,IPCA15 - Variação mensal
+19,1,Brasil,2,%,1.18,1,Brasil,201512,dezembro 2015,355,IPCA15 - Variação mensal
+20,1,Brasil,2,%,0.92,1,Brasil,201601,janeiro 2016,355,IPCA15 - Variação mensal
+21,1,Brasil,2,%,1.42,1,Brasil,201602,fevereiro 2016,355,IPCA15 - Variação mensal
+22,1,Brasil,2,%,0.43,1,Brasil,201603,março 2016,355,IPCA15 - Variação mensal
+23,1,Brasil,2,%,0.51,1,Brasil,201604,abril 2016,355,IPCA15 - Variação mensal
+24,1,Brasil,2,%,0.86,1,Brasil,201605,maio 2016,355,IPCA15 - Variação mensal
+25,1,Brasil,2,%,0.40,1,Brasil,201606,junho 2016,355,IPCA15 - Variação mensal
+26,1,Brasil,2,%,0.54,1,Brasil,201607,julho 2016,355,IPCA15 - Variação mensal
+27,1,Brasil,2,%,0.45,1,Brasil,201608,agosto 2016,355,IPCA15 - Variação mensal
+28,1,Brasil,2,%,0.23,1,Brasil,201609,setembro 2016,355,IPCA15 - Variação mensal
+29,1,Brasil,2,%,0.19,1,Brasil,201610,outubro 2016,355,IPCA15 - Variação mensal
+30,1,Brasil,2,%,0.26,1,Brasil,201611,novembro 2016,355,IPCA15 - Variação mensal
+31,1,Brasil,2,%,0.19,1,Brasil,201612,dezembro 2016,355,IPCA15 - Variação mensal
+32,1,Brasil,2,%,0.31,1,Brasil,201701,janeiro 2017,355,IPCA15 - Variação mensal
+33,1,Brasil,2,%,0.54,1,Brasil,201702,fevereiro 2017,355,IPCA15 - Variação mensal
+34,1,Brasil,2,%,0.15,1,Brasil,201703,março 2017,355,IPCA15 - Variação mensal
+35,1,Brasil,2,%,0.21,1,Brasil,201704,abril 2017,355,IPCA15 - Variação mensal
+36,1,Brasil,2,%,0.24,1,Brasil,201705,maio 2017,355,IPCA15 - Variação mensal
+37,1,Brasil,2,%,0.16,1,Brasil,201706,junho 2017,355,IPCA15 - Variação mensal
+38,1,Brasil,2,%,-0.18,1,Brasil,201707,julho 2017,355,IPCA15 - Variação mensal
+39,1,Brasil,2,%,0.35,1,Brasil,201708,agosto 2017,355,IPCA15 - Variação mensal
+40,1,Brasil,2,%,0.11,1,Brasil,201709,setembro 2017,355,IPCA15 - Variação mensal
+41,1,Brasil,2,%,0.34,1,Brasil,201710,outubro 2017,355,IPCA15 - Variação mensal
+42,1,Brasil,2,%,0.32,1,Brasil,201711,novembro 2017,355,IPCA15 - Variação mensal
+43,1,Brasil,2,%,0.35,1,Brasil,201712,dezembro 2017,355,IPCA15 - Variação mensal
+44,1,Brasil,2,%,0.39,1,Brasil,201801,janeiro 2018,355,IPCA15 - Variação mensal
+45,1,Brasil,2,%,0.38,1,Brasil,201802,fevereiro 2018,355,IPCA15 - Variação mensal
+46,1,Brasil,2,%,0.10,1,Brasil,201803,março 2018,355,IPCA15 - Variação mensal
+47,1,Brasil,2,%,0.21,1,Brasil,201804,abril 2018,355,IPCA15 - Variação mensal
+48,1,Brasil,2,%,0.14,1,Brasil,201805,maio 2018,355,IPCA15 - Variação mensal
+49,1,Brasil,2,%,1.11,1,Brasil,201806,junho 2018,355,IPCA15 - Variação mensal
+50,1,Brasil,2,%,0.64,1,Brasil,201807,julho 2018,355,IPCA15 - Variação mensal
+51,1,Brasil,2,%,0.13,1,Brasil,201808,agosto 2018,355,IPCA15 - Variação mensal
+52,1,Brasil,2,%,0.09,1,Brasil,201809,setembro 2018,355,IPCA15 - Variação mensal
+53,1,Brasil,2,%,0.58,1,Brasil,201810,outubro 2018,355,IPCA15 - Variação mensal
+54,1,Brasil,2,%,0.19,1,Brasil,201811,novembro 2018,355,IPCA15 - Variação mensal
+55,1,Brasil,2,%,-0.16,1,Brasil,201812,dezembro 2018,355,IPCA15 - Variação mensal
+56,1,Brasil,2,%,0.30,1,Brasil,201901,janeiro 2019,355,IPCA15 - Variação mensal
+57,1,Brasil,2,%,0.34,1,Brasil,201902,fevereiro 2019,355,IPCA15 - Variação mensal
+58,1,Brasil,2,%,0.54,1,Brasil,201903,março 2019,355,IPCA15 - Variação mensal
+59,1,Brasil,2,%,0.72,1,Brasil,201904,abril 2019,355,IPCA15 - Variação mensal
+60,1,Brasil,2,%,0.35,1,Brasil,201905,maio 2019,355,IPCA15 - Variação mensal
+61,1,Brasil,2,%,0.06,1,Brasil,201906,junho 2019,355,IPCA15 - Variação mensal
+62,1,Brasil,2,%,0.09,1,Brasil,201907,julho 2019,355,IPCA15 - Variação mensal
+63,1,Brasil,2,%,0.08,1,Brasil,201908,agosto 2019,355,IPCA15 - Variação mensal
+64,1,Brasil,2,%,0.09,1,Brasil,201909,setembro 2019,355,IPCA15 - Variação mensal
+65,1,Brasil,2,%,0.09,1,Brasil,201910,outubro 2019,355,IPCA15 - Variação mensal
+66,1,Brasil,2,%,0.14,1,Brasil,201911,novembro 2019,355,IPCA15 - Variação mensal
+67,1,Brasil,2,%,1.05,1,Brasil,201912,dezembro 2019,355,IPCA15 - Variação mensal
+68,1,Brasil,2,%,0.71,1,Brasil,202001,janeiro 2020,355,IPCA15 - Variação mensal
+69,1,Brasil,2,%,0.22,1,Brasil,202002,fevereiro 2020,355,IPCA15 - Variação mensal
+70,1,Brasil,2,%,0.02,1,Brasil,202003,março 2020,355,IPCA15 - Variação mensal
+71,1,Brasil,2,%,-0.01,1,Brasil,202004,abril 2020,355,IPCA15 - Variação mensal
+72,1,Brasil,2,%,-0.59,1,Brasil,202005,maio 2020,355,IPCA15 - Variação mensal
+73,1,Brasil,2,%,0.02,1,Brasil,202006,junho 2020,355,IPCA15 - Variação mensal
+74,1,Brasil,2,%,0.30,1,Brasil,202007,julho 2020,355,IPCA15 - Variação mensal
+75,1,Brasil,2,%,0.23,1,Brasil,202008,agosto 2020,355,IPCA15 - Variação mensal
+76,1,Brasil,2,%,0.45,1,Brasil,202009,setembro 2020,355,IPCA15 - Variação mensal
+77,1,Brasil,2,%,0.94,1,Brasil,202010,outubro 2020,355,IPCA15 - Variação mensal
+78,1,Brasil,2,%,0.81,1,Brasil,202011,novembro 2020,355,IPCA15 - Variação mensal
+79,1,Brasil,2,%,1.06,1,Brasil,202012,dezembro 2020,355,IPCA15 - Variação mensal
+80,1,Brasil,2,%,0.78,1,Brasil,202101,janeiro 2021,355,IPCA15 - Variação mensal
+81,1,Brasil,2,%,0.48,1,Brasil,202102,fevereiro 2021,355,IPCA15 - Variação mensal
+82,1,Brasil,2,%,0.93,1,Brasil,202103,março 2021,355,IPCA15 - Variação mensal
+83,1,Brasil,2,%,0.60,1,Brasil,202104,abril 2021,355,IPCA15 - Variação mensal
+84,1,Brasil,2,%,0.44,1,Brasil,202105,maio 2021,355,IPCA15 - Variação mensal
+85,1,Brasil,2,%,0.83,1,Brasil,202106,junho 2021,355,IPCA15 - Variação mensal
+86,1,Brasil,2,%,0.72,1,Brasil,202107,julho 2021,355,IPCA15 - Variação mensal
+87,1,Brasil,2,%,0.89,1,Brasil,202108,agosto 2021,355,IPCA15 - Variação mensal
+88,1,Brasil,2,%,1.14,1,Brasil,202109,setembro 2021,355,IPCA15 - Variação mensal
+89,1,Brasil,2,%,1.20,1,Brasil,202110,outubro 2021,355,IPCA15 - Variação mensal
+90,1,Brasil,2,%,1.17,1,Brasil,202111,novembro 2021,355,IPCA15 - Variação mensal
+91,1,Brasil,2,%,0.78,1,Brasil,202112,dezembro 2021,355,IPCA15 - Variação mensal
+92,1,Brasil,2,%,0.58,1,Brasil,202201,janeiro 2022,355,IPCA15 - Variação mensal
+93,1,Brasil,2,%,0.99,1,Brasil,202202,fevereiro 2022,355,IPCA15 - Variação mensal
+94,1,Brasil,2,%,0.95,1,Brasil,202203,março 2022,355,IPCA15 - Variação mensal
+95,1,Brasil,2,%,1.73,1,Brasil,202204,abril 2022,355,IPCA15 - Variação mensal
+96,1,Brasil,2,%,0.59,1,Brasil,202205,maio 2022,355,IPCA15 - Variação mensal
+97,1,Brasil,2,%,0.69,1,Brasil,202206,junho 2022,355,IPCA15 - Variação mensal
+98,1,Brasil,2,%,0.13,1,Brasil,202207,julho 2022,355,IPCA15 - Variação mensal
+99,1,Brasil,2,%,-0.73,1,Brasil,202208,agosto 2022,355,IPCA15 - Variação mensal
+100,1,Brasil,2,%,-0.37,1,Brasil,202209,setembro 2022,355,IPCA15 - Variação mensal
+101,1,Brasil,2,%,0.16,1,Brasil,202210,outubro 2022,355,IPCA15 - Variação mensal
+102,1,Brasil,2,%,0.53,1,Brasil,202211,novembro 2022,355,IPCA15 - Variação mensal
+103,1,Brasil,2,%,0.52,1,Brasil,202212,dezembro 2022,355,IPCA15 - Variação mensal
+104,1,Brasil,2,%,0.55,1,Brasil,202301,janeiro 2023,355,IPCA15 - Variação mensal
+105,1,Brasil,2,%,0.76,1,Brasil,202302,fevereiro 2023,355,IPCA15 - Variação mensal
+106,1,Brasil,2,%,0.69,1,Brasil,202303,março 2023,355,IPCA15 - Variação mensal
+107,1,Brasil,2,%,0.57,1,Brasil,202304,abril 2023,355,IPCA15 - Variação mensal
+108,1,Brasil,2,%,0.51,1,Brasil,202305,maio 2023,355,IPCA15 - Variação mensal
+109,1,Brasil,2,%,0.04,1,Brasil,202306,junho 2023,355,IPCA15 - Variação mensal
+110,1,Brasil,2,%,-0.07,1,Brasil,202307,julho 2023,355,IPCA15 - Variação mensal
+111,1,Brasil,2,%,0.28,1,Brasil,202308,agosto 2023,355,IPCA15 - Variação mensal
+112,1,Brasil,2,%,0.35,1,Brasil,202309,setembro 2023,355,IPCA15 - Variação mensal
+113,1,Brasil,2,%,0.21,1,Brasil,202310,outubro 2023,355,IPCA15 - Variação mensal
+114,1,Brasil,2,%,0.33,1,Brasil,202311,novembro 2023,355,IPCA15 - Variação mensal
+115,1,Brasil,2,%,0.40,1,Brasil,202312,dezembro 2023,355,IPCA15 - Variação mensal
+116,1,Brasil,2,%,0.31,1,Brasil,202401,janeiro 2024,355,IPCA15 - Variação mensal
+117,1,Brasil,2,%,0.78,1,Brasil,202402,fevereiro 2024,355,IPCA15 - Variação mensal
+118,1,Brasil,2,%,0.36,1,Brasil,202403,março 2024,355,IPCA15 - Variação mensal
+119,1,Brasil,2,%,0.21,1,Brasil,202404,abril 2024,355,IPCA15 - Variação mensal
+120,1,Brasil,2,%,0.44,1,Brasil,202405,maio 2024,355,IPCA15 - Variação mensal
