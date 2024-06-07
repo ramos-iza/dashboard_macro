@@ -368,8 +368,8 @@ def last_date(dados_brutos_ipca_sidra):
 
 # Para o primeiro gráfico - IPCA mensal e acumulado 
 def calc_ipca_mes(dados_brutos_ipca_sidra):
-    ipca_mes = dados_brutos_ipca_sidra[dados_brutos_ipca_sidra['D4N'] == 'Índice geral']
-    ipca_mes = ipca_mes[ipca_mes['D3N'] == 'IPCA - Variação mensal']
+    ipca_mes = dados_brutos_ipca_sidra[dados_brutos_ipca_sidra['D4N'] == 'Índice geral'] # D3N
+    ipca_mes = ipca_mes[ipca_mes['D3N'] == 'IPCA - Variação mensal'] #D2N
     # Manipulando a data 
     meses_em_portugues = {
     'janeiro': '01',
