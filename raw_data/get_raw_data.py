@@ -12,7 +12,7 @@ def ipca_mensal(start_date):
     return ipca_mensal
 
 
-def dados_brutos_ipca_sidra():
+'''def dados_brutos_ipca_sidra():
     variable= ['63', '69', '2265', '66']
     dados_brutos_ipca = pd.DataFrame()
     for var in variable:
@@ -20,10 +20,43 @@ def dados_brutos_ipca_sidra():
             table_code= '7060', 
             territorial_level= '1', 
             ibge_territorial_code= 'all', 
-            period= 'last 120',
+            period= 'all',
             variable= var, 
             classification= '315/all')
         dados_brutos_ipca = pd.concat([df, dados_brutos_ipca], axis=0)
+    return dados_brutos_ipca'''
+    
+
+def dados_brutos_ipca_sidra():
+    variables = ['63', '69', '2265', '66']
+    dados_brutos_ipca = pd.DataFrame()
+
+    # Define periods explicitly in YYYYMM format
+    periods = [
+        '202101', '202102', '202103', '202104', '202105', '202106', '202107', '202108', '202109', '202110',
+        '202111', '202112', '202201', '202202', '202203', '202204', '202205', '202206', '202207', '202208',
+        '202209', '202210', '202211', '202212', '202301', '202302', '202303', '202304', '202305', '202306',
+        '202307', '202308', '202309', '202310', '202311', '202312', '202401', '202402', '202403', '202404',
+        '202405', '202406', '202407', '202408', '202409', '202410', '202411', '202412', '202501', '202502',
+        '202503', '202504'
+    ]
+
+    for var in variables:
+        for period in periods:
+            try:
+                df = sidra.get_table(
+                    table_code='7060', 
+                    territorial_level='1', 
+                    ibge_territorial_code='all', 
+                    period=period,
+                    variable=var, 
+                    classification='315/all'
+                )
+                dados_brutos_ipca = pd.concat([dados_brutos_ipca, df], axis=0)
+            except ValueError as e:
+                print(f"Error fetching data for variable {var} and period {period}: {e}")
+                continue
+    
     return dados_brutos_ipca
 
 
@@ -103,7 +136,7 @@ def db_tipos_emprego():
     db_tipos_emprego = sidra.get_table(table_code = 6320,
                     territorial_level = "1",
                     ibge_territorial_code = "all",
-                    period = "all",
+                    #period = "all",
                     classification= '11913/all'
                     )
     return db_tipos_emprego
