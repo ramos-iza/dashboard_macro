@@ -4,6 +4,7 @@ plotly
 matplotlib
 python-bcb
 sidrapy
-streamlit
+streamlit>=1.28
 statsmodels
+numpy==1.26.4
 
