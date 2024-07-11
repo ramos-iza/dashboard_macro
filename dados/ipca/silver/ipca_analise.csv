@@ -18736,3 +18736,460 @@
 18775,2024-05-01,IPCA peso mensal,9101019.Aparelho telefônico,-0.23
 18776,2024-05-01,IPCA peso mensal,9101115.Serviços de streaming,0.0
 18777,2024-05-01,IPCA peso mensal,"9101116.Combo de telefonia, internet e tv por assinatura",0.0
+18779,2024-06-01,IPCA peso mensal,Índice geral,0.21
+18780,2024-06-01,IPCA peso mensal,1.Alimentação e bebidas,0.44
+18781,2024-06-01,IPCA peso mensal,11.Alimentação no domicílio,0.47
+18782,2024-06-01,IPCA peso mensal,"1101.Cereais, leguminosas e oleaginosas",0.77
+18783,2024-06-01,IPCA peso mensal,1101002.Arroz,2.25
+18784,2024-06-01,IPCA peso mensal,1101051.Feijão - mulatinho,1.66
+18785,2024-06-01,IPCA peso mensal,1101052.Feijão - preto,-4.81
+18786,2024-06-01,IPCA peso mensal,1101053.Feijão - macáçar (fradinho),-4.39
+18787,2024-06-01,IPCA peso mensal,1101073.Feijão - carioca (rajado),-4.29
+18788,2024-06-01,IPCA peso mensal,1101079.Milho (em grão),-4.88
+18789,2024-06-01,IPCA peso mensal,"1102.Farinhas, féculas e massas",-0.28
+18790,2024-06-01,IPCA peso mensal,1102001.Farinha de arroz,0.33
+18791,2024-06-01,IPCA peso mensal,1102006.Macarrão,-0.42
+18792,2024-06-01,IPCA peso mensal,1102008.Fubá de milho,1.05
+18793,2024-06-01,IPCA peso mensal,1102010.Flocos de milho,-0.11
+18794,2024-06-01,IPCA peso mensal,1102012.Farinha de trigo,-0.47
+18795,2024-06-01,IPCA peso mensal,1102023.Farinha de mandioca,-0.38
+18796,2024-06-01,IPCA peso mensal,1102029.Massa semipreparada,-0.25
+18797,2024-06-01,IPCA peso mensal,1102061.Macarrão instantâneo,0.45
+18798,2024-06-01,IPCA peso mensal,"1103.Tubérculos, raízes e legumes",1.96
+18799,2024-06-01,IPCA peso mensal,1103002.Batata-doce,-1.52
+18800,2024-06-01,IPCA peso mensal,1103003.Batata-inglesa,14.49
+18801,2024-06-01,IPCA peso mensal,1103004.Inhame,-0.7
+18802,2024-06-01,IPCA peso mensal,1103005.Mandioca (aipim),-1.4
+18803,2024-06-01,IPCA peso mensal,1103020.Abobrinha,18.87
+18804,2024-06-01,IPCA peso mensal,1103025.Pepino,2.55
+18805,2024-06-01,IPCA peso mensal,1103026.Pimentão,-6.14
+18806,2024-06-01,IPCA peso mensal,1103028.Tomate,2.05
+18807,2024-06-01,IPCA peso mensal,1103043.Cebola,-7.49
+18808,2024-06-01,IPCA peso mensal,1103044.Cenoura,-9.47
+18809,2024-06-01,IPCA peso mensal,1104.Açúcares e derivados,0.8
+18810,2024-06-01,IPCA peso mensal,1104003.Açúcar refinado,-0.56
+18811,2024-06-01,IPCA peso mensal,1104004.Açúcar cristal,-0.67
+18812,2024-06-01,IPCA peso mensal,1104018.Balas,1.4
+18813,2024-06-01,IPCA peso mensal,1104023.Chocolate em barra e bombom,1.52
+18814,2024-06-01,IPCA peso mensal,1104032.Sorvete,1.33
+18815,2024-06-01,IPCA peso mensal,1104052.Chocolate e achocolatado em pó,1.71
+18816,2024-06-01,IPCA peso mensal,1104060.Doce de frutas em pasta,3.06
+18817,2024-06-01,IPCA peso mensal,1104067.Açúcar demerara,19.18
+18818,2024-06-01,IPCA peso mensal,1105.Hortaliças e verduras,-0.75
+18819,2024-06-01,IPCA peso mensal,1105001.Alface,-2.26
+18820,2024-06-01,IPCA peso mensal,1105004.Coentro,-12.33
+18821,2024-06-01,IPCA peso mensal,1105005.Couve,-2.2
+18822,2024-06-01,IPCA peso mensal,1105006.Couve-flor,0.21
+18823,2024-06-01,IPCA peso mensal,1105010.Repolho,2.72
+18824,2024-06-01,IPCA peso mensal,1105012.Cheiro-verde,0.53
+18825,2024-06-01,IPCA peso mensal,1105019.Brócolis,5.19
+18826,2024-06-01,IPCA peso mensal,1106.Frutas,-2.62
+18827,2024-06-01,IPCA peso mensal,1106001.Banana-da-terra,7.22
+18828,2024-06-01,IPCA peso mensal,1106003.Abacaxi,1.88
+18829,2024-06-01,IPCA peso mensal,1106004.Abacate,2.91
+18830,2024-06-01,IPCA peso mensal,1106005.Banana - d'água,-1.82
+18831,2024-06-01,IPCA peso mensal,1106006.Banana - maçã,0.78
+18832,2024-06-01,IPCA peso mensal,1106008.Banana - prata,-5.68
+18833,2024-06-01,IPCA peso mensal,1106011.Laranja - baía,0.09
+18834,2024-06-01,IPCA peso mensal,1106012.Laranja - lima,-1.86
+18835,2024-06-01,IPCA peso mensal,1106015.Limão,-0.89
+18836,2024-06-01,IPCA peso mensal,1106017.Maçã,-1.15
+18837,2024-06-01,IPCA peso mensal,1106018.Mamão,-17.31
+18838,2024-06-01,IPCA peso mensal,1106019.Manga,17.14
+18839,2024-06-01,IPCA peso mensal,1106020.Maracujá,-5.5
+18840,2024-06-01,IPCA peso mensal,1106021.Melancia,-8.82
+18841,2024-06-01,IPCA peso mensal,1106022.Melão,2.27
+18842,2024-06-01,IPCA peso mensal,1106023.Pera,-5.5
+18843,2024-06-01,IPCA peso mensal,1106027.Tangerina,0.07
+18844,2024-06-01,IPCA peso mensal,1106028.Uva,-0.24
+18845,2024-06-01,IPCA peso mensal,1106039.Laranja - pera,-1.47
+18846,2024-06-01,IPCA peso mensal,1106051.Morango,5.65
+18847,2024-06-01,IPCA peso mensal,1106084.Goiaba,-4.5
+18848,2024-06-01,IPCA peso mensal,1107.Carnes,-0.47
+18849,2024-06-01,IPCA peso mensal,1107009.Fígado,-1.08
+18850,2024-06-01,IPCA peso mensal,1107018.Carne de porco,0.52
+18851,2024-06-01,IPCA peso mensal,1107031.Carne de carneiro,2.18
+18852,2024-06-01,IPCA peso mensal,1107081.Cupim,-0.44
+18853,2024-06-01,IPCA peso mensal,1107084.Contrafilé,-0.02
+18854,2024-06-01,IPCA peso mensal,1107085.Filé-mignon,0.89
+18855,2024-06-01,IPCA peso mensal,1107087.Chã de dentro,-0.19
+18856,2024-06-01,IPCA peso mensal,1107088.Alcatra,-0.03
+18857,2024-06-01,IPCA peso mensal,1107089.Patinho,0.03
+18858,2024-06-01,IPCA peso mensal,1107090.Lagarto redondo,-2.69
+18859,2024-06-01,IPCA peso mensal,1107091.Lagarto comum,-1.14
+18860,2024-06-01,IPCA peso mensal,1107093.Músculo,-0.98
+18861,2024-06-01,IPCA peso mensal,1107094.Pá,-1.2
+18862,2024-06-01,IPCA peso mensal,1107095.Acém,-1.04
+18863,2024-06-01,IPCA peso mensal,1107096.Peito,-1.52
+18864,2024-06-01,IPCA peso mensal,1107097.Capa de filé,-2.12
+18865,2024-06-01,IPCA peso mensal,1107099.Costela,-2.13
+18866,2024-06-01,IPCA peso mensal,1107208.Picanha,2.21
+18867,2024-06-01,IPCA peso mensal,1108.Pescados,-0.8
+18868,2024-06-01,IPCA peso mensal,1108002.Peixe - anchova,0.07
+18869,2024-06-01,IPCA peso mensal,1108004.Peixe - corvina,0.56
+18870,2024-06-01,IPCA peso mensal,1108011.Peixe - tainha,7.78
+18871,2024-06-01,IPCA peso mensal,1108012.Peixe - sardinha,3.74
+18872,2024-06-01,IPCA peso mensal,1108013.Camarão,-0.69
+18873,2024-06-01,IPCA peso mensal,1108019.Peixe - cavala,0.01
+18874,2024-06-01,IPCA peso mensal,1108029.Peixe - cação,3.0
+18875,2024-06-01,IPCA peso mensal,1108031.Peixe - merluza,-0.89
+18876,2024-06-01,IPCA peso mensal,1108032.Peixe - serra,-0.02
+18877,2024-06-01,IPCA peso mensal,1108038.Peixe - pescada,-2.5
+18878,2024-06-01,IPCA peso mensal,1108045.Caranguejo,-2.08
+18879,2024-06-01,IPCA peso mensal,1108049.Peixe - castanha,1.49
+18880,2024-06-01,IPCA peso mensal,1108052.Peixe - palombeta,-2.76
+18881,2024-06-01,IPCA peso mensal,1108072.Peixe - curimatã,-1.78
+18882,2024-06-01,IPCA peso mensal,1108075.Peixe - salmão,-3.57
+18883,2024-06-01,IPCA peso mensal,1108080.Peixe - tilápia,-0.31
+18884,2024-06-01,IPCA peso mensal,1108087.Peixe - tambaqui,-0.33
+18885,2024-06-01,IPCA peso mensal,1108088.Peixe - dourada,-5.89
+18886,2024-06-01,IPCA peso mensal,1108092.Peixe - filhote,-1.51
+18887,2024-06-01,IPCA peso mensal,1108096.Peixe - peroá,-3.87
+18888,2024-06-01,IPCA peso mensal,1108112.Peixe - pintado,-1.62
+18889,2024-06-01,IPCA peso mensal,1108125.Peixe - aruanã,-0.03
+18890,2024-06-01,IPCA peso mensal,1109.Carnes e peixes industrializados,0.14
+18891,2024-06-01,IPCA peso mensal,1109002.Presunto,0.58
+18892,2024-06-01,IPCA peso mensal,1109007.Salsicha,0.21
+18893,2024-06-01,IPCA peso mensal,1109008.Linguiça,0.51
+18894,2024-06-01,IPCA peso mensal,1109010.Mortadela,0.55
+18895,2024-06-01,IPCA peso mensal,1109012.Salame,-0.64
+18896,2024-06-01,IPCA peso mensal,1109023.Bacalhau,-3.69
+18897,2024-06-01,IPCA peso mensal,1109056.Carne-seca e de sol,-1.34
+18898,2024-06-01,IPCA peso mensal,1109058.Carne de porco salgada e defumada,-0.71
+18899,2024-06-01,IPCA peso mensal,1110.Aves e ovos,-0.34
+18900,2024-06-01,IPCA peso mensal,1110009.Frango inteiro,-0.4
+18901,2024-06-01,IPCA peso mensal,1110010.Frango em pedaços,-0.12
+18902,2024-06-01,IPCA peso mensal,1110044.Ovo de galinha,-0.74
+18903,2024-06-01,IPCA peso mensal,1111.Leites e derivados,3.83
+18904,2024-06-01,IPCA peso mensal,1111004.Leite longa vida,7.43
+18905,2024-06-01,IPCA peso mensal,1111008.Leite condensado,2.84
+18906,2024-06-01,IPCA peso mensal,1111009.Leite em pó,2.49
+18907,2024-06-01,IPCA peso mensal,1111011.Queijo,1.5
+18908,2024-06-01,IPCA peso mensal,1111019.Iogurte e bebidas lácteas,0.06
+18909,2024-06-01,IPCA peso mensal,1111021.Requeijão,-0.31
+18910,2024-06-01,IPCA peso mensal,1111031.Manteiga,0.13
+18911,2024-06-01,IPCA peso mensal,1111038.Leite fermentado,0.03
+18912,2024-06-01,IPCA peso mensal,1112.Panificados,0.0
+18913,2024-06-01,IPCA peso mensal,1112003.Biscoito,-0.38
+18914,2024-06-01,IPCA peso mensal,1112015.Pão francês,-0.22
+18915,2024-06-01,IPCA peso mensal,1112017.Pão doce,0.29
+18916,2024-06-01,IPCA peso mensal,1112018.Pão de forma,0.36
+18917,2024-06-01,IPCA peso mensal,1112019.Bolo,1.61
+18918,2024-06-01,IPCA peso mensal,1112025.Pão de queijo,1.72
+18919,2024-06-01,IPCA peso mensal,1113.Óleos e gorduras,0.69
+18920,2024-06-01,IPCA peso mensal,1113013.Óleo de soja,0.78
+18921,2024-06-01,IPCA peso mensal,1113014.Azeite de oliva,1.77
+18922,2024-06-01,IPCA peso mensal,1113040.Margarina,-0.52
+18923,2024-06-01,IPCA peso mensal,1114.Bebidas e infusões,0.67
+18924,2024-06-01,IPCA peso mensal,1114001.Suco de frutas,1.59
+18925,2024-06-01,IPCA peso mensal,1114003.Polpa de fruta (congelada),-0.48
+18926,2024-06-01,IPCA peso mensal,1114004.Açaí (emulsão),-10.48
+18927,2024-06-01,IPCA peso mensal,1114022.Café moído,3.03
+18928,2024-06-01,IPCA peso mensal,1114023.Café solúvel,4.61
+18929,2024-06-01,IPCA peso mensal,1114083.Refrigerante e água mineral,0.35
+18930,2024-06-01,IPCA peso mensal,1114084.Cerveja,0.66
+18931,2024-06-01,IPCA peso mensal,1114085.Outras bebidas alcoólicas,-0.12
+18932,2024-06-01,IPCA peso mensal,1114087.Vinho,0.21
+18933,2024-06-01,IPCA peso mensal,1114090.Suco em pó,-0.27
+18934,2024-06-01,IPCA peso mensal,1114091.Chá mate (erva mate),0.82
+18935,2024-06-01,IPCA peso mensal,1115.Enlatados e conservas,0.05
+18936,2024-06-01,IPCA peso mensal,1115013.Alimento infantil,-0.62
+18937,2024-06-01,IPCA peso mensal,1115016.Palmito em conserva,-0.43
+18938,2024-06-01,IPCA peso mensal,1115017.Pepino em conserva,-1.27
+18939,2024-06-01,IPCA peso mensal,1115039.Sardinha em conserva,0.38
+18940,2024-06-01,IPCA peso mensal,1115050.Salsicha em conserva,1.89
+18941,2024-06-01,IPCA peso mensal,1115056.Sopa desidratada,1.98
+18942,2024-06-01,IPCA peso mensal,1115057.Azeitona,0.94
+18943,2024-06-01,IPCA peso mensal,1115058.Milho-verde em conserva,-0.5
+18944,2024-06-01,IPCA peso mensal,1115075.Atum em conserva,-0.66
+18945,2024-06-01,IPCA peso mensal,1116.Sal e condimentos,1.28
+18946,2024-06-01,IPCA peso mensal,1116001.Leite de coco,-4.03
+18947,2024-06-01,IPCA peso mensal,1116005.Atomatado,0.45
+18948,2024-06-01,IPCA peso mensal,1116010.Alho,3.41
+18949,2024-06-01,IPCA peso mensal,1116013.Sal,-0.26
+18950,2024-06-01,IPCA peso mensal,1116022.Colorau,1.16
+18951,2024-06-01,IPCA peso mensal,1116023.Caldo de tucupi,-1.71
+18952,2024-06-01,IPCA peso mensal,1116026.Fermento,1.55
+18953,2024-06-01,IPCA peso mensal,1116033.Maionese,0.07
+18954,2024-06-01,IPCA peso mensal,1116041.Vinagre,0.43
+18955,2024-06-01,IPCA peso mensal,1116048.Caldo concentrado,-0.6
+18956,2024-06-01,IPCA peso mensal,1116071.Tempero misto,0.34
+18957,2024-06-01,IPCA peso mensal,12.Alimentação fora do domicílio,0.37
+18958,2024-06-01,IPCA peso mensal,1201.Alimentação fora do domicílio,0.37
+18959,2024-06-01,IPCA peso mensal,1201001.Refeição,0.34
+18960,2024-06-01,IPCA peso mensal,1201003.Lanche,0.39
+18961,2024-06-01,IPCA peso mensal,1201007.Refrigerante e água mineral,0.1
+18962,2024-06-01,IPCA peso mensal,1201009.Cafezinho,2.22
+18963,2024-06-01,IPCA peso mensal,1201048.Cerveja,0.39
+18964,2024-06-01,IPCA peso mensal,1201051.Outras bebidas alcoólicas,1.98
+18965,2024-06-01,IPCA peso mensal,1201052.Vinho,0.95
+18966,2024-06-01,IPCA peso mensal,1201061.Doces,-0.43
+18967,2024-06-01,IPCA peso mensal,1201088.Sorvete,0.15
+18968,2024-06-01,IPCA peso mensal,2.Habitação,0.25
+18969,2024-06-01,IPCA peso mensal,21.Encargos e manutenção,0.39
+18970,2024-06-01,IPCA peso mensal,2101.Aluguel e taxas,0.42
+18971,2024-06-01,IPCA peso mensal,2101001.Aluguel residencial,0.2
+18972,2024-06-01,IPCA peso mensal,2101002.Condomínio,0.19
+18973,2024-06-01,IPCA peso mensal,2101004.Taxa de água e esgoto,1.13
+18974,2024-06-01,IPCA peso mensal,2101012.Mudança,0.0
+18975,2024-06-01,IPCA peso mensal,2103.Reparos,0.24
+18976,2024-06-01,IPCA peso mensal,2103005.Ferragens,1.04
+18977,2024-06-01,IPCA peso mensal,2103008.Material de eletricidade,0.71
+18978,2024-06-01,IPCA peso mensal,2103012.Vidro,4.2
+18979,2024-06-01,IPCA peso mensal,2103014.Tinta,0.18
+18980,2024-06-01,IPCA peso mensal,2103032.Revestimento de piso e parede,-0.11
+18981,2024-06-01,IPCA peso mensal,2103038.Madeira e taco,-1.83
+18982,2024-06-01,IPCA peso mensal,2103039.Cimento,-0.51
+18983,2024-06-01,IPCA peso mensal,2103040.Tijolo,-1.6
+18984,2024-06-01,IPCA peso mensal,2103041.Material hidráulico,0.7
+18985,2024-06-01,IPCA peso mensal,2103042.Mão de obra,0.56
+18986,2024-06-01,IPCA peso mensal,2103048.Areia,-0.06
+18987,2024-06-01,IPCA peso mensal,2103049.Pedras,1.71
+18988,2024-06-01,IPCA peso mensal,2103055.Telha,-0.53
+18989,2024-06-01,IPCA peso mensal,2104.Artigos de limpeza,0.35
+18990,2024-06-01,IPCA peso mensal,2104003.Saco para lixo,-1.56
+18991,2024-06-01,IPCA peso mensal,2104005.Água sanitária,0.35
+18992,2024-06-01,IPCA peso mensal,2104008.Detergente,0.14
+18993,2024-06-01,IPCA peso mensal,2104009.Sabão em pó,0.42
+18994,2024-06-01,IPCA peso mensal,2104012.Desinfetante,-0.4
+18995,2024-06-01,IPCA peso mensal,2104015.Sabão em barra,-1.0
+18996,2024-06-01,IPCA peso mensal,2104016.Esponja de limpeza,-0.33
+18997,2024-06-01,IPCA peso mensal,2104019.Sabão líquido,2.09
+18998,2024-06-01,IPCA peso mensal,2104020.Limpador multiuso,1.23
+18999,2024-06-01,IPCA peso mensal,2104041.Papel toalha,-2.0
+19000,2024-06-01,IPCA peso mensal,2104085.Amaciante e alvejante,0.82
+19001,2024-06-01,IPCA peso mensal,22.Combustíveis e energia,0.0
+19002,2024-06-01,IPCA peso mensal,2201.Combustíveis (domésticos),-0.83
+19003,2024-06-01,IPCA peso mensal,2201003.Carvão vegetal,3.94
+19004,2024-06-01,IPCA peso mensal,2201004.Gás de botijão,-0.9
+19005,2024-06-01,IPCA peso mensal,2201005.Gás encanado,-0.49
+19006,2024-06-01,IPCA peso mensal,2202.Energia elétrica residencial,0.3
+19007,2024-06-01,IPCA peso mensal,2202003.Energia elétrica residencial,0.3
+19008,2024-06-01,IPCA peso mensal,3.Artigos de residência,0.19
+19009,2024-06-01,IPCA peso mensal,31.Móveis e utensílios,-0.23
+19010,2024-06-01,IPCA peso mensal,3101.Mobiliário,-0.23
+19011,2024-06-01,IPCA peso mensal,3101002.Móvel para sala,-0.61
+19012,2024-06-01,IPCA peso mensal,3101003.Móvel para quarto,-0.2
+19013,2024-06-01,IPCA peso mensal,3101015.Móvel para copa e cozinha,0.31
+19014,2024-06-01,IPCA peso mensal,3101016.Móvel infantil,0.18
+19015,2024-06-01,IPCA peso mensal,3101017.Colchão,-0.85
+19016,2024-06-01,IPCA peso mensal,3102.Utensílios e enfeites,-0.31
+19017,2024-06-01,IPCA peso mensal,3102001.Artigos de iluminação,-1.83
+19018,2024-06-01,IPCA peso mensal,3102005.Tapete,0.14
+19019,2024-06-01,IPCA peso mensal,3102006.Cortina,-0.7
+19020,2024-06-01,IPCA peso mensal,3102007.Utensílios de metal,-0.08
+19021,2024-06-01,IPCA peso mensal,3102009.Utensílios de vidro e louça,0.35
+19022,2024-06-01,IPCA peso mensal,3102010.Utensílios de plástico,1.31
+19023,2024-06-01,IPCA peso mensal,3102035.Flores naturais,5.35
+19024,2024-06-01,IPCA peso mensal,3102337.Utensílios para bebê,-1.21
+19025,2024-06-01,IPCA peso mensal,"3103.Cama, mesa e banho",-0.02
+19026,2024-06-01,IPCA peso mensal,3103001.Roupa de cama,-0.07
+19027,2024-06-01,IPCA peso mensal,3103003.Roupa de banho,1.79
+19028,2024-06-01,IPCA peso mensal,32.Aparelhos eletroeletrônicos,0.6
+19029,2024-06-01,IPCA peso mensal,3201.Eletrodomésticos e equipamentos,0.11
+19030,2024-06-01,IPCA peso mensal,3201001.Refrigerador,-0.14
+19031,2024-06-01,IPCA peso mensal,3201002.Ar-condicionado,-0.77
+19032,2024-06-01,IPCA peso mensal,3201006.Máquina de lavar roupa,0.7
+19033,2024-06-01,IPCA peso mensal,3201013.Ventilador,-0.38
+19034,2024-06-01,IPCA peso mensal,3201021.Fogão,0.37
+19035,2024-06-01,IPCA peso mensal,3201050.Chuveiro elétrico,1.52
+19036,2024-06-01,IPCA peso mensal,"3202.Tv, som e informática",1.33
+19037,2024-06-01,IPCA peso mensal,3202001.Televisor,1.14
+19038,2024-06-01,IPCA peso mensal,3202003.Aparelho de som,0.2
+19039,2024-06-01,IPCA peso mensal,3202008.Videogame (console),-1.94
+19040,2024-06-01,IPCA peso mensal,3202028.Computador pessoal,1.71
+19041,2024-06-01,IPCA peso mensal,33.Consertos e manutenção,0.48
+19042,2024-06-01,IPCA peso mensal,3301.Consertos e manutenção,0.48
+19043,2024-06-01,IPCA peso mensal,3301002.Conserto de refrigerador,0.72
+19044,2024-06-01,IPCA peso mensal,3301006.Conserto de televisor,3.56
+19045,2024-06-01,IPCA peso mensal,3301015.Conserto de máquina de lavar roupa,-1.04
+19046,2024-06-01,IPCA peso mensal,3301022.Reforma de estofado,0.55
+19047,2024-06-01,IPCA peso mensal,3301088.Conserto de aparelho celular,0.08
+19048,2024-06-01,IPCA peso mensal,3301130.Conserto de bicicleta,0.57
+19049,2024-06-01,IPCA peso mensal,4.Vestuário,0.02
+19050,2024-06-01,IPCA peso mensal,41.Roupas,0.02
+19051,2024-06-01,IPCA peso mensal,4101.Roupa masculina,0.03
+19052,2024-06-01,IPCA peso mensal,4101002.Calça comprida masculina,0.4
+19053,2024-06-01,IPCA peso mensal,4101005.Agasalho masculino,1.67
+19054,2024-06-01,IPCA peso mensal,4101006.Bermuda/short masculino,0.03
+19055,2024-06-01,IPCA peso mensal,4101008.Cueca,0.01
+19056,2024-06-01,IPCA peso mensal,4101009.Camisa/camiseta masculina,-0.21
+19057,2024-06-01,IPCA peso mensal,4102.Roupa feminina,0.1
+19058,2024-06-01,IPCA peso mensal,4102002.Calça comprida feminina,-0.93
+19059,2024-06-01,IPCA peso mensal,4102003.Agasalho feminino,-0.1
+19060,2024-06-01,IPCA peso mensal,4102004.Saia,-0.83
+19061,2024-06-01,IPCA peso mensal,4102005.Vestido,0.81
+19062,2024-06-01,IPCA peso mensal,4102008.Blusa,0.12
+19063,2024-06-01,IPCA peso mensal,4102010.Lingerie,1.21
+19064,2024-06-01,IPCA peso mensal,4102013.Bermuda/short feminino,0.31
+19065,2024-06-01,IPCA peso mensal,4103.Roupa infantil,-0.17
+19066,2024-06-01,IPCA peso mensal,4103001.Uniforme escolar,0.0
+19067,2024-06-01,IPCA peso mensal,4103002.Calça comprida infantil,-0.1
+19068,2024-06-01,IPCA peso mensal,4103005.Agasalho infantil,2.19
+19069,2024-06-01,IPCA peso mensal,4103007.Vestido infantil,0.43
+19070,2024-06-01,IPCA peso mensal,4103008.Bermuda/short infantil,0.46
+19071,2024-06-01,IPCA peso mensal,4103011.Camisa/camiseta infantil,-0.3
+19072,2024-06-01,IPCA peso mensal,4103031.Conjunto infantil,-0.79
+19073,2024-06-01,IPCA peso mensal,42.Calçados e acessórios,-0.15
+19074,2024-06-01,IPCA peso mensal,4201.Calçados e acessórios,-0.15
+19075,2024-06-01,IPCA peso mensal,4201002.Sapato masculino,-0.31
+19076,2024-06-01,IPCA peso mensal,4201003.Sapato feminino,-0.49
+19077,2024-06-01,IPCA peso mensal,4201004.Sapato infantil,1.42
+19078,2024-06-01,IPCA peso mensal,4201015.Bolsa,0.4
+19079,2024-06-01,IPCA peso mensal,4201040.Mochila,0.76
+19080,2024-06-01,IPCA peso mensal,4201063.Tênis,-0.3
+19081,2024-06-01,IPCA peso mensal,4201098.Sandália/chinelo,0.43
+19082,2024-06-01,IPCA peso mensal,43.Joias e bijuterias,1.08
+19083,2024-06-01,IPCA peso mensal,4301.Joias e bijuterias,1.08
+19084,2024-06-01,IPCA peso mensal,4301001.Bijuteria,-1.76
+19085,2024-06-01,IPCA peso mensal,4301002.Joia,1.48
+19086,2024-06-01,IPCA peso mensal,4301004.Relógio de pulso,0.96
+19087,2024-06-01,IPCA peso mensal,44.Tecidos e armarinho,-0.21
+19088,2024-06-01,IPCA peso mensal,4401.Tecidos e armarinho,-0.21
+19089,2024-06-01,IPCA peso mensal,4401001.Tecido,-0.38
+19090,2024-06-01,IPCA peso mensal,4401002.Artigos de armarinho,0.59
+19091,2024-06-01,IPCA peso mensal,5.Transportes,-0.19
+19092,2024-06-01,IPCA peso mensal,51.Transportes,-0.19
+19093,2024-06-01,IPCA peso mensal,5101.Transporte público,-2.26
+19094,2024-06-01,IPCA peso mensal,5101001.Ônibus urbano,0.0
+19095,2024-06-01,IPCA peso mensal,5101002.Táxi,0.0
+19096,2024-06-01,IPCA peso mensal,5101004.Trem,0.0
+19097,2024-06-01,IPCA peso mensal,5101006.Ônibus intermunicipal,-0.19
+19098,2024-06-01,IPCA peso mensal,5101007.Ônibus interestadual,0.12
+19099,2024-06-01,IPCA peso mensal,5101010.Passagem aérea,-9.88
+19100,2024-06-01,IPCA peso mensal,5101011.Metrô,0.0
+19101,2024-06-01,IPCA peso mensal,5101026.Transporte escolar,-0.01
+19102,2024-06-01,IPCA peso mensal,5101051.Transporte por aplicativo,-2.81
+19103,2024-06-01,IPCA peso mensal,5101053.Integração transporte público,0.0
+19104,2024-06-01,IPCA peso mensal,5102.Veículo próprio,-0.04
+19105,2024-06-01,IPCA peso mensal,5102001.Automóvel novo,0.0
+19106,2024-06-01,IPCA peso mensal,5102004.Emplacamento e licença,-0.09
+19107,2024-06-01,IPCA peso mensal,5102005.Seguro voluntário de veículo,-0.74
+19108,2024-06-01,IPCA peso mensal,5102006.Multa,0.0
+19109,2024-06-01,IPCA peso mensal,5102007.Óleo lubrificante,-0.22
+19110,2024-06-01,IPCA peso mensal,5102009.Acessórios e peças,0.66
+19111,2024-06-01,IPCA peso mensal,5102010.Pneu,-1.41
+19112,2024-06-01,IPCA peso mensal,5102011.Conserto de automóvel,0.36
+19113,2024-06-01,IPCA peso mensal,5102013.Estacionamento,-1.55
+19114,2024-06-01,IPCA peso mensal,5102015.Pedágio,3.35
+19115,2024-06-01,IPCA peso mensal,5102020.Automóvel usado,-0.12
+19116,2024-06-01,IPCA peso mensal,5102037.Pintura de veículo,1.64
+19117,2024-06-01,IPCA peso mensal,5102051.Aluguel de veículo,5.38
+19118,2024-06-01,IPCA peso mensal,5102053.Motocicleta,-0.21
+19119,2024-06-01,IPCA peso mensal,5104.Combustíveis (veículos),0.54
+19120,2024-06-01,IPCA peso mensal,5104001.Gasolina,0.64
+19121,2024-06-01,IPCA peso mensal,5104002.Etanol,0.34
+19122,2024-06-01,IPCA peso mensal,5104003.Óleo diesel,-0.64
+19123,2024-06-01,IPCA peso mensal,5104005.Gás veicular,-0.61
+19124,2024-06-01,IPCA peso mensal,6.Saúde e cuidados pessoais,0.54
+19125,2024-06-01,IPCA peso mensal,61.Produtos farmacêuticos e óticos,0.49
+19126,2024-06-01,IPCA peso mensal,6101.Produtos farmacêuticos,0.52
+19127,2024-06-01,IPCA peso mensal,6101001.Anti-infeccioso e antibiótico,-0.41
+19128,2024-06-01,IPCA peso mensal,6101002.Analgésico e antitérmico,0.93
+19129,2024-06-01,IPCA peso mensal,6101003.Anti-inflamatório e antirreumático,0.45
+19130,2024-06-01,IPCA peso mensal,6101004.Antigripal e antitussígeno,-0.53
+19131,2024-06-01,IPCA peso mensal,6101006.Dermatológico,-0.11
+19132,2024-06-01,IPCA peso mensal,6101007.Antialérgico e broncodilatador,-0.86
+19133,2024-06-01,IPCA peso mensal,6101009.Gastroprotetor,0.13
+19134,2024-06-01,IPCA peso mensal,6101010.Vitamina e fortificante,1.27
+19135,2024-06-01,IPCA peso mensal,6101011.Hormonal,0.61
+19136,2024-06-01,IPCA peso mensal,6101013.Psicotrópico e anorexígeno,1.33
+19137,2024-06-01,IPCA peso mensal,6101014.Hipotensor e hipocolesterolêmico,0.82
+19138,2024-06-01,IPCA peso mensal,6101051.Oftalmológico,0.99
+19139,2024-06-01,IPCA peso mensal,6101064.Antidiabético,0.79
+19140,2024-06-01,IPCA peso mensal,6101148.Neurológico,-0.37
+19141,2024-06-01,IPCA peso mensal,6102.Produtos óticos,0.06
+19142,2024-06-01,IPCA peso mensal,6102012.Óculos de grau,0.06
+19143,2024-06-01,IPCA peso mensal,62.Serviços de saúde,0.42
+19144,2024-06-01,IPCA peso mensal,6201.Serviços médicos e dentários,0.3
+19145,2024-06-01,IPCA peso mensal,6201002.Médico,0.28
+19146,2024-06-01,IPCA peso mensal,6201003.Dentista,0.37
+19147,2024-06-01,IPCA peso mensal,6201005.Aparelho ortodôntico,0.04
+19148,2024-06-01,IPCA peso mensal,6201007.Fisioterapeuta,1.08
+19149,2024-06-01,IPCA peso mensal,6201010.Psicólogo,-0.11
+19150,2024-06-01,IPCA peso mensal,6202.Serviços laboratoriais e hospitalares,1.0
+19151,2024-06-01,IPCA peso mensal,6202003.Exame de laboratório,0.4
+19152,2024-06-01,IPCA peso mensal,6202004.Hospitalização e cirurgia,1.16
+19153,2024-06-01,IPCA peso mensal,6202006.Exame de imagem,1.06
+19154,2024-06-01,IPCA peso mensal,6203.Plano de saúde,0.37
+19155,2024-06-01,IPCA peso mensal,6203001.Plano de saúde,0.37
+19156,2024-06-01,IPCA peso mensal,63.Cuidados pessoais,0.77
+19157,2024-06-01,IPCA peso mensal,6301.Higiene pessoal,0.77
+19158,2024-06-01,IPCA peso mensal,6301001.Produto para cabelo,0.93
+19159,2024-06-01,IPCA peso mensal,6301002.Fralda descartável,0.34
+19160,2024-06-01,IPCA peso mensal,6301004.Produto para barba,0.49
+19161,2024-06-01,IPCA peso mensal,6301006.Produto para pele,0.17
+19162,2024-06-01,IPCA peso mensal,6301007.Produto para higiene bucal,0.06
+19163,2024-06-01,IPCA peso mensal,6301010.Produto para unha,-0.32
+19164,2024-06-01,IPCA peso mensal,6301011.Perfume,1.69
+19165,2024-06-01,IPCA peso mensal,6301014.Desodorante,0.18
+19166,2024-06-01,IPCA peso mensal,6301015.Absorvente higiênico,0.86
+19167,2024-06-01,IPCA peso mensal,6301016.Sabonete,1.07
+19168,2024-06-01,IPCA peso mensal,6301017.Papel higiênico,-0.67
+19169,2024-06-01,IPCA peso mensal,6301020.Artigos de maquiagem,0.21
+19170,2024-06-01,IPCA peso mensal,7.Despesas pessoais,0.29
+19171,2024-06-01,IPCA peso mensal,71.Serviços pessoais,0.47
+19172,2024-06-01,IPCA peso mensal,7101.Serviços pessoais,0.47
+19173,2024-06-01,IPCA peso mensal,7101001.Costureira,-0.17
+19174,2024-06-01,IPCA peso mensal,7101005.Manicure,1.5
+19175,2024-06-01,IPCA peso mensal,7101010.Empregado doméstico,0.19
+19176,2024-06-01,IPCA peso mensal,7101011.Cabeleireiro e barbeiro,0.47
+19177,2024-06-01,IPCA peso mensal,7101014.Depilação,-0.22
+19178,2024-06-01,IPCA peso mensal,7101034.Cartório,0.0
+19179,2024-06-01,IPCA peso mensal,7101036.Despachante,1.75
+19180,2024-06-01,IPCA peso mensal,7101076.Serviço bancário,0.68
+19181,2024-06-01,IPCA peso mensal,7101090.Conselho de classe,0.25
+19182,2024-06-01,IPCA peso mensal,7101144.Sobrancelha,0.19
+19183,2024-06-01,IPCA peso mensal,72.Recreação e fumo,0.0
+19184,2024-06-01,IPCA peso mensal,7201.Recreação,-0.04
+19185,2024-06-01,IPCA peso mensal,7201006.Clube,0.21
+19186,2024-06-01,IPCA peso mensal,7201010.Instrumento musical,-1.0
+19187,2024-06-01,IPCA peso mensal,7201015.Tratamento de animais (clínica),0.62
+19188,2024-06-01,IPCA peso mensal,7201019.Bicicleta,0.44
+19189,2024-06-01,IPCA peso mensal,7201020.Alimento para animais,-0.68
+19190,2024-06-01,IPCA peso mensal,7201023.Brinquedo,-0.33
+19191,2024-06-01,IPCA peso mensal,7201054.Casa noturna,0.18
+19192,2024-06-01,IPCA peso mensal,7201063.Jogos de azar,0.0
+19193,2024-06-01,IPCA peso mensal,7201067.Material de caça e pesca,1.77
+19194,2024-06-01,IPCA peso mensal,7201090.Hospedagem,0.73
+19195,2024-06-01,IPCA peso mensal,7201095.Pacote turístico,-1.7
+19196,2024-06-01,IPCA peso mensal,7201256.Serviço de higiene para animais,1.37
+19197,2024-06-01,IPCA peso mensal,"7201266.Cinema, teatro e concertos",0.4
+19198,2024-06-01,IPCA peso mensal,7202.Fumo,0.23
+19199,2024-06-01,IPCA peso mensal,7202041.Cigarro,0.23
+19200,2024-06-01,IPCA peso mensal,8.Educação,0.06
+19201,2024-06-01,IPCA peso mensal,"81.Cursos, leitura e papelaria",0.06
+19202,2024-06-01,IPCA peso mensal,8101.Cursos regulares,0.0
+19203,2024-06-01,IPCA peso mensal,8101001.Creche,0.0
+19204,2024-06-01,IPCA peso mensal,8101002.Pré-escola,0.0
+19205,2024-06-01,IPCA peso mensal,8101003.Ensino fundamental,0.0
+19206,2024-06-01,IPCA peso mensal,8101004.Ensino médio,0.0
+19207,2024-06-01,IPCA peso mensal,8101005.Ensino superior,0.0
+19208,2024-06-01,IPCA peso mensal,8101006.Pós-graduação,0.0
+19209,2024-06-01,IPCA peso mensal,8101008.Educação de jovens e adultos,0.0
+19210,2024-06-01,IPCA peso mensal,8101045.Curso técnico,0.0
+19211,2024-06-01,IPCA peso mensal,8102.Leitura,0.12
+19212,2024-06-01,IPCA peso mensal,8102001.Jornal diário,0.0
+19213,2024-06-01,IPCA peso mensal,8102004.Revista,0.1
+19214,2024-06-01,IPCA peso mensal,8102007.Livro didático,0.0
+19215,2024-06-01,IPCA peso mensal,8102008.Livro não didático,0.58
+19216,2024-06-01,IPCA peso mensal,8103.Papelaria,0.45
+19217,2024-06-01,IPCA peso mensal,8103001.Caderno,0.27
+19218,2024-06-01,IPCA peso mensal,8103014.Artigos de papelaria,0.57
+19219,2024-06-01,IPCA peso mensal,8104.Cursos diversos,0.26
+19220,2024-06-01,IPCA peso mensal,8104001.Curso preparatório,0.0
+19221,2024-06-01,IPCA peso mensal,8104003.Curso de idioma,0.0
+19222,2024-06-01,IPCA peso mensal,8104004.Curso de informática,0.0
+19223,2024-06-01,IPCA peso mensal,8104005.Autoescola,0.45
+19224,2024-06-01,IPCA peso mensal,8104006.Atividades físicas,0.48
+19225,2024-06-01,IPCA peso mensal,9.Comunicação,-0.08
+19226,2024-06-01,IPCA peso mensal,91.Comunicação,-0.08
+19227,2024-06-01,IPCA peso mensal,9101.Comunicação,-0.08
+19228,2024-06-01,IPCA peso mensal,9101001.Correio,0.0
+19229,2024-06-01,IPCA peso mensal,9101002.Plano de telefonia fixa,0.32
+19230,2024-06-01,IPCA peso mensal,9101008.Plano de telefonia móvel,0.0
+19231,2024-06-01,IPCA peso mensal,9101010.Tv por assinatura,0.0
+19232,2024-06-01,IPCA peso mensal,9101018.Acesso à internet,0.0
+19233,2024-06-01,IPCA peso mensal,9101019.Aparelho telefônico,-0.66
+19234,2024-06-01,IPCA peso mensal,9101115.Serviços de streaming,0.53
+19235,2024-06-01,IPCA peso mensal,"9101116.Combo de telefonia, internet e tv por assinatura",0.0
